@@ -1,0 +1,47 @@
+{
+    "Conferences": {
+        "cover_img": "https://www.lifewire.com/thmb/FmeKYLjqWRfxgCFYbz1hDqnTAiE=/2202x1361/filters:fill(auto,1)/GettyImages-730133317-5b2b315dba61770054a1497f.jpg",
+        "desc": "Online conference",
+        "certificates": [
+            {
+                "id": "cf_01",
+                "name": "Hacktoberfest 2022 participant",
+                "org_name": "Digital Ocean x Appwrite",
+                "org_img": "https://user-images.githubusercontent.com/84442212/194802334-b080fcfe-dfb3-41ae-b03f-4225c073cbff.png",
+                "org_link": "https://hacktoberfest.com/",
+                "img": "https://lh3.googleusercontent.com/fife/AK0iWDy9LC-DkpP2oYIWE4lqh48dT9gIDHLm_x4rAbjA5Q8cBN0xE88Ad8J6W8Z2ANjOIyX7YOhPA3o0e-BNh5v9AgOZKs1AZTKaLo0hYjvqepEVFkiHwuaPVp5xgcAS4BLTH9UXOWUuzcZ7EmKQ59WiLPc-laHzKPZMPpzYRsbra9pI4lqcEhfFJbX1mCFSVAcuaDuka9i1miOPGtc8XFrCrjpKjToLA1iyMJGZwL4m4qc50UK53lEdEfgrkaspu_NoQHCJvccb3rwjXtg0jHMy_m3oADxKHdbHJ2jd0TY6Br0DUi2Wb11t1MvnEbtxmYKH-vHZQsblSaQ__WbJ0mPp9qdOcU0SE4eEfO7qYjtnSdILzY76Own8LOgqZa9bGWblpv0HqmdtjRpSZDoHJXojMeya1d9yWDndRqbf0fWIQYekzKcpqGFLkI7QIp4QGYWFFa5PQ_wz_5TX7C4g4467ezQJjHUH5tAGrENbWto-N9Q5Cvk9CUpYFkXrj3IHGZu08GlOcq02Q9jYYkXH_O6gzng4rlcX9zgoNYGgeJEZg4wO0gzzOpdbIW1p7QZK2xnPtB7wkyNw9og9IC3sQw_Qd7xX2ou3Fc4kmkKCAsnyuXirvQsXOqCmggIZComXD2qVotpWCgcksUK6Qt__0L5CPNZbSo3qRt61mKQ2sMZrLaf-tDwBy0_UqsfL5HyN4IN7XWDmCcZoL8PPvdNRTHmh0a0lNR2TBNwCfk3TtyCAJlRbBpYtVcIHWffhlA2lQvpvQfRGAndClk4OrEX5LC1JbZPfmQvsFUmHEBwyceCVMkddV02-G2O6Jf2PNyBlq8QiE4eZn4kMQuexAyCeGFCTt2zO4H7iTLDiLb3f6HMZ_G0FsPpYP9c3cs8YM0Nk4RmvD5EuiHkkv7A0X-SgAb_kzCj0WK7BC3N5vpNsxeUyFPaajmkqQgoSq1GyoxOHfl7Gmh29CtRoXrMoDgLzg4KHFoCDaDG6aj2exl0JWDSTmqpPeZMUSXL7ws6RisGTUoBKGV_w9Xa6S-vsnVElFzes_WObvxXkr6r--s8pH-pXPLc5y-unuBG7_CHuqrPAqBYtbqdr0KLm-YxBVpwewAkaeZGxSxjEcFfk631bRA69yM7ys-O34eM9hQDukNrpczyE5j7mK0FBGxjq9aduMxrZRGuOjYf07UH1aVkReH6avYVW5TCdYvfKi_RCyDc8TkGA3RdDO5ltbTS3w261c6W6tfAjNvsjrlmdsOPuSLgtKDCeBHP4GI5Wmvyy77xMsL6ybq4pXK_z4EAM1Gi64vX45EpAnkMooiQFm7hTR-isRUGFAEb3k8PZQCxXYwjQrTebHozgXW-j2L_SbYlq-M-diNMUSHfGR24lanAZeJBOTg7g_kVvoWUQ8FU5T0NsG1Ja7WKl1msS2V4YIFiviM4zp_BQcWt0pJH1edYs7fDDZ9xpngn8rCZhh4IfEfyoRXeD9rB3qWFzYTRrhezaOk4mcJqTd02m24BFaxUKArbLBq7qj_ZLIOmB1kjIx57gtWXkROo7U5zR7YvFedw14hgSqK_ly73iKEEU_k5j9bqVkpocj4IuZ2dEWthKkiEvkuXbAnhUNVbGwJBquyppy6KsT4XcXxi8-Q=w1308-h927",
+                "date": "2022-10-31"
+            },
+            {
+                "id": "cf_02",
+                "name": "Vite conference 2022",
+                "org_name": "Vite x StackBlitz",
+                "org_img": "https://viteconf.org/22/images/viteconf.svg",
+                "org_link": "https://viteconf.org/22/",
+                "img": "https://lh3.googleusercontent.com/fife/AK0iWDzlbuJq4XQHhQQhPKsUJ6PjgIJvaaui96cSPmn9oV1X3-4ZF6RoRS3CNo_DzMWBB6vinMKn2hcp6U8bwV9A3SJ4EfHcyl94Uh1Aw8f94KT24dwz8Kv2FRtgcxqcvxASfg5zuLARqERS5NOxAqtpKZvsdrvNN2fQCgS3vqsEtAd9sdzKRdc3S4G0GEm9mL1HS7osUpfC8qYrjzjAjzvs6TD8PUR_Tq0JC2Bc57Thm_r5OLEwcovFD4u_Xa4Hjun_VrpRJ70vTTP65WId0JZd5-XlZ3gDcx0HyQqyTJlcfflYgW7MEn137gEBKPuLAzp8uP_uR9m6EcpFR4gz9CEK55I7d6Pzt0ioyhAaXYH7HN9ETxk5RguUOZRSaDMinyd1Yy-VHTsy9OhiQbdM2XE4O-QfqXzg8m2qcX0wBR2pDeztXM5OSYsV5ahb5I5ozGpgqsa4Ugh_MB--j50QeLIWng-JWiN0upRJtRwlAwgtJ7l3zHztsn_HSMxzPBZUkXtoDE42JpDvP28EBPFAnpWaV_4L8VMi5URnIg_a9ndT4Huk1PsQftkPxfuFmYKa7exgaGcwAH7vweMJXT7fZYqwYqsf-EG8aL7hrCIqeO_Fl3URZCAnS14KIs3TzLsSKjPoCtv0yBckeE3RBBn1YlGTxtniKBJgTR8ryMYnQT3tK9pitZox0ZhA581Ecd7uMKFVU4kuPknqZcrofFpr9WsZdPNfByK-e2qiyko__NZi8Neh6a68fGSfsKuwoPLVUUtx0qNcrO9lfIe6r3Ko6UyjVIhueSpADcylX1WtJ64G_FLy3fegzBCNDMvtG5UURKkiB3jr_ho_2JSlvFok2k9-F1ogBIOP3V1UovPEfCCiCAVRBap6Z4sT3S6iHiogukvqJD85AMEpOGa44wrecvxleZ8RPgQRQkApnpTIXD9BBVgIOuU61oK1YyvutNktyZ8TX6IXzBcLeKJ_7dvsPYHSiMfDX-rqCZaMnegr7vhP_hcVafdo3QwOv6OnWaJ-ll7GKZ1LJh7hYrZFT6bEuT-mViq5J3fAOdYS6dmNqNoAALLPbAI8TqmU1s5LZMfT-QLqDGJ9lX1J-dv6R-SQwVL2cZ0Lj3KAWRyI76r1yCror0ZzxlLi1Z372SSMBym-g45JVHYSyPnLBF2UxXSC8nvfijUID5XSd3Rh513Pmi6k9FohuCJLgZjYmDE4HDNtkfcIYleWBLEsoZVZtixK6yld9XDuNdLe08DS6vR3gWEkvtknoGUNpMb56sCewCrOsd1n6mND8IZNzr1GCf7Dlf8IQYmnr8pdDr5oPVsOWqjmVz15ok_BoxnMnND2jq1KzYyjvXRYYhDsKn9-JvKFIxMiLVzh_OpKL9G6lBusnBy51b1Znww07LfRly5avtHPKs_resG4rmORWMdV3v0D70ULcEYUT3tSDQPz5Zr6QgQqiz7xAexuM0s5C0GXc9mfpxI6aD1tq1_okx7ruN2zxBu9u7XQlBB0GfZQF0dxLoGB1SZUu-apmeuLCCiT_9GLB0e_aTnDC1IYXupp-qbRW53dfh6rHzLgYyXF2nRtpER-PMQIp32igCVIdm81ZtnGirQmJqb4uyhobmlA9zvQQaW7Kdp5JPSTCw=w1308-h927",
+                "link": "https://viteconf.org/22/tickets/thuongtruong1009",
+                "date": "2022-10-11"
+            },
+            {
+                "id": "cf_03",
+                "name": "Vite conference 2023",
+                "org_name": "Vite x StackBlitz",
+                "org_img": "https://viteconf.org/23/_nuxt/viteconf.9feb32c8.svg",
+                "org_link": "https://viteconf.org/23/",
+                "img": "https://lh3.googleusercontent.com/fife/AK0iWDzmRq8kjFmVyywURIKg_mFKhBT1SAeZsyYhxE0b32Yp7_D0D_nVaGhqa6pLqJoJOQNin-p5nAFr4-k_-GINech94iW9SB2s0K-671wEH_h8C_6cw8fUAb-b9duRLv2GENUSsk8zeLsDAqSZWS6Ce2P88u1gpASQCGmAqvIrGiYbTzgkLpdupGe-h-TSGLhU3JOJmRC5bWrxEZ6NoINSU-1v_sZRfQxD1Nm94stRRjme1IZkc9yzy7SlAy4O3beRlP5lKtWuhk5p7XVTF-aAuvoynM9DpwfpaVlzAN2g1YVeCF1P85zGHKejVHpWA530DP9EQIqqdw2bRpW_TJhK9O1o_KV5s5IGXIXp5WacDpzkRICnZB0NUUaWn4ZOw4TZ7pHxzDDuQaFac7f5La8a9dlIHrTlvmGYmkxARGLT4G6vPZVqcVziif0hUYR2QP_LIKi3LZB7xxk4z7zKOxYLToJYlRKKd8M8xRSIyoftgjbF2M6V7N_TylwOyTdhNPcIMd_Ejhoan9-IFYwhj-DFiU2Vc_lnErQHF4r4TzcGp1VVg4udc15aU1I_yTcvrQO7NYyV6VXJE-A3rHiK8OsZ6e4-qaKyazOAnokoWQmZcELJVFmz5ofYhYZ4LrRG2W5PpD3CGwvrYh6bhQA4vdnLbpHPFhn194ImnTZF1Wtk8kpKT6yU7YgAuE5X7mSER5FYiTu7YnKsm5TH42QER8_r7aUodZc5jlZg2JvWmCd9tpZ_eyDurbutHsMhI0IYP-2pPVM_rmFD1kZU-U5Dpi5bHbHX9HbZ7ovvppG5OWJ3f2BgE5UNac8mPySP6BeoCQY8KEF1cF3N39-Isp3pOYTqQP8TjMVu0RUjUitwHaV3NxnOBzzgbAzrOiBEtlZXMMXsnM70KoBRiQ0PxdM5ANRJGkm7lHRWTFNnN8G6xSS-9Vkk7OfTtNafjJyY3ufuBSjBfFx7hlZ-916u8rnHSl3hX7LzGoU999tklr3M6g2CRSud1TkXP3nRDQpMlV8wd5dXGvU2c3Zpjy0_wLWurn6K_ECOoDeNYK0oY07po_w4dvbeFt1GUNmBAtNDJeyKMs-5XB2v7bkKugn5l_9ZcShCKtr7b2fD0rwQrxUo5ohGkwCDrg_p8FAhOv2BvfduktGQIc_t_0fEkxQKNph8B4H7C7m7WpxH27o-As_2E2QbyZ8A6GJJfvVWT-N7bdZMYexSopav0-CtOfOo30Qk7z2Y6rk4ZzC-wK6-iR3uDxSMwWG5DOc5Vgx5W10lzmSAeP58aqgQOGSfEfMCagIiXLtgesNdk0E4dXpv9Df3cwD7kVtHVcaVdKNyzuGQm2zeMbVQK1lfZQvM2nC_gcEb6DK8kc1u1jkxbHXE_Fe5uiTEyuRyv7h5rocP6SIul_h0Unm3uRrVRUuDRhkLdBYRR14xsX_GLsq29ss8LRGerjfRxAr-XUftsuKHbfe3mMnxZsdqjqd-2olbIY0GDT2b5uP87aogYgN_J8wOdmuXsnFHwerOOL4_1SdtmcoDk2ly1nmh_Vz3yOXncApNeI7sKIeWCXKnJG2Z-L2bALXOD99GoWfpK7GOUh9B2hPFrWdEZ48JeLAAoQtL16QccnjjTfXu=w1308-h927",
+                "link": "https://viteconf.org/23/tickets/thuongtruong1009",
+                "date": "2023-10-05"
+            },
+            {
+                "id": "cf_04",
+                "name": "Nextjs conference 2023",
+                "org_name": "Vercel",
+                "org_img": "https://daqxzxzy8xq3u.cloudfront.net/wp-content/uploads/2019/03/29142631/nextjs-now-2.jpg",
+                "org_link": "https://nextjs.org/conf",
+                "img": "https://lh3.googleusercontent.com/fife/AK0iWDw9_Z10JXJlWOkWIM46jZQjc8ifoonkp0JDWW4HsDXiZJcs-FsrhUCWJUKa1vdosz8f13JVr5zcfprvK3ZJ7nrNCrwhIILX0PHPKRtRLYzxsDSJrQKH3YSojWEnikh-pL9CxYXgcHStE0Nlu5ABJsVXHtACKGssI9ZLkOUHspkLkf0M0B7E93WCtaYQM5d-erzfwRpybRb0k3-mkhiexaTE__WSQcAliCsnY3IjiTAZ6O7M0a_XmZ_dBK5-qHqnZgfXIH80kV3r0lW2sk_Z2qtEd_lDHnCDTi75ofowCKrt2WPp-bWz50xKWa3ttT1eA2OeaaMr40SxDToZk0_tCsZFqIK8scddVvvB9r4uRv8pxD2Q1_wnZGFSbHSlm0k3a91SrSphlAg9QU7m1x_sqq3jgBG9jIr_rwWBg9VoGolhyIy3s0rS86h3tMnXt7X5kX8UjUG3J4-TbGutNmf8n5CfkR5aH1ovNGj2wIHQnffTOHVXOv8RD2z1ibTpuVOvV5PIDpERx7LmHoWmbrqGVlrGDK8ZbaCk-couR0wdEkjEnr21gGV29h_G4cHfh2cu_OSbogpJ3XTJTSiDgGDM3wM9rUDweRuwwlHrOHwBKWc30ESy7rvqZZaDxLWHEv4sMLyu0iytohSMuhSyKXbK55lpJvUoZF288NLL-ui1XVMahUUOO986B8oBPzaBbwhqnuYoCiu1FYZkl7-jdbJ0Hg6-jw1qx8LtGVCSMeRho6ryhoQT-6yAnsqSiP03eIQLksiv7h96OW5WyFs8zPcJXtU_rnPo0ezpZMA3t9n26nU02Ky_21mlNVGlO5259Dc1Z33aFx5BWmIIhL7QoYw2cW58m2TcVUyu3RirSS992_8YWMQKH44zVkk9lEC4RzCOsSFHMNKehCtJh5ShaVNe3Ng7s7i5Y5Gql_keHx0KGQiLPdcitZq9ZyeYTVRsGbrvDIH61aoVKCvNY3efBchOr7cqYpbWRkey_WpHZaWORYr9wcc6YHAd1N4qS81YufmD5tVSWcG49-ZxQZGRuqOnDkBBk8dHGSQMlFluHUP8T-TYVk1kvwPAoLLSInba-CL-uQJtOAQS37-i9OV0F_p40s__660L1CIkx1_X2LxbIbcKKAhXd1Jzs9OF1epjISlJZnQGAXx4d4hb_aVGT0nmlp3H3rPxLdJyt2gTyk5wt9IQ-JrnhcelCL5-NHRTM_k8SHyPXm8px4NvRV_Vwfrrur5PGwvd0N9j86VT5liyJ1fPsRJSK7oOxM2MfsxyWFJA2GetA4LzKs-8Gi-Vod-svfcJ-uRUB7s8wmr4xT0tww6lLNIPKm5zROiobkqSRZnxHHswkmRC4vURw4TFk78glRMYA7Yp3fPxPN0jnRg308kEgh_ZZFqwzpUWGfNQOanNxd6eHYhdvdJJSojL-Q6_L6rNitHk_J0kOUCW-KX6uK0BY62Q2madnfo9MfAx76By9oizCFlFFR9ozWyZAYSRskgKk8D5JJVWrurPVC0Jeue5hvA5PO7zalxPbh5DRYD3bS0uTl900kJ-1cDXf1-k7OssWoxwJM1f8tKO1uk5V9alhd6a4qax7OMPI3v4k9BGPFynOyRmkkIvvg8MjDUxFhLUfRfzFw=w1308-h927",
+                "link": "https://nextjs.org/conf/ticket/thuongtruong1009",
+                "date": "2021-12-01"
+            }
+        ]
+    }
+}
