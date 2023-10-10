@@ -51,25 +51,19 @@ export default function Home() {
               rel="noopener noreferrer"
               key={idx}
             >
-              <Card
-                card={certificate}
-                link={formatCertName(certificate.name)}
-                children={
-                  <div className="flex items-center justify-between">
-                    <Group orgs={obj2Arr(certificate.orgs)} />
-                    <span
-                      className="block cursor-pointer text-lg text-gray-500 group-hover:block md:hidden md:group-hover:block"
-                      onClick={() =>
-                        openSelfLink(
-                          formatCertName(certificate.orgs[0].org_link)
-                        )
-                      }
-                    >
-                      <MdOutlineOpenInNew />
-                    </span>
-                  </div>
-                }
-              />
+              <Card card={certificate} link={formatCertName(certificate.name)}>
+                <div className="flex items-center justify-between">
+                  <Group orgs={obj2Arr(certificate.orgs)} />
+                  <span
+                    className="block cursor-pointer text-lg text-gray-500 group-hover:block md:hidden md:group-hover:block"
+                    onClick={() =>
+                      openSelfLink(formatCertName(certificate.orgs[0].org_link))
+                    }
+                  >
+                    <MdOutlineOpenInNew />
+                  </span>
+                </div>
+              </Card>
             </li>
           ))}
         </ul>
