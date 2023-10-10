@@ -14,7 +14,14 @@ export type IOrg = {
 
 export type ICertificateInfo = {
   name: string;
+  cover: string;
+  typeId: number;
   orgs: Array<IOrg>;
   desc: string;
   certificates: ICertificate[];
+};
+
+export type INavigationTab = {
+  id: number;
+  name: string;
 };

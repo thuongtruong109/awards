@@ -2,6 +2,7 @@
 
 import Group from "@/components/Group";
 import { ICertificateInfo } from "@/types";
+import { formatCertName } from "@/utils";
 import Image from "next/image";
 import { MdOutlineOpenInNew } from "react-icons/md";
 
@@ -11,7 +12,7 @@ interface Props {
 
 const Card = (props: Props) => {
   const openLink = () => {
-    window.open(props.cert.orgs[0].org_link, "_blank");
+    window.open(formatCertName(props.cert.name), "_self");
   };
 
   return (
@@ -21,8 +22,8 @@ const Card = (props: Props) => {
         onClick={openLink}
       >
         <Image
-          src={props.cert.orgs[0].org_img}
-          alt={props.cert.orgs[0].org_name}
+          src={props.cert.cover}
+          alt={props.cert.name}
           width="1000"
           height="1000"
           loading="lazy"

@@ -1,6 +1,5 @@
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import Navigator from "@/components/Navigator";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -20,7 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navigator />
         <main className="my-4">{children}</main>
         <Contact />
         <Footer />

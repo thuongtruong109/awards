@@ -1,11 +1,12 @@
 [
     {
         "name": "Udemy",
+        "cover": "https://1.bp.blogspot.com/-YI-suJavGCs/YFcBR_C9HmI/AAAAAAAAIKI/hmLyAGpzNBg5cCMO3IfJm26QvsPiHIFwQCLcBGAsYHQ/w1200-h630-p-k-no-nu/udemy-logo-2.jpg",
         "orgs": [
             {
                 "org_name": "Udemy",
                 "org_link": "https://www.udemy.com/",
-                "org_img": "https://1.bp.blogspot.com/-YI-suJavGCs/YFcBR_C9HmI/AAAAAAAAIKI/hmLyAGpzNBg5cCMO3IfJm26QvsPiHIFwQCLcBGAsYHQ/w1200-h630-p-k-no-nu/udemy-logo-2.jpg"
+                "org_img": "https://www.fluentu.com/blog/business-english/wp-content/uploads/sites/20/2023/05/udemy-logo.jpeg"
             }
         ],
         "desc": "Udemy is an online learning and teaching marketplace with over 100000 courses and 24 million students. Learn programming, marketing, data science and more.",
@@ -57,11 +58,12 @@
     },
     {
         "name": "Hackerrank",
+        "cover": "https://cdn.hashnode.com/res/hashnode/image/upload/v1665552178293/tjscqFgF4.png?auto=compress,format&format=webp",
         "orgs": [
             {
                 "org_name": "HackerRank",
                 "org_link": "https://www.hackerrank.com/",
-                "org_img": "https://cdn.hashnode.com/res/hashnode/image/upload/v1665552178293/tjscqFgF4.png?auto=compress,format&format=webp"
+                "org_img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-1024.png"
             }
         ],
         "desc": "Hackerrank is a platform for competitive programming. It is a website where you can practice your programming skills by solving challenges from the world's best companies.",
@@ -78,11 +80,12 @@
     },
     {
         "name": "Nestle",
+        "cover": "https://pestleanalysis.com/wp-content/uploads/2015/10/swot-analysis-nestle.jpg",
         "orgs": [
             {
                 "org_name": "Nestle",
                 "org_link": "https://www.nestle.com.vn/vi/jobs/nesternship",
-                "org_img": "https://pestleanalysis.com/wp-content/uploads/2015/10/swot-analysis-nestle.jpg"
+                "org_img": "https://ceowatermandate.org/wp-content/uploads/2017/08/nestle-company-vector-logo-400x400.png"
             }
         ],
         "desc": "Nesternship is an internship program for final year and recent graduates. The programme is designed to give students the opportunity to gain real-world experience at one of the world's leading companies in the food and beverage sector. The program will give students access to real-world projects, be trained by leading industry experts and have the opportunity to get a formal employment contract at Nestlé.",
@@ -98,11 +101,12 @@
     },
     {
         "name": "Codelearn",
+        "cover": "https://codelearnstorage.s3.amazonaws.com/Themes/TheCodeCampPro/Resources-cdn/Images/about/8.jpg?v=rk1",
         "orgs": [
             {
                 "org_name": "CodeLearn",
                 "org_link": "https://codelearn.io/",
-                "org_img": "https://codelearnstorage.s3.amazonaws.com/Themes/TheCodeCampPro/Resources-cdn/Images/about/8.jpg?v=rk1"
+                "org_img": "https://th.bing.com/th/id/OIP.SdswKLYyXALimvPwIUvY2QHaHa?pid=ImgDet&rs=1"
             }
         ],
         "desc": "CodeLearn is a Vietnamese online learning platform for IT students.",
@@ -147,11 +151,12 @@
     },
     {
         "name": "FreeCodeCamp",
+        "cover": "https://sm.pcmag.com/t/pcmag_uk/photo/f/free-code-/free-code-camp_gdmt.1080.jpg",
         "orgs": [
             {
                 "org_name": "FreeCodeCamp",
-                "org_link": "https://www.freecodecamp.org/learn/",
-                "org_img": "https://sm.pcmag.com/t/pcmag_uk/photo/f/free-code-/free-code-camp_gdmt.1080.jpg"
+                "org_link": "https://www.freecodecamp.org",
+                "org_img": "https://th.bing.com/th?id=ODLS.a82a0e7f-efd0-4706-b55c-1c2b753b8919&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"
             }
         ],
         "desc": "FreeCodeCamp is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone.",
@@ -168,14 +173,25 @@
     },
     {
         "name": "International University",
+        "cover": "https://inkythuatso.com/uploads/images/2021/11/logo-iu-inkythuatso-01-25-10-08-01.jpg",
         "orgs": [
             {
                 "org_name": "Internaltional University - VNU",
                 "org_link": "https://hcmiu.edu.vn/",
                 "org_img": "https://inkythuatso.com/uploads/images/2021/11/logo-iu-inkythuatso-01-25-10-08-01.jpg"
+            },
+            {
+                "org_name": "IU Job Hub",
+                "org_link": "https://iujobhub.com/",
+                "org_img": "https://iujobhub.com/wp-content/uploads/2021/07/ico-uhub-100x100.png"
+            },
+            {
+                "org_name": "Working Skills",
+                "org_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARbSURBVFhH7VVtaFNXGA4iUspwrubea6VsY5RSRGSMISLDm6QSsube2ylWBMdEJyqjg02cRBhehjRf596GMl2RznUq7ajSwdgvGRKSNC2RZrX2Yz/GKP0RRKT4I0gpI9w977k3Jbp0K0zzZ33gQs55P87zPu97TlzrGJnTd/4wF2oZyn+x/erEqXrd0jc4ptpgZO7ik1vTF+aHps7+cnOyi32fP6OBiLtmRH6c061bMxesoQdnrRv3P7W++/W01T9xfKkvd3Tkm/EjIKPUO64vB9UIfDtx3Oq796F1JXf4z97xD1KJcU3Tk/JGJ+TF4l8IWL3jB6yeMcWKjwaGw2P+ZifsxQEzMDk8E5oafPB54cZk1+K1/OnlagTYaMCKZdrmw6Ne/0ubj4H5Y3X9+Y+b+/PHAn33jl66nOu8gxYs9mSDJZvAfiua8S6FU74zNRlS6rs5pjZDgZMsE8jF0m2laMYHEj6Q8Podt9qAyMTTbYFIxpuPprylSMq7EE63tTjm2sEc8zeAQCia9hUjaU/E2a49okm5KZyUm6MZeQ/U2AeF6hxTbUAtiaY9l6Jp71OaCajxtT7Tuckx/wfoz073G7JeJwXN3VsVo7XSxhVIex86Q2lFMr7HNBOvtRt7pSDbST7SASa6Nbav6ZDZwIP+CVu12LuCavSJmjEiKOyqqMX3u2R9I/a3Cxr7Q1QZqySQSMpbIinP1AqBtO83Iym73e1mQVTYNfIRVHYQcUVBMd7jQatBUpkPh08TWzpQVI1TkmbcoeqddQGJ/jZw3Um5Fe/CAFpxvTsr86px2CP42gQ0dgixy0KHsZfW1YGqRDV+G4EJZ4fvbdPYDvpJMjoKVJ143XJtoM9ZompjtkyAClsTAUj1EwjMlntXiYZA72YkmURbumndqOj1osYuCmr8/I5OfROXGZILnZdfITtaOL2iAKSvJIBCdyF2ALluIq5fUE37v8WtssNwLIH9IyS4UsmYCKAdU0h2zlaLMUEz7jYq0dcd9T7DeqnJbw/aagTITnkk1VAaFcMN0l8SIfLjoP7D+TaCn8CpRC2hCisIhBAUg/067Tlhrm0K+wQEnr7akdhC69UI4NBW7BdFxTjJbwXI8+8ZYOrdSuwdBN7FYUUpGN3NCaAFSFSgSulKOt4cayeA1inGMFRexv4sFWMXUoUJzQJ3VM0Al0uL/46kEQRlaSD5m+BgrQRoTYq6g2Y7cg9SMfDL8qqxcZ6uHDkRpA7mgbEgdSTepGsIBQrw+UoM9rwFAgsYoFz5cXmeAH4vlAlQv3khjgJ8bgg4E8UMIM+iPeWKkaIPG11gfY4OoDtMytgPEU/Kr6E9K+yxoLCfiQRsIayLZUJQ4CGu3yD9Rp6DRMCOie+C77QQND+yh55lobSHt8CW2dDcWuyEpLEj/Ho4bSHZRNXcs3JlsC+0x9/mTyxNNlQiqakqMlO15etMeekQ8iOFyebWjBP8e99oeb7161jH/xEu119uw256KEceRgAAAABJRU5ErkJggg==",
+                "org_link": "https://www.workingskills.net"
             }
         ],
-        "desc": "",
+        "desc": "International University (IU) is a member of Vietnam National University Ho Chi Minh City (VNU-HCM). IU is a public university with English as the medium of instruction. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum.",
         "typeId": 2,
         "certificates": [
             {
@@ -188,11 +204,22 @@
     },
     {
         "name": "Google Digital 4.0",
+        "cover": "https://th.bing.com/th/id/OIP.as0j28QET1wq49_3PCV5IAHaDo?pid=ImgDet&rs=1",
         "orgs": [
             {
                 "org_name": "Google Digital 4.0",
                 "org_link": "https://learndigital.withgoogle.com/digitalgarage",
-                "org_img": "https://th.bing.com/th/id/OIP.as0j28QET1wq49_3PCV5IAHaDo?pid=ImgDet&rs=1"
+                "org_img": "https://th.bing.com/th/id/R.4f85135de02acb317e7787b82f47f3e9?rik=b72DVZw0wgYq%2fQ&pid=ImgRaw&r=0"
+            },
+            {
+                "org_name": "Women Will",
+                "org_link": "https://womenwill.google",
+                "org_img": "https://womenwill.google/static/images/ww-roundel.svg"
+            },
+            {
+                "org_name": "Student's service office",
+                "org_link": "https://www.nhavanhoasinhvien.vn",
+                "org_img": "https://th.bing.com/th/id/R.76abfe16d8b0d90d758bd5e98c14c648?rik=9r2L1M%2bWcLGPuw&pid=ImgRaw&r=0"
             }
         ],
         "desc": "This is a free course shared by experts from Google and its partners. initiated by Google, in conjunction with VCCI-HCMC, VWU, VWEC and many other partners across the country, to provide free training on digital skills, soft skills, and business skills from basic to advanced. The goal of the program is to provide free platforms and tools to help all those who want to start a business update digital knowledge, enhance management ability to help develop businesses, increase online business efficiency and create many new job opportunities for society.",
@@ -280,6 +307,7 @@
     },
     {
         "name": "Zodinet internship",
+        "cover": "https://th.bing.com/th/id/OIP.PteB9bRd7jHWpIDk3Tau0gHaHa?pid=ImgDet&rs=1",
         "orgs": [
             {
                 "org_name": "Zodinet",
@@ -300,24 +328,35 @@
     },
     {
         "name": "Software conferences",
+        "cover": "https://www.lifewire.com/thmb/FmeKYLjqWRfxgCFYbz1hDqnTAiE=/2202x1361/filters:fill(auto,1)/GettyImages-730133317-5b2b315dba61770054a1497f.jpg",
         "orgs": [
             {
                 "org_name": "Vite",
-                "org_link": "https://www.fpt-software.com/",
-                "org_img": "https://www.lifewire.com/thmb/FmeKYLjqWRfxgCFYbz1hDqnTAiE=/2202x1361/filters:fill(auto,1)/GettyImages-730133317-5b2b315dba61770054a1497f.jpg"
+                "org_link": "https://vitejs.dev",
+                "org_img": "https://th.bing.com/th/id/OIP.rO43wl8fR91WzCnEkZD7ngAAAA?pid=ImgDet&rs=1"
             },
             {
                 "org_name": "StackBlitz",
-                "org_link": "https://vitejs.dev/",
-                "org_img": "https://www.lifewire.com/thmb/FmeKYLjqWRfxgCFYbz1hDqnTAiE=/2202x1361/filters:fill(auto,1)/GettyImages-730133317-5b2b315dba61770054a1497f.jpg"
+                "org_link": "https://stackblitz.com",
+                "org_img": "https://th.bing.com/th?id=ODLS.24bba8d7-3c50-4d8c-ac5f-9c500cb065d6&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"
             },
             {
-                "org_name": "Vite x StackBlitz x Vercel",
-                "org_link": "https://vitejs.dev/",
-                "org_img": "https://www.lifewire.com/thmb/FmeKYLjqWRfxgCFYbz1hDqnTAiE=/2202x1361/filters:fill(auto,1)/GettyImages-730133317-5b2b315dba61770054a1497f.jpg"
+                "org_name": "Vercel",
+                "org_link": "https://vercel.com",
+                "org_img": "https://img.stackshare.io/service/7618/bHjpwZem_400x400.png"
+            },
+            {
+                "org_name": "Vuejs Nation",
+                "org_link": "https://vuejsnation.com",
+                "org_img": "https://vuejsnation.com/favicon.png"
+            },
+            {
+                "org_name": "Vue.js Forge",
+                "org_link": "https://vuejsforge.com",
+                "org_img": "https://vuejsforge.com/favicon.png"
             }
         ],
-        "desc": "Vite is a new breed of web build tool that significantly improves the frontend development experience. It consists of two major parts: A dev server that serves your source files over native ES modules, with rich built-in features and astonishingly fast Hot Module Replacement (HMR). A build command that bundles your code with Rollup, pre-configured to output highly optimized static assets for production.",
+        "desc": "Online conferences are a great way to learn about new technologies and meet other developers. They are also a great way to get involved in the community and learn from others. There are many different types of conferences, but they all have one thing in common: they are a great way to learn about new technologies and meet other developers. Online conferences are a great way to learn about new technologies and meet other developers. They are also a great way to get involved in the community and learn from others. There are many different types of conferences, but they all have one thing in common: they are a great way to learn about new technologies and meet other developers.",
         "typeId": 3,
         "certificates": [
             {
@@ -345,24 +384,25 @@
     },
     {
         "name": "Open source projects",
+        "cover": "https://th.bing.com/th/id/OIP.zOYd6maBqGWbFCMHydZFmAAAAA?pid=ImgDet&rs=1",
         "orgs": [
             {
                 "org_name": "Hacktoberfest",
-                "org_link": "https://hacktoberfest.digitalocean.com/",
-                "org_img": "https://th.bing.com/th/id/OIP.zOYd6maBqGWbFCMHydZFmAAAAA?pid=ImgDet&rs=1"
+                "org_link": "https://hacktoberfest.com",
+                "org_img": "https://raw.githubusercontent.com/github/explore/f47aef15a1c8f22b6fc5c7abf615a918f1322cd6/topics/hacktoberfest/hacktoberfest.png"
             },
             {
                 "org_name": "Digital Ocean",
-                "org_link": "https://hacktoberfest.digitalocean.com/",
-                "org_img": "https://th.bing.com/th/id/OIP.zOYd6maBqGWbFCMHydZFmAAAAA?pid=ImgDet&rs=1"
+                "org_link": "https://www.digitalocean.com",
+                "org_img": "https://th.bing.com/th/id/OIP.0e4jcGb8AIwnBTmfM3N77AHaHa?pid=ImgDet&rs=1"
             },
             {
                 "org_name": "Appwrite",
-                "org_link": "https://hacktoberfest.digitalocean.com/",
-                "org_img": "https://th.bing.com/th/id/OIP.zOYd6maBqGWbFCMHydZFmAAAAA?pid=ImgDet&rs=1"
+                "org_link": "https://appwrite.io",
+                "org_img": "https://user-images.githubusercontent.com/101575380/231806244-b879deb0-69fa-4fad-8032-a58cb221cd4d.png"
             }
         ],
-        "desc": "",
+        "desc": "Open source projects are a great way to learn about new technologies and meet other developers. They are also a great way to get involved in the community and learn from others. There are many different types of open source projects, but they all have one thing in common: they are a great way to learn about new technologies and meet other developers. Open source projects are a great way to learn about new technologies and meet other developers. They are also a great way to get involved in the community and learn from others. There are many different types of open source projects, but they all have one thing in common: they are a great way to learn about new technologies and meet other developers.",
         "typeId": 3,
         "certificates": []
     }

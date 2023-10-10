@@ -16,7 +16,12 @@
   }
 }
 
+html {
+  margin-top: -1rem;
+}
+
 body {
+  padding-top: 2rem;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
