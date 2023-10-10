@@ -12,15 +12,8 @@ export const getItemFromCertInfo = (
   }
 };
 
-export const getFromLocalStorage = (key: string): string | null => {
+export const openSelfLink = (link: string) => {
   if (window !== undefined) {
-    return localStorage.getItem(key);
-  }
-  return null;
-};
-
-export const setToLocalStorage = (key: string, value: string): void => {
-  if (window !== undefined) {
-    localStorage.setItem(key, value);
+    window.open(link, "_self");
   }
 };

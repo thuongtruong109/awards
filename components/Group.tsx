@@ -1,12 +1,8 @@
-import type { IOrg } from "@/types";
+import type { ICertificateOrg } from "@/types";
 import Link from "next/link";
 import { memo } from "react";
 
-type Props = {
-  orgs: Array<IOrg>;
-};
-
-const Group = (props: Props) => {
+const Group = (props: ICertificateOrg) => {
   return (
     <ul className="flex space-x-0.5">
       {props.orgs.map((org) => (

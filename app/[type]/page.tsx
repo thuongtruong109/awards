@@ -3,6 +3,7 @@
 import PreView from "@/components/PreView";
 import certificates from "@/data/certificates.json";
 import { getItemFromCertInfo } from "@/helpers";
+import { obj2Arr } from "@/utils";
 
 interface PageProps {
   params: {
@@ -12,10 +13,7 @@ interface PageProps {
 export default function Post(props: PageProps) {
   const id = props.params.type;
 
-  const data = getItemFromCertInfo(
-    JSON.parse(JSON.stringify(certificates)),
-    id
-  );
+  const data = getItemFromCertInfo(obj2Arr(certificates), id);
 
   return (
     <section>

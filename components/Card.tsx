@@ -1,18 +1,19 @@
 "use client";
 
-import Group from "@/components/Group";
-import { ICertificateInfo } from "@/types";
+import { openSelfLink } from "@/helpers";
+import { ICertificateInfoCard } from "@/types";
 import { formatCertName } from "@/utils";
 import Image from "next/image";
-import { MdOutlineOpenInNew } from "react-icons/md";
 
-interface Props {
-  cert: ICertificateInfo;
-}
+type Props = {
+  card: ICertificateInfoCard;
+  link?: string;
+  children?: React.ReactNode;
+};
 
 const Card = (props: Props) => {
   const openLink = () => {
-    window.open(formatCertName(props.cert.name), "_self");
+    props.link && openSelfLink(formatCertName(props.link));
   };
 
   return (
@@ -22,8 +23,8 @@ const Card = (props: Props) => {
         onClick={openLink}
       >
         <Image
-          src={props.cert.cover}
-          alt={props.cert.name}
+          src={props.card.cover}
+          alt={props.card.name}
           width="1000"
           height="1000"
           loading="lazy"
@@ -34,23 +35,15 @@ const Card = (props: Props) => {
         className="trunc2 text_shadow my-3 cursor-pointer text-center text-xl font-semibold group-hover:text-red-500"
         onClick={openLink}
       >
-        {props.cert.name}
+        {props.card.name}
       </h2>
       <p
         className="trunc2 m-0 my-2 max-w-[30ch] cursor-pointer text-sm opacity-50"
         onClick={openLink}
       >
-        {props.cert.desc}
+        {props.card.desc}
       </p>
-      <div className="flex items-center justify-between">
-        <Group orgs={props.cert.orgs} />
-        <span
-          className="block cursor-pointer text-lg text-gray-500 group-hover:block md:hidden md:group-hover:block"
-          onClick={openLink}
-        >
-          <MdOutlineOpenInNew />
-        </span>
-      </div>
+      <div>{props.children}</div>
     </>
   );
 };
