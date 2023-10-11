@@ -10,16 +10,16 @@ import { MdOutlineUnfoldMoreDouble, MdPeopleAlt } from "react-icons/md";
 
 const Navigator = () => {
   const tabIcons = [
-    <HiViewGrid />,
-    <MdPeopleAlt />,
-    <MdOutlineUnfoldMoreDouble />,
-    <HiBadgeCheck />,
+    { icon: <HiViewGrid /> },
+    { icon: <MdPeopleAlt /> },
+    { icon: <MdOutlineUnfoldMoreDouble /> },
+    { icon: <HiBadgeCheck /> },
   ];
 
   const mergeIcons = tabs.map((tab: INavigationTab, idx: number) => {
     return {
       ...tab,
-      icon: tabIcons[idx],
+      icon: tabIcons[idx].icon,
     };
   });
 

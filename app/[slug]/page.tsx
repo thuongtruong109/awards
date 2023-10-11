@@ -2,22 +2,24 @@
 
 import PreView from "@/components/PreView";
 import certificates from "@/data/certificates.json";
-import { getItemFromCertInfo } from "@/helpers";
-import { obj2Arr } from "@/utils";
+import { ICertificateInfo } from "@/types";
 
 interface PageProps {
   params: {
-    type: string;
+    slug: string;
   };
 }
-export default function Post(props: PageProps) {
-  const id = props.params.type;
+export default function Cert(props: PageProps) {
+  const slug = props.params.slug;
 
-  const data = getItemFromCertInfo(obj2Arr(certificates), id);
+  // const data = getItemFromCertInfo(obj2Arr(certificates), id);
+  const data = certificates.find(
+    (cert) => cert.name.toLocaleLowerCase() === slug
+  );
 
   return (
     <section>
-      <h1>{id} page</h1>
+      {/* <h1>{id} page</h1>
       <div className="card card-compact bg-base-100 w-96 shadow-xl">
         <figure>
           <img
@@ -32,9 +34,9 @@ export default function Post(props: PageProps) {
             <button className="btn btn-primary">Buy Now</button>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <span>{JSON.stringify(data)}</span> */}
-      <PreView />
+      <PreView data={data as ICertificateInfo} />
     </section>
   );
 }
