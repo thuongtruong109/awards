@@ -3,6 +3,7 @@ import { useState } from "react";
 import { AiOutlineSafetyCertificate } from "react-icons/ai";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { LiaCertificateSolid } from "react-icons/lia";
+import { PiFireBold } from "react-icons/pi";
 import Badge from "./Badge";
 import Typing from "./Typing";
 
@@ -37,35 +38,47 @@ const PreView = (props: Props) => {
             <h2 className="text_shadow text-2xl font-bold text-gray-900">
               {currentCert?.name}
             </h2>
-            <span
-              className="my-2 cursor-pointer text-lg text-slate-500 hover:text-slate-700"
-              onClick={() => openLink(currentCert?.link)}
-            >
-              <HiOutlineExternalLink />
-            </span>
+            {currentCert?.link && (
+              <span
+                className="my-2 cursor-pointer text-lg text-slate-500 hover:text-slate-700"
+                onClick={() => openLink(currentCert?.link)}
+              >
+                <HiOutlineExternalLink />
+              </span>
+            )}
           </div>
 
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-1 text-sm text-gray-800">
-              <AiOutlineSafetyCertificate />
-              <a href={getOrg(currentCert?.org_id)?.org_link}>
-                By:{" "}
-                <span className="text-indigo-500 hover:underline">
-                  {getOrg(currentCert?.org_id)?.org_name}
-                </span>
+            <div className="flex items-center space-x-1 text-base text-gray-800">
+              <div className="font-medium text-blue-500">
+                <AiOutlineSafetyCertificate className="icon" />
+                <span className="hidden sm:inline-flex">Issued:</span>
+              </div>
+              <a
+                href={getOrg(currentCert?.org_id)?.org_link}
+                className="text-indigo-500 underline"
+              >
+                {getOrg(currentCert?.org_id)?.org_name}
               </a>
             </div>
-            <div className="flex items-center space-x-1 text-sm text-gray-800">
-              <LiaCertificateSolid />
+            <div className="flex items-center space-x-1 text-gray-800">
+              <div className="font-medium text-green-600">
+                <LiaCertificateSolid className="icon" />
+                <span className="hidden sm:inline-flex">Actived:</span>
+              </div>
               <span>{currentCert?.date}</span>
             </div>
           </div>
 
           <div
             aria-labelledby="options-heading"
-            className="space flex flex-wrap items-center space-x-2 space-y-1"
+            className="space flex flex-wrap items-end space-x-2 space-y-1"
           >
-            {currentCert.skills?.map((skill) => (
+            <div className="font-medium text-yellow-600">
+              <PiFireBold className="icon" />
+              <span className="hidden sm:inline-flex">Skills:</span>
+            </div>
+            {currentCert?.skills?.map((skill) => (
               <p key={skill}>
                 <Badge text={skill} />
               </p>
@@ -78,9 +91,9 @@ const PreView = (props: Props) => {
                 src={cert.img}
                 alt={cert.name}
                 onClick={() => setCurrentCert(cert)}
-                className={`w-30 h-16 rounded-md ${
+                className={`w-30 h-16 cursor-pointer rounded-md ${
                   cert.id === currentCert.id &&
-                  "ring-2 ring-indigo-500 ring-offset-2"
+                  "ring-2 ring-purple-500 ring-offset-2"
                 }`}
               />
             ))}

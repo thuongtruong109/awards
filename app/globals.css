@@ -33,6 +33,21 @@ body {
   background-repeat: no-repeat;
 }
 
+::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff8d;
+  margin-top: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 12rem;
+  background: #afafaf;
+}
+
 .text_shadow {
   text-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.2);
 }
@@ -42,4 +57,16 @@ body {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.icon {
+  font-size: 1.2em;
+  margin-right: 0.25rem;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.card_shadow:hover {
+  box-shadow: 0.5px 0.5px 0.5px rgb(34 211 238 / 40%),
+    -0.5px -0.5px 0.5px rgb(34 211 238 / 40%);
 }

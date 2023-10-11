@@ -83,6 +83,18 @@
                     "css",
                     "web development"
                 ]
+            },
+            {
+                "id": "UC-bc75a652-1419-43ee-8b3d-b58614e87941/",
+                "org_id": "udemy_id",
+                "name": "Web hosting basics",
+                "img": "https://lh3.googleusercontent.com/fife/AK0iWDyqx2E_y3q8bbQJp--s7D56q_MWhaJ0Jt-eNS41ikJgOio5PaEm0g8hQJxdGqEVhSaz9eFNgjQzXIcFKKZrUwzNxjgp_w5JoLDdevHaKh5f0c-UooNKXeN9IXw-zoSzWN259MdE2qrMtmGqJ-D6n070u5u-u8FwS1BX7pD4ylnMcdEm7BQjClUX0tPj4FYiHDCeRwiRvl5x5utABCgl9oOaTI0Vh6pDNSfcLqQzuv5fYdo35fA3jCHqVXs3QYwS4abEcMskqRQ-9w8xDz92u27P1UN5xX2btdVzDDVrpt6q8BEEMRaGAufyiRFi2-qbIkaCxmtSFaWyRkfc_N8TCVWE6cwF5v8vLqkQG7zYyaXGjPyRItUz59hq1JJf11g9SnexViGdxsZCLz_Y-ezMXoalJKYNI5TodTNlWv2R8oRd2EqQoel-mitPFo76o5t0OiTqXB8JRUWsVjtlTsaf7CeQDy3hEPOmFa3AzfgA8qgFVxKQzfMK9DQmoqDwwTwfh041OQLksHuGKDcpMrVj3v8LmRQDQJjtmmbg9c4sA7UtTIYJWp2nLtW4Yjpprsxl9odUZ-qJ6nF-RxxH_2TuvTcK9wtzK39qZ_l26KqJRfuC7yZTljelgfRpW54RaJ2db4gc1V1ySoAczDPV-ERnDLIlGR2QW2Ah2DcyUgP5Jniie4JhvEZH9YNIPgVD5mrj7iA83jyBOIDSpOYhaYoe59kZ_pVfD92CjvhhWzsFMhRJykj3WS7w7gPrd5Jr7J3-2xCoN0-EcoKaYcWA-CQIvOvhA1uxoVi8y_1gOlNKLXpEB-VS2v04CHkocuXvjR7cu65uH6xYzNuEvrlCrwf5XQ9DJIsmmpOgxxvPnAV7PvWDwbr7FaG1cHPCHmi89zOfRsTfGYLL0pbyhHQxRiYomxnGakiHiCUDb2cVbJWW94_gEvPzCinz6iTC_jxSz-Kk1vi0q9bqDp6xkrkITTm0sUcpPkdFuiGfKxCU97ytEKf1NN-Es0SJDRb7KNIoNHj95x7BLJO-V6kApVmtqIfjAKKUH8xZKiG2EZ-G9GSWHRvK9i0cDQP6yzLD3jR6xGy_B6dLb1EYs0IxKv_5Zyhl7mD6q-g-IwMp3LNQCDq1itXYfNPEqvAM7xDUhA1FWKH_FWsOeCZkUOmnAH_jX4WGa-SLd0c2heqbW5wE92w9HA7I4UMc2Ig3u5pB4hSDrmre8V4yQ-t86yWJPVrqeeQbSdqpIg50Gqe-dxB6_9SviR9qTjcbU67STchmM8KFwO_hX3-CsPjh69NymfOQBVgYT9zfftzMut-_UhCLFzg_oe8Jzyn6PBx0uRym6wi1CxhLgwpvpU7wAXPlMZIXr9oyGhmklmKhJ3kSwpTorDgz5ZgaMVUhim08GCil0uwJxI-76fx55BuONZqXYIHAlJV7WZEhRgoCALEDxcktuj8fFZASFQ0n0QU5onFWbmAuVqKejTKeENptMIY49iBBHBVXT0KpCwd0VjWKuAJVgNwJGO-e-bl5hI6cYSo0RBxLltwN5NzK3FkcWqPET7TEYbZ1bMB-Kxk37aMtwnnw6BewH2OH-CzXcWmU9n1vbS9kKuRm_Ik07-loPUHas7e6UrQaUfU8HNvJQA=w1910-h927",
+                "link": "https://www.udemy.com/certificate/UC-bc75a652-1419-43ee-8b3d-b58614e87941/",
+                "date": "2023-10-11",
+                "skills": [
+                    "hosting",
+                    "website"
+                ]
             }
         ]
     },
@@ -590,7 +602,7 @@
         ]
     },
     {
-        "name": "Open source projects",
+        "name": "Hacktoberfest",
         "cover": "https://th.bing.com/th/id/OIP.zOYd6maBqGWbFCMHydZFmAAAAA?pid=ImgDet&rs=1",
         "orgs": [
             {
@@ -606,14 +618,35 @@
                 "org_img": "https://th.bing.com/th/id/OIP.0e4jcGb8AIwnBTmfM3N77AHaHa?pid=ImgDet&rs=1"
             },
             {
-                "id": "ap_id",
+                "id": "apw_id",
                 "org_name": "Appwrite",
                 "org_link": "https://appwrite.io",
                 "org_img": "https://user-images.githubusercontent.com/101575380/231806244-b879deb0-69fa-4fad-8032-a58cb221cd4d.png"
+            },
+            {
+                "id": "hp_id",
+                "org_name": "HoloPin",
+                "org_link": "https://holopin.io",
+                "org_img": "https://www.holopin.io/favicon.ico"
             }
         ],
-        "desc": "Open source projects are a great way to learn about new technologies and meet other developers. They are also a great way to get involved in the community and learn from others. There are many different types of open source projects, but they all have one thing in common: they are a great way to learn about new technologies and meet other developers. Open source projects are a great way to learn about new technologies and meet other developers. They are also a great way to get involved in the community and learn from others. There are many different types of open source projects, but they all have one thing in common: they are a great way to learn about new technologies and meet other developers.",
+        "desc": "Hacktoberfest is a month-long celebration of open source software. It is a great way to learn about new technologies and meet other developers. It is also a great way to get involved in the community and learn from others. There are many different types of open source projects, but they all have one thing in common: they are a great way to learn about new technologies and meet other developers",
         "typeId": 3,
-        "certificates": []
+        "certificates": [
+            {
+                "id": "hb_01",
+                "org_id": "hb_id",
+                "name": "Hacktoberfest 2022",
+                "img": "https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDhkOHVrb3MwMDk0MDlqbnVuaGRhcDd3IiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0=",
+                "link": "https://www.holopin.io/userbadge/claacryph001409ifkzylaeyc",
+                "date": "2022-11-10",
+                "skills": [
+                    "contribution",
+                    "github",
+                    "git",
+                    "open source"
+                ]
+            }
+        ]
     }
 ]
