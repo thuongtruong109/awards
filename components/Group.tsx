@@ -2,11 +2,15 @@ import type { ICertificateOrg } from "@/types";
 import Link from "next/link";
 import { memo } from "react";
 
-const Group = (props: ICertificateOrg) => {
+type Props = {
+  orgs: ICertificateOrg[];
+};
+
+const Group = (props: Props) => {
   return (
     <ul className="flex space-x-0.5">
       {props.orgs.map((org) => (
-        <li key={org.org_name} title={org.org_name}>
+        <li key={org.id} title={org.org_name}>
           <Link href={org.org_link}>
             <figure className="h-8 w-8 cursor-pointer overflow-hidden rounded-full border-2 border-white shadow-sm hover:shadow-lg dark:border-gray-800">
               <img

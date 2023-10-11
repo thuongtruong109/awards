@@ -4,6 +4,7 @@
         "cover": "https://1.bp.blogspot.com/-YI-suJavGCs/YFcBR_C9HmI/AAAAAAAAIKI/hmLyAGpzNBg5cCMO3IfJm26QvsPiHIFwQCLcBGAsYHQ/w1200-h630-p-k-no-nu/udemy-logo-2.jpg",
         "orgs": [
             {
+                "id": "udemy_id",
                 "org_name": "Udemy",
                 "org_link": "https://www.udemy.com/",
                 "org_img": "https://www.fluentu.com/blog/business-english/wp-content/uploads/sites/20/2023/05/udemy-logo.jpeg"
@@ -14,45 +15,74 @@
         "certificates": [
             {
                 "id": "UC-30e0dea7-4cc2-4ad2-92c3-6d5b5e2e6cef",
+                "org_id": "udemy_id",
                 "name": "Amazing | Javascript programming with example one day",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDyH6snEZ3znmRs1CMyb47aYWzsMtJ1wt_DU17jyC51Lx8GNvItsyPWSzQXhINuUWvJaTX9u7SdTN65YwEpTSLr0Z4ZdHIWEEXEE7Lp34Zu_Xu5KvHl3ZwZBpD6x9NxgP3AS0DJd_a_CuAQVT7vh4R6H9P7GA5IYZUoyAIRDOfrLUVtI1bUr5-cdo3V_csQkKCFJnUqBaIPEegXItp8F4UimUzD6uopJx56WcF22o0TquYy2p5QO0G-eUjKdOAZiNcJdMHU9Fpy4Xn6_zJfjX_sMw-Sz5jBJ1bEAa-nS-6X01l-GnuQ4_uPhBU585RLy41ABZMxXzlp0Qe1IR8hoNO-AVKWz7HhtqyFEMclj6sjNCRnvIyKQ8Mv8so6mMz7uc3HdQrapAAQBaywZ3TQC6R61w1ADlB_OtqzK1jSGTQ2TLJG-BdW2NY4hHsZT16tj0nw0-z3QVXWVFwqVwCXUlonLvX6FPQ4jFBjiPlmSkmQsgnTxokYjQz1EQ8-hoqd65TcO4cupmn0pM3cq7Kf0Qao7-h9iWTm2sctRdx05j4t4t95SJgfl67rKC4jDBSojMkaJmbNXMZc1W1k1-JQPal800YFecQmgwI2g5BOs8Fuy4jV-o3Sa-d8wFDOiRn0ol8Z74QYJXvy9CkBhGw2o4silukRVhAFO8RITmbAh2AVjXY1exr1YmUt0eRSNFHmAW5Nm426yA--XcLuKYILkxncGZ3bh1NMT7Q-a73X3u6Qqfvgvux3nyR00vm6RuBhx1vcWImvXXHe6OVaGo6hhFarDPybmgcd2UkXpQs8XXOZH6uhUku8bP17b_sK9zH7u9Hm4j0zUVIT5urspZzF_qBFuaZtmQNe27149R1AG66iRb8QhyX-3VvjVMgImTISsNnkCFhrKfE2rlUpziSUJH4wIxM4xvnm2K9Nphvotul34btRb4kRWNz8V8gSKGPELXZiOAMbUTifxZCHImnm6CqQRtl4QQVHHxXR9HdoNOmqqoc6p5knqCWQqwvzHucGqen0A3dTTaOg8wKbj4JyfUp4itYYUKYD-6X619X-ER3l3-6GicmgB4xEBrzEN3Tjz55onlMiYvqXCpGMkUp81_BpQB3HPyoNv9h9hMu_J5Q8mP-TZbX3T2kDmqZ5vDbnH7NCyR6eGyQc8DSi5KfMzA0-5ZDjd8RLkzKOa7KZYfjJ6v3EvoQntJBHg9HUhlypM3CCgLneczYBGpTaIy3LfddHmDlh6ppeJ4-oMcMUQpH60sNNk6bjv6eyBtqB1t5N4BlNyxnwQTLzUbV08t1PwvevlFDb_2VX48s6bN5HaE4IxMhI8X0cW5bHV28zdPBRpKP_FR1h01cenb6VhhLcK4m0jOCvZ4QBgyNlQbsiT5NzoGIix0KaKUUaM-MpMUyn8s4069GE6UNzl_kh0cgqLtP_XtM52lEuTLJcZld9U2pfv0G6BRTJzuhYcLcWgAv4Unw5YuXoAPQ8OtaTQeiW_GoXLuF41rsW60qp0T4d_7GksLKJFLvg73rmPFpmkHnNwIEh8WX9C8s6OkzBarecSr2DvuIlm5HcDvnoSngHM_ScoX6PqneLj0f1OqYqBlZFGWfeL6tfSRkdIld_AkNV5s9oMeNJjXA=w1910-h927",
                 "link": "https://www.udemy.com/certificate/UC-30e0dea7-4cc2-4ad2-92c3-6d5b5e2e6cef/",
-                "date": "2023-05-20"
+                "date": "2023-05-20",
+                "skills": [
+                    "javascript"
+                ]
             },
             {
                 "id": "UC-31b55fdc-1f55-48f0-9d22-f53504b2a3fb",
+                "org_id": "udemy_id",
                 "name": "How the Internet works & the Web development process",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDzhN_VqhsC8025SETPmsbVkNnmwXDOMhQbTDKYKlyLQU637mc6f3oiIEqdR-tSwfzugkpCe2L6oI0jOxKfXBocB6bFxRTn91QR9VfBXoYeMJ8XyGSvQD4OhhbQSfblMPpnzlS_w4VtDULWjs1p9s2QdJColUjBKRsALqRkrK50aBjUtqKl8HCXIo7hcn9MfnLtopInLwuUSBoa6LInozsmI2BPYdoA2mZxegrNIATmIHGqBdpKbO6xz-xn3-Ff8Pt2vT3JmuCYX6aLQHdyoxFU4iTdF51BL6H-XHhpURsfyqfTfwt-3Kr-iVGCuAf6WtHzvv0-9liXV0HxbyJrsALHHk5T9uhgZRlEYsc-SNPA1HpRmH5HpCQwdyEzNV2B1yWDXE0ftgbrCk0s2TxazLL4axn92kvMKohm4do_CbZqgvxfIw_obPtXpxCbDJgS_2wltWBsLgK-5Ykc0gpSVbvTr0EI8FcBuX8aHCA7AlBtQjFI7R8cJhQyDqE6dmGRdkjBaq0cS92JF_bS6ox-eaRp5aJAK6hkF2H0yX9kvT-hneUEKYMf2s84Kbon8LT5cukG69CqzTU_7s6KZbUVyjnK6zlfPHpICy8HRSfdA-ePOfK6iUs1NOnyIDz1Q_n_j9KXxkT0f_MQKZpQL3KWWLgAd3Baf5jHDQJ11P5ja4R05GqCMjhs2CBmZ6FmlCcWZyNmQayEz65x-9SuA_X8qfEooybOXPD-1lRoCScPqONpJhfUztYZ_UjiYRrpzwoPuKwlhBzziwofjbS_aKq5zgR7Q3MG0-14b5g02KQbSiaKmoYQKsW83wFz-WR6OCqf3A2DcUBzgk_XTGv9ysJE8Uxy9EFjDBMqY3FnOV7P5UWzvs1ZtUe6vFOiERuM9Ieckacbm5q2oQ4wo1AEylz2ph3-ulKSiX6jHK4vKWXBMFSqC_5zqmF6qBYPbc7RZ204GZlDz7_CliowDEcw98XAq6DTxELlSfo7cP_jhQkgP6UYkfJEt3jINbAuoNC4VhnJDO4H-z7LPJo1QsyUdSMinpydczStOHHGATRTUH9Otaf3uUu1NbAbL2xyQCptzX9519EW1t0rrtNPrYsuH_AG64-woHszzf8bEnvs2_Rcwn7aQUbfRV2Djcp2-ui1ygI7ztlPxj9vJEA_IPi39FnbpMBaDR8bKtJgtcfvNxmWl3OrIdzoUjbFj_sLwJOBqDY-MQH5cBhXLbnGUn3OxAWZZrF4iwLQhIVMguyjfi3Jz2SPHmhXY-BY8SlkncMCW3kE_8SJ52gFYCOGs-gReRm4J8KrbjgzqsK7Ztgd6pE0H_6Npc2buksa9cciTveAd5--0_JhoKyITV93tkI4f2pfqCPe9IEtTbhkSqMTw3tujoBx7h6b3mQbCRCrLTG1v7finS53O75VAGO6lUfN_dqc1OQetVV6iUx31_8Pjg7W95t97eydtVXCAYkRCcT_g5QUZPloznUgDyF_P_boJx1fpdezUDdSICxg99mhx5hFI_vt-ggiiIHu2wYgStGZOu0wfbIrr0WbNNEbH31mjPKXY0d4yMHTUiLdZl1GApUvW09z1fHdETVoJIWTCcs8yOKaFtDKcOOx6ae3WS6aQLEYs9FN6f9bNMA=w1287-h927",
                 "link": "https://www.udemy.com/certificate/UC-31b55fdc-1f55-48f0-9d22-f53504b2a3fb/",
-                "date": "2023-05-28"
+                "date": "2023-05-28",
+                "skills": [
+                    "web development",
+                    "networking"
+                ]
             },
             {
                 "id": "UC-24943cfb-a810-4c84-8b7c-870903497bca",
+                "org_id": "udemy_id",
                 "name": "Docker course for beginers",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDxIeeYFz--sSAhWSZOXDgukvHdRn0HPe4gcK01J-ikQwR2dQYnjDaHXXrhYIjXKhnnpokKzZi2Gp0BnEcYWFjDPmqTLUntLqSTyGvmbkEtMy-nNaK2cwgn_mHsRiDPLYV6PrFAAlFibV2FXXODon3cGTKI9oM9EzH9aXCTYfZzso1PpwgBgtRS4ObCMWvyirb2t_e4pdumlbd4-lvuhBztX1A6bZ2Au1nHbx9gfpFsK8NH5Pw-eyoFOz_vyX1TWLhaTXCyuNdifh_d0hNh1fSS_s3ZlxPq2VPHcfNOyq5ZOBIq2N1uV8Qi2NXDf3S-yarkYjlG4ASvo2nnVYKY2ETtq5wA8Yy_vkcZvhKkAqdWmq1xGg5_NfbDFHAvEJCghhE885XRsteqtpw2HMUaRT95dG4uen_CeHql69u-t4zo2nosBDQl8SdQKip81yhExqBp9Az5GYkzWFm_nL7onsS4GmBQkxD5bw7-JJuyH6zXrkGAYowIGpet2ew-9-KZyOFyRFwn06dt5trTRs0cFUMLfExmRN0_ERF8cO0ChgyEncSKkjx2kh1EEUZka8q_re8KtB5pVlVisBaAlt4rDQPi1UAVT2p22ichgoozYVYFSBLI3wjapqBW-Y8JbT_DKnveq112QZgXWZhfITAiCTdIndQ_ZvF4jmIyPdX8Jei4UH13rbmi2ulnudF-Ry0KlKpw-4HIJeij-J44NUfC_Ran2bojRr77xYTro2VXWu8vHU5cpxZU6ASia15bqLNK19n89jfqr1XEir2sg6vrYMxB_BLuDyLuzHg46TLj7ChXvi9ouZNqkFIvLV-h9WmXqzyP4EOcqzLF_iE005yTJtDA-k388YqgL8EkT69bUl5afbzVeoE622J1ThnAoOHe616ao_63hWS_kKCW3RxeTOiPKonluFVXG0R_KEtfn_fOokv5aavozVyFX_-n7IotrNptMp0J50fpMJIi-dTwC3Na3OS3WpOhvUaghMpvKAcQ8-Dulo6ML7fO8UkaJ7AW4FIHvDGgrQD-KbyDpCblSoKbe3faLNc6pW0C27013eyNS1YYga24SNqr8srp0_6tYqLwsRMNYox96J2A012LPPTYOdKfwr6cPF5_lxd7SKpkiS06C_WvNOZp6LMEkknLUZiSVrDqAePPNyjH13WjFWpp1m51XEaPR42Ei0u3cl6A6DrPfhnEVq3pDiCGwEt8pJDFufj7xfAgv-hzveAHecc9VgZtwEEMwHlpeCJMmt_ZKdVjzOkR2FLD9EzO4H3k6aOmpghedWbmkadQgFCp2wcyEyYrYCGdTCa14ztcRyg9C7O2SbdyYlrH35cU-edqj8b2_59IoGUjr0AvGIBVAoTg7AY7q_aM_ZaheneBFlnxdhKpTVjezEJiH7dgs4akq25gp6UZt7f_N9rpR0PTjYTTLqRmN6PChLUigBO5IWyyYw0TBWqxRC1GuNv5Lrg3G8-bQC0J9p8f9xTQg4jM6AYMGQdwVPWkJTi-V2vAKep-UVsbB7FG7zsn52CzgSx65aj99JjpX7Vlh5gugY3sBz6s0x3k0gFawnK3EMsQSbvhsqUN4oohm3IlAZrdYaywwMV2aXDRM7187m6FKPv8sqi-3meyNUQ=w1287-h927",
                 "link": "https://www.udemy.com/certificate/UC-24943cfb-a810-4c84-8b7c-870903497bca/",
-                "date": "2023-09-25"
+                "date": "2023-09-25",
+                "skills": [
+                    "docker",
+                    "devops"
+                ]
             },
             {
                 "id": "UC-a27af922-776c-4692-a3a5-90fc2122b84a",
+                "org_id": "udemy_id",
                 "name": "NGINX web server from scratch",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDwUdeX3VghCVzZGR_de-2N92BWRUVv4sc4gDiu6MpAFMV4oJ2i0TcevEzLrUHPKNeRSI1FOjrVV3PtLLqnbQ6D-CM5JoJjwkG-jW2FxFq_se6PqxXDkqAlhdRz47GAvEB8s31KSJ4dSgs5jDw-7uB0oBlkIcNRVBOP_yuE2Q5GsB8NIfFJcSE0apUN04dAyq95IzM9n7yT0whgrnsxyxUFHWi--rzRKCUA9xG9dUUhqfwmC3H9hMk3zWaEjKjlC9S4itXAIwCnHmE1WoJ2Kk7SsbkCpzgkU-MvmDwwnfm2Is7oot0tU842RSFugWGAY4meRw6xFkOx8fmQpuqKfDNt9JAOtI4TWrwwaJkREKorCQzbiiPMqiGdqYDYKhvfAonfWD55pKoe6kRppBlg4E7KbFyVHxi3SPsTx6msw_RUQQAi6cObqRUoZX2apw5s6s56JD_gAwx16ZCkhk71nQlJvbeGkW7PwJ_E7EoNtHS8lhbWO6tyQ--pM8Bds9SXO-pLhddb_hl1LiUwh89UnSfwZ4PZDcS5v8gQsNfFCT8AZQj0bHSDvVVyRVSi1-v8H30YqdlQI5f8nkL3NrKlo4J67AngMWv5tMZsz5TbZjz_d84J46kTG_x6V_2K4t8U_H5Bw4tFcUt66nkWe42aUuhxJSxujLiLf0MKHgOvisyMHYcIJdwcJhyNJFhE-87d3LL7drDAhfDYI4qqtiMbTtr9mQSAaeOJB2G_QCDB_LZ-4gjEapLmH3bxFZaBDvnMig4dBMs6cQD26g0WBIy0Rh5_sh5SW2ujwGdNhaF5G0vLW2bIO2DFJ89mS6kZ3X7sKWaFbjD2K3PNnmzSXQPeSy3EG0xTup_OIPYzTuZ2nK8KGt2NL4q0nl5rvMAZtmv4ssHJhsEUzr0yQvJNsJEIGqgG0qCBHCgZtZa0tDEag5Eev7AZKnmgMqSVKTDTOgkYHSxfIoH9aI88wMKMbrYZmbsKt8oqzYtsJbz5azIQvj3rrGFKjB_iIK1vhyeWKzlKXPpep3r4uqkpOOT6NlduODo5h59ioYRwuMAsBlhirPpYcCkLp52yrczsW4LC3Ga-NKaZB16hB5PseKMyr9r3PDHfjLsgcpU8opQR7Y1I8YMnN3y7lyen-HvMpfe6BgdkUgrilBftEx2zhRZQkKhvnwoul9CxBa0suNZfzMnamTa1j4IfHCm518j8MYlNgx0F3TLv2nypDa8kaA5EVTkR55wwa3VgbzyYd9cds3mpH9RBILI7DiAIA6inyFJloCAHk6oxTLL4MESEQNfv9ishtqnh_6EkwsnOhigYKwX14Rr_6Pu49RO7E1C_nxlorRUlwUCQl9JRkrv-D8teL7r7He7GrubR_8AVQpF8LmJBRmDcZeJEyHXyWCv9j0TcFoTSLlwTCUJx_unDroIOeQT0Ygmwmw6x1fNv3SKPYLbGxYpOnQQ3MQvCxBs7Dz-1qA7-xZ9e6JgUWvJeNxnJV-r4R8QJ_KvMLts_pODOvhNjJqm2yBE-jr9ROhawjG_H6I5o8iLjXKhZylX6DVkzzDpKzO22UTpCBO1a3K3Z-kGUABCZPrQMs9RFdJuz4bNmRTa754cUcfy91hWiS_itcEapS5yXSOCXAHw=w1287-h927",
                 "link": "https://www.udemy.com/certificate/UC-a27af922-776c-4692-a3a5-90fc2122b84a/",
-                "date": "2023-05-21"
+                "date": "2023-05-21",
+                "skills": [
+                    "nginx",
+                    "web server"
+                ]
             },
             {
                 "id": "UC-a71c33d4-9395-4ef2-a96b-7d7f726a3693",
+                "org_id": "udemy_id",
                 "name": "Domain name basics",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDx2Hsv8VY14tS6Hkz6zKH9dL0HlCgDXL_GRYg6ZWJbELxmmt8vLg1foUJJQtNRQjH194FS5EPcT39mKuYdvZFXO93E3Zg-MYonb_HmuIn3Ra7zPZ9_1yhMyD7D9yu0RV7cqbfjivOSJTs6RK5VF9x22ZiA8jmd6sHhhQMuEv_QW0q0byN43nydAjBoGm1dHo0aVQjptNwoRsnfaIFhsslkCYfULJJEzVYZ3mVSRIwr-WcVxdSGOz6pYyVju6YpmykVKxE9I63mMX8w_lMdSQGxmPWvT-KR0YHTOMCX8DuTNt97s96E-SEU0U-BqWQmhSyzPWjEN2FvGCusi5812mhLRr-k_ZWQxt7W6jbabRHQ519Q0x6EG-MN3PRLRF1okofaZ0n6mNSDwzPYsvyZ0CvJWvRHoRuLEGNSLePbtoLLn0GnR3ght_lSKUDOgwTOU3E_oHJqES_ejCYmLw9_0BnUgbJIr4pyFFLlL8OToTFGXfygabXdiMXU8SVHwIr7yG2jIQxBBXB1cz6KX2ekmiexpUgFCqIoLFihWzCprg8VDu7UGoXY1HaJf5tnHu04M7ABSK2bWzLZSmuXAWGYsDrk0bO0N8nqzGMkPOF7pH_1Q2odBylhjRQ9_s96zVO2NJjUEOfZZTFOsOd-lI0P1GbgIMxZI1L0V_p2xNnnOCN2Lx1-9s325Xm31Pmfeb5nxnedJrebrhNhb1e6kalOp8L7wAKXVSr7MV1-PB7L9KBAoEi3sku1tUGG4wh7vkkf8EbWSPb9TeHgIbMu_G1T5X88u2spqMTBuWA5hrsvB1OPxDfCfbKi7s8Jdkiq3wP5Xsv4E4OSW8dRuyFqeBVKpoBrs-oQLT1s7qzIwBpsC0jVVPMYj6SDVEM5ST6-xpmEx_2xh-l01WaYM8jDmdnVc-7WSH_lOsK7r4pQRhVCLhzJM2uLkEypgEsxw-fu-OqdWcUFnCj5fFPgSCHtWx4zRZjFfJF7VEBQ5SXA9imIx7lpmSUeKXuIXAbRZeUsBlXQNMNRq4eemxXNXcRm5DwUUCXgXwqw0uXIcZ_8OdADSkdwN6V7RCZHh_2e9RrY-0UViX5BZO0X23trLKKdoGin9Ufkf7RCtdBC8wcIlvN1_n51VKo9ZoW8J7izI80O9CcHTHCPIC9cSb5WiphYbKjXQresqhr3r3iiSw_DTdCyzeBC0gDJAEuhPXL8MOvY25zaqd6O0Nwenw4z1-G9_19J2mivSj46qvvEbIJFgv7g9L7k494UwhjKHwQjPbfxjdGvHg8yZCpIDDc8bjYGkPU7HbO8Qk5X1ZPbi84Rjm00Z5LxnAAY_aLmQYENUcgJLWUONV_-AxZz7R3_-WshjHWufCYwa29rPIH2C6TFAgk6U7yvTdGjvDf80q10HNZIKZGW5q_d10DpBhAr5H6OUeI8CRnrTko-Skwa6qNKM9aAILRfQv0KsyjyPJ1zQfKlbnEiaPDuyZX-HMTZ0e6YhAcA56QikqXJWMHSaB1DFFTknqdBX_zEIH7g99bCA-hPA_9_niLSp6eGAj3z_3dtQdQzFsLM37oHpO2BMlVwqax-wh7fNqtQCdY7XtBffwhLug8JKRsv7d8ALiNlcIO1M4BGKl5Ek-DFp_g=w1287-h927",
                 "link": "https://www.udemy.com/certificate/UC-a71c33d4-9395-4ef2-a96b-7d7f726a3693/",
-                "date": "2023-06-14"
+                "date": "2023-06-14",
+                "skills": [
+                    "domain name",
+                    "web server"
+                ]
             },
             {
                 "id": "UC-bbda3590-ab36-4c95-bad0-9ffe5aff8fc5",
+                "org_id": "udemy_id",
                 "name": "CSS crash course for beginers",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDwYL98g7hZpM4mPcjcx7_BnjdB-CgOErdtcaoTaqGMRDQe7MdR1oWa6ZsIHULvWW3AznG1-rQC0gg2hMyv-UOYPbabWfL1T_PheLGnVFAv3EgVSTNb4U5sN-_5LfFuEY39mgYMGeiKpW60a5Uld961AqytqVhxVA6jPJX12O-M8YBu18cm0WGbbm2ugDNP9IKlLmCNf6O6la4J5KRLFR9j49eH2G9p-31cnSUJIa-RTggzU8mCJJRKhoKEvmBOjXWKs1scPx5aizO0uRwvF0bZoJOl2TwXoEYcuP3Bbzgy5LcNyCBRfn-aD42PQEXHenM4PqRa_OzuU9migwRQnV3P-S-C_n0T0FoYtqYbUbD_Nf5sI373XDABLMMbkLjenudqsuOUUKiR079t2UepLkabMzOPI-VJ2HebmTwy4iXCmxnuNgE3Smdul8Gmr8bKlTxlFTlrQwHxqbDD6KiPR_Xr7NWUp3VeRr1qbq6YuPGA7o3xnhkjXM3CpvVttcKrV2SVJnFZMsRCyxYrh-vZO3YDKZYTiDITx7PJfLNhpohFNxTvwNSQDPR6Zdls3U0hkmEHRuUAgcnBN8cuac0-o1uiSWhNkTtemwEhn99HAsI6s2GOt2-BX9q5S3NhXFr45Ol4CP5p0a-krinqzomdxg4S2NsIYwJ6oP2FnN9AI4Eutc7CfRtFmX6kSDa3IkEUabTAGtt4Llq55ng_LZdnV8VuVtlaGg_9gNRn27ADLr1t_g4E83oDStS0_DOfZPe3gtbNbiXDgJCshCCAkEwDL71NlPYu8IlYe4QgJjefoShIXPDKjWNt0koIakcuRtnr8W2bcz6raKvk5poUNHTnbODgRkGuP7kHcM-cPCdz17Z8fzF3GCszs2qlOE_5aFw_VK3Dwa9S85L4rv726mKNrf6kvCP4d228es4YPtBrNiLl1D6Mq_FwK4Vm3WdDezS2_N37XqDKK0SHX0PxmXYAWab0DveYrxaVJXvCwGS_K6k8-k3zLD3JloGJ-DIL8jhPhA7H-J81F--s7_2aWBl1ob5NTitZ_RlRusvDlH_QjUON4PFs-We7z5V3KlptfcepyWa-VqzYqjkVOo0_2GIplQQm9ghRR11CYPx6CaxIHelTuSrL1VCHRrLAjvQKB3w5WJ6Ziwhs5ChRT8LdKO-aZHnvvv9m4CpyLNv7CeVe7jqeLb0fuGXe_F6pQE9ImEmvEFDutSe_tDX3h9irl4g1CL-5GzEG6qn1yg1Iuklz7Pe0DlfJLUHY0JbxUx6zdnr_PQzUiXERBJoahy2nz_eplR61tHclNSj0iSQJT0es4BHufW6g29oG62BQMmGVJcRUgCVb-UDmx77fjJ4hf64C1WIOu9sfEO0HFW0EjP2GgmTg3Qi_J7T_0HfpK7AOl9LWp2QQvwuXrBrKn5np7R-bv5UDAigBuKmvZhA86Y2e_NcJx2SL6sRAVUGJiAepD-MELZRZrB0IsBaxKmerXg_KKR2EQzEK3nG3BJARiaionnfsbsxlHzWO75yIja_3cWI7FuSrff6VgYeftdTIfrsr1Zjj5ys9XFxOHPBO4A-C0KlwNGww3mmHTVlrB4-1hXFsrJL7PluzeCUUV0LV5Su3wZstUDplK6g=w1287-h927",
                 "link": "https://www.udemy.com/certificate/UC-bbda3590-ab36-4c95-bad0-9ffe5aff8fc5/",
-                "date": "2023-05-21"
+                "date": "2023-05-21",
+                "skills": [
+                    "css",
+                    "web development"
+                ]
             }
         ]
     },
@@ -62,6 +92,7 @@
         "orgs": [
             {
                 "org_name": "HackerRank",
+                "id": "hackerrank_id",
                 "org_link": "https://www.hackerrank.com/",
                 "org_img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-1024.png"
             }
@@ -71,10 +102,14 @@
         "certificates": [
             {
                 "id": "hr_01",
+                "Org_id": "hackerrank_id",
                 "name": "Javascript basic",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDzz2ilce03YGY7v9Lla_3cA_GWIMqEvf2Wi3paQvEXfDYNPiBXx84ZGJ9zvd5J9cG0Q9MXTBfNUuQ4lH7OEyTUhWG21EFdWeNDWJggAxeRkmzHDaaeSQ6yZFiDQlLTY1U-xJyiexhOsx6skxEtVnKmrtupKivNUHVfzCRgg4xZcgv6SgX5acMNzyqkJjzPbY8TnPCM4hXPs04Kq64Y9VCZuJbmoCxvf93kTK0wyWin5rTrcJtl4zIjz5ZVg5XhyFSCKLBQKJyC46p_cn0SKlRsRtDs8seY17iffsF-HnN1t8AoiIKcbxXxkflknTn4S7mGgR0yUjzgcOzv_dDfBLJrP8lr36mIS2IsXJqcYNIerwMfKV6EB-ML1tFSdPUU98Y8HAJAweL6MBS-AVB29OGVligVya53hqaGPBitaETYYZ_5XxOu9IOTDagmJ9VCw0TGmIvH_1X4eKsx0_se_NunF-9U-EuSlhvGA8_QZM_omUYVAym2x7mrfeziri_XYkPRMSDz4GakSOEhXPHfdi77W3oPsP8sTZVYunnfNv_MxjJbQH_D7D0APuWiV3o3Mi-7-N3PPooN5o6JP2-pbnT_yyIjNICN-sc_sTFHGGS3IbhoZKcUbDwoR-cM7d6k1GKFlxfGd_OZtxuS_YpIX5Ma0pYuPUCqLtBdVT0pTQYXcu_8x6pHFdVVySWZHyrn-6gunHLzT81cLtqcsxSia9lciRv2WmqCLmiFeAZXq2mnlmSaVl5_oM2X3xnD-jlUkZ--MuGq0vIAGIrRe7C6FLeJO1LG-MyKD34P1eVCaG4QLLQkrx--yJCcaoxTYa-BCxG_zl2wkD5Jjkdss-Dhj7Hax30vyamtLmzRES4kTtsD-DPzMAaIO4IubPAsqul2SQIQW7yq7tLwVbgmmuSWW9__mcG2CEFZs0dPH0i3DVgPY8ZO2v47GXsK5t7f_D3Q7A9ctXob6JQF9ZQak1PJApt4i3xfvGCKDBi3nnmZ7c3-0T0IdW3EzIiiBLIvkRfz3nxYbk1AGqo-lBGe2LjGNI8dpAK9hRepdEF93GZo0crf4o3TrduzGUSQ3HS-Sw9FUL-okPRKez-jcSB5SyohWa6gjK0Zh01HZK8yd8ntvEK0azaqP7gEJbVgHDOfK9sJNB-1j4o4gfIHqps4JvURs9lNCvypcGByig3mtLwW_aQiZEnMa6macnA0Kv2OxK7VSAhebIJFPXA1wPESjb30w3-QZO5dGPnJjufrG9KqbWazS4F_jIhNAvzahJUIXK8wj5yFmZJoL1bzYtcEn6xCquVxXjrMCMVEaP7KOrcboZYtBJGOLQfzeaRWPQSfViEPnYccn3KsIDBRfUgUezEtgRU1-ndjCU94WX0GW-_luuNOmWy2dZ9nycyXIF6hcjgcj0oHCb3dxkC8f5mzE6MNY9r1EUc76HifaCImuWcyRyrLnV6zvMriHDo0S89RotzS5VplZkD_tuhC0H1BlDLxSjXttWFf0-5f1mz4W3fa3t8tR2-OGeP5YtfW1hF8MI0Z79t7ywigH85xVyQgoYHeQvWFrFZMN0mTlA576-5cZKhTXoC9MLBaLiBZLlHFAYTjwjfmYKkpDIJhnBvmbUroWKJiJRSVmPg=w1287-h927",
                 "link": "https://www.hackerrank.com/certificates/eb5f3b93c69f",
-                "date": "2023-09-23"
+                "date": "2023-09-23",
+                "skills": [
+                    "javascript"
+                ]
             }
         ]
     },
@@ -83,6 +118,7 @@
         "cover": "https://pestleanalysis.com/wp-content/uploads/2015/10/swot-analysis-nestle.jpg",
         "orgs": [
             {
+                "id": "nestle_id",
                 "org_name": "Nestle",
                 "org_link": "https://www.nestle.com.vn/vi/jobs/nesternship",
                 "org_img": "https://ceowatermandate.org/wp-content/uploads/2017/08/nestle-company-vector-logo-400x400.png"
@@ -93,9 +129,15 @@
         "certificates": [
             {
                 "id": "nl_01",
+                "org_id": "nestle_id",
                 "name": "How to build personal brand",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDwyR5yN28xgxG_nW5GBVy70C2ekUw32vmL6ddQDznl51UdAc7gyp0inn1ObPts6qRhajx3baC5W9hq8cmv-W9ab9iQH0EEQyWKAX_EZWpeYcho7cNLG-tLZAdX75XSJBUH4Rl8Cp90InBua9GrbFiigUu_QNEcOV4Bnwn6qIoyvEsaON2FItJpvk1JUIIGf2oBVS1eV5SHrAXz8YoKG0HhgxOt4hHEKLL4YXennbY0r_gt2SWyfskk3T68EvngBanZKdWqvaUGBx4B4fiasLvfMcP2cEx4qGY_m3m6wk9rtiMVFDdE3IUll4tTxqQLHIfZFGCJX6mo0N-VCmVXjqWYY_IrY_f9Xb1D8E5cWlSVe5viOK1OCeEW-LNwjKPqej3KDsYiDf0_kx73THSOWNK62J1pey4BEHgUD6zaG47oPgscyVxXxtmrKH0q4bILw5NPNcD_baNpo91tUHo9EuIDKvJY7TdejvZwxEQy5PI9ZgaqE1pAPK4rh_HYzO_p-ZLIGpX2KooFJlw-Xs2EQ1bl9mQkGyJ3XXO7FKp092EwZLkH7fzD7Gd43M4zgiOK6Dh-wLUkJMz4zTt64omBgv1uRMAC-x0zRe_QwmvkD06XjcJSTDbik1M4JNMNTkpNb5zfEf3ngc61wRT8qLKnKcsEy69Y0HG_GE3Pr0zOVLi3xI1yCUfAyYBKkvzAfCgLRgy4lX2EN_m00xFEZOHQt9qxTB0hSHUIX2mIkWF3b4kGgPLIPzDtbqeXXJKwTKuhUpNsH6ZWMZyhBU7c9L9lPstRQBtbv9cms6qQ0i7jroG3BV1diNlhpjcVWcddSxbu1uAr1MqoL2i-FkZQwUCDF0VWdMGpm_MMvzxtzwRmvj5yPm9gkGaycqOzc8_MDcmeWAtlOongz9WeL93dqyrdr9Cr8POo5Ai2HucJe3DLC3A8a1EcaHC8Rcux8waTyMcIFj_0TVeBJqtLpiNP0rwmJmyuyo4Jzc4rDqBsyVRN0vGuqigW9ELE1V3bYOmobLAZyhDREHJypIiWAYRXifhHxZB79HBWJNRfCN8sd-JDc2ZMlJb_mQdPiPgp7WFkaknqOOxSj9dhDsDKt4RcLWMuLvs28E1DbVY22Lxuhr2_Jzt3vRomRRP5x-6Kd-7typ0gKzCBN-puvgoc52OX8BIoIc3mFzMChvrNkH8ZAgnEWOjfx8kmMMfMo_b2PH_9o4dHBvBdzkGLo_AoSOj5RdRAX_Lo-cL0MSrQLAzKS98nesPuSYGHfXB96H5TXm7QhRD2ZbC6HGNzA2oYzfVA46qQ3RyukUUmM0MUdfPnvR8PGMrvDg95BKNhS9YGyOEcCWqLhl28-a76zkuS_H2WN8DXzu9ahcaz94pOr8piZEw8QraViGru83_xHmvT8JEp1Y1ucpNFWAK6JZdIOLjOD87PB_UzNkobe90XDr2XdgFzFLtfy5lWB8KaGK0qzzK61vNJmjAvQv0HKBXKKNwq182W3VVqDdUihDRPNsp-GPJi_YNU8XPkqlG8gSXdG3wKBx_9CIorNf_j6vtjYhOlsENyrL2icQxaXFV4AJ3ZNkq059ubEsZIkxwWL2AoGyKNUP-jdKEnNrnKz0-oppwvI1DRMJ5cYWfL3ww=w1287-h927",
-                "date": "2022-08-03"
+                "date": "2022-08-03",
+                "skills": [
+                    "personal brand",
+                    "career",
+                    "soft skills"
+                ]
             }
         ]
     },
@@ -104,6 +146,7 @@
         "cover": "https://codelearnstorage.s3.amazonaws.com/Themes/TheCodeCampPro/Resources-cdn/Images/about/8.jpg?v=rk1",
         "orgs": [
             {
+                "id": "codelearn_id",
                 "org_name": "CodeLearn",
                 "org_link": "https://codelearn.io/",
                 "org_img": "https://th.bing.com/th/id/OIP.SdswKLYyXALimvPwIUvY2QHaHa?pid=ImgDet&rs=1"
@@ -114,38 +157,60 @@
         "certificates": [
             {
                 "id": "m2nln2iy",
+                "org_id": "codelearn_id",
                 "name": "C++ for beginers",
                 "img": "https://lh3.google.com/u/1/d/1v5TQvt5sC8gLUQFEjlnDC6N-Jsu0qSKZ=w1547-h927-iv1",
                 "link": "https://codelearn.io/certification/m2nln2iy#",
-                "date": "2020-09-29"
+                "date": "2020-09-29",
+                "skills": [
+                    "c++"
+                ]
             },
             {
                 "id": "njc3zjbh",
+                "org_id": "codelearn_id",
                 "name": "Java fundamentals",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDxcmeKhplVD8SZta88grg7we0ysutiod_xGgyKfHJqQN8gCaTdmcASwPqQg3Dd56s4ex83iBpRvgqSFGzOmqdyE4hKOd-ZD9pHvdZTSu9BHOTpxglhpAwwPB5wRQbso3HGLMajYeAHfGTViQy298QBfq07Nk7-8-Cu2V7XGnUncsKw0AbNA33dJpVSk_zYZuvteoRiGm3PepvY2Mpgs6mNh9GtZ8WsXnNphde42GymxekW5IHVAUMJwYKSX5hN3_YUc7ewGf8hNWGQ7ZPllfH991eL9TxkWWQ6MXzraJEFp3IeOHG1bvww1x0b4ZiqwWy-y6Ua3hslsY3rbH6wrwE5uGo_H2nEmMh90PBY92v8qyEW9TknhmVVbouZJbm7tSXM3383_BTvCy6IArKQwsJEDgEl9NFHPdcvse7oK-dbXqxnvH3N7DopOD-vAE_kL1lXh2SL6iVU4WKpWBWeopaTa8PYSL0Z70vJ32Z28kDF-KrgPk0OneQMfS6yB0wV3csOEHTJSHleVpj2giA7SPwKnQ906fGHMvOkCyW5kTSOiJrzwoy-IOqeu4NJL4OrQ0rRvg0eBZrBvDjwo-SjLshHtVqFOuDTN1B-gYeg_bRyHwPLw-aXMKol0QBa5xS30hts0ozMUtEWZOHTUdN_45CBk09X69z7l4PjlOXzmwdkVlfEVY0VzEHqsH3Ri1r_d0JP47q0VISrlodJeiLTumlew_C4LO5grx4STPd_XDwk3K3hHTtfOMn0eQU7R_2Zo8g0UC37etgXg5p9W7X4V47JZrZnQ5sTymVr5860yLl1jzw9bZRrmhFujPiJEUT5xxXkfiS7B_L1iSuGHOhJrzEqfk-js5HpOT-Bfhkd9cRYWF_FWaZF6jRxS9qsHxWKGu0vigzk6MYbX1A968pgLAGhO1ynOU0YFBJx9ihtZq2HYCcDK_rXMbCF3beTCR1qbzKR5__RjgDMXAcKPPem33zpSN2bynCsaqFXpYooyln_wWEYbpzzZ2LdOb88PSuGU6_wpKQyh1s1rJMfOMBMjJkJjMC31dQ4A8-M3LI6t5m7M7zwGpvOIRn57Bk7HMj-Z7oSQysRLsMzJwchrtHcukhfjC18gPh7stlAAKi8wxFO04sTvCZf8p-m84ySDAoekm7BGPlqWMrDYTuyGGrip8XKBEs1ACPwzBOrdzkbbcJwdV4Gjcd2SL2fA7IgB50ZO5NktwNxGaYYHNaGNBvBDsnhuJ_RbA2X1zfKtPEJ6wJ4qhTeWgAygMhuOBFkKr_GUNnY2ne8_8tU9sYi3IN8i6zxBLmQMkU_FVo4joRCHwdu_y9nIaJsULTgGxUA5u9ivZHU8wAVTMZE1OBYUvfWeihQmouuP4ml7Ls6fJPrHkxMQ_SKFmIsVNH3DoHy71o9IkNn84HCPVmYPAzYRgCvFOC_-EOf6dytGBrnc9ZgRZGDbewOnY7PVqLFTCpRcSK4WR_XXX2lcZj0fTozVG2J2jno-oxJIPYwA_qnRjcbLPiQCB-adLZ8cWYPJ9QizwjMS0mq8lfzdkHgtxyCUFVNJeZJ5HdY_jxnjdHzD91kOZ3TotCb8XtB2rboP9Iv2XUaQT6Hp_xX-Z2zB8P0d23ahIxFSC_bmow=w1282-h927",
                 "link": "https://codelearn.io/certification/njc3zjbh#",
-                "date": "2020-09-25"
+                "date": "2020-09-25",
+                "skills": [
+                    "java"
+                ]
             },
             {
                 "id": "ztaxm2zl",
+                "org_id": "codelearn_id",
                 "name": "Object Oriented-Programming in Java",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDwhSYNIyzai5x8SHMoHjGtTwQbuaZsTqzdq37taaLHPreuSTYk6uBti-Wr6Kjl_XdZsExd8MU1E3T7G_V4yuy1HVjxFc8EcnL8_4d7_pkksJ7QzCKkAa08I8OjSxtIu2d16iHgXm_Rjy3lkBcEf0JyZ-J09c3GsLOpCiY05s1bDTkJg4w50dc2dYuM7lFIrt9JhChuLYLB9razqd41yvIyujZSbzJVgKa-E_km2X_oL8GzgPFMIgy_fMM27dpXkTfQjI8ifnfJ4dL-ctAIZKcrWXCE_6qQJmYWhl9aDDEKqXjr0d9Y8Sayj-UDIfIGtDzTDtoyjbYW-zURZCG3HZmbMgLd_VGyu9kEWiTfdA3XUD6i2dj9Uuo9ed1ilwysubFCkpip6fJywOmGSFZzzeK_HgAQWJn0oxWOfUdRwpDEWLNpnO8hHZF03aieRvYKqNJZ5E5eBePS_q94WP7sT6GRG66dIhpdlLdz6z9wTKXVI4jRZ016JM58ODv7H4EK__PzqF1Tt-HlNeW5ED5cWcIrjDvVymlhDB5bcMw1VsteKluysGbYI47ARiaBq9NKRoS7Lj_dpLvb_L9pY39HK_7RMRR6MHhrpVhKZC23l7Op8TdsDQlKBzZZFWVxaPBQeC44Z4XlwJ10Xh0MVoXVgxWg9q99kmUvqJzwQBTS923_TLjk5MedBlxJUjBU12FRhjXFsHWHL_JY2tjNBByMWRGtlvZN2e_-eYVwB7ZUdGAsIriPeNi4xNiDOB9vItxpyc7kGr_XysGSs32FjWGjtpsrCd6Dhr05hf93yOkGkiq0I9ZXGwlLJ51tpHNo3vjTtw_aBIXII2q7prWnHvOkKrWvV2SvLpe52ZvSVlt89l8VcKoYWb42Vzus0g2oeVPDKf4HjJQB2kWRamAKk01GE9xnwtphjGzhiDre2GjlkAjTdeR7PbiBc2MENI1lRCbrSoH299UBNSApdfmfTcH59VSNi1-HXPHADHhL8qeHLvk9ZHgSkHeu-VpcFWbhW0khT_6CjCCb_5_oiRcv_2p0RCWMd5V6o1U_8hPgHbPZ4B-EoGO07FpYvLqkiGW5l1LypPgFFyBv00f7KHSOzvgTJhCYwHO9eGsKkZYqxQs-Uz5Pd9JTnlx-Q--t4Ev2VHqPH0jExhhpAf66Aey4B4Lh_aAJbzgyqltpPKOUxIBTKiCGmKfJfXApYxOOuml8DAEbPy7rX1awOShKMfSvMnKIaEEwh9S7FFdt8N7GPA58ErpKuU1a1zEq7PPHMdrRFuku6tGHjEDtutKSGXujD9EvucrXmfhikBdf5TsZKfuc6en0XgPb0TVpUmG2AZKcTIB2BKPdZBEC-Ssmrg2kZrfJpfF2qgCUQBa0ulisB0k8afLKhFK3K2OFmCQyO5EXo6uZXxYnx38k8iZwVVYHWG0SXiRLIIQWuM_POiC7ZUfT2liA_XNVJNINcCY7UdD8Hp4Xx8pmWnxxYZYcWrjOF5J8G3UESjyakqtbAIrU5Uyxr2JzW5DK-3nla-800j4LI1MzopCa55GtRgXcLbRRKsVECpvPZfS3kBF2vQ9OM14ji7ksOm1TjnJa4oh_I5tdsYflNMPyBlpTAJi76p9bRG5skWCd9iJDt_Q=w1282-h927",
                 "link": "https://codelearn.io/certification/ztaxm2zl#",
-                "date": "2020-09-22"
+                "date": "2020-09-22",
+                "skills": [
+                    "java",
+                    "oop"
+                ]
             },
             {
                 "id": "mguxytqz",
+                "org_id": "codelearn_id",
                 "name": "Computer software",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDwali24Kl0YgM8v2zgR54N4Rd1IFvGI865i8X4A65bpurffXvjARJfWTdcfspp7kqy1gPolPaPQRn9vrCaJpYwK8uzP0Gl8aBR4VuxLKSvcvwX0etIw5CrkDmIiRoGYmHclwrek0MuGxZGIFk6mA8fPok8lXVw_cBwpW9sZGdPNEdLXLI-szYNIlSWOibfOVWVpDyZV0qJkXhq4L2ShKEuZiAYKWG4zcMib9UxttJuBV4Ys_RvpcoRKXpbQtCz4mjFuzc260zLDIClJoxfYBv1WeuxIhujWPfSdFPQ5Rshp3lsmhEB4NwkLkyhiXNnJtkEnSLPBcD-6SnQHQIhLBQt5mKLFGh4izzBu7zPLCyJ0f6CuK8f1_ykycbvcJKJpKt7945WWtdRQCiamKrpH3k_uiU7hPs9746g5pmtLANjKYUf63e6if1S3SlNtL5mPPQu4zz_E86cjBWhuPNozxwrfJArPG6jCAGNz2MCPO4R5PYtKwc0kERk9zzOOXaV9NuXwTD78g9XCiMCMCRR6EdMGtwEbXtOIrUXqcsEdicSV6RIM7UdHAtyaTWbTNUU5nNlbIhU_cM8VvGYMKmS61E-a3gg77f3eP_JaL6S9iioGpnJrK7d2m4zWguRG2M8bnP-wTeyCIotyAnpf_dg4F5BTzbNPARr_ozI6yBupXN8f-Q09im1hbMulsD50OG4Ax_OoRpkXDTDAFqXJLQIzI3Eiy-XOxjLQCWG7VO1hvqsLD_uLjG7sGLTb6D44ICi7pWQXSYUdmXio1IdiXkX-UydhWE9-th2VQSygOe-yNNUHuHEIHzaYwwJnFm9ONu5D1ey6nX7OPDIp1Zftz9IjclIKg41AiljsvF1zAYGUgjvTmxevhP2ve4X6D80M-ZXH0LHCZoLGo83QGO8ZaL8AHMbb0Eo17iDODD6uTwtUGDXQDLDfg6V03sObTybNdRvJjoH4kWhklzUWvkJornZVWsQFcp8rMDHMWTlip4qZHeii7sIa3Fsom7mA5VllDc5A4tDhZIxi2VajyU1EZnmo5Qz39QMiSrJAqlFE4ChiOLFyUaDr9onb9DvHoVSj46PX5gMM8GmMWCVXtF-UhcjDEvPfG-bBbttnO_DYYGCHAT4ZXPeMokJiqhv2OxeB6CSrNedA_1eugMTNnulEZ3LqnU4Iy8M-3B-QhwdD0vN5pYxE_k29nNlkcYtAXcHT5xOsBRMDtSt43HFUDTxOhch7AJcWtPanp4az_zuxxPERVQESyArpjxRAQKn0CofQiApMcVaPGc2ddsBn1MnAzZ-Olrmqu_FAi4maNMz-PtVwRXkVuqXL9-jJnC-rHl6nQ30DJzKhmJksqrFNosH1HClQnZQKTN-PDbJux9oI02bAEKIWhrsyyeNqlEl94DHV409F4Qp2sGhsX3U7XUmAaa6KOWIBXWezj4HwPeOGWg27Hf_HiAfyajopo-Mom4RTGMpDkixDqDK-pZpzo6IHS5p4CRGJ8l8ZnYKztwBrrK4Ter1ODEsFgwgi15UDGFTEmumjFbtbu01rXCv3Je2TCRd5iKu4eQwtIvZ0x_22Woat6BJ8mGaADfBwmlbpDp6Kk2H61Ia8lZI43v1p3te9fad5RKPVg58FmA=w1282-h927",
                 "link": "https://codelearn.io/certification/mguxytqz#",
-                "date": "2020-09-25"
+                "date": "2020-09-25",
+                "skills": [
+                    "software",
+                    "computer"
+                ]
             },
             {
                 "id": "mzbjztnm",
+                "org_id": "codelearn_id",
                 "name": "Python fundamentals",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDyuE6X5zeP-1PzDC-bcDkc8XRBJV6EXNwB6G2pCKscAECVOHDfTfi5nkpPmjG7SIW5FXi81CmiF1jZRGNk2YleA6MPs3nB4xPf_y_MARpbWQvD__zGYDy5622Tv-MdIhK7wzdabhro2-XjPQdtjCW1mtC3un4T71AvVUjAzGhwjYXNFqoFMNcWaAqCEqu6uxcUbzWv6ryYXszODWLzBlPOmRxmAIGSUb6FCp_TkRJsOgTMBzdi-Qb1zpOPYSb_kOqW4XV2sJKaKKmKr8Sei4m7dkbTSW0L1RapO8X2OIgJ14xcDMKlZTY3tzKMcWK3Dptvbms8DUGE_Z9D6VFjck3vKRu1anFlOo4SrDygArxhrZyqp6zfQD4R0VCafINWTPl3pFgEHYuYDQdxJCth0XkK55-BLyhWoo1fGHTP1usonunVr0lroVCRCQMcFhP17IJsQUVemxIVVQnVZRv7Hk7KNs1SSbPsZgRyLA-nIHXaU1W3uH6OXh4vxFRX6xuUWtbGit5GKKA4Wvkpz7dcZNQqEDnp0Jf-7aeMGJOkSgj3-jZFlPik9-uKlFfYKeMud3TWxH8MzzXOdDMav6hQsl5HkCrj72iuomRqYn_Tve3SRMj5xRSx6KjbfX_vSq6iw4kuoGLY29jKm2_eZzJOS6PVw7yesqJ85RDrIXkaKXxy-Vv_gikpbSz64N5QClGVGRe0wWy1iFDvzSK67rn2i5OnQwF493Wy5DrPNaqxf32WEkcNHCEeovj0qvHqzs_-0f5hcJ2uaEWpZ_Dyi689_kZbuKpBDFyu3SifkXUFU68gXISO-gyqkBFSUsI9dORqEtBkVfXuhK7dqBYkZG3Eq9KgjgIFxWjPGVGaO5hXmiV3-LFzFAI157JqKXCXfnNzsEZWdba4mWKgOQF4P6rz2YAldGxA2bJfPf35EKizu8YdVajmte7kroKiVrRXU_le7lqOgL2LUVPlHOZWQVVj_bUGNTk5zLAN2qUrzLehX2uha8OmVyn_fsgnmRQZDd_BWuv3RGPekvzCV2rGdW2scwgoovssqi1Ap1DKs5j4xbOnAOJP4eW0Jq05WkIeiQHCEKLLIDFo2Hbw5JUhewxS4vCX0BEmMcKjprFLqx6S-WOTraXg-cH_GGj5cG2_etNmEZz0vbAL10JciG-WyHyj-vUZDtzClHXgs_XXiMH7x_DIzZXV_VVn6klCBFgqpbjJOrXsEdLmMqvxTSr-c4H8yIARlMJvktorfR3NOJ_k2Iimg0ha8_syqvwYEnlnHO5z0iO0OqkglNSQic4sKI85wQDdGIu4WEgGpXaNQRYlxpR8ALfXGpp7vhOIfHrPcMLN4C5u55VBh4TEL8HPpl0mYpPZXK4ayUntBPKeU8rZnsJpNmax6aSSKGtV1_yUko3Nkc3pdmXx1_Rev4aL1BZrehgw_2WpbqAeeCd8v0-jMi5AGSs7927Nd21zCVA1TnkwncXXSQXF0Yth64G-vYzPLtvafjMpAZLeGvx6XZ11H6AkmdaKXG8TAN0MiaBb-a5Ys2y8JCttRz_3-nw14rk8uT0v34SuqZnhMm_mcLArdkPpaBlf5YyDSgdKMsAyEUyypMkfO0HO-VUpkzQomeb7v40BEZVfa5g=w1282-h927",
                 "link": "https://codelearn.io/certification/mzbjztnm",
-                "date": "2021-01-27"
+                "date": "2021-01-27",
+                "skills": [
+                    "python"
+                ]
             }
         ]
     },
@@ -154,6 +219,7 @@
         "cover": "https://sm.pcmag.com/t/pcmag_uk/photo/f/free-code-/free-code-camp_gdmt.1080.jpg",
         "orgs": [
             {
+                "id": "fcc_id",
                 "org_name": "FreeCodeCamp",
                 "org_link": "https://www.freecodecamp.org",
                 "org_img": "https://th.bing.com/th?id=ODLS.a82a0e7f-efd0-4706-b55c-1c2b753b8919&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"
@@ -164,10 +230,19 @@
         "certificates": [
             {
                 "id": "fcc_01",
+                "org_id": "fcc_id",
                 "name": "Response Web Design",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDwmj0BaiGwjIebLNi1ySwCoY9q3E6yOQtKvaH-z2KlcSGGhJ_Ihw5Z0C1cX44vExxf-W_VPF4N01JoeDUU-WNgSeB7naE7aQZ6OxMmC1AsaYfl6spW0SOxnFgRVuzW6FM2fh2HbVoKgbj309BmbFgdVNnetF5J4L2aYTmP83PSrMvvjvuWAWaMjRvQ29RZzMtc2Jv2t3agorGg-BYMeYZJqeQ3gGOX65_G4dv8-ei8iLXFhqR9n6J79Xef2Yqnd0B71HQOB-r0vAStNEUMWy5LKTAvRw0wCQjNqoSEO-BSSICk6DJONOSwhXq3VtnBfGW6xVhdEaX-sqbjb6ylkhQPZOjH-EQuvz58PhNbzo6Y7pQRgNQV4bMsQdipyuZmr297PcUhh1WasLsSnRaTNrs9Hn7DxzbezYL-f7IC_bZTZM6eijtSyi7iSyPKa3LwqEvqGowISfAOL7j-B08vz-Vm0WFXot7tSos4O3bJxJG6PFFnBYxs3UvEWdk7pPjMih6m1_GS71nMwlqaD8Mt3miapdLqCtVub3guGs0lil6FsMOYEJV9JpyjlIsv9lih1MVkljdgVIkFsHYYi6KUs24mw0XJxbgStozlCcIBiHmGsyLrchCAmrrdQnrXjkDTQWEs6w7j_o9TJswWw4PlNdnf2uwfvdz7DDQabZeqBNgpXhhqgrg7eqggMWyrp9LEjEWw6N3VTSSLfc6SEUJWAp5cphhqDhOz7RxRyinKF-qNVrD30CYYmu_CgpL1vzKrlrts37oHStQJaCdnXApNV4L-W4-YwRqo33pcHG4nwQnODvRnLMUneGSukRlMqwUw7TPqngrRbUIhJT1S5IBv6rn2c8_kEQ5DVZgozabSwe-AovNzE0yutVXof0z0N3LbrhEl-wyc-6wSvJYcYa0wt9YJWUuk3guBYhh2gTQ4ubZdtnA5k68Dk1CUhqjKBwV-xhB3E0MHWi0KvHpo4fLAU2h2PBrWkS6tp0qkjy09Ie7a3aNRt5288oi_LqM5LASzxudwY3veqa8KecS0bd5invGLEn3FFN5C2bOaiDUb6yWRUDeJXVfSTFG3LRdrwdxgvHwT5FjFFldCo4SRjAm_3RYRiQzZXr83UblbfI2dnKVq4_0sWRNuOFmLifV5qoD66xhO1-n6kHhTpxtkxn8GlXygYt46NoqekHOviOS7mHFlFLAJaXBFeP2LjnAsgqE-OvP-0zSmCSFvPQ5zoLChvnVtNjFwvJ7C4PGu-qJkq-qnpkiyNczDqWthf5QV73pfacDaRanKDO6Y0q_ETzxjKW4Xh5aMuKRh5qJUN5njF82GJoN_UOgzN171yhlY8VywlSEKE5WMQWB_BEnz4Q28TkJvUaqOti9vPEdgnaCKyWYVjvHQhabcTKQSv8AYEUNlDszyreDuz1AnXZWMyuaZ81i49O0byJlaac87-Dgy6pyTxweXpRxMjEtJ5QPUkesnH1pJ869zmtK8Y7_Iz1ad8LKEmggfpy4oKxF6K2aRv39qvfqALBMyRzboIwowzzAxTsuV3ghYDJCZU2lE-biOQsWOEFJPsz5xguse7KqNCVsxnG0YSvCZumRyjPTX31TQKwDycvkXstPQAvJ97QCKxZk1gPbZJfw=w1282-h927",
                 "link": "https://www.freecodecamp.org/certification/thuongtruong1009/responsive-web-design",
-                "date": "2021-07-16"
+                "date": "2021-07-16",
+                "skills": [
+                    "html",
+                    "css",
+                    "javascript",
+                    "bootstrap",
+                    "jquery",
+                    "web development"
+                ]
             }
         ]
     },
@@ -176,29 +251,45 @@
         "cover": "https://inkythuatso.com/uploads/images/2021/11/logo-iu-inkythuatso-01-25-10-08-01.jpg",
         "orgs": [
             {
+                "id": "iu_id",
                 "org_name": "Internaltional University - VNU",
                 "org_link": "https://hcmiu.edu.vn/",
                 "org_img": "https://inkythuatso.com/uploads/images/2021/11/logo-iu-inkythuatso-01-25-10-08-01.jpg"
             },
             {
+                "id": "iujobhub_id",
                 "org_name": "IU Job Hub",
                 "org_link": "https://iujobhub.com/",
                 "org_img": "https://iujobhub.com/wp-content/uploads/2021/07/ico-uhub-100x100.png"
             },
             {
+                "id": "working_skills_id",
                 "org_name": "Working Skills",
                 "org_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARbSURBVFhH7VVtaFNXGA4iUspwrubea6VsY5RSRGSMISLDm6QSsube2ylWBMdEJyqjg02cRBhehjRf596GMl2RznUq7ajSwdgvGRKSNC2RZrX2Yz/GKP0RRKT4I0gpI9w977k3Jbp0K0zzZ33gQs55P87zPu97TlzrGJnTd/4wF2oZyn+x/erEqXrd0jc4ptpgZO7ik1vTF+aHps7+cnOyi32fP6OBiLtmRH6c061bMxesoQdnrRv3P7W++/W01T9xfKkvd3Tkm/EjIKPUO64vB9UIfDtx3Oq796F1JXf4z97xD1KJcU3Tk/JGJ+TF4l8IWL3jB6yeMcWKjwaGw2P+ZifsxQEzMDk8E5oafPB54cZk1+K1/OnlagTYaMCKZdrmw6Ne/0ubj4H5Y3X9+Y+b+/PHAn33jl66nOu8gxYs9mSDJZvAfiua8S6FU74zNRlS6rs5pjZDgZMsE8jF0m2laMYHEj6Q8Podt9qAyMTTbYFIxpuPprylSMq7EE63tTjm2sEc8zeAQCia9hUjaU/E2a49okm5KZyUm6MZeQ/U2AeF6hxTbUAtiaY9l6Jp71OaCajxtT7Tuckx/wfoz073G7JeJwXN3VsVo7XSxhVIex86Q2lFMr7HNBOvtRt7pSDbST7SASa6Nbav6ZDZwIP+CVu12LuCavSJmjEiKOyqqMX3u2R9I/a3Cxr7Q1QZqySQSMpbIinP1AqBtO83Iym73e1mQVTYNfIRVHYQcUVBMd7jQatBUpkPh08TWzpQVI1TkmbcoeqddQGJ/jZw3Um5Fe/CAFpxvTsr86px2CP42gQ0dgixy0KHsZfW1YGqRDV+G4EJZ4fvbdPYDvpJMjoKVJ143XJtoM9ZompjtkyAClsTAUj1EwjMlntXiYZA72YkmURbumndqOj1osYuCmr8/I5OfROXGZILnZdfITtaOL2iAKSvJIBCdyF2ALluIq5fUE37v8WtssNwLIH9IyS4UsmYCKAdU0h2zlaLMUEz7jYq0dcd9T7DeqnJbw/aagTITnkk1VAaFcMN0l8SIfLjoP7D+TaCn8CpRC2hCisIhBAUg/067Tlhrm0K+wQEnr7akdhC69UI4NBW7BdFxTjJbwXI8+8ZYOrdSuwdBN7FYUUpGN3NCaAFSFSgSulKOt4cayeA1inGMFRexv4sFWMXUoUJzQJ3VM0Al0uL/46kEQRlaSD5m+BgrQRoTYq6g2Y7cg9SMfDL8qqxcZ6uHDkRpA7mgbEgdSTepGsIBQrw+UoM9rwFAgsYoFz5cXmeAH4vlAlQv3khjgJ8bgg4E8UMIM+iPeWKkaIPG11gfY4OoDtMytgPEU/Kr6E9K+yxoLCfiQRsIayLZUJQ4CGu3yD9Rp6DRMCOie+C77QQND+yh55lobSHt8CW2dDcWuyEpLEj/Ho4bSHZRNXcs3JlsC+0x9/mTyxNNlQiqakqMlO15etMeekQ8iOFyebWjBP8e99oeb7161jH/xEu119uw256KEceRgAAAABJRU5ErkJggg==",
                 "org_link": "https://www.workingskills.net"
             }
         ],
-        "desc": "International University (IU) is a member of Vietnam National University Ho Chi Minh City (VNU-HCM). IU is a public university with English as the medium of instruction. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum.",
+        "desc": "International University (IU) is a member of Vietnam National University Ho Chi Minh City (VNU-HCM). IU is a public university with English as the medium of instruction. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum.",
         "typeId": 2,
         "certificates": [
             {
-                "id": "fcc_01",
-                "name": "Response Web Design",
+                "id": "iu_01",
+                "org_id": "iu_id",
+                "name": "IU certificate",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDxyN5TuwOC2n6BYAwIXQLf9gCLqNOuDTOGUSwl3s3sKfOZA5gDj4rDXQZgvZ4b1-Xj_opFMSWDJgz3yTbDFXaBf6856M2NjjdG9ginOTRhpil76CUGJ3mH3HZVWegnN0xeLytr_uscVPXJ9I07dKG1zulEjKxJG2CX5OwYryp4x_4N4FtESxLIjeLT6BAy1taGWplrsOhvt7PlD87b6y6Ob3n59vt587It0mOc93x8Gy0YuNP57qQyQc9Vh9hvGsS4iikurNfUd50X4bJNnqmt0fPZ08ZnBjh92vsRj-iG5wpjHKuWCnwptLikgqh2ZyszILokaOjdZ8XDwx1OPLsziesr6hM342HCqLFd8vkb6cGLPa7oTYWKbRry0asxBVWhvv4dH1I1ZGwwQf4YftzZWbbVrq01qZ4m2MaS18LCTysytLKj5EXrsfeI94BsCIuCfpiP5fsjnw8Kc-0kanpQ900Yi6qcTCfPkfK29PDygNpHW4s5j3oopUmUW8nGazK3BVllwGyq44kOzwHXCJCPFDtAKY-Uv4DEGiE2NIfYc2Ue60Odmy5GjMt_uFW9YO_8OQVJ7r34SAJeSkqARSSvQRvpkZjk5mQ0-oC0lIwJJpBxsd_lmhl2PIwk5TnfzkGt8ASUBVgbcAZAZsgMC7Gpgkgja6FZvvbHvancw--pauBbxJY74hOBJfUbPNXJQVyeM4WP9RAUx92VgfsVMHvdYkZPLofyLfTBO2zWG7HUj99Q5sIbv37Djm1JqVfcCtew5iwC17jFcIwQyneEKBVJHSdjHpEKbGr_zlrA8jhwsqwjnbX4aWrWYq2uWWs7jTzUXSRv3pcLsT_i9BQsCOs9tluFOo2X0o_YsCWDbOq-N7-Myffti23-UaEd-o-rauDVJqeyBSDx-kr7-S2vzDR4brD_TeUMES-TZnBmjX-Mgv_gRXZocju2lf9IinyRkHNLOuuuKM30V2QDUpILorBp7qO9_3QGOOCsWctop4WWfAG_HlCT5VPcG7dcgQxOZeCH5Wdjk1jjN36URxnvbyKWlkFlsbWtcRLtgxJrF5p4W73QxKL1Rv3gBU8BLhR1BoN5icbk4Fa-cJYpXH80de8iIRN9mfXX3Cen0oovaQVWT3GNFQD0ACDlQAcctPgdqPxVVYWe-Wm-96BF-WLPBgDUHwrp0ZzhReQ0xXk95hrMoAO-FMuJY8vcjom-T0dPjG6R99EN0o0fuedCAgrdvOD3_9MUkTSrWbQVmlOLToiNnS4SK6YrkN6oRRMDi-qFDIgsfVr9KnBgTM_P6VxGQMWps-VPX5uUhXyoGeNY-Bo5oKq7CZ68q9NcZXdYWM4OlL6tYz9bmUN4R6eljd7gbMknXR9IlEmumKpoTgcYecGq2Q6zAlEubl2U2bDDbwDwkF7K9H7948kjdYg9EDZJllpwjrwIU_wMC2DIVJZQvD38HX8mztfgsKmcl3-dEZ4aNYSlWDMMYbuEqWNnioVj0jLg70B9RURZe70NkoKLN3blWYjNd4Es8FjZ6VgUzED0ChuMy1Fx4uKwWHSukhx6BuhM0oq_Mno9vK1wkX9jAkErtgi_ahp0YCdbyiCapQkWFJFMQL7BkEv5TOsp5OkPunfocAgvNrA=w1282-h927",
-                "date": "2021-07-16"
+                "date": "2021-07-16",
+                "skills": [
+                    "soft skills",
+                    "communication",
+                    "teamwork",
+                    "leadership",
+                    "presentation",
+                    "problem solving",
+                    "critical thinking",
+                    "time management",
+                    "project management",
+                    "english"
+                ]
             }
         ]
     },
@@ -207,16 +298,19 @@
         "cover": "https://th.bing.com/th/id/OIP.as0j28QET1wq49_3PCV5IAHaDo?pid=ImgDet&rs=1",
         "orgs": [
             {
+                "id": "gg_id",
                 "org_name": "Google Digital 4.0",
                 "org_link": "https://learndigital.withgoogle.com/digitalgarage",
                 "org_img": "https://th.bing.com/th/id/R.4f85135de02acb317e7787b82f47f3e9?rik=b72DVZw0wgYq%2fQ&pid=ImgRaw&r=0"
             },
             {
+                "id": "ww_id",
                 "org_name": "Women Will",
                 "org_link": "https://womenwill.google",
                 "org_img": "https://womenwill.google/static/images/ww-roundel.svg"
             },
             {
+                "id": "ssv_id",
                 "org_name": "Student's service office",
                 "org_link": "https://www.nhavanhoasinhvien.vn",
                 "org_img": "https://th.bing.com/th/id/R.76abfe16d8b0d90d758bd5e98c14c648?rik=9r2L1M%2bWcLGPuw&pid=ImgRaw&r=0"
@@ -227,81 +321,168 @@
         "certificates": [
             {
                 "id": "gg_01",
+                "org_id": "gg_id",
                 "name": "Video technique for creator",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDzk1yg0JGpkXvguiVJJ1k3FAOdk31B-JlELDsXKgdRFfFyKrzUJuv8KrKty4jsumNDEtaobc_BvZt9nIOplZu4d6uMQXhctBk5Mpt4Kg4eGPpWFTxD-6aD42E8mYX6KkXTNEug-N2gwmsphxnZrCo_4HPQj06-J-qabrK-nKp1c_O3IV7sBCLt_fmJG8v1XA-g_LuLfaWMLMiWEwIb9IaLKvKepTZ_dRxzmy_-TXg8AEWE0xEXttdlICK8fFRyaHWKez7ab-Gl2A4q5TpRCtgQAOU0kxcdZa_OWzvb9d7TElhV1NDHEmsUEKompdDAs5Lah4a6qwEfrEcPQDlb8UoTKPlg9kQpghwVvoweNzImy8DyoXOk4ZFNdqiiC4DfXcHy-COw5BxkGGhxdx7m1BeZAgpYMV7ENXC7tmoBnHdbhP-5RPYMnuRcAgCrLMpmLNYDAiLsPfXvrs44_fI0lEDp8hZWzzgbTGY-MbqYJbGZHiWlmaHT5w4DBKLQAjGN_ZawXQ32Y4kYXo1U270d-iBHm_0st43u-I1HdChL_6j9uKurY9I_15bgh0y3gm7OQI0t5B_i4ML3I6Rz2K-EfwkubesQS_7ruUqWQVVII5KtFUljsBOT0vD87yna3BSXgt8aBOTqKWNDgRSTZWg_zsFHM4wXVJZNw346rptTGY5fMKvLcow_SwQKSVVW83QIsf7l1godWEthNep2EHug88eImplY7kxp2wIIm6W9I7KRa_zqYadbtqsbOej8uqfNQ_BfWbBhD204_Oztfu3zyi7UTzp9vGpXWThvgI_cF7o4ezN5LEqv7jMYWJMyqT2MCBhpURTTBNpBqiXk8L0-cfD3os-tRat2jh1O35OxvdCbyyQEmEcdVK1Ixkj6U87IhcNR0Ic0FDPyYG4P3cbrxYRS-U9ZN6pWkHvkqMbjhUR0pVDQjDUBwXbD2oSCgAX5SlKchuL1gCQS-Mfa3CaLSSSKtd5pXqPe6FxpXTKu6uJxEOoF9aorO6oI38G1bYLUhhFtR5s8VJuRHEp2qz3GAdUmEwVwhfOSrtmINRTEKmtd0ExVboFUqy0Cg4MkB1_LEhtTLom-TTsZqbnaD-2SJeta6hMbWAC98vNTW_x49fi8_WZttEO63FgiK3d0AN5i8j_mKNPHIvSOKpioQbjufJWiONz9PhFa369vb10vM3W2Xoz-tUCXBvOONXKTn6XED5rRJmp193HyOvitiHhXJDs_jL-UWigS-RCMwugGXuhJ8PT62eFUuogHQ6PQkOHc_QDJlHwO-3ZBZQbbZ20fVvMP_oBmlHwAodYcsmuF1uZXUT5wlofJZRVjTI7TRDPk-0h0nrvId9NXcB1HIMz_29Gg1m1nFw1VI2zKAfoKpbNPTc-DqhbPd6AJ_NrgO9ihroYVllxGcXMHy_0oIXT-T_JNqmtUboIKwgTCSH-tTnPDQm67Fn0Kf5i5c4h9q8BH3TLIuOZIFLC42h8ZQvKWAQn8Xoutta0tywOBRzkgltFf_zyFr5FVvwaTiHafvIZovPuCtnLtdhznCjRjqoLFhC5d90rxoFuYt3qW64eTo_ewX73-GTo0RuciXKMi__5M3KyZTEbgMCu-MU8VAaIRV30WbhnG7gQ=w1282-h927",
-                "date": "2021-07-26"
+                "date": "2021-07-26",
+                "skills": [
+                    "video editing",
+                    "creativity"
+                ]
             },
             {
                 "id": "gg_02",
+                "org_id": "gg_id",
                 "name": "Starting your bussiness - Getting known",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDwR2bVof9cSrwQnuGQbQyiYNJmQV0j6s3LF1RqhaFfPpu8_OSPCtmc1ACdqJxXixpa0gLsjcIpFbgJJNbx9k0XcXMbi_PPUzXKahpFw43vcJs4Ng9ZzCw1IAN9KwLACy4aTXcGJgPm4TQ_Xko0yfyxIh9C2VL0-rwWw-Me0vQtbyQoH05i3dXB1eQP10p6GH2WyPFZkXNB5fdDUXLzQxQS1WYZpIDCyvkViualfg6v9qVFeQZPCSXHJD6Z21xYb1cG_bKHAFu2RGggp6t0NqisBlypkz94ynC3q7EaQwzkRGN06m8qjjQuoaZNGgW2lQ1eRkpWe8owls928HfU3QUWH9W5m6jxFYe8L3kcyjtgnL601G-5PrwpAm8kXQ5TXSLT3CFkMFlCaw1BOLbR_NCI3DiUqG8GvFJ3Y3hU2mqO4JSpS164tE74ynx6OW9H4AApZuB3hYmYL0G3T-OCUBv3zGos-JvMMaEZzGH-EgYAx9nfzF6H4BALn-uJ-go6ZZdd-0V7XzCmkJQoAMFIe8k18hTBc2FPPbSUP-ysUqFngF8HXImQiVxs8RUxzFeNvqCrcQtFbG6M3mHwQCX4tBBlkX35V9kMlAnO651OD3bxfF4SylOYH1_cbEWwfe_Au-sQKood_M2Y1ROTrZMeYAs70C7ImW00GVJn53YmEsX6LocLYJNgFZW1I20NTBw5g57AepOCfp9M6Zd6ES36t3vwo6H9PX2rgVv9J0VUM20wx8m7d4X_HU7D8l7xJMX2MnXhzCCgWtLANbCExkku0b6Rc-vdI8P5gFkJTjb4F9yUliheP-xCXTc9NdF7Wp1wqUYD-biV2rGziZrFguJQ9JAfjaZhOYIj47qvL6QetnIw3aqL2rYoUzkqq1niLhFLGXpC77gqEgzA2iMzNh0MZDpjrfykzJJGWl-5wdebO2qpSpFDDzzGbbichkbWCzFY0iqh8vi_Lo4WCq4qDf8xy7XhZzFWZUXc7L4Zxx5e8OIfeQLXBLyMIg4ryjxvlnZhbTijOk8S2YFXCozHjIdU1_rmUI1qWna-o-6G-X3nFyqfhE2e9IUhNRQ4zmsdDBxD9Jz-ut4DBOCjnMTwZ9odZLO6IRaU-Hbw9i6fHl2JuuwvfPa_nIl2YQ8xdtAhoZXxmReNHz1Z_-K-F6kjJ4Cd4ITNLxNtGkV9jkJElrSuvgxlP9_zutQDCJZP283R8tfelaq-TVe_CXcCm9URYTB9r3Goq6qXqSA2U9KKpIXVyKMJIdN6DjVpwGsWwdzryoyaHnnwk91e_vvKUQx-f4HGoeXPdpKlXgaB8W8pfvZWJq0Wu8nf5bep36LQgrukCbXVPfvNLQ-wPKp3u02I4OJ9tG1pEKw7aNMkMTzf2ohvQd_9NHUIqLhMa0hebqLHjLD2BNurso8zN8wrxXMEHSfT9c8Cck1AZZxLHPRXFcgH6iFIvWh94Ihnj7TntTE6gDKuiSYNXIwB5mMRRSEsQnTDvmzg6ityaP3BUV26Lr57bQ2Kl3R3xlpKrVrA48PczEGN4ZOpLRnygAueOgy0gWTQmwg2moNXmG4Kl52kaYtAHqXnWyeoWwYZWALpE7H-7kz834XEYn3ZyM5kdkzDAfqz3PWsnpWR-Yw=w1308-h927",
-                "date": "2021-07-19"
+                "date": "2021-07-19",
+                "skills": [
+                    "business",
+                    "marketing",
+                    "branding",
+                    "communication"
+                ]
             },
             {
                 "id": "gg_03",
+                "org_id": "gg_id",
                 "name": "Set up a basic advertising strategy",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDxmr1xm7icNJuQ8zK3YJX5VoDyXl2BMK6yCk44dhPAFrZ-qVNB_E_IGDGrsvSB46U5ymtDe-ts6sqTttIxM-O0aau99mhNO-wAUMFt_OGcyqcHByA_5A3VwwOcROQXmXdnS1TRb9A7YRAOOMXxaLVQ3kmDkXQJ-m7JW3Ge6aSNa4h0-1EyUiwSL1HmFMBCKAtLYBU5es32FIlTas6pgf2Z0UVOd27HequjLZZ6BpDis9n4NY_L7O5KxphzpWxwKzttlq4fhxgfsg2CLAz3pPSCOyZrzeLdCG8XMhMii_4OHIbKjRlUzwLRL-qqkL6fKbzhgLQ6MY1tnv_2H9ZsCxgT-1rCD27noz-OU7WsxaodRy4FqG8iIDnkwuutTB9sv2vPcj_cIo-Z-cNtBYbJXcFxzlD3QD6Uwsw8El4qnTQiaB9rQQD0OAOMZAuca0W48Zi_ZL-PJuF7XQ6U2g1CPi8ZFYYW198ijnnDJD0HDAm-gw6iaumYfCeKGNc4dZfj5DHVDaucGDLeBW1kN4OppHNqFHtSrIzePBvQajGPjrY9ZfwjtAZSHtHU0djO95PiLj3nXBy89G5IWFe22TfQhUUDIrtFFGYhw7mRmvtPl_FYrjEdAzSVOZpwldhaMXiHE5erGq35_a4T_8SYX_AWwdKoGolt_L2wtRAS08gn_VOzwkweSUPnA6b1NDQOyIGX0dAP5-lplmzxGMub6dQwYc0ssGBlG5IvQsPz6dwTTcNhYkDRlLbLNP-90cE1s4zCCzOOaCETT3pqZPMyKO22WHByHTWmRmLN8stkDEGWk2iG8Oe2g1ZTN2pI5hJyNgYQiKSyLracFJdd3JywJiBOFtSY8H2YgjSIjO1yz-9C1jgThyqq04Mb6Nj3RLZ8j7aB_TtQgH3x24QFXFYj72OE4hd8ei0HMbya9PrjDjMCBnhr-vLWQMZzk1jbO5lYpXT3-2LqXqakdQi53mATCgwlKkS62LL9ib7SnyTnWdoiZ9UPVKrY6xPjqnolnWMnZFtVFjRH4N_mwHJVXPVwbQoJSL7sY7o-cVFNhfnxl_AppnCg7CrvpGpx2-ZxumPiRd0JQY_8IgGVykQaJiRQ84dslTy27wmUjhvQ0r2I6rGkkyzbsk9ymlmF1NeYBIvW80OBioTcpUrVLGQXiLF1O394QOdZg_2NmWx0G4gSc2Ox0Tq1IC9GRte9QqSDGGHGbtx34GZY_OOl53AJROl3ANtxTO75YUUmOcMaXH_qFI_FQd3Y01uDMdGpEONT79onLe8aUOMunSXnDEttXT4ALVK-4hZyO14T41JtzfbycVjK6RL6y823Z1QXVz0RYI5UkShL3VYYPemUvXeiCAc7KKuIE2O1saQI6ikNQOmLAvMbBNFoHYkA58H3icTzP9h070TkWZMqng83-sc-kJu7aweDcJaggVFB2bKCvkcwP3z7ugamFSEubpgeUIYsoC_5hlPCephK9NXHajZr9GxnQsj29GdQBn9ZZ-Dh5OAJGuFSriB-QVU-ZKLOPr40V0X3MSfjjYuBYl_emgGcVZZCXFP4NBFUEZLpo1zWqry3APwPmLyutC3Oi9BE1QCYJTr9K6dPXdDVYxysEjMMPtad1ViV4YEPNvemmEg=w1308-h927",
-                "date": "2021-09-06"
+                "date": "2021-09-06",
+                "skills": [
+                    "business",
+                    "marketing",
+                    "branding",
+                    "advertisement"
+                ]
             },
             {
                 "id": "gg_04",
+                "org_id": "gg_id",
                 "name": "Micro moments: how to connect your customers over time and cross devices",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDwUyKcfsNI6pXUfCUI-dXjVeDNr4yJq6bcqP1s3F-86AhmzV9c8YFrpKtdWChW_JctSmEkawZbkzaqaoFuiTtCTqceR_WdhFDE5boXWCy6xRSV7xGKESydAEhDv9dCHalcmN1VQhMa7u5SaY-5cH-rKuFl69k_H2gB58vpzqiEfkwYBffhz8-zB50p2NPi3-rnmdj0m-FL5-JAS_s0MLA4ftLwxAuoMJOgesjiDofGQikSQeNs3-GeB8TKgxzBkgl_9ZxNfRErWxSK92U1qkaBHPLvAowCWqRvd33BaUWtUZGr51JMPMhx-C2JwbF2_IrbwuyLzX8M471XyTHegkqF_2ljdvdyKKRi_ALshL1wuZHpEMHKO5nQDHv51iyt6e9Yc3cct7hvvSlv2_r2FIW0B5d5nm29APeUj-FKlv-zanfaupUjGjxUHQgyBfaE3gkcAA16oj1q4KN1D_rP0pIZoGaAWt7PD6c5XR4A2gXoNLNn1bDNvhMWK3LZyFOqsYVOVJUktLJj3Eye97q3Dyk2-G9hj-Zi_Mh5RyUngnOnF4JYhcHvQL9BB0dB1vsYEroKewAOJCWJ2wMAUFw6VHhwpMZeT1PijZdXbdZlJKdPcGhC3MV5AOrm3sfWEnRliL9qi82VAoprOXrNJMqczLP1hPiCdnyrhjBl7UPdhU8ahUPDueCkBOPxvD-D_byDHOjLNg8Tg6aJwzJ_8BdqAUqE4oy6o1z9dRmjTx-pfv0myPr-he53G5stfnYPQyPPmfcj9_mZA5JbZwqdpTffu9wDRWuccnVJO943ufttUGy-tll8wKBOoxospthS_BLWhUQORBCo-D1cvqJ31Y8thUKl8FrSjSiUJtAEMwPHtnxuwaRAUOLozVH6q83hIu0HkwZGmN2jibfxXkroZf81rX2XlPk4X508rqDAJ71enp8wlE4nEfljnMsVBH9KuWuVU0hbq8iaqK841AwKnDz2IpAcRiA9pSIyZHcItcJ98VgkCJ4t5o7Fqr443WCW6ik2l8YtBcqoBx7VKCK6KT3FVIqAtEgcayuRRj3HhXj7orFEUsfj-hOkxVc5dFxgarXB2ZGRldG_9-LYANhmQ-GOj098UZRBtqa3sEZObGP3RniTC9-D3EWnK1czWwEzzf0SWfgSS-lDahsZhtyuhO9Xsf9pjnaRII_5yGtwRQ5raONoMeJy33zZEqqUAWGytwZ0MNDSkaONdmVU2jQsOhb77o5Hrf5rUHxzWu4oC9ZTjK4N7EM5k7NRWPFoxjG9QFgZoeM8RXbi_2y5lp7Ehj8XYFy4G8ehwPRKJ0kVbTdTQaazs9nNwhkHCmwFsgfMlnZhlKsmiB5flYtkrF2CnETu4Db6_PzDDxI_Hk_MhuZ8nEtFcZS2cXJKDg_fHtnhmGsSLBBar71w9zRkq2IX9lpIW7twgUSa50aLXQJJUY9zdf_UyKjTUMS9faVAypVb8DNuDMi1L-vJc8yMKF4PcI7Fhku7fIYiBMgzOYakS6K92pDKfO2uVUnIsOfdztkMr8kGp4g8hfUMoB3vnwhPDhTlw6bp4BabtR1wmdFjROqZOOhvoWzGzhZmQ8Q5Gh8rndnoN7DakDJ-eAA4MqjQaiCjc_aeicPImaw=w1308-h927",
-                "date": "2021-07-19"
+                "date": "2021-07-19",
+                "skills": [
+                    "business",
+                    "marketing",
+                    "branding",
+                    "customer service"
+                ]
             },
             {
                 "id": "gg_05",
+                "org_id": "gg_id",
                 "name": "How to work effectively with Google Drive and Google Form",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDyFolaIc1ofbB8LFXGuV7IE0KU2jpxPi49G9o1LRgO4rQYlhMG0pixwxB-zC1PmTb8ilfFMlZ21AF3EA9z__5ipxnER9_l7cpycvla_ie_RnHhjqF98SkPJDO3jMybQFIjUNqLp8T8CAf98mFIudwX4xed2m9Y-D6_GaY4TQWVGm5nAqHk1LFJ_zuBZqylMm-_0yVt7QvA0oxUCml_kPVIQjIMFIh0K4bH_bzmYktI_k6SPGZQg0Tl9SbbORBcULxGdU5J8kau9wmPMNXyjc9Bf-vyVJ-cyrmSl9B7StZuveNUxvrPpkg_ygN3B7i7PjKHhaKNzudAEHIeVJqnnL4FhVpQR12WDGVu_AT2lPBGKJp_EeQ2Ov7lcOxUf-iWpuEaX7hPHj8cIWKwhG13e8b1UtQbVmUX0ptNvJtbqmbWXhnXdzv6dHk0pDgLky7QgwG2Y3cJwY7iEYlm_UTeS2V65StuE02_pzDjK_HOxdkYOcNsnVdmYxxjh2qm04vCSuiRi2zRoXcvAMz1EbmC0Nc-94kyMg9JHIjhkisLoByB4Wf5PX9_ebr7pBmA65vWa2ZNjZWcm1AYZdKHAFkZa-EskmtQdtthSGiLeQAampFcUyb_yOWm38GfSBzvZoMq4PwGQKQzWNbpA-z5l77G6d029IhcazxH0sWhSGisjT1hNlQ42CFH8nbFKgwIjqz8WaSd2tYJOAecCJ30u_U3Hppv9FIrWXyKLiojc2A1yUacK8MUGXPCUPsTL1oZrmcThB2N2T4671Gyrf3z8ehL5QBK-EChJIUYLp5YMJdcqBBzGCBvyiaIH7QARVV_v7GKDLmZhfL0y71BjXLFaPNnyYI254It_2L7B-O4omNgVBgg-lnnp0qaT1LvafvXFT1XfL3YGdKyNrwuWEdzstvItSTJSjCcF1H8nBdu0GiTQKitkWcTEuRiajjyTmqWv9kF5vTnMMqeC3gD6vJYuKUPA300sJ1Rg-DGYoTyfj_1ZhjQt-zkQk_mu5G5wXKyzakKcf9lvjVT8m9hj7dfbwoW3saxkHTBhW9T85-yQtCYd8nmZGDWc23zjDFCaoX63kTPczqMsGJgMYD207HNRpmQDIGpVM89rLanjpiTcvabLEelh91cKV3H45OeglWZLaygghvgyIlKAMOy68deNXwZjKwWrFBPpOh4HqWYDfQKAFXvhbIkf213rPRKt5YRnQGLilc1HJgkf0_NNVQ3CUdAPk50eHH5CLV2ShH9ADXbVsvEbpfwp93HJRQAnM4iHIfKsBfvJBn6XUj_z5_L-CqwmEOaaKUL3jdm6927YkI5VMdqWWY17UgIzHP-tVxnIr7vtOoOIgBcasXPn-gVfkjUXBoDUQJXW2OBTY2TMtNvo4Nvb9FbOOgt-Fh0VqiUp875jSe6WGV3ypB-sBf6kGEr3VWENLGmuv2j2a9HypDRYFb0u1hwgRIxafCRiJ4a2Lv_rszcRd1-H7_W55F1ZXQTo6ya7N19QMZH8ZGeGs0DqZ5RtamgxcjRB6KCy3W77biXGalZFoxOnY3szJtpMvFG09XjZufo9DpWOWfQR2NDjMmDj_X0zGe2RMRJWkOQAaKYB0wNTHcNuaiAuFwFGswQO6e6zF78euw=w1308-h927",
-                "date": "2021-06-21"
+                "date": "2021-06-21",
+                "skills": [
+                    "business",
+                    "technology",
+                    "Google Drive",
+                    "Google Form"
+                ]
             },
             {
                 "id": "gg_06",
+                "org_id": "gg_id",
                 "name": "How to build a digital maketing plan",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDzo7vzPWlY4Jhw_0JyBTo6TrtfG0U78YQ4oQMLGFKN2-9Yh59Ckyir0iBrId7MarCn6ujxLb2y2sRWKYWnCUHQplT26ffzx0pPqoHDAtYi3iy4oZRwKjuKOZN5cCXWFzF_pC2aJEPf7WCOCLMbkJGQ2vp7s2lfaMRIm37aLZ2ViqiqMBtnyRixgf7WzmvaiUQAWixPxi31F2IjO-Mc4Hfpg3Itsp8zbBF_e-O0d44tSx1Egjn9ZG4rLC3gyOmBkVj0J2Ron8sB3J1vSgz2954g-f-WVW1nh56BSGLe4iL9FJRt3EmJhD72Qt-j0427jS43D5fZN_g8016K9vUNVLunIX3y61zx30V7ujncc809yiptJ84jUwxu-18XOb_pWMO_S-RCb6rNgJfY9p3aEhk0B91Pn5SCgYcaByEnncZ0gNYnLt7WFRxiYsfR7qIOAgcIoUySZ2fvSeRs5rAICSOKJop1leZachd5ssaMOj0iorPcvDN5FcgekJ7nGmYlpVWu1wHSoGZO-fzZgyZ2ryFN3-J7dPqiQ_ihPzOmsxz7uZkE7qahPs8hda6_oguP5FwoylplJtlVs_wkCZof8cVR6Q51ZfUPVN_8ltaYDb0iyo33lQOxc257b3Xr3ar51ydAPOug_NSY_iSdrCkSokT_YgJkHj-DhpURbITUOq8f5JDFRYOo7m0IuJtRqOPzP6lbAaSbS1OfYt8R-tA9sts2seIEtPRi1huBWJ59_a37QIAsTEWKpxwWnZdWQ6pt0poUwt4n_IkX0Mvcb4zR1Gpb-IupYUi6_jw3rSww9nn0BPFchXfZ1H-akWIcPtdQHnZuza6P9qeQLIEzY8fYiFt1eSjXv3iC0fIWzQlNx2cIwS6gh4-sqj9nQpriqA4LeyXlpG7ATVVIhvyImnvM-GwENww-jFpKfsg9Rod0rbL_QG3-M8f3m3JoXmMCe0v4P-fX4YMbJLIH07bp8NxUQ9tHbgotIFHIABlunjfUEtFkOMEGW9DdUnlDQneZIv_A_Q1bh2pUpJoXlenLBY3QQmwouyZUIYfoNOA99GXZM-A3l0Cz_-AXx1Kcp0fHeYrS79_bwWdi0ZlmDvkYu2TmJhrjRuA6cmsmnso1j6Z-yHnT34oKd8JhXUgUSZbeo2yMuC7XMxnxFWdb17hEx4sbqaF7tw60k0TnWXvqo7H81gXMUdYTxQuVOcXS2rjgsCatPzMoUpOAwRXmP9wTTN3OvseCsGvgkUogw46_YXIbSX-WclMzx3_BpeCKSmi3nnGUHngDUoUPIEM1QC9OEjtEW1rPz8f2BCvT0ZrJHgje-skC9ZGfjHLyfqFu0kdIq0EyBB_gAZ-4JRsg4tKmTM8ozoH7XHSA4qsd65ilCRqBafw33euGQHhmfJxCwuFf00cxnCPeDk_w8Ea4XjUwSOJ4M-J24Q_DtfONVcUaQaRDFQYjvz3g_A3tcHfJz3jF3lFYjRj0hT4VB4HANxkLhVvMMc4vVN099h0s_Wc1rDQMsv2P2OPqLO4f-cBXMB9b8DbmIUNGl0p1cwdzVRV2NCBDc_D2TAu7PD-_1LtQFwGuNeK-WD8eCSGssMLHvbKQvt5-yKvN_rUGMsWz3KvKhbI5kTRE3ebMGSA=w1308-h927",
-                "date": "2021-10-18"
+                "date": "2021-10-18",
+                "skills": [
+                    "business",
+                    "marketing",
+                    "branding",
+                    "digital marketing"
+                ]
             },
             {
                 "id": "gg_07",
+                "org_id": "gg_id",
                 "name": "Data-driven marketing: Tips to measure website and GMB list",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDwd4Ji2pBnFmFL3W4FRe_ngqPtVKQO1L5Gq5HiRnNFI7PLz2FENWqMUILKdjkc8zVIj9ij4qnrwCIVo1hyfNb5sEX3vM9-JluDXKR37cxgTQQf50z7s_KlPsOrx0fphUIQBwF0ms1QA-msBMbtSn3-6Ne2zr313-OG56CV7L5PeJf0uQhr5nIfDXVXPt_m6qghZx6NAg6yjMng0fwSPBioDB23j5fbpwuE6QgrvPKDvRjlJXf_xuOwrtVIyYYKnsvnzki1xeXMj2D-xCZPLeHZ_YZ8gjIq1lDDVdUIFNGO6z-6kup9tIQw4BvJ3UKgiV55_O-Igj681hzjzhaKlfh36IT5AKM7EViVdaXFsUuUxAoh0sX0ojXML0wgvuOzFUeogSSWz0rPYsAtBGo8qrd1AArFZ6HlpqxnKiU4LR9XOyvrioVfniqws9rCR0WXzHmPxLdO6MsNYnWtXATBklKmnr0st3MjgN65NFYUjBHZT8_untYmuTrHXuWUkgFmsDQ3_ue_lrMjkuS-EgSYBgZrkSty6_55kLm1UseOwEZzQyVoDbSOSm4mojCA8j0NcLB4DL5rM0_kT9kjIMQcj0QOND9lOnivMgrnoIOT6yUlFfkIz0Oax42A6Vh751GI4s_o31YH3Iu799ZBAKGm8fS64QdAunYu4psmIXSl2JEWNctds-N47-KWW8s9xHbjoLbUHIAdjABTT-KF_ik2Ko2OVuGavkcaS4ihqf2FiKjsGecf72C7ThGrLLfKaFe6aQGF7yYgqia4tPuYIcufX7qLSJgsVq0vvh6B-Q0ZcBjJy04NLZF_9AQz6uCcbwLmc9tzAvJ_vQPElRUd9kxvUJMHRVfA2UWVdTqJGMpZEYKTqtjGWvePO3mdOBwvGFgtHP6XV627POGBQ9iy8ornfYnN-ZOTdYzBnvDPvAlCAlYUbmfeiOc3CxsLImFr3ZUeAme79GrfvZNM4CgcD9K1OCYoCUHcbn5B49vCWaTKEi2qsyG4vO7dmJBIswU1eKfUQ61gfXUsNh0FoAk5PfYrgocejqmwi91v5NfW4jSvVtZvtMxuL_uWUWlZHJbtJYnQNt0Nl4RCIUrTdUV8QyKLJbasAL-rJ5c4rt_B7v71NTHzyV9icijjfHj62FVQVanOOKBsViTxodT242TS045HqJ4_tRc20Lq2Kyu_zHnd9zt3Dl0DDQDDf1wi44TJ7ESuRY0HcjqpFNEi3YE_3gUS8X_pjnxgCHTaJi8SSYj68_4THOEoQwwyFEQAabVbH88F5RYjVTGX5LZQICdd5lJMViChIqcYRxoqUELba9QRLe7Aqa3exEPqnj73txYudnMDx4gGpmbzmpEnyWNA6Zed6rtNz7EhAzK6x97_ZBLGSHT9FSzeNiGzqAW-NH9kfw52ZAGuAbc-pmGhT7ZGthWAFlyciTbu4ndk6NXrRZh8kNwZeIHH6gKET7NZDWx6uWAPkrth86HnJ6UGxbGsn_666CZP-wo9TC8MKojuZkGK8Tj5Fo8gKIUbo-72CdhGgm0vN4zj3o85gKB6p-XbjQTgw9405kJmpq65oBtxKDZeaH0JHyvps_YUndI8kWPWpSvOs-vPglALp4BuS0_PDCBOQPPBQmBtEXA=w1308-h927",
-                "date": "2012-07-26"
+                "date": "2012-07-26",
+                "skills": [
+                    "business",
+                    "marketing",
+                    "GMB",
+                    "data-driven marketing",
+                    "analytics"
+                ]
             },
             {
                 "id": "gg_08",
+                "org_id": "gg_id",
                 "name": "Data-driven marketing: Use Google Ads and Google Analysics to measure",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDzLH1rRQqNdNhTm3aacHjT6I-aAN0p6sqEHVYpzze_yjUS2OYQBea_G6kAO4vOCUzf4BrowqQbFlKD9s_YyJEMLWaWsuif6_YBPrHFeZj-L-AN57Olvbm3uQc_TlEoYs010-kQeS3smw4AuRRSG5OQN_uujYLHgN4dNM4d8DgSYBnNcLICTO0y44zjDD0qC5Cr-puRf5zxgVvE6t52BjRhWcLMXah6kxpCHCWwwyi8gKFpDAl7Mr298aH1yEqb77RQZ_bpTXahkZjFpXcG8OOl2Cyf0NtzXOClbWJneGQZ2t3HehPEmi5i2aYen9f5GmVWdpBk7bJl66vAhkCK0QHlVwPqjVn5X5Mu2PBakcPv5oByXQ7M3bjIzmrtSS0yNwlHSsWuy8JE5mU1IZP30Ch1q2laQFR7xN0EpjS1Vl_p7G-vKZOSVXVaiznpcJItrEyhGibGarJ6IzMF2MSQoASMHjum1i8aZa1ggAHa1wzMowVCuti4sa7tOfB8vLpto8P-YUgnglbjPD4azQ9T3R6uIaoAuKurFYdGoJCrjI7WS-D2JtEKTb9pp5PMXFBysz5E9-RK1rjfofZQyjPH8iCUNGtu-Ipein7r0oChhUA2TMBK9M0x8iR6-ZsRZL4DPtLrjayS4-fA3ZVKoGa6Ux7pwt9P-7fLUGwp_T-0NIUXkvxm5rNDCozvTOCApwW_tJyn1yIRkc0YxZyZNqj0tZtrJC3LXjc8VKjUiHB_4zrq5YoJOaQQ-_GV6ZpSD2OfcMjdn-60Zqm5QaA6YbiSau0RZM5RZodAAmv1haMW1z7UeNc7IdY7OVGBxUficBPkaIAKihUpYLUDnnU4M5-NjCrgwiPoP9-5gXB9cgDALefXFiUoGtMr0bjyNMm6NUi__hV3e6s6dXQVS7pWudQ3AXxtqXTs0mfx2NtBBcCPCg6eBleOrrpAwj4P7WZ_fsJcGfrdau-dmxrfJy4_FPvg_aBFwY2ejMr6PsZQNMeQr_Mgn8buLeJb-C4zfFcYUC4OsGG2Fu6FOMyfQVcyG-P48DDsDW1pu9V5denxQstN76jmFCvkQzZ7XRT7hvaNVb_mdXqKPi-5TimFxDCcUpBcWuvR1sd9rIhd5PGdo2xNcx8KaWSHvdS4vTOP0wEg8vKf2Vxg24yAlTfrvXEuaoGwMKfqCO7_9XiwxJ3cv1qfyId-k5M-Es-wsF1lkbhFx-Vwe-oPkv4ixqNL-nYlJtW0XlSl3_svZYdEGpG5YY0fuCmW5ZxzcghZ4W7QIVPUvoTbGe38NB5CHLiwg6fLdUmMY3XpXcUughPewxWo_efjRTd70a-7wQGEzfDvRDbM_7RbvBJCStgsNAaeAQT5vaMfOgwTcTfzr6J3ryb6cMfKwo6w8UuPV34dItplV6EOxnvekSmliuv3mlb2nTPyt67mlFT1xZAPJBrlpnf9kqOaOE_kGfu7H3Z6ECfZgNJWEDJuh03rpR7Ul8Bq4rQib2HBM9Cayr6JxkXlTNY1TK-zM641dxOV1mdlgxoYhAVpSZZboVnsmbm4s8GR5tRIZYdfWTz97KYcB559nZKlsy0LdYrar2TgNHiLFWoyh22digztgV8Jmxgb6_ohTcqmG02Sud0K3GhqxvA=w1308-h927",
-                "date": "2021-07-26"
+                "date": "2021-07-26",
+                "skills": [
+                    "business",
+                    "marketing",
+                    "Google Ads",
+                    "analytics"
+                ]
             },
             {
                 "id": "gg_09",
+                "org_id": "gg_id",
                 "name": "How to make your bussiness visible on Google GMB and search",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDym0d9n3ifgqO02JC90Q_NREZVPZiPAZV4BLfyId7gSJYqa08N9rkyKkkhfb74OAgjGpnrf5cBuNHlVFQC_4F8dSsKEPPA1pY5Dzv0wTef_uSvd81Dmj45xhEyv2SZcChwjyj72_V4ME7IFoWG9u7laP5HGhTPPIfh-YNKf-gcHUBJhyk_qT9L3OKdKbKHSYWfXWEWLt5QZL0OlfCcdPI9kGmf1UhAmh4WbqJJZTqZ4rwA83EDYiIzg9Hq4EzchWWtfAchdTyYdw1o-BTuPvgJjPH8lRdEHqEDP5pPbHgMoHk4037GToxhAcNgqwQI09guw3FTufqUhsD7MTa9schgu684BmeNp-GWJbzbXHH2b_kJjAlThwZCLU8H8vdqIz8m9lkYEto8ectJTAablcIEdY6RWYGDFaNZyHg6rWO-yAEyUQJc3zmfNrS8Tuu0xVZkVpqelAXBopWTZBNgQEx6DHSpBJ1CqNOaAYOpQ3VqzQXYCdtPjY_T-PGIekKZZa2f2AjPKuGiKSYsEJSwC1McCi4wqFnV--c82H8XtQVuA026wGSaYXwR-ekdEI7EnQJ5W-uks-D12tcCVGqCOHFN1VVfGrzj6KDMLUv4Lux0LUB0n7PyZLdiEVtGiefGAgjtMC7udhF0r5WjDIWiB8Fh_3pqcCruw18MXAAH5Y1xVG1J5Yr-dL48FD7xWPuG_P9YZR181CURp1mkDAXssVHo_1W2mbTBLBHLWWySwQLbFFZi7G1vqx6kU2YhtI7upuLjDNdCZB9vmJotFEtDunhVltsdz4uKUfd1WrlGiVGBz3D9g8ge9lvOYDNRif22vCtqxCAVqgZBaeM-3tGOsdYZERHjigkpFpIbf5qbs-QNxGwLruDEgKitL8vD5CK3Cfp3kLGB3v-vj7eNdKg4sl9Z2iUPrJpUdJ0R2clIiLe2UDoUiEMtK1o07xsWCxy4lTApYIZ5-O3JWsr0YAaQLvD9s6aom1_WG5He9rpOhBttVgCemqzbx4hcVy8LbYgOYY2-I-Lzyu5d-jqbooBL_im1fH-zZYDiD0RIiUSEntR4JPXRgawJOrYlzXo0tON9GhoSOIBqmVCfc4wrm1z7YIYQMU09Ach5PWjuQVvbMeLE0PMvytfMjgp_X-lgq9VNR6Nb18UUmMNKDpu4N3rsGn6nRKvSmLcfHs2KRAwleLX0fpzmmwhDXUrDFqLGlmMZql2XEY9qlcEnqEq1CRC1dtbRKyuGMeuHRyki5aAbROSux7v7aM4xEgcgDJjYBao4E0IhXUnNejthg9ZhpCfAxdaVUNmsuxgnhZ5TiVGrjYK9zmFWcG-a07GGIo97Io7oxTSnk-mNtHWfPuOU0R_fSJ7ANb7NKQYVJHsaNmUhYS3uLeJtFVYAqW1uEmk5KLmUiELesEBie25Di6KeyV65LA1MUa7UZ8K0v9yQzbbcAm1j94dfrHulUjYl2LEaJrpP4_bGi2AYeQZY_SCXEYU2ejKV9ISbaTPjYGJj7pQ446MRUm--his94C9KcMsdhkK0juoTzxsueZ15r6qRN5ghGqgDONAnngCPHJf20vZwRGHXkHD74CCwJFq5sC_kWJqlajKNGcCNcpRovE3AU5BpdIBEI1EMbmA=w1308-h927",
-                "date": "2021-07-19"
+                "date": "2021-07-19",
+                "skills": [
+                    "business",
+                    "marketing",
+                    "GMB",
+                    "SEO"
+                ]
             },
             {
                 "id": "gg_10",
+                "org_id": "gg_id",
                 "name": "Creating an impressive Ad",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDxqZYWwqOnb0SF4UCI30Uqfb-uEoqwYKZHsrvevpQ_r7YOSt22VMmWzf_ESpvRKrIntznax4mxLVNvh1pqAkAm_TqdmBOWOoiJr8Q7vWnAIkjWlc15NOvTn5j5-4RiqELMBLZsdxNq9nxqrLyD7sZgOGIbKZ0ye-xAAh16uQqxauEzihejTfXqH-Qa6M0tuPo0awXwW80hPHPG1H5HitlFM6TQbBAlLEtzyw5krSdMy7R4l3nko9xpKp2pFeT43Xn0pMAPzDWGf7uuwj5_TwlQ9VrhyQJ0SShCqFJAIwEhwemJH3ConWNoYQugApC-uyp8cO8gqS1mze_4hHfjgaj2nyNgVvSSkZWIJ_zALRxUkJSBqkKVhDxp46a-_kSSjmd1cdO3g3E6foh9KTiaxiU_YHchaK1JjO12kq7JjQE7_cUVsvY0jp-zHh6fOqFPHSy_AvKkJxXFA2ho3dZpyjO2vj5c36Qi9jqeXFBuR8a8mL21pTscOMhtNsWTnpjkD2CYZgZ9Pdwd4NUYamw-MpyRfzlgRVhQ8TDG-OfTWvx6hkpB2oEGs_xrdCnh1HcvNiPT08RfQUR2Bda_lxI4ha8pfA9TDvu2ZBY0IvgNLsmC8_fC6iKf9kekMWoRK8HLtVcqURBgRO5oFFlXkNwTPu9mImGfV3asY5BoKGsE6t3KmxQxopqxZbHpa2LEOJ8EpnHv0tmLUv3ciD5iSORL7kci-PPqRr1PyFRQOFuzqCmuGgykW24uXurP6Ub_PaJxCeKEMoIR1bM3qPBJC3Y01udzEeGgbRlL6S3WbXnSLTMjbe-To8rMvk-CsZjazOHdA4lu7tRPswnhprDtfLG6bqMQCwrT3tVxu1pCFOJN9H_AMkXfVtBmUxYtt2r8z1-k780n7fjS-fSDxKz2D3LqhEHVIeq5jrGCcEGLrzAcImJbo2qGbrNSELf24CjhQy9K7g5ROIVzbmUVOci-2cTG2herzycmQSqbrcvWhYb7x1Ef-33jUgKe94oDBCRBfW3bv-unG6NM3OQDZ3DadQ6AQnTe9QVEubx3VH-9hreyT4NNbJKYTUXYmcHutGQ69L4-GJXNa0Q04l2uIpV3VDdftwKcQ4n_jr2AijEN0vA4iqjP4BQvqPcEE_Qk38pYyzpl2ZnToq8SVDYY4OJXyzvNnx1G0egIW1mRzg8Dy7xDFPQEDvFXhpQ_AmHcsb8bnyl0KiVl6HmuM1Wk06zS_GGkhCE5x6rMvyevBFrsTF9F5po8PnUh-iLMOmQ2KQCRBCUien6-uLL0Fr939vig1JuNQFFgO80LqE34UW8hzhfmEY_7wF3bnwbdnacczMEUBfH6j6FHZKqZfw-zIiqJLh5Ouwsj9tIg-rSLKwcHmI8imtyLcL6pbCde9fs0TjccmyLr4PdGGxRYxzD8L8klwtKy3GH7f6XAEr6vMvEbzLwt2ov-4aJixFtz59PK43ez0Aw8uDIKomCmeHgPnfEYH-CA7anlUmFY-6dKO34RxbGBLFg3qIWMNCh13l2cSicpU56mDDCURfLvv51WTfnL1Z-e4aEKPUy4EMmgolaO_YyHnVSp3Q8vq3ku5d-Pddn9RcCHrnaC2KKMyz7YbsZ3r8JSzoBQfZfEhCQ=w1308-h927",
-                "date": "2021-19-07"
+                "date": "2021-19-07",
+                "skills": [
+                    "business",
+                    "marketing",
+                    "advertisement",
+                    "analytics"
+                ]
             },
             {
                 "id": "gg_11",
+                "org_id": "gg_id",
                 "name": "How to build a memorable brand",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDwp26QAp2bED_hnHAcwtONk6TS_z_433iEkw6Auh65-GkmXYH1VQsuQNuaHRU_S83bwFMMganyp8oMJEsxKLnRSiT5q8AApd7yMq_84t9sD6PNLKnksNc6z39wblLnMwmMCvbOIhDIsWF-ZQBPFUF5COxt30DjJPPrDjzAvD6skg5Odp8SBjYciURgjFHGn2C0E7lVWwrexBGcwlEYT-hAC4fzCG0SjsBw0U_0ngRFHxRbzhOUdoi9-qkWAL1LiNHjrxnFLUcLdgZs8FKpteLS2hMTbpZKpFYnnZaPvM0QmzIgKKuryLHGydkYLAoMgt-_HWwKuY_8QVD4-do2MyVzERRicVDE3LiF9LZ5WC0xP_0h56MVhViWcLuXGSBI0MInA5R_M4A_dhKltACip6sdmO0IOOfaxkk1UNobtAl45j6z0wtcGOaRKnOpOOLbcrQvNzhlff32g-uyTgtGN_i6IDVf-hBW6qMdWKRQ0qCcKU2xxGDDnYPDMDrX4jgyXDo3Vkv838PXm_fnAY9ISl3ADDor56Kc28S2PBCTyaZtRpL7u0D2JeE_5s4FKS5-YURuloef9MyMbgEkWGRUx3IENi7GU4-DIatEOQ-hKKe0Vru6-JT-GQ-LkdKHuz8RgWQUt5O9ic-zAWYw0n0Z0yuXMpvjl0PG74aAH0n0DiDybRvlTpO5NnQykQ6QRNTDsPVF-BP5qNbGCVXenlZv3VRqNzimLOcvhtoZn3SQNH9kJJh0waDMVUh06Nl9kWZ1BfSYyMBV6xMhDYu8Q9ZZS_plq_UFJpm10mv-gB5iYOhe0zfa2O_1JoB6H2DzrXwHmtxvfqez_NhyYk6Ncc5OTyIO2PbatwlpfS3sEnmIBt1f-X6g5U3T4b6fOQKM2TwHAHzqq1g4XStxREQdpphHJQa_8bKkGj1O2_Q0mXQgsg784vyMn3S6xePreOQB2p9hfTTHGY5kXNPJebPVBvmTj_gSJf6JIbhRaGsEQVkzWdGvVjQOuYRRce56fnyZDwm31tpVIiwot6doxHdrz1Uftw5jg_FAEthZaT11WjwU5caJZBX12l_gQ2COHpzFJ9NkuJEl_zQmf4-28634XHNIUeYmxH8QQgAFb1NVUJchNNU73aSWGeSQcTmuP4wkIPFYdLuU2dV3tXsqchmMs6VC8DaBa1THccAGqQsdmjcM1Q6JAbx75md_f4q_uhNt3zWBE_GVAD18R-7QIn0-YdtgNg1cu9NPlTRApCf1ivfuavgepZJ5b4EZdhHcA3gXvCpfSutxRN4_l1pNAdGHa_SFhMu7mC-Tach78tfa1RxcU0-ygdj6hCpFfS9jR8jy_wXd3pI4Hgl_SSlOusAo_aUExFC0BiDMdjwNn3NgLNkLAZJM8YgfFh_ZA6s87AN9Mi2ICqeogumOkDccEphKHzTqcxPBLZ3qIXAwQY1tkF-zdC3YwqZ5PV5Zuy9emKdRYJ-zQN4LNiR9DqAjYlfiDib-9HvP1QGUlu3ZaZbTXIAYODK4jw7Ufg1jG0caofSeJvvfnY0MPq8Afe7pJikaOdW6CrW0uT17uwhjwRdP_6vvusyFuZjdNTvIlgpP5IIXWvvNbRBmCWH-jiokd8mqvF3LL7Ys1DQViDQ=w1308-h927",
-                "date": "2021-06-21"
+                "date": "2021-06-21",
+                "skills": [
+                    "business",
+                    "marketing",
+                    "branding"
+                ]
             },
             {
                 "id": "gg_12",
+                "org_id": "gg_id",
                 "name": "How to build a quality website",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDw5TkSooerFaIfNUzBjh9NOcee71kj4sDC_-rf581dODEhvIfm12zDhav73_RFkGUcxPcnNDEVUn_m9ssaElsOBULshZgxoI2j7bnni241U9rZwiNe8NbCqwN_ungMzhFY5n1uFDn_VusoUZ-uy1aYgGj_xB6nhhROJ5T_-mL-bFBk21eg5PhTpEgZ_0XDRRyswBsgs9kzDApsxrlFW7YYinEinlpFT-GD5uq6JEUvVbumw8C2SbdXNCJur02kIZsmVdsjlN3igsGRsddNJEPzfurHHfgKo68J2w_ZhazVHbeiIvlKqzcQRXKmPpL-Eh4QdLCRLgBcc9BR2Qw0RzSMulWi2r9xap_K9V0-dQD2NyPwhUyAij5YLIDDOSMfMPzRvee_xDfa0aRzL90gnXoGlFoGhuJaKXZl0WkrxDLYXALNlbRNPWASmp2UqRNjbE3P2932QJE0CNvRwFnKlRK_QltYwAeBL8YgW8YoCpbJDMs5IlQ4qiarWfiHzUy2mr64pIpsYoZvX6v7S6lOIw6JLSiyKv4Di9oeF0gEZ01hjZ3LUU_lKnuufXHmKa_e0KFUrOyS0RTTfYCgfBwF0jjDAz0vKT0bdj-YTgU6WeVl4BufWO6v3KlREdiDLMi-1JJTbzcLpyET-xzhEIAwsV4uKCOxWhW_ZkiayLwa1unIQNenza1qllQjgx-TqgSfCc9-N4oH0F8a9Ybt6_Veu2LZYImEVyUUlnTHIhZROFUn2jN-vmmzVoFHUMswcHhJJ6Od7faLHTHG-0qvjnlFDVnohkKaeVLE3WVt52JkNDoXOLdMrBJYkHq8xe8Y7PHlG_7BFHaueTWliBxBzGojJANIQpBkEYSSd3xK7swRV7-iqOXYN88WHIIXOAauKUooz-nU2zzBJxCua_WkqHXh0N-R0m0YF1bMxox0aR3O6E9dlqrk-vprx-6xvbG0BORzspFd_xOo5ns3EnmhW2tJTqJV5ISrh8VIx0HT3_2w1cOldu8zTDVmUW0HtNqHq723Ua78ghXQ_r6p1zbdR6CMLfgFe4Q4itgYSLU0os06cVCXVdTKkVPxIHIexdhuprtcEwGUlRId4cXWdb6jW-EC3fezcNBFjwuszoUfKSpmSkf9nYr_ayXMQL6FqF9HjFuJTUpQgky79Rts-LI4X9GxOGsy8yrXYnpXHnk85KMFwiWC2frc1D7Lrld5lDvEgVn5qo7KpkryY_vcx3LLSm7f_u4n3mtDgDWvcxKzOHPA4uJfTUhJGRFg5TIcNjDPzHCgM4S_1HToMapyNnuM4S85mYClWcODI9qbee2qXLI-7UA5GlmmNDg4csgz9maGsfIMsnjZeKZmBEeRNi2DDAIrY3dJv2gYpqdMa8oiqucxhTgFB0Ht9_eqzHRIWMWwc128AVy9WWPXA4LyXO3kDxSajNKvxZodDUf3oO89bBhDmaQf46i0-N4dOm-2qdnhaj3NnOays0PaJaPop_bHceYHXcPEvlPCQniTrxowH4MOHDFQLbCgIzjw_9rlcFbZczrjNZ1vIqBLJ88o7bi2sxePB5p6ob5ToY0hHumOntvQ7EenJhOpPDEbI-U4FiVdHni6IJDCVTdb6oQSOpdl_83niI9qTyZY26w=w1308-h927",
-                "date": "2021-08-23"
+                "date": "2021-08-23",
+                "skills": [
+                    "business",
+                    "marketing",
+                    "website",
+                    "SEO"
+                ]
             },
             {
                 "id": "gg_13",
+                "org_id": "ww_id",
                 "name": "Essential skills to leadership",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDywkaZJLFY-NFRsclBFSdtNfM11L2l5A7L1HNL-Xp4TamSIltUk2MUOqM5FNmcCn_S8gA5Hd3QMUVPsKoqnvz9GNBJ_r5CG1GUL5dN5TCjVNUWt_JRJgom-fjlFIygRJkLdhI_JbUWiZioe3YZVsYHOhvmZPzTXxYJ8C0HtUdDveARU8P5BrmAWxiuj4iZu_DpwvamXyA9OX-ULkXMRsuaYL56UwplT774TguPtaW_djvHE41NQI6Sn4Wc9pfyVHu3iC2ctDB8z1X7z5TF_1GhFtVxUy0bDd8NxhwaEDLkjsHXGLmimqblgdmkGuI5ayh_6EsouTEWyW28F4S_AKypjIX-RVVeHw6vyYpG1sAUXfryGBVMr1wh7d2_a_lsfEclPhUorqjnTvxfn-lGdrcfQ8TIUX6Wf1oDsSVtQdeL2MlEthxqfNRRzVs1qqVSUAh8gGMArlwPHWrGhKPjY-6l73I2wBqJiAjcKz3EPFgKJWd-VhuG_iMiINoiOIz7lgr5b6y_bo6y-kZQzdypF9FQcl8kQkz020XoIzgAX_GauEU82RCKeQ5iPhcfdaxMChVU_SURv9ihOgcoZfGuYjURVhgSTfNW7L2IS5PX11FXTSghoHfC6G3fI8wnecf8-DNNqwNtcUf7mBStgfIkWvIEB00OEUQ1CoIJ-9bhHziD2-20UHSa-vG5TeYgWWLhgY2mzwven-gkwyB21IGB0iI7XNkf4642xmRWAX4883FU1KxDciqjgIBlvzjMqsRlAyV0ep3a8C1h9plGIdcxYom6nPpMNPnCeYXXgO1g_R_VykNOOytoY0KiJsoJHNJ9N_0HUUo7yYfxeJ7NU8o_rUwx1Gkmlj8VpwxO5BGyntQkR_KQMnn-IDkwb6iKaudEmhVDSVeW5k-vwhC3ARWeaWSIqCMIz8qZyRaBFAw8oJwCxX3eAbMXi__uZU156LqDM0GSVz1yAAYmP0mxWvLn0xm59Hx7ZMDIscqvTv_6qpX-EXamsOar_d4BAzmKGYwbXX6NgnbbVgTDBH8TytMXYgnxOOmj7wdu0pIF7jG2n_Bo8ErArsc8JpKyyzHj6Wk6Ptip9j0AqnewLxN1fG9lnarR7t50YvWOGTk5oBO_6QCPPIMPFKHPjcCOwifUUVcNZEgq3qsL5p-piDkYkXNjKniI-0DZ6Zd2HzVo1Bmf6N2pQHiu11BN2Fwgeo7JeMkn9RTWlmPb9pLG7cOSOz4K2lMMvWdY2G8mddP6bkoh3ESMnAzsAyaN5L2qUtszBmKi1dUrJPSvQX_3cAA_7tvuz4tU-AoN2YtfyggkYCklWs6-v8qp4PgAFDYC3FYWEZnfnKzHWBWZbJO998Q-xEjSNXUYIZi4ScYZSnBLB8Prn12TE8cT09e-M4mXjXUBctm_pcsSjWXhEnCqjAETCo7WawAYFc3SLbzEJSuHoIXyI_xXcGwS0rkTCF15a0648js2-xn-5KV0ni0ARNEvLS-0OHnzlSAVGviDLMJml8aTxQpQ7YzM9qFxheaDKPfb-_6aZxnyfDUyg30dXFvtBfAHikZOHiEma9GskSr7KOkwnMd84QzZzZxLwkigevQ8v-jWy4KAIz7U0xKQT9LU5U7EgkxBfSabTMA=w1308-h927",
-                "date": "2021-09-06"
+                "date": "2021-09-06",
+                "skills": [
+                    "leadership",
+                    "soft skills"
+                ]
             }
         ]
     },
@@ -310,6 +491,7 @@
         "cover": "https://th.bing.com/th/id/OIP.PteB9bRd7jHWpIDk3Tau0gHaHa?pid=ImgDet&rs=1",
         "orgs": [
             {
+                "id": "zodinet_id",
                 "org_name": "Zodinet",
                 "org_link": "https://zodinet.com/",
                 "org_img": "https://th.bing.com/th/id/OIP.PteB9bRd7jHWpIDk3Tau0gHaHa?pid=ImgDet&rs=1"
@@ -320,9 +502,14 @@
         "certificates": [
             {
                 "id": "zodinet_01",
+                "org_id": "zodinet_id",
                 "name": "Zodinet software internship",
-                "img": "https://media.licdn.com/dms/image/D562DAQEV9P5KyWD_PQ/profile-treasury-image-shrink_800_800/0/1663606465595?e=1696330800&v=beta&t=TUvHVN5SLSSf-T4buI5rgJUivH_6vzNmp5L2IgVXWsU",
-                "date": "2022-09-02"
+                "img": "https://media.licdn.com/dms/image/D562DAQEV9P5KyWD_PQ/profile-treasury-image-shrink_800_800/0/1663606465595?e=1697619600&v=beta&t=s-Qr9TqTv_tuUK5dU70Syc0VRkmTyBKixTzbNgcbrUQ",
+                "date": "2022-09-02",
+                "skills": [
+                    "software",
+                    "career"
+                ]
             }
         ]
     },
@@ -331,26 +518,31 @@
         "cover": "https://www.lifewire.com/thmb/FmeKYLjqWRfxgCFYbz1hDqnTAiE=/2202x1361/filters:fill(auto,1)/GettyImages-730133317-5b2b315dba61770054a1497f.jpg",
         "orgs": [
             {
+                "id": "vi_id",
                 "org_name": "Vite",
                 "org_link": "https://vitejs.dev",
                 "org_img": "https://th.bing.com/th/id/OIP.rO43wl8fR91WzCnEkZD7ngAAAA?pid=ImgDet&rs=1"
             },
             {
+                "id": "stb_id",
                 "org_name": "StackBlitz",
                 "org_link": "https://stackblitz.com",
                 "org_img": "https://th.bing.com/th?id=ODLS.24bba8d7-3c50-4d8c-ac5f-9c500cb065d6&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"
             },
             {
+                "id": "vc_id",
                 "org_name": "Vercel",
                 "org_link": "https://vercel.com",
                 "org_img": "https://img.stackshare.io/service/7618/bHjpwZem_400x400.png"
             },
             {
+                "id": "vn_id",
                 "org_name": "Vuejs Nation",
                 "org_link": "https://vuejsnation.com",
                 "org_img": "https://vuejsnation.com/favicon.png"
             },
             {
+                "id": "vf_id",
                 "org_name": "Vue.js Forge",
                 "org_link": "https://vuejsforge.com",
                 "org_img": "https://vuejsforge.com/favicon.png"
@@ -361,24 +553,39 @@
         "certificates": [
             {
                 "id": "vi_01",
+                "org_id": "vi_id",
                 "name": "Vite conference 2022",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDzlbuJq4XQHhQQhPKsUJ6PjgIJvaaui96cSPmn9oV1X3-4ZF6RoRS3CNo_DzMWBB6vinMKn2hcp6U8bwV9A3SJ4EfHcyl94Uh1Aw8f94KT24dwz8Kv2FRtgcxqcvxASfg5zuLARqERS5NOxAqtpKZvsdrvNN2fQCgS3vqsEtAd9sdzKRdc3S4G0GEm9mL1HS7osUpfC8qYrjzjAjzvs6TD8PUR_Tq0JC2Bc57Thm_r5OLEwcovFD4u_Xa4Hjun_VrpRJ70vTTP65WId0JZd5-XlZ3gDcx0HyQqyTJlcfflYgW7MEn137gEBKPuLAzp8uP_uR9m6EcpFR4gz9CEK55I7d6Pzt0ioyhAaXYH7HN9ETxk5RguUOZRSaDMinyd1Yy-VHTsy9OhiQbdM2XE4O-QfqXzg8m2qcX0wBR2pDeztXM5OSYsV5ahb5I5ozGpgqsa4Ugh_MB--j50QeLIWng-JWiN0upRJtRwlAwgtJ7l3zHztsn_HSMxzPBZUkXtoDE42JpDvP28EBPFAnpWaV_4L8VMi5URnIg_a9ndT4Huk1PsQftkPxfuFmYKa7exgaGcwAH7vweMJXT7fZYqwYqsf-EG8aL7hrCIqeO_Fl3URZCAnS14KIs3TzLsSKjPoCtv0yBckeE3RBBn1YlGTxtniKBJgTR8ryMYnQT3tK9pitZox0ZhA581Ecd7uMKFVU4kuPknqZcrofFpr9WsZdPNfByK-e2qiyko__NZi8Neh6a68fGSfsKuwoPLVUUtx0qNcrO9lfIe6r3Ko6UyjVIhueSpADcylX1WtJ64G_FLy3fegzBCNDMvtG5UURKkiB3jr_ho_2JSlvFok2k9-F1ogBIOP3V1UovPEfCCiCAVRBap6Z4sT3S6iHiogukvqJD85AMEpOGa44wrecvxleZ8RPgQRQkApnpTIXD9BBVgIOuU61oK1YyvutNktyZ8TX6IXzBcLeKJ_7dvsPYHSiMfDX-rqCZaMnegr7vhP_hcVafdo3QwOv6OnWaJ-ll7GKZ1LJh7hYrZFT6bEuT-mViq5J3fAOdYS6dmNqNoAALLPbAI8TqmU1s5LZMfT-QLqDGJ9lX1J-dv6R-SQwVL2cZ0Lj3KAWRyI76r1yCror0ZzxlLi1Z372SSMBym-g45JVHYSyPnLBF2UxXSC8nvfijUID5XSd3Rh513Pmi6k9FohuCJLgZjYmDE4HDNtkfcIYleWBLEsoZVZtixK6yld9XDuNdLe08DS6vR3gWEkvtknoGUNpMb56sCewCrOsd1n6mND8IZNzr1GCf7Dlf8IQYmnr8pdDr5oPVsOWqjmVz15ok_BoxnMnND2jq1KzYyjvXRYYhDsKn9-JvKFIxMiLVzh_OpKL9G6lBusnBy51b1Znww07LfRly5avtHPKs_resG4rmORWMdV3v0D70ULcEYUT3tSDQPz5Zr6QgQqiz7xAexuM0s5C0GXc9mfpxI6aD1tq1_okx7ruN2zxBu9u7XQlBB0GfZQF0dxLoGB1SZUu-apmeuLCCiT_9GLB0e_aTnDC1IYXupp-qbRW53dfh6rHzLgYyXF2nRtpER-PMQIp32igCVIdm81ZtnGirQmJqb4uyhobmlA9zvQQaW7Kdp5JPSTCw=w1308-h927",
                 "link": "https://viteconf.org/22/tickets/thuongtruong1009",
-                "date": "2022-10-11"
+                "date": "2022-10-11",
+                "skills": [
+                    "vite",
+                    "vue"
+                ]
             },
             {
                 "id": "vi_02",
+                "org_id": "vi_id",
                 "name": "Vite conference 2023",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDzmRq8kjFmVyywURIKg_mFKhBT1SAeZsyYhxE0b32Yp7_D0D_nVaGhqa6pLqJoJOQNin-p5nAFr4-k_-GINech94iW9SB2s0K-671wEH_h8C_6cw8fUAb-b9duRLv2GENUSsk8zeLsDAqSZWS6Ce2P88u1gpASQCGmAqvIrGiYbTzgkLpdupGe-h-TSGLhU3JOJmRC5bWrxEZ6NoINSU-1v_sZRfQxD1Nm94stRRjme1IZkc9yzy7SlAy4O3beRlP5lKtWuhk5p7XVTF-aAuvoynM9DpwfpaVlzAN2g1YVeCF1P85zGHKejVHpWA530DP9EQIqqdw2bRpW_TJhK9O1o_KV5s5IGXIXp5WacDpzkRICnZB0NUUaWn4ZOw4TZ7pHxzDDuQaFac7f5La8a9dlIHrTlvmGYmkxARGLT4G6vPZVqcVziif0hUYR2QP_LIKi3LZB7xxk4z7zKOxYLToJYlRKKd8M8xRSIyoftgjbF2M6V7N_TylwOyTdhNPcIMd_Ejhoan9-IFYwhj-DFiU2Vc_lnErQHF4r4TzcGp1VVg4udc15aU1I_yTcvrQO7NYyV6VXJE-A3rHiK8OsZ6e4-qaKyazOAnokoWQmZcELJVFmz5ofYhYZ4LrRG2W5PpD3CGwvrYh6bhQA4vdnLbpHPFhn194ImnTZF1Wtk8kpKT6yU7YgAuE5X7mSER5FYiTu7YnKsm5TH42QER8_r7aUodZc5jlZg2JvWmCd9tpZ_eyDurbutHsMhI0IYP-2pPVM_rmFD1kZU-U5Dpi5bHbHX9HbZ7ovvppG5OWJ3f2BgE5UNac8mPySP6BeoCQY8KEF1cF3N39-Isp3pOYTqQP8TjMVu0RUjUitwHaV3NxnOBzzgbAzrOiBEtlZXMMXsnM70KoBRiQ0PxdM5ANRJGkm7lHRWTFNnN8G6xSS-9Vkk7OfTtNafjJyY3ufuBSjBfFx7hlZ-916u8rnHSl3hX7LzGoU999tklr3M6g2CRSud1TkXP3nRDQpMlV8wd5dXGvU2c3Zpjy0_wLWurn6K_ECOoDeNYK0oY07po_w4dvbeFt1GUNmBAtNDJeyKMs-5XB2v7bkKugn5l_9ZcShCKtr7b2fD0rwQrxUo5ohGkwCDrg_p8FAhOv2BvfduktGQIc_t_0fEkxQKNph8B4H7C7m7WpxH27o-As_2E2QbyZ8A6GJJfvVWT-N7bdZMYexSopav0-CtOfOo30Qk7z2Y6rk4ZzC-wK6-iR3uDxSMwWG5DOc5Vgx5W10lzmSAeP58aqgQOGSfEfMCagIiXLtgesNdk0E4dXpv9Df3cwD7kVtHVcaVdKNyzuGQm2zeMbVQK1lfZQvM2nC_gcEb6DK8kc1u1jkxbHXE_Fe5uiTEyuRyv7h5rocP6SIul_h0Unm3uRrVRUuDRhkLdBYRR14xsX_GLsq29ss8LRGerjfRxAr-XUftsuKHbfe3mMnxZsdqjqd-2olbIY0GDT2b5uP87aogYgN_J8wOdmuXsnFHwerOOL4_1SdtmcoDk2ly1nmh_Vz3yOXncApNeI7sKIeWCXKnJG2Z-L2bALXOD99GoWfpK7GOUh9B2hPFrWdEZ48JeLAAoQtL16QccnjjTfXu=w1308-h927",
                 "link": "https://viteconf.org/23/tickets/thuongtruong1009",
-                "date": "2023-10-05"
+                "date": "2023-10-05",
+                "skills": [
+                    "vite",
+                    "vue"
+                ]
             },
             {
                 "id": "ve_01",
+                "org_id": "vc_id",
                 "name": "Nextjs conference 2023",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDw9_Z10JXJlWOkWIM46jZQjc8ifoonkp0JDWW4HsDXiZJcs-FsrhUCWJUKa1vdosz8f13JVr5zcfprvK3ZJ7nrNCrwhIILX0PHPKRtRLYzxsDSJrQKH3YSojWEnikh-pL9CxYXgcHStE0Nlu5ABJsVXHtACKGssI9ZLkOUHspkLkf0M0B7E93WCtaYQM5d-erzfwRpybRb0k3-mkhiexaTE__WSQcAliCsnY3IjiTAZ6O7M0a_XmZ_dBK5-qHqnZgfXIH80kV3r0lW2sk_Z2qtEd_lDHnCDTi75ofowCKrt2WPp-bWz50xKWa3ttT1eA2OeaaMr40SxDToZk0_tCsZFqIK8scddVvvB9r4uRv8pxD2Q1_wnZGFSbHSlm0k3a91SrSphlAg9QU7m1x_sqq3jgBG9jIr_rwWBg9VoGolhyIy3s0rS86h3tMnXt7X5kX8UjUG3J4-TbGutNmf8n5CfkR5aH1ovNGj2wIHQnffTOHVXOv8RD2z1ibTpuVOvV5PIDpERx7LmHoWmbrqGVlrGDK8ZbaCk-couR0wdEkjEnr21gGV29h_G4cHfh2cu_OSbogpJ3XTJTSiDgGDM3wM9rUDweRuwwlHrOHwBKWc30ESy7rvqZZaDxLWHEv4sMLyu0iytohSMuhSyKXbK55lpJvUoZF288NLL-ui1XVMahUUOO986B8oBPzaBbwhqnuYoCiu1FYZkl7-jdbJ0Hg6-jw1qx8LtGVCSMeRho6ryhoQT-6yAnsqSiP03eIQLksiv7h96OW5WyFs8zPcJXtU_rnPo0ezpZMA3t9n26nU02Ky_21mlNVGlO5259Dc1Z33aFx5BWmIIhL7QoYw2cW58m2TcVUyu3RirSS992_8YWMQKH44zVkk9lEC4RzCOsSFHMNKehCtJh5ShaVNe3Ng7s7i5Y5Gql_keHx0KGQiLPdcitZq9ZyeYTVRsGbrvDIH61aoVKCvNY3efBchOr7cqYpbWRkey_WpHZaWORYr9wcc6YHAd1N4qS81YufmD5tVSWcG49-ZxQZGRuqOnDkBBk8dHGSQMlFluHUP8T-TYVk1kvwPAoLLSInba-CL-uQJtOAQS37-i9OV0F_p40s__660L1CIkx1_X2LxbIbcKKAhXd1Jzs9OF1epjISlJZnQGAXx4d4hb_aVGT0nmlp3H3rPxLdJyt2gTyk5wt9IQ-JrnhcelCL5-NHRTM_k8SHyPXm8px4NvRV_Vwfrrur5PGwvd0N9j86VT5liyJ1fPsRJSK7oOxM2MfsxyWFJA2GetA4LzKs-8Gi-Vod-svfcJ-uRUB7s8wmr4xT0tww6lLNIPKm5zROiobkqSRZnxHHswkmRC4vURw4TFk78glRMYA7Yp3fPxPN0jnRg308kEgh_ZZFqwzpUWGfNQOanNxd6eHYhdvdJJSojL-Q6_L6rNitHk_J0kOUCW-KX6uK0BY62Q2madnfo9MfAx76By9oizCFlFFR9ozWyZAYSRskgKk8D5JJVWrurPVC0Jeue5hvA5PO7zalxPbh5DRYD3bS0uTl900kJ-1cDXf1-k7OssWoxwJM1f8tKO1uk5V9alhd6a4qax7OMPI3v4k9BGPFynOyRmkkIvvg8MjDUxFhLUfRfzFw=w1308-h927",
                 "link": "https://nextjs.org/conf/ticket/thuongtruong1009",
-                "date": "2021-12-01"
+                "date": "2021-12-01",
+                "skills": [
+                    "nextjs",
+                    "react"
+                ]
             }
         ]
     },
@@ -387,16 +594,19 @@
         "cover": "https://th.bing.com/th/id/OIP.zOYd6maBqGWbFCMHydZFmAAAAA?pid=ImgDet&rs=1",
         "orgs": [
             {
+                "id": "hb_id",
                 "org_name": "Hacktoberfest",
                 "org_link": "https://hacktoberfest.com",
                 "org_img": "https://raw.githubusercontent.com/github/explore/f47aef15a1c8f22b6fc5c7abf615a918f1322cd6/topics/hacktoberfest/hacktoberfest.png"
             },
             {
+                "id": "do_id",
                 "org_name": "Digital Ocean",
                 "org_link": "https://www.digitalocean.com",
                 "org_img": "https://th.bing.com/th/id/OIP.0e4jcGb8AIwnBTmfM3N77AHaHa?pid=ImgDet&rs=1"
             },
             {
+                "id": "ap_id",
                 "org_name": "Appwrite",
                 "org_link": "https://appwrite.io",
                 "org_img": "https://user-images.githubusercontent.com/101575380/231806244-b879deb0-69fa-4fad-8032-a58cb221cd4d.png"
