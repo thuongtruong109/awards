@@ -3,6 +3,7 @@
 import PreView from "@/components/PreView";
 import certificates from "@/data/certificates.json";
 import { ICertificateInfo } from "@/types";
+import { formatCertName } from "@/utils";
 
 interface PageProps {
   params: {
@@ -13,9 +14,7 @@ export default function Cert(props: PageProps) {
   const slug = props.params.slug;
 
   // const data = getItemFromCertInfo(obj2Arr(certificates), id);
-  const data = certificates.find(
-    (cert) => cert.name.toLocaleLowerCase() === slug
-  );
+  const data = certificates.find((cert) => formatCertName(cert.name) === slug);
 
   return (
     <section>

@@ -5,6 +5,7 @@ export type ICertificate = {
   img: string;
   link?: string;
   date: string;
+  skills: string[];
 };
 
 export type ICertificateInfoCard = Pick<

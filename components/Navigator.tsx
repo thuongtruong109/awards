@@ -3,7 +3,7 @@
 import { ESEARCH_QUERY } from "@/enums";
 import { tabs } from "@/shared";
 import type { INavigationTab } from "@/types";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { HiBadgeCheck, HiViewGrid } from "react-icons/hi";
 import { MdOutlineUnfoldMoreDouble, MdPeopleAlt } from "react-icons/md";
@@ -42,7 +42,6 @@ const Navigator = () => {
   };
 
   const params = useSearchParams();
-  const pathname = usePathname();
   const router = useRouter();
 
   const handleClick = (tab: INavigationTab) => {
@@ -52,7 +51,7 @@ const Navigator = () => {
       router.push("/");
     } else {
       newParams.set(ESEARCH_QUERY.TYPE, tab.name);
-      router.push(`${pathname}?${newParams.toString()}`);
+      router.push(`?${newParams.toString()}`);
     }
     setTabIndex(tab.id);
   };
@@ -67,7 +66,7 @@ const Navigator = () => {
             onClick={() => handleClick(tab)}
             className={`${matchStyle(
               tab.id
-            )} inline-flex items-center rounded-lg px-5 py-1.5 font-medium`}
+            )} inline-flex items-center rounded-lg px-3 py-1.5 font-medium`}
           >
             <span className="text-sm">{tab.icon}</span>
             <span className="ml-1 text-xs">{tab.name.toLocaleUpperCase()}</span>
