@@ -3,7 +3,7 @@
 import Card from "@/components/Card";
 import Group from "@/components/Group";
 import Navigator from "@/components/Navigator";
-import Slide from "@/components/Slide";
+import Preview from "@/components/Preview";
 import certificates from "@/data/certificates.json";
 import { ESEARCH_QUERY } from "@/enums";
 import { tabs } from "@/shared";
@@ -45,7 +45,7 @@ export default function Home() {
   };
 
   return (
-    <>
+    <section className="p-2 lg:p-4">
       <Navigator />
       <ul className="grid gap-3 p-2 text-center sm:grid-cols-2 md:grid-cols-3 lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         {certs.map((certificate, idx) => (
@@ -57,7 +57,7 @@ export default function Home() {
             <Card card={certificate} link={formatCertName(certificate.name)}>
               <div className="flex items-center justify-between">
                 <Group orgs={obj2Arr(certificate.orgs)} />
-                <Slide
+                <Preview
                   btn={
                     <FiEye className="block cursor-pointer text-xl text-gray-500 group-hover:block md:hidden md:group-hover:block" />
                   }
@@ -71,6 +71,6 @@ export default function Home() {
           </li>
         ))}
       </ul>
-    </>
+    </section>
   );
 }

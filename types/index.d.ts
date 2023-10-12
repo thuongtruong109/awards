@@ -1,6 +1,6 @@
 export type ICertificate = {
   id: string;
-  org_id: string;
+  org_id: string[];
   name: string;
   img: string;
   link?: string;

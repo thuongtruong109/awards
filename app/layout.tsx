@@ -7,8 +7,16 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Thuong Truong's certificates",
   description: "List all certificates Tran Nguyen Thuong Truong has earned",
+  metadataBase: new URL("https://awards.thuongtruong.me"),
+  title: {
+    default: "Thuong Truong's certificates",
+    template: `%s | Thuong Truong's certificates`,
+  },
+  verification: {
+    google:
+      "google-site-verification=BLJnCIdxtjZ0bhVaGNHa87sDloQ_x8YLR5OkSeh8DqU",
+  },
 };
 
 export default function RootLayout({
@@ -19,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="my-4 flex min-h-[calc(100vh-170px)] flex-col items-center justify-center">
+        <main className="my-4 flex min-h-[calc(100vh-10.3rem)] flex-col items-center">
           {children}
         </main>
         <Contact />
