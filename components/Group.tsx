@@ -1,4 +1,5 @@
 import type { ICertificateOrg } from "@/types";
+import Image from "next/image";
 import Link from "next/link";
 import { memo } from "react";
 
@@ -13,7 +14,7 @@ const Group = (props: Props) => {
         <li key={org.id} title={org.org_name}>
           <Link href={org.org_link}>
             <figure className="h-8 w-8 cursor-pointer overflow-hidden rounded-full border-2 border-white shadow-sm hover:shadow-lg dark:border-gray-800">
-              <img
+              <Image
                 className="inline-flex min-h-full w-full items-center bg-cover"
                 width="1000"
                 height="1000"

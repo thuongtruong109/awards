@@ -8,7 +8,7 @@ type Props = {
   title?: string;
 };
 
-function Slide(props: Props) {
+function Preview(props: Props) {
   const [toggler, setToggler] = useState(false);
 
   return (
@@ -25,4 +25,4 @@ function Slide(props: Props) {
   );
 }
 
-export default Slide;
+export default Preview;

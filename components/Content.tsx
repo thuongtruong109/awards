@@ -12,7 +12,7 @@ type Props = {
   data: ICertificateInfo;
 };
 
-const PreView = (props: Props) => {
+const Content = (props: Props) => {
   const [currentCert, setCurrentCert] = useState<ICertificate>(
     props.data?.certificates[0]
   );
@@ -57,8 +57,9 @@ const PreView = (props: Props) => {
                 <AiOutlineSafetyCertificate className="icon" />
                 <span className="hidden sm:inline-flex">Issued:</span>
               </div>
-              {currentCert?.org_id.map((org) => (
+              {currentCert?.org_id.map((org, idx) => (
                 <a
+                  key={idx}
                   href={getOrg(org)?.org_link}
                   className="text-indigo-500 underline"
                 >
@@ -114,4 +115,4 @@ const PreView = (props: Props) => {
   );
 };
 
-export default PreView;
+export default Content;

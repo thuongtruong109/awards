@@ -2,7 +2,7 @@
 
 ### Preview
 
-[Showcase demo](https://awards.thuongtruong.me)
+- [Showcase demo](https://awards.thuongtruong.me)
 
 ![Preview](/public/preview_1.jpeg)
 
@@ -17,6 +17,5 @@ This is a simple web app that shows all the awards and achievements I have gotte
 - Universal server-side rendering for SEO friendly by [Next.js 13](https://nextjs.org/)
 - Development language by [React.js 18](https://reactjs.org/)
 - Styling with [Tailwind CSS](https://tailwindcss.com/)
-- Smooth scrolling with [Framer Motion](https://www.framer.com/motion/)
 - Decorating with [React Icons](https://react-icons.github.io/react-icons/)
 - Preview slideshow with [fslightbox-react](https://fslightbox.com/react)
