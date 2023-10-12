@@ -8,7 +8,7 @@ type Props = {
   title?: string;
 };
 
-function Preview(props: Props) {
+function Quickview(props: Props) {
   const [toggler, setToggler] = useState(false);
 
   return (
@@ -25,4 +25,4 @@ function Preview(props: Props) {
   );
 }
 
-export default Preview;
+export default Quickview;

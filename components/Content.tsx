@@ -1,3 +1,5 @@
+import Badge from "@/components/Badge";
+import Typing from "@/components/Typing";
 import type { ICertificate, ICertificateInfo } from "@/types";
 import Image from "next/image";
 import { useState } from "react";
@@ -5,8 +7,6 @@ import { AiOutlineSafetyCertificate } from "react-icons/ai";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { PiFireBold } from "react-icons/pi";
-import Badge from "./Badge";
-import Typing from "./Typing";
 
 type Props = {
   data: ICertificateInfo;

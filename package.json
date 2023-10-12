@@ -8,9 +8,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "engines": {
-    "node": ">=10.13.0"
-  },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "eslint-config-next": "^13.0.1",

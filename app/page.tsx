@@ -3,7 +3,7 @@
 import Card from "@/components/Card";
 import Group from "@/components/Group";
 import Navigator from "@/components/Navigator";
-import Preview from "@/components/Preview";
+import Quickview from "@/components/Quickview";
 import certificates from "@/data/certificates.json";
 import { ESEARCH_QUERY } from "@/enums";
 import { tabs } from "@/shared";
@@ -57,7 +57,7 @@ export default function Home() {
             <Card card={certificate} link={formatCertName(certificate.name)}>
               <div className="flex items-center justify-between">
                 <Group orgs={obj2Arr(certificate.orgs)} />
-                <Preview
+                <Quickview
                   btn={
                     <FiEye className="block cursor-pointer text-xl text-gray-500 group-hover:block md:hidden md:group-hover:block" />
                   }
