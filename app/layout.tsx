@@ -18,8 +18,8 @@ export const metadata: Metadata = {
       "google-site-verification=BLJnCIdxtjZ0bhVaGNHa87sDloQ_x8YLR5OkSeh8DqU",
   },
   icons: {
-    icon: "/favicon.ico"
-  }
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="my-4 flex min-h-[calc(100vh-10.3rem)] flex-col items-center">
+        <main className="my-2 flex min-h-[calc(100vh-10.3rem)] flex-col items-center">
           {children}
         </main>
         <Contact />

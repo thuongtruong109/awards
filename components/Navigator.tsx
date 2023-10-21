@@ -28,7 +28,7 @@ const Navigator = () => {
   const [tabIndex, setTabIndex] = useState<number>(0);
 
   const searchParams = useSearchParams();
-  const queryType = searchParams.get(ESEARCH_QUERY.TYPE);
+  const queryType = searchParams?.get(ESEARCH_QUERY.TYPE);
 
   useEffect(() => {
     const tab = tabs.find((tab: INavigationTab) => `${tab.name}` === queryType);
@@ -47,7 +47,7 @@ const Navigator = () => {
   const router = useRouter();
 
   const handleClick = (tab: INavigationTab) => {
-    const newParams = new URLSearchParams(params.toString());
+    const newParams = new URLSearchParams(params?.toString());
     if (tab.id === 0) {
       newParams.delete(ESEARCH_QUERY.TYPE);
       router.push("/");
