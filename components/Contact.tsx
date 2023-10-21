@@ -54,7 +54,7 @@ const Contact = () => {
           <button
             type="button"
             title={btn.name}
-            className={`inline-flex items-center rounded-lg px-2 py-2 text-center font-medium text-white focus:outline-none focus:ring-2 md:px-3 ${btn.bg}`}
+            className={`inline-flex items-center rounded-lg px-2 py-2 text-center font-medium text-white shadow-md focus:outline-none focus:ring-2 md:px-3 ${btn.bg}`}
           >
             <span className="text-base">{btn.icon}</span>
             <span className="ml-2 hidden text-sm md:block">{btn.name}</span>

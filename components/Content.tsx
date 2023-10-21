@@ -51,7 +51,7 @@ const Content = (props: Props) => {
             )}
           </div>
 
-          <div className="grid grid-cols-10 items-start justify-between">
+          <div className="grid grid-cols-10 items-start justify-between gap-x-3">
             <div className="col-span-6 flex flex-wrap items-center space-x-1 text-base text-gray-800">
               <div className="font-medium text-blue-500">
                 <AiOutlineSafetyCertificate className="icon" />

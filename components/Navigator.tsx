@@ -6,14 +6,16 @@ import type { INavigationTab } from "@/types";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { HiBadgeCheck, HiViewGrid } from "react-icons/hi";
+import { IoMdSchool } from "react-icons/io";
 import { MdOutlineUnfoldMoreDouble, MdPeopleAlt } from "react-icons/md";
 
 const Navigator = () => {
   const tabIcons = [
     { icon: <HiViewGrid /> },
     { icon: <MdPeopleAlt /> },
-    { icon: <MdOutlineUnfoldMoreDouble /> },
+    { icon: <IoMdSchool /> },
     { icon: <HiBadgeCheck /> },
+    { icon: <MdOutlineUnfoldMoreDouble /> },
   ];
 
   const mergeIcons = tabs.map((tab: INavigationTab, idx: number) => {
@@ -57,7 +59,7 @@ const Navigator = () => {
   };
 
   return (
-    <ul className="mx-auto my-2 flex w-fit items-center space-x-1 rounded-lg bg-gray-100 p-1 dark:bg-gray-600">
+    <ul className="mx-auto mb-2 flex w-fit items-center space-x-1 rounded-lg bg-gray-100 p-1 dark:bg-gray-600">
       {mergeIcons.map((tab) => (
         <li key={tab.id}>
           <button
@@ -69,7 +71,9 @@ const Navigator = () => {
             )} inline-flex items-center rounded-lg px-3 py-1.5 font-medium`}
           >
             <span className="text-sm">{tab.icon}</span>
-            <span className="ml-1 text-xs">{tab.name.toLocaleUpperCase()}</span>
+            <span className="ml-1 hidden text-xs sm:inline-flex">
+              {tab.name.toLocaleUpperCase()}
+            </span>
           </button>
         </li>
       ))}

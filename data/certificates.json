@@ -362,6 +362,19 @@
                 "skills": [
                     "critical thinking"
                 ]
+            },
+            {
+                "id": "iu_04",
+                "org_id": [
+                    "iu_id"
+                ],
+                "name": "Silver medal at IU Sport Tournament",
+                "img": "https://lh3.googleusercontent.com/fife/AK0iWDw5xRBUiQ54K-lnVVRyLoDZvJAGDqKRhyFhC__WwFblDVz9fQeL5gPnF9nH0gueF2rciVpb-_qxJt-gm6XcN9QcS2AhvkAet9hHyIflp6XtIRydACI0502FK0pr6nkmF0AgwCxAiN45MYQHsTnWDOKsLxFoQzMHoDSy6EpszGliRSdZXyCGEapm82UPZaX7j5jTkobLnR9gAMw57eLjM6Qvi3qjVRRHjAn2DeJOJ1573M4SyHhTRgBDZ_lqbc--W4uvMIr1GhNBAc7cyPZl0lUrNnxbrXF9iTZDB2EDJbsJAd_GSJ01dPsWj5mMihjy1LPwkPexstxOZJ9FmoxHNOpuWjwwypXQDjEPsGFYN20deacUstzevxa8ryWlYX72pT7H7gm_ivNWrGzYI4r1oKqZctmic5Tpw5CtnWH_INhM6eSbAiE6JNLV6UCJdDBVO-6XuyagMXWqMoRruhOhpC0fCo291TYsi-h1QYjzxj8hgO8LL89oLTZbVlS1j2amLKuIPPIvRkhEj8wU9yJUqcu-49_OyP0d7I6AlIfSQiZ-JOC1z2Szqw96M3Ou5gXe7KZRy5s3MbBHdPM_en_VZS0Hk2bez12Qbt5CaTdHk6EMJW5CI4FzP4hd2HK6QBiKFiq461WC9oLCR2CeYVV9epTMlfKnbszRh6xR5jbpzZFgarTja044th7HTf-FKqvDGWnIJarijtzAVfDdo1GZLMAtBVoxBdWwqV03KOxAWN9PH7-VEpaNzweKQin0kaBfoEAOgtqEFIPJCe3HKYmcgXn8Te0_YwfoqaOp1OMwSUcp0ZCyMITSi2QIDmqDClbLuUv5MJ8CMkKcfU8ZZAAzHc8MtlSIYCG358wpo0jc0ehbaT0ew8UgRf8qYj5-nl2gIvytY1aJ6u-YtJrsgB-7N3v__ivx-29h227GWgC3pqBQeo231BEX_SpnQjiMnTZqzMFTxVg340PIVFD4wJfPBj2-MeXo8mJrGYNJtl8kl1uRX02ODU2ZAKxaA8y-r5gBqUYNr9I_nI9u6peWbfVTYcHDJnDdFaWge8yaX76sTQFxcoizkxfLo1iheqxiVAM7rUGGuloQ-5tO9OGxNSHObgmhp_63hyDKb3xSVWeot7um0XyVkV1SUZRrOty_wBdfglKDwQmB4wzY7nyNVyhzLF6hALJkOHewgS-GntTWmSSOgzaACFaMbJCdzmGU0O4Tux7nJjei6YiFpBiJKNTZg2NAU85DcjN3Lld-rkaAMXMtgnjqWb4J5Im4jJ5YT05yqUYCRNQ00PUqFVNok-bjhvGsRag2OiUGg-TUsaG4eoRGo1OpZftN1T5SuV_NvKIQc6jBHmVBVmQgrElCcGswF7ksnHv5GmoVakvUZ3Jnzq_F9EQzpCnSR9UKal2F0R73sQUzZDYt3_ze1H3YAfm7suTPnUx9CvAWK_ShS8hTsbKzeKlTAHlwweM7xG8Ljf-ASh3Z3d6dqiED5h5Y81_I9bQcyvPPc-JIy_FS_JHqWEPawz03JfvU7pkfI0TcKcq16_CPZ-aA-ne7uNz-31R59arQ5xcNzQ_HhcAHcecaqcsKrlWr_AC0GR7MKN6HbpVenf4ZMsD9BW5AUCZFsPUlet0tWb20pg=w2000-h1400",
+                "date": "2019-11-19",
+                "skills": [
+                    "sport",
+                    "table tennis"
+                ]
             }
         ]
     },
@@ -598,7 +611,7 @@
             }
         ],
         "desc": "Zodinet is a company that provides solutions for the digital transformation of companies. We are a team of professionals with more than 10 years of experience in the sector, with a clear vocation for service and customer satisfaction. We are committed to the development of our clients, offering them the best solutions and services to achieve their objectives. We are a company specialized in the development of web pages, mobile applications, online stores, digital marketing, SEO, SEM, social networks, graphic design, corporate image, branding, etc. We are a company specialized in the development of web pages, mobile applications, online stores, digital marketing, SEO, SEM, social networks, graphic design, corporate image, branding, etc.",
-        "typeId": 2,
+        "typeId": 4,
         "certificates": [
             {
                 "id": "zodinet_01",
@@ -783,6 +796,72 @@
                     "github",
                     "git",
                     "open source"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Social contributions",
+        "cover": "https://static.vecteezy.com/system/resources/previews/000/401/516/non_2x/people-volunteering-and-donating-money-and-items-to-a-charitable-cause-vector.jpg",
+        "orgs": [
+            {
+                "id": "hb_id",
+                "org_name": "Hacktoberfest",
+                "org_link": "https://hacktoberfest.com",
+                "org_img": "https://raw.githubusercontent.com/github/explore/f47aef15a1c8f22b6fc5c7abf615a918f1322cd6/topics/hacktoberfest/hacktoberfest.png"
+            },
+            {
+                "id": "tn_id",
+                "org_name": "Tree-Nation",
+                "org_link": "https://tree-nation.com/",
+                "org_img": "https://tree-nation.com/images/favicon/favicon-32x32.png"
+            }
+        ],
+        "desc": "Social contributions are a great way to give back to the community. They are also a great way to learn about new technologies and meet other developers. There are many different types of social contributions, but they all have one thing in common: they are a great way to give back to the community",
+        "typeId": 4,
+        "certificates": [
+            {
+                "id": "sc_01",
+                "org_id": [
+                    "hb_id",
+                    "tn_id"
+                ],
+                "name": "Tree(s) planted",
+                "img": "https://lh3.googleusercontent.com/fife/AK0iWDwUyTv5sJDIBwtdVcyhoCL58MJVZCd8pfzxdd2bCEyTQ-Lc5Fxo_MaPFIaBmxtDC-A4W-I8gwBfD0u8Gbk82FB5300q799KCm9hbzF6cKOrAzAqZ28IUF2EDIUHSV282LZ6tXUcwoMMHS0LtfaMqrf6vih2MHSfKYqX9Kg6vdvZo9Qedcyjg6ppATQFhr8bu31HS8WYgqMn-8jkLBMqdFrVVvf2QnIe5llmG8MixYQcP7vAZBQX-hH7f_90AAtK4NO-6DqrUntNqos-zQ_DYpkFAlFIMAqEORNq6hL1hfpyGGmBid9fOxzrBEXlWwNF5YSS2NpJvvA2aq17ufV58Mf637VgWiXwIaVn_Z3DFRSUyZua7ggRIf-yy4tx7BaG2lPieK0VcZm7UjOGb4z4OrAoFLEMCWXz8d3NE4hLCiH4_0_tZNZgQF_pda72aJkghBnKKxK25CeaJctU6ZvRObfpynIxT48C0oT2K_fp3EeLfccVZNjNThRVG9gl9KgkUF0VpFh0av9ObKvyitNUshoyVCFFfcBJC2QjmOAWUZlsowC8QFOCa82eBIUvB6zdmVXqiacEd9hSUIKNedNdhtieontvZgAr4hTVAE3l_T1kDCksy9ZyDKXa2hcKAEIfvEF6cwNhU3cneEA964gEjImPKxbyuNf6lOL_4_3mtVbfOwdRhxourQ2o6GIAUYSk1SqNg9runU4PylkAiUFQRycNyh_W2BS67ClIJmn3lt0fuqAOjGmOsoC1iZ4Ln2Dw3Uqe5G2TB8XoubMLi2X1smAIxI-8Y54kgM5vk_m_9jUfC8gg8w4V5zViK63nFH7-0qUDxJRNcsn_aVfPodYD_5wvWRa4mdm7INfimVRq84hdI1D3k0bCp3WtIlZKuhQmZSDZsBFXRiSStPbLClP8dCacw2hmTJQzex8HoVRvNn6QVKE4ik2jEIky5cR3b7govUxakUK7gyFDt2KkcInrRaDRpsZJEkK5yWTQwkIB00wyp5OLwcy7OHRvY-AKcBYJEB-Fy7yRUGKpeNwe728jT3ojNROECMgAiyaSNaJpYibI9AFRw1978tWQCeaqa8BdEGRHFXx_3Vwoz5P_iaeamZM7FCT1-WpjglXisYiHL53umgpevF2QSzf5vX5GUJgONtIoqSgoeEhS9CobIQwCLL8JvBajew0qZulEmmCEgN4L44nu496-Uw30R29lrOf-Iz4T3aSeUEZdNjKQ33fRRvldcFfK7YOLHAB1bJYNbFboKoQc97EyTk9aDQI08eIuHsDyab3Ca9TTPt4ZWu4_r0xofmiXtLmQiMfyglLMaOO6R9luw-_9aXQDW_VnOZLmGARV9KTPFiZMn7MIYv02jNGxyAgssUwgFpzS_Ok15GpUz6aGd8My0ZWeHUAXraaBFqbrvQ8-0Y25X9C3jtdzv74IVnPagKm9gkUVFAorvV9GB8t98PIsnBE18r6xtHAzKp1FotCPqYtOQ4ezQk59gc23Uu0z17J9ikicvj2Z8U4rXiPWmkTMkOUdpiKVH8QUzU_K3pwPpf9UCMOuus1fGgGHDAn19EGgdZJ9yVWosoz8erxpzB1419MRS3c3f_xqhP8Usw6V22F9yV_DqDRDDzdDOXVfTQ=w2000-h1400",
+                "link": "https://tree-nation.com/certificate/6532c4117308f",
+                "date": "2023-10-21",
+                "skills": [
+                    "contribution"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "High schools",
+        "cover": "https://media.istockphoto.com/vectors/school-building-vector-id638731986?k=20&m=638731986&s=612x612&w=0&h=03VWvzc_LHVd5D5sZuPbmbiOnMipTY-DNVqhEs-XvPE=",
+        "orgs": [
+            {
+                "id": "hvc_id",
+                "org_name": "Hung Vuong high school",
+                "org_link": "https://thpt-hungvuong-binhphuoc.edu.vn",
+                "org_img": "https://th.bing.com/th/id/OIP.vNbZr39BFIvA5dMIyYKw1QHaHK?pid=ImgDet&rs=1"
+            }
+        ],
+        "desc": "Primary schoool, High school are places where I studied and grew up from childhood. Here I have many fond memories of my student days and academic achievements. The levels of education from 72 to 63 to high school are the foundation for the development of knowledge, wisdom and soul for the future",
+        "typeId": 2,
+        "certificates": [
+            {
+                "id": "hc_01",
+                "org_id": [
+                    "hvc_id"
+                ],
+                "name": "Olympic 19.5",
+                "img": "https://lh3.googleusercontent.com/fife/AK0iWDx5lSk4P9LAhHK5wD9HjbwcDRrgW0Rau8S812eI2TjjxZTQCau27bye-uBnxmhep5zun1UuQqYS_YwG1Pt5SaowmjZqc6RN5p44b0EDLjyI-zFLf5WIaiXsgWG69qxDH87kWNqyZXlL3BP03xtsjKqUBDDhA4pA1uxqg-SXb3kWcEhlv1qX27J1F1oDJQD_lGtMYUNt4n_LFK2y8Lf0ZJnRqTa5PQD1w4BqKUH1L83grmN1iOjhwymGcTwAqDbVsuQ_QbEUhRj4Uw5Ei28Y6BvdSiZoLxZO33F4FOSD_gqKG31VyGLKjQ65JUMivdd2n3d73N6GyCYyhjZ9rMeB63isJscHlGZCSmpD3KfwTXcgjoWoTc149V6zE5XoYwZaepF9sx4nXMej8bkLW2DkG9doN_yOusVqkXZWQ3pS7v6nQpIK-KYwGhv3Z0Pe2vqgp-ZT4-uzn1wU854Lm7cDE0NJBeOOhPeyb0TV4iSMWeLBoFD_VG7O2KVVvUafqoEs2_6ucXLOyZut0OvoJkGqQ3RB69sUh7v2dX3c15r-23W6wXxzRY4qZ0NShlenHGVbqo4LuoJRNf0rpsUNgUzexG2D0_nVetPtBePgjGcBZc-aLfcz6Unt8N0jLetkwtsfzOHxEb9r-bZMTM7oP9vRoXtZdIQxyhFnKEUX_P8_Q25gA0Q3w0n9mzUszFCmpKP5to8MFQ1EH37bHOkWi_v03AtSU97TGG8B6qYkH2WesYW07YaGveeCjz54i1YZA2xculpYTqiVUPZBzeun6mT1uRczxS_wUmkNmctNuN_vozmQ0kavrC02-x4j_QI-1L562fWouJw47ek-65DftExSw7yphzU2FFvmRutTkyJHzaWnwdJdBsjLh470zDBELzrI6YUpL8W6tFFbutKkUktAHD2e8RITJtcWZ6Sf559yJ2K48j0JmAQImhgycQ2yElQgZVFW_Obmkhykfqqrhknn1gSXddeCYE-K8tjHxsw5QcNr_EZyj-YjpJ5etIf1QAwjCer4Pxlaa-YMM08Pd-ok3-iWMC-K_RCUXF9fsMb_k2t3uE20V0uGDNK05ArsotTeIO1Ob-xnNNeF3j7WPkeWs5xkZ1NZW-UKTUUPyuvg1DkyaOz8ZV0OUzMxOH8PS70hhYRMXi00ECPHC-I-_D5PgfaZUpCj1ARvabqMMu0mwBPMsP23EAabIBUlR7rX5N4ksqX0j7zJ1kqI5eGTlDyvGnUlKdVD9gNUgK85g7A0p2FQ7BCq7LnJy17-a2jMrxuwg_GzF6Sliz_uP2_H0xdbzrCTs7kyIDOHk4IYVE8HX1ucZ_uo8RfFlrJx1n9i1RYO3HvoTAieyM4LxG2uhGbxa9Iep2ghEvn6cv2l7ZfYDz2R8IQ_qiKJ8aU9Ta_pxEGzLlPOXGaf86HZYWgbxEnhphPg1KalTwrZqcx5DouiJ4dFWtlgu6cZjLU5_5DwG8m18QTVzOM41JZlgdIeCzZnBPEcv_AOT48bJ5cL08kyDWW_WcYBe71pEF1uuo5d7w20vhe2b-M_n51fk4GsYgWxOZyLHYPvTpMWlxfz6ag-AD_DFAzo_DCLredq0EbOQr-nUgoOZrPfgtfAPDlnE-JD=w2000-h1400",
+                "link": "https://tree-nation.com/certificate/6532c4117308f",
+                "date": "2018-07-16",
+                "skills": [
+                    "olympic",
+                    "geography"
                 ]
             }
         ]

@@ -9,11 +9,15 @@ export const tabs = [
   },
   {
     id: 2,
-    name: "others",
+    name: "academies",
   },
   {
     id: 3,
     name: "badges",
+  },
+  {
+    id: 4,
+    name: "others",
   },
 ];
 
