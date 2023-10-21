@@ -20,7 +20,7 @@ export default function Home() {
   const [certs, setCerts] = useState(certificates);
 
   useEffect(() => {
-    const queryType = searchParams.get(ESEARCH_QUERY.TYPE);
+    const queryType = searchParams?.get(ESEARCH_QUERY.TYPE);
     if (queryType === undefined || queryType === null) {
       setCerts(certificates);
     } else {
