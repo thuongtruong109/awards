@@ -299,10 +299,16 @@
                 "org_img": "https://inkythuatso.com/uploads/images/2021/11/logo-iu-inkythuatso-01-25-10-08-01.jpg"
             },
             {
-                "id": "iujobhub_id",
+                "id": "iu_jobhub_id",
                 "org_name": "IU Job Hub",
                 "org_link": "https://iujobhub.com/",
                 "org_img": "https://iujobhub.com/wp-content/uploads/2021/07/ico-uhub-100x100.png"
+            },
+            {
+                "id": "iu_us_id",
+                "org_name": "IU Union Youth of Student",
+                "org_link": "https://iuyouth.edu.vn/",
+                "org_img": "https://iuyouth.edu.vn/wp-content/uploads/2020/11/104290422_264020064837959_2637006386884340465_n-360x180.png"
             },
             {
                 "id": "wsk_id",
@@ -332,7 +338,6 @@
                     "problem solving",
                     "critical thinking",
                     "time management",
-                    "project management",
                     "english"
                 ]
             },
@@ -340,7 +345,7 @@
                 "id": "iu_02",
                 "org_id": [
                     "iu_id",
-                    "iujobhub_id"
+                    "iu_jobhub_id"
                 ],
                 "name": "Lazada company tour",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDzpgDStbwj1BW9ZJQRzPnyWMk-rxDogpE3fUf6Aj8kbUn9UtjFInm4l0BXXwJt4i4EAECzTDTlUHtF-PlPy1uN8XY8QzXQzFZY1nXF6go5FSUteDzjLBnQoA5A49kNkK9c4qJQJimqAZrj9A9MtSxG_-mUz7pH2Eb95BD7noBdS6-CjuqgO3L2Jlo31LqugLyXYTeB8ywiZ5nGLu6NO9kd2Fi2orLEnkKK5hkZXKEk742QbB9ZDI5cEgfcAXoKNmlMQXYQrZjcy9BKAKNuYnLtH2t4sBt5tSv7Er5oJU8vlqeWvgWJ50Hm1Z-vkrCMykHEyuqc-4vM3N4i08WDEonrtSMTUVxJ61pYNWPhpXLjZ3dfCe8Q8zTgNOHNlvd-vYCKT4qSMDNDak1TBzJMwJxNsUSDU1TpQC2U6nh2CLR3RDHZXfWtDmCQrjQ5okpK8BJWims-516y52dPGOreoTnnInStRewPUX4bpY3FJnTs48NYelPmPmqSQRopOGWlDCJasWMcpZSgMHKiJBaBXE1YMbKXSfYNBpEus9etxcpyZrFPAMYX26b3ohi0OcF9PfR3aMrRSRq81t3FbCGLikOkZcrLunazfByQUgFAp0DsokGLgHCsIZSXQtC_UiVGw58ZC45KVPbW4dEdlVfO5qMDjHaR8Jklo-Q_b7Vx9PxbyaxVVOWvno5J4TIJXHK9VH_T5WHjYytcutoUbWfC1dULimfHHCT74SR-tygmEm7tZ7-n5XBBz0F4_5ugnfa5Gu9UtxgS0noGxuAxj86yzHqcprP7FigbTBQhP-KGHvASbldruYw6hRVH-dDtPOmsDdmJDL_gtqy1HR4HuTc7yTCwKywS40y3ZbnJRDFgDhD2rnRha6jhr65r5-ar1TbNH8v5K-H7gukiKAN31li-beaifMhfYq0wFqSumz_3NYd5LdbrCG5lQoBbR5zRoaQrx_oK3ZUm5gHkBeQPIkhJAP9ya9Qq6xiOuvAXTZ2BNIgWT4gsXFMFXju_9MIeMzRKhMJEgUMNBL2bKxmerrNXKRSFCf23pnXEpbB9ZYOgeIu3fEAj5gDbqEbpJ_k_5QMmDIlmJoLLwOgQk5Lls0W3-wKLnPApJ9oPlaKKZcaodv33bnSwDT3PtqRM9dPLBvNWSD7ajF0dpodLRu87dq7UPZZlfOKh06ChMm0UA71sEJ14D3RmbEmCK48ptfjLvu4v1ZvpyCu3N8_QJ3iV-rWxpKaF5iCfXJxjjAlb5E_IFBHhYKspTNkSysqoTjvxzptY6er9IWszoLCaUZX_X3pNpttQN8tWP60l_TSiUcREYYDaSybEvV8x7VhQ4MMTicZJnVLlxrLd-2BpLudpEC93FoIhquQvLycHSGirzfe5R1Tf8zAnyqdQG3X8_JVBUxGLBFczUAO-847npjEGrSxvGKmhXVEeQOi5nu1Az67GhTUpvz0YcSQwYMqffYYW-lMhG5JdQGDS5HhfOwyUsUe5dOdcQWOWk6--Jta-QUgnDKayun30KBW9NVvgwe15IY7Fwi6YYvi8LOaQuVcMDWRjvG0n8Q7twrd895EeAPswfrrDrqK-qdOqZMoDTjsm_O8NcJYCIdyk3i8S29PX2R-BwZwhnge5tjA=w2000-h1420",
@@ -354,7 +359,7 @@
                 "id": "iu_03",
                 "org_id": [
                     "iu_id",
-                    "iujobhub_id"
+                    "iu_jobhub_id"
                 ],
                 "name": "Talkshow_critical_thinking_on_network",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDwIJNqF7G-dUtkXFDV8QmDO6u9pB2_xLtZGaej88zjMpWaL3Vi9FZAobps60m1VIGDntcT1t-yVMq5kxfKaNqscWsK8JJwcnJxTpvnTT_G5XfWA_kRrtiVgsT56pi2bCL8Ef2ASzSeKUwktBBTvRwtd-DH92DZ264Vab4EubWHfBLhaAVb7Iuo8Tre9YAZoPnv10uU0WbZT8MTg1OxDReIvqpUrVKqSoOSRCF0rDYeBNWNnFGgkQEenBn6bJP0qs5GkTc_g5dykNqyF9nNjYmw5V2KSxX7NU-KMof3ec81C_guQ3hXDJh4m9D26QUCiZPM8NIWPQW66lVW5rLPVYF3VyNQw5VtpoORqMlqD5NGI6J63EHO52-O3tDUXRSjiOjTv2fOlTWlrmU62l6MpN1NBPL7gUqh5W-gaGzfrroGXgDmgEdJJymctnUAg6RLRXQViOKvebhabLEtO5CJi_I75p-9NIfQP9t0XGlC0CksDO-CwmVvqo7qGV6skqNVQImWyAiw-c3viEtvXnFVayCriJ8HWxGsSWAsQcZ5TFMngdILhfITGyEyFDiIPwIhwZGO30jo1kVA7IOm4MNK9AvuKstE0YNNHvwljdO5MpICklkgPor4Tj-qc93dpmvmPv67ZtqMlCtP_IytGmIC8qKNEOiBRz9W67NKKDnLjp8iqA2ob0-eYGXog2ZhmIcIOcNtvbxVmlZJErXtS333aiEd4laCwYJgNeS8nbkEtaWMy0OLQFsLjx4fMVwGlg_wzWdVEf6RF9DFxMIqz-oYRPztKJXgdSHqGhOjzZWt7fDYs5CosBoEvCRMvrvvRdB5vNVntcZCE_ozSNYIgg704XCXbIAFN73--K5s_8lHJBV8RUIk1ixtCkBgSom702E0zaFEa4LoH2hbL6Iw8HNlNxuzZYyF2ZQ5cKAM-YAgUizy4log5Kurq9XBgB1othDxy24oddGQh67IImATP7KXEvCS02qOviAYsR0Yg0NCB1SR-H5GA54gjaSlSUYa3yF96x-S7ZCZBcstKknCujSDpqpYIc4TIFx4rfGdU-g3sT-tI3yJyMfgJnlEP3sBKkNzbHUZY8i7ROksFex2oF3prSacjCUZLu0DzvzJT-XUz1MFrbAc9297cnJYMimajk30eJGFiBHNbRPaxNQopYtloQM-xTk1P8tKbAidRispTsHgiX3Z591XrdRfy8_1duQEgggvdlzw6M-7MKNEBMoZ6_eRe7ZMaVoZviw8AApTD_nC2TqYKCxDz2bf4uymRS3kBUHQRipNbKyrtMbIIyiCK44YYEBRKTsIgXuc37QP9oRYmwBeA90uWrrOMzZ5NpznmegJ2DPO7m8IgUBwFz9435KcF4MaJqDnjbVoYZDQEo4Sb-xTI3aRzqqqBvytfLjZCJGaAyLjq0qgsOblksJXkRBlSWXRLcp8u0fq5mz4eZ9pjWh2a6JumDjwdEneNaukZQzktm2eJr2J_UGC7oJbqqFdwe4_YnqmEWxAmsMpJxSrdCWB-jU_NPz3opMWrD7uOpYdYjxkeQ6FgJztlnzoVR3Fikr4pGYVuM8jgXs16uVKHhY914PCRZeiOJCctRuNLm3IosCtg6FZYUSsO3EOZHZPYEBFWeg=w2000-h1420",
@@ -368,9 +373,23 @@
                 "org_id": [
                     "iu_id"
                 ],
-                "name": "Silver medal at IU Sport Tournament",
+                "name": "Silver medal at IU Sport Tournament 2019",
                 "img": "https://lh3.googleusercontent.com/fife/AK0iWDw5xRBUiQ54K-lnVVRyLoDZvJAGDqKRhyFhC__WwFblDVz9fQeL5gPnF9nH0gueF2rciVpb-_qxJt-gm6XcN9QcS2AhvkAet9hHyIflp6XtIRydACI0502FK0pr6nkmF0AgwCxAiN45MYQHsTnWDOKsLxFoQzMHoDSy6EpszGliRSdZXyCGEapm82UPZaX7j5jTkobLnR9gAMw57eLjM6Qvi3qjVRRHjAn2DeJOJ1573M4SyHhTRgBDZ_lqbc--W4uvMIr1GhNBAc7cyPZl0lUrNnxbrXF9iTZDB2EDJbsJAd_GSJ01dPsWj5mMihjy1LPwkPexstxOZJ9FmoxHNOpuWjwwypXQDjEPsGFYN20deacUstzevxa8ryWlYX72pT7H7gm_ivNWrGzYI4r1oKqZctmic5Tpw5CtnWH_INhM6eSbAiE6JNLV6UCJdDBVO-6XuyagMXWqMoRruhOhpC0fCo291TYsi-h1QYjzxj8hgO8LL89oLTZbVlS1j2amLKuIPPIvRkhEj8wU9yJUqcu-49_OyP0d7I6AlIfSQiZ-JOC1z2Szqw96M3Ou5gXe7KZRy5s3MbBHdPM_en_VZS0Hk2bez12Qbt5CaTdHk6EMJW5CI4FzP4hd2HK6QBiKFiq461WC9oLCR2CeYVV9epTMlfKnbszRh6xR5jbpzZFgarTja044th7HTf-FKqvDGWnIJarijtzAVfDdo1GZLMAtBVoxBdWwqV03KOxAWN9PH7-VEpaNzweKQin0kaBfoEAOgtqEFIPJCe3HKYmcgXn8Te0_YwfoqaOp1OMwSUcp0ZCyMITSi2QIDmqDClbLuUv5MJ8CMkKcfU8ZZAAzHc8MtlSIYCG358wpo0jc0ehbaT0ew8UgRf8qYj5-nl2gIvytY1aJ6u-YtJrsgB-7N3v__ivx-29h227GWgC3pqBQeo231BEX_SpnQjiMnTZqzMFTxVg340PIVFD4wJfPBj2-MeXo8mJrGYNJtl8kl1uRX02ODU2ZAKxaA8y-r5gBqUYNr9I_nI9u6peWbfVTYcHDJnDdFaWge8yaX76sTQFxcoizkxfLo1iheqxiVAM7rUGGuloQ-5tO9OGxNSHObgmhp_63hyDKb3xSVWeot7um0XyVkV1SUZRrOty_wBdfglKDwQmB4wzY7nyNVyhzLF6hALJkOHewgS-GntTWmSSOgzaACFaMbJCdzmGU0O4Tux7nJjei6YiFpBiJKNTZg2NAU85DcjN3Lld-rkaAMXMtgnjqWb4J5Im4jJ5YT05yqUYCRNQ00PUqFVNok-bjhvGsRag2OiUGg-TUsaG4eoRGo1OpZftN1T5SuV_NvKIQc6jBHmVBVmQgrElCcGswF7ksnHv5GmoVakvUZ3Jnzq_F9EQzpCnSR9UKal2F0R73sQUzZDYt3_ze1H3YAfm7suTPnUx9CvAWK_ShS8hTsbKzeKlTAHlwweM7xG8Ljf-ASh3Z3d6dqiED5h5Y81_I9bQcyvPPc-JIy_FS_JHqWEPawz03JfvU7pkfI0TcKcq16_CPZ-aA-ne7uNz-31R59arQ5xcNzQ_HhcAHcecaqcsKrlWr_AC0GR7MKN6HbpVenf4ZMsD9BW5AUCZFsPUlet0tWb20pg=w2000-h1400",
                 "date": "2019-11-19",
+                "skills": [
+                    "sport",
+                    "table tennis"
+                ]
+            },
+            {
+                "id": "iu_05",
+                "org_id": [
+                    "iu_id",
+                    "iu_us_id"
+                ],
+                "name": "Bronze medal at IU Games 2023",
+                "img": "https://lh3.googleusercontent.com/fife/AGXqzDlm1P9EjorORl_rspCW9dYu-Gd9LQNbbGbsdQmkDzAjm_dVe_LkHSw9lYvqMsh0cPJPIFXnXA78UHsGNbCjaKsHRyUrthHNGej9PmQuI9YqN4x6qARqJVGh2WeILefvLGDyCAZhgM3izapXqVPItYKd1pcVGeT-AWISkgr46kLtOwQ4frmHZv171RjgY_L-FQcaMb9zTG5qRLTLPeey_a-VhKpluumKaCRJiMbpSzGjrwIRRyAq_MsyaG-cpy4iUw3IxgWHHQVPK78ehjcCcM8nx-cSMtYCRpcCQoaLWllYmVC1bgn5DLaFXDzeiOyO6nKWqn0Jp5xmpnS8CPhKvBAkHJRijCatxaDgjTRa_6hkVDX30TjfelhGwkr62j2MluRrj4-FCZ0oeGVN7dipgWhNbeQvjcUcU-QtRehLx0guD0ajlZiTtFVIvua--SiMiNJCGSTOKfUO3MGXQyxQCTq3jTwQfaPdQy3FmxoglGLNfC_1FMcE_dKhqHcfPadk71blUfR1zW-tFk1jAS0uUDvXTRH1bkMfD30COOPoQhhshflRhUmjFLoxbPOwSHvYhm-swSMkkpYHX4BQzdv8KxMTFjIXZuEbRLqZVzfPtfHjoxYH9eUPRg0l4L3GOBcfy0vYOhttnQY_2V19C-8nc36L_imcrzMQBKLsomt9O_BBeK7yB4KFecMo5XiY55rTEr8SWVtOy8sjTUXJbJ_cggWOv7FN4Owyy2PpdEbEsU8pTPBZo3NTx-uvwY8BsMRL89T7wR9GI8oxIjCGTNRfRywuxzBWmbphAhFfWS946QL2Lz5gqineo5qNwFYk1fW4wgmD9UoYRwdf78Ynu6BHdEfHENJNXE_ooAn6KU7l3pXI2S7QfjDca3tV66ZjKXA_DNW6lk3TpUGl1hPs8TOv_ckQ_gCniXZz_Gt_KtkFGRTmqVwdqozAZOhFEvhmEB0x2hbxwVPGJXYj6yr8TtbTx0PW7COlR2IWLXPKGexMHO4KI76I4OyuyO_z9spd0MSaBzaADwPXNrkCROUejiEGMEhUjilvAbp3kumj7RbXVT9xqqRRgOc4IquSN9y-aWoysm9hcy6W1oqNMDyGGH5R41at6G7ukSQwuYls8pGjjazfwjBtNtI0K8kqQuUR9SaC775Ea2JE_5Cjs8dQajJrscWj5BvwOIdgxbda2Y3_VfXHuRP3NvlAXbEpFi_viLB3G3xMvbDQOyIkKEglm0ujKqS2gtuTdwSxVeqZROdprro0IHykn57nV5rYHGbBbrHVZttatfOki035TMQBOnylo9wCnP7VFbAIyq1lW7RwOsHpvzo7jySSMGb0RIyhgIXZTQ4bumTIx-J-PFzWzTP7S1YM1NRytfsqxRaDu1op1IIiLy9TmhjCEizm0dR422XF1Yut3jtAZ1CJN93UW1uwvOsFaoL-cCOexf53-4kgu0blLH_7_Reig2Ke0RxfjWPb07PEBA2kPU6CzEzu_pJ1WKnuqX8NHwgnePjNIDADWk84yk-NpYX3swwgnb0S-gsqmTLLRy7pGmNQ88aVUo_8MOlfvvQgrGzW3CH09wWHHbhDbJZ38Yuaj7SG56YuaKV8=w2000-h1244",
+                "date": "2023-12-05",
                 "skills": [
                     "sport",
                     "table tennis"
@@ -661,6 +680,12 @@
                 "org_name": "Vue.js Forge",
                 "org_link": "https://vuejsforge.com",
                 "org_img": "https://vuejsforge.com/favicon.png"
+            },
+            {
+                "id": "bingx_id",
+                "org_name": "BingX",
+                "org_link": "https://bingx.com/en-us/",
+                "org_img": "https://bin.bb-os.com/favicon.png"
             }
         ],
         "desc": "Online conferences are a great way to learn about new technologies and meet other developers. They are also a great way to get involved in the community and learn from others. There are many different types of conferences, but they all have one thing in common: they are a great way to learn about new technologies and meet other developers. Online conferences are a great way to learn about new technologies and meet other developers. They are also a great way to get involved in the community and learn from others. There are many different types of conferences, but they all have one thing in common: they are a great way to learn about new technologies and meet other developers.",
@@ -708,6 +733,17 @@
                 "skills": [
                     "nextjs",
                     "react"
+                ]
+            },
+            {
+                "id": "web3_01",
+                "org_id": [],
+                "name": "Web3 conference 2022",
+                "img": "https://lh3.googleusercontent.com/fife/AGXqzDkz2gXypeD0fYZn2QiBUyDkCNXpzjfw4XzhtrAQv75_ke25_mwmKn4Po4f13ZAt_Kmj7otMkg_tkrpIvmEzT8SC3H6nq0Xzl344gWtTuGyDYBhZ6cqMR2O0uuWOjQqJqTyV1wOkfqGIT0yg6G6bHsdCakgiC7IopT9f0U8gju19vWYy3ocWY0NG0vQu61ZE6mCI4czWjksLIxWKuVIdXRI3FoAboh_45zDMvOvvUzg5sxx0VfiLA_N1ODq0DhI4Kpz9zdoFCj8yd7PDzcb8USNMP1a_SXKVbS1gPNC-ssvu_nqaJcd5iLNCp2o267s-WMUck4cKw_-4Bc7Wdc6r53XMOUB1YLzQRJjTnRSLW_zBl0QjdUkb7XawwHotuUftW5h9SYA4FiJZBQFt6K1-XtmK8BFcP4cmSRMUWXCAHhqJhqz47zuCqBF0fo6bUyMBTDV2qb4iwC165oqQuK7JlD23XfJhqtuPySWt0g5pLIil6Vn3zVjIZ6Kuxv90YjsK2kzd9HpQ7xB9x6YPP8GUogfSn7LWQX0XEV674kJ6FnjAsMqQwYZju0wWjJHKDn3MIstbjsf82XB1OCcF0oYjmmP0ddPm2xtlLSqFD_c6UdCsTyz-DHgYTzqAByUdFy-VjonkMJN0rnvsHj_k8SA6FNjEbZ4ums2R9kCWavZNpU2oUnjusJYPZG8Ajgm4VVN4cnTXwe5Ci3bggjcT1V-4UFgdve4aC-XnsYyh1ka58VEcsD8NaP6x6SYHTkmgUdPVqFKL22jGDsKkr8i26qXHV59Q1mlyMPmOP2sTahExqwM7PMkvzI_jz3ZfK0WyOAG-tqbfKTC3QGAjIsuuFU5RcL6c0cfcwK0vjXbEYbyGr937sdJzlRYOKiuFjv7J4Nrcg_033jDmThXa3ZOiDuwmUsnwNrzxPM_ccL39P45-vHw1ZYT06DBHEJmPX5Y60r8p7hya4Q6WK-lgeDJVnwfQUjhyAjG9QkD2dor498YRGoNYU0gYxaYvPT8pOqwi3PnI8hi4d6m8FuMZd2mGEp4wmx9Ifju-jkrL6vSAMFRRVjGWVYvVQgYVVJZT8H1Cxxc4UcdL0Wfewa9xeu94xKJdFaWgiRLKZsOwQZh3CRC3lW5zbPGK2jBKbS0bBJOLzeUw3C-m2mBVhciiUVCmVGh5Uq-zWN5grO32CmsBLIJqd0enUZxN3ElZnl135F-LWITHDAwh9dYpSyQgFZXQ6uj6EMRW-pluqslReVsEGqSsHaPvp2ZzL2IvehTSp1dWtR5q1JBiJ00sCEh9-XPYLaW8VDzEopVv4wB5rzeW1KsQXNSnZX2OAyvexYZA6eIQS0Yjg1KiMXYVHzgchu_Zrwesipcvc7xVkJXuTAWCvkQCNq1EJSaYmDzT3ujTqRxMrw3XnVxb_bJFO3yVVhgVu86AqU0nH0wn6Em53CHsORNa9gRjsDtbVoqk5wg4JVJPxjgfBP2YcAVxhWFrRrIlSEaZ-IyLMCEcqUNqIFkf7DMPGIBMDJ5oNnTanhMyv65-JpGDhG6aF87aj2jkPmyLq487EQN-JMiyiowHjplQbrj6pHkaBl8T9ZGaJEBTpULVvsd9=w1303-h812",
+                "date": "2023-12-15",
+                "skills": [
+                    "web3",
+                    "blockchain"
                 ]
             }
         ]

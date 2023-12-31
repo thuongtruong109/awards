@@ -27,9 +27,18 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const numbers = Array.from({ length: 10 }, (_, index) => index + 1);
+
   return (
     <html lang="en">
       <body className={inter.className}>
+        <div className="snowflakes" aria-hidden="true">
+          {numbers.map((i) => (
+            <div className="snowflake" key={i}>
+              ❅
+            </div>
+          ))}
+        </div>
         <main className="my-2 flex min-h-[calc(100vh-10.3rem)] flex-col items-center">
           {children}
         </main>
