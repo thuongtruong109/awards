@@ -11,7 +11,7 @@ import type { ICertificate, INavigationTab } from "@/types";
 import { formatCertName, obj2Arr } from "@/utils";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { FiEye } from "react-icons/fi";
+import { FaRegEye } from "react-icons/fa";
 
 export default function Home() {
   const pathname = usePathname();
@@ -55,11 +55,11 @@ export default function Home() {
             key={idx}
           >
             <Card card={certificate} link={formatCertName(certificate.name)}>
-              <div className="flex items-center justify-between">
+              <div className="flex items-end justify-between">
                 <Group orgs={obj2Arr(certificate.orgs)} />
                 <Quickview
                   btn={
-                    <FiEye className="block cursor-pointer text-xl text-gray-500 group-hover:block md:hidden md:group-hover:block" />
+                    <FaRegEye className="block cursor-pointer text-xl text-blue-500 group-hover:block md:hidden md:group-hover:block" />
                   }
                   sources={getSources(
                     certificate.certificates as ICertificate[]

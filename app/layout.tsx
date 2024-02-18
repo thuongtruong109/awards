@@ -2,7 +2,8 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import Image from "next/image";
+import "../styles/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,7 +36,12 @@ export default function RootLayout({
         <div className="snowflakes" aria-hidden="true">
           {numbers.map((i) => (
             <div className="snowflake" key={i}>
-              ❅
+              <Image
+                src="/apricot_blossom.png"
+                alt="apricot blossom img"
+                width={20}
+                height={20}
+              />
             </div>
           ))}
         </div>

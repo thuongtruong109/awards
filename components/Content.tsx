@@ -38,7 +38,7 @@ const Content = (props: Props) => {
         </figure>
         <div className="flex h-full flex-col justify-between sm:col-span-5 lg:col-span-5">
           <div className="flex items-start justify-between space-x-3">
-            <h2 className="text_shadow text-2xl font-bold text-gray-900">
+            <h2 className="text_shadow card_content_gradient text-2xl font-bold text-gray-900">
               {currentCert?.name}
             </h2>
             {currentCert?.link && (

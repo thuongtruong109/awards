@@ -32,13 +32,13 @@ const Card = (props: Props) => {
         />
       </figure>
       <h2
-        className="trunc2 text_shadow my-3 cursor-pointer text-center text-xl font-semibold group-hover:text-red-500"
+        className="trunc2 text_shadow card_title_gradient my-3 cursor-pointer text-center text-xl font-semibold"
         onClick={openLink}
       >
         {props.card.name}
       </h2>
       <p
-        className="trunc2 m-0 my-2 max-w-[30ch] cursor-pointer text-sm opacity-50"
+        className="trunc2 m-0 my-2 max-w-[30ch] cursor-pointer text-sm font-medium text-gray-400"
         onClick={openLink}
       >
         {props.card.desc}
