@@ -1,5 +1,5 @@
 import FsLightbox from "fslightbox-react";
-import { ReactNode, useState } from "react";
+import { ReactNode, memo, useState } from "react";
 
 type Props = {
   btn: ReactNode;
@@ -25,4 +25,4 @@ function Quickview(props: Props) {
   );
 }
 
-export default Quickview;
+export default memo(Quickview);

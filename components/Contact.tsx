@@ -1,5 +1,6 @@
 "use client";
 
+import { memo } from "react";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { BiLogoFacebook, BiLogoGmail, BiLogoLinkedin } from "react-icons/bi";
 import { PiDevToLogoFill } from "react-icons/pi";
@@ -65,4 +66,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default memo(Contact);

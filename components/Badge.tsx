@@ -1,5 +1,5 @@
 import { badgeColors } from "@/shared";
-import { useEffect, useState } from "react";
+import { memo, useEffect, useState } from "react";
 
 type Props = {
   text: string;
@@ -20,4 +20,4 @@ const Badge = (props: Props) => {
   );
 };
 
-export default Badge;
+export default memo(Badge);

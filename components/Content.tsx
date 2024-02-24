@@ -2,7 +2,7 @@ import Badge from "@/components/Badge";
 import Typing from "@/components/Typing";
 import type { ICertificate, ICertificateInfo } from "@/types";
 import Image from "next/image";
-import { useState } from "react";
+import { memo, useState } from "react";
 import { AiOutlineSafetyCertificate } from "react-icons/ai";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { LiaCertificateSolid } from "react-icons/lia";
@@ -108,11 +108,11 @@ const Content = (props: Props) => {
           </figure>
         </div>
       </div>
-      <div className="mt-8 flex justify-start justify-self-start rounded-xl bg-white">
+      <div className="mt-8 flex justify-start justify-self-start rounded-xl bg-white dark:bg-gray-800 dark:text-gray-200">
         <Typing text={props.data?.desc} className="px-4 py-2" />
       </div>
     </div>
   );
 };
 
-export default Content;
+export default memo(Content);

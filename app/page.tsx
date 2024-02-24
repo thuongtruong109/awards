@@ -50,7 +50,7 @@ export default function Home() {
       <ul className="grid gap-3 p-2 text-center sm:grid-cols-2 md:grid-cols-3 lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         {certs.map((certificate, idx) => (
           <li
-            className="card_shadow group h-[18.5rem] rounded-xl border-b bg-white p-2 shadow transition-colors hover:dark:bg-neutral-800/30"
+            className="card_shadow group h-[18.5rem] rounded-xl border-b bg-white p-2 shadow transition-colors dark:border-transparent dark:bg-neutral-800"
             rel="noopener noreferrer"
             key={idx}
           >

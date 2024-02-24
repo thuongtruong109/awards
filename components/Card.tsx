@@ -4,6 +4,7 @@ import { openSelfLink } from "@/helpers";
 import { ICertificateInfoCard } from "@/types";
 import { formatCertName } from "@/utils";
 import Image from "next/image";
+import { memo } from "react";
 
 type Props = {
   card: ICertificateInfoCard;
@@ -32,7 +33,7 @@ const Card = (props: Props) => {
         />
       </figure>
       <h2
-        className="trunc2 text_shadow card_title_gradient my-3 cursor-pointer text-center text-xl font-semibold"
+        className="trunc2 text_shadow card_title_gradient my-3 cursor-pointer text-center text-xl font-semibold dark:text-white"
         onClick={openLink}
       >
         {props.card.name}
@@ -48,4 +49,4 @@ const Card = (props: Props) => {
   );
 };
 
-export default Card;
+export default memo(Card);

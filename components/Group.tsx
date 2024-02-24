@@ -13,7 +13,7 @@ const Group = (props: Props) => {
       {props.orgs.map((org) => (
         <li key={org.id} title={org.org_name}>
           <Link href={org.org_link}>
-            <figure className="h-8 w-8 cursor-pointer overflow-hidden rounded-full border-2 border-white shadow-sm hover:shadow-lg dark:border-gray-800">
+            <figure className="h-8 w-8 cursor-pointer overflow-hidden rounded-full border-2 border-white shadow-sm hover:shadow-lg dark:border-gray-800 dark:bg-gray-700 dark:hover:shadow-none">
               <Image
                 className="inline-flex min-h-full w-full items-center bg-cover"
                 width="1000"

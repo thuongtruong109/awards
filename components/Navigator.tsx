@@ -4,7 +4,7 @@ import { ESEARCH_QUERY } from "@/enums";
 import { tabs } from "@/shared";
 import type { INavigationTab } from "@/types";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { memo, useEffect, useState } from "react";
 import { HiBadgeCheck, HiViewGrid } from "react-icons/hi";
 import { IoMdSchool } from "react-icons/io";
 import { MdOutlineUnfoldMoreDouble, MdPeopleAlt } from "react-icons/md";
@@ -81,4 +81,4 @@ const Navigator = () => {
   );
 };
 
-export default Navigator;
+export default memo(Navigator);

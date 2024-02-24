@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { memo, useEffect, useState } from "react";
 
 type Props = {
   text: string;
@@ -25,4 +25,4 @@ const Typewriter = ({ text, delay = 100, className }: Props) => {
   );
 };
 
-export default Typewriter;
+export default memo(Typewriter);
