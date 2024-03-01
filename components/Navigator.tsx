@@ -39,7 +39,7 @@ const Navigator = () => {
 
   const matchStyle = (idx: number) => {
     return idx === tabIndex
-      ? "bg-gray-900 text-white shadow-md"
+      ? "bg-gray-900 dark:bg-gray-600 text-white shadow-md"
       : "text-gray-900 hover:bg-gray-200 dark:text-white dark:hover:bg-gray-700";
   };
 
@@ -59,7 +59,7 @@ const Navigator = () => {
   };
 
   return (
-    <ul className="mx-auto mb-2 flex w-fit items-center space-x-1 rounded-lg bg-gray-100 p-1 dark:bg-gray-600">
+    <ul className="mx-auto mb-2 flex w-fit items-center space-x-1 rounded-lg bg-gray-100 p-1 dark:bg-gray-800">
       {mergeIcons.map((tab) => (
         <li key={tab.id}>
           <button

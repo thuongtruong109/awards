@@ -38,9 +38,9 @@ const ThemeToggle = () => {
       ></div>
       <div className="z-0" onClick={toggleTheme}>
         {isDark ? (
-          <RiSunFill className="h-5 w-5 text-yellow-500" />
-        ) : (
           <RiMoonFill className="h-5 w-5 text-purple-500" />
+        ) : (
+          <RiSunFill className="h-5 w-5 text-yellow-500" />
         )}
       </div>
     </button>
