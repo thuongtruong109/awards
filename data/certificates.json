@@ -1,7 +1,7 @@
 [
     {
         "name": "IELTS",
-        "cover": "https://mapleeducation.ca/wp-content/uploads/2019/10/ielts.png",
+        "cover": "https://www.ghupload.com/wp-content/uploads/2022/10/Where-to-take-a-practice-IELTS-test-to-pass-the-exam.jpg",
         "orgs": [
             {
                 "id": "ielts_mrstrang_id",
@@ -143,7 +143,7 @@
     },
     {
         "name": "Hackerrank",
-        "cover": "https://cdn.hashnode.com/res/hashnode/image/upload/v1665552178293/tjscqFgF4.png?auto=compress,format&format=webp",
+        "cover": "https://i.ytimg.com/vi/9dcCOqMdIIs/maxresdefault.jpg",
         "orgs": [
             {
                 "id": "hackerrank_id",
@@ -794,7 +794,7 @@
     },
     {
         "name": "Hacktoberfest",
-        "cover": "https://th.bing.com/th/id/OIP.zOYd6maBqGWbFCMHydZFmAAAAA?pid=ImgDet&rs=1",
+        "cover": "https://wptavern.com/wp-content/uploads/2019/09/Screen-Shot-2019-09-25-at-1.47.45-PM.png",
         "orgs": [
             {
                 "id": "hb_id",

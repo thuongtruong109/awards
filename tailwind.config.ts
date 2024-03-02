@@ -23,6 +23,21 @@ const config: Config = {
         wide: { raw: "(min-aspect-ratio: 3 / 2)" },
         "taller-than-854": { raw: "(min-height: 854px)" },
       },
+      keyframes: {
+        slideUpEnter: {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(20px)",
+          },
+          "100%": {
+            opacity: "100",
+            transform: "translateY(0px)",
+          },
+        },
+      },
+      animation: {
+        slideUpEnter: "slideUpEnter .3s ease-in-out",
+      },
     },
   },
   plugins: [require("@tailwindcss/aspect-ratio")],

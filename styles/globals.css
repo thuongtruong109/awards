@@ -62,8 +62,8 @@ body {
 }
 
 .card_shadow:hover {
-  box-shadow: 0.5px 0.5px 0.5px rgb(34 211 238 / 40%),
-    -0.5px -0.5px 0.5px rgb(34 211 238 / 40%);
+  box-shadow: 1px 1px 1px rgb(34 211 238 / 40%),
+    -1px -1px 1px rgb(34 211 238 / 40%);
 }
 
 /* card title gradient */
