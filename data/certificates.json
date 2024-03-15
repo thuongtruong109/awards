@@ -881,7 +881,7 @@
         ]
     },
     {
-        "name": "Social contributions",
+        "name": "Social & Open-source",
         "cover": "https://static.vecteezy.com/system/resources/previews/000/401/516/non_2x/people-volunteering-and-donating-money-and-items-to-a-charitable-cause-vector.jpg",
         "orgs": [
             {
@@ -895,6 +895,24 @@
                 "org_name": "Tree-Nation",
                 "org_link": "https://tree-nation.com/",
                 "org_img": "https://tree-nation.com/images/favicon/favicon-32x32.png"
+            },
+            {
+                "id": "dt",
+                "org_name": "Dev.to",
+                "org_link": "https://dev.to/",
+                "org_img": "https://th.bing.com/th/id/OIP.dz-jPqh2-8KD61lIQEK8mAAAAA?pid=ImgDet&w=474&h=474&rs=1"
+            },
+            {
+                "id": "gh_id",
+                "org_name": "GitHub",
+                "org_link": "https://github.com/",
+                "org_img": "https://image.freepik.com/free-icon/github-cat-in-a-circle_318-41747.jpg"
+            },
+            {
+                "id": "dld_id",
+                "org_name": "Daily.dev",
+                "org_link": "https://daily.dev/",
+                "org_img": "https://console.dev/img/favicons/daily.dev.jpg"
             }
         ],
         "desc": "Social contributions are a great way to give back to the community. They are also a great way to learn about new technologies and meet other developers. There are many different types of social contributions, but they all have one thing in common: they are a great way to give back to the community",

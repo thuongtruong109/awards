@@ -31,7 +31,10 @@ const ThemeToggle = () => {
   };
 
   return (
-    <button className="relative rounded-lg bg-gray-100 p-2.5 text-sm outline-none dark:bg-gray-700 dark:text-gray-400">
+    <button
+      type="button"
+      className="relative rounded-lg bg-gray-100 p-2.5 text-sm outline-none dark:bg-gray-700 dark:text-gray-400"
+    >
       <div
         className="absolute inset-0 z-10 h-full w-full"
         onClick={toggleTheme}

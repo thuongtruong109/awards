@@ -31,7 +31,6 @@ const Card = (props: Props) => {
           width="1000"
           height="1000"
           priority={true}
-          objectFit="cover"
           className={`min-h-full w-full rounded-lg bg-cover transition-all duration-500 ease-in-out group-hover:scale-105 ${
             loaded ? "" : ""
           }`}

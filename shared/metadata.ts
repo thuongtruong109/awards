@@ -1,5 +1,5 @@
 export const siteConfig = {
-  title: "Thuong Truong's certificates",
+  title: "Thuong Truong's awards",
   description: "Showcase of Tran Nguyen Thuong Truong achievements & awards",
   keywords: ["Nextjs", "React", "Tailwind", "TypeScript"],
   url: "https://awards.thuongtruong.me",
