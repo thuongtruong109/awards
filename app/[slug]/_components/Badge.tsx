@@ -13,7 +13,7 @@ const Badge = (props: Props) => {
   }, [props]);
   return (
     <span
-      className={`inline-flex items-center rounded-md px-2 py-1 text-sm font-medium ring-1 ring-inset ${badgeStyle}`}
+      className={`inline-flex items-center rounded-md px-2 py-0.5 text-xs font-medium ring-1 ring-inset ${badgeStyle}`}
     >
       {props.text}
     </span>

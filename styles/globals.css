@@ -16,6 +16,13 @@
   }
 }
 
+* {
+  user-select: none;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #afafaf #ffffff8d;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -55,8 +62,9 @@ body {
 }
 
 .icon {
-  font-size: 1.2em;
-  margin-right: 0.25rem;
+  font-size: 1.1em;
+  margin-right: 0.2rem;
+  margin-top: -0.2rem;
   display: inline-flex;
   align-items: flex-start;
 }
@@ -206,4 +214,9 @@ body {
   left: 90%;
   -webkit-animation-delay: 3s, 1.5s;
   animation-delay: 3s, 1.5s;
+}
+
+/* slide */
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: #4db5ff;
 }

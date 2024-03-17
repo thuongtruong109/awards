@@ -1,5 +1,5 @@
-import Badge from "@/components/Badge";
-import Typing from "@/components/Typing";
+import Badge from "@/app/[slug]/_components/Badge";
+import Typing from "@/app/[slug]/_components/Typing";
 import type { ICertificate, ICertificateInfo } from "@/types";
 import Image from "next/legacy/image";
 import { memo, useState } from "react";
@@ -7,6 +7,7 @@ import { AiOutlineSafetyCertificate } from "react-icons/ai";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { PiFireBold } from "react-icons/pi";
+import Slide from "./Slide";
 
 type Props = {
   data: ICertificateInfo;
@@ -50,13 +51,13 @@ const Content = (props: Props) => {
             )}
           </div>
 
-          <div className="grid grid-cols-10 items-start justify-between gap-x-3">
-            <div className="col-span-6 flex flex-wrap items-center space-x-1 text-base text-gray-800">
+          <div className="grid grid-cols-10 items-start justify-between gap-x-3 text-sm">
+            <div className="col-span-6 flex flex-wrap items-center space-x-1 text-gray-800">
               <div className="font-medium text-blue-500">
                 <AiOutlineSafetyCertificate className="icon" />
                 <span className="hidden sm:inline-flex">Issued:</span>
               </div>
-              {currentCert?.org_id.map((org, idx) => (
+              {currentCert?.org_id?.map((org: string, idx: number) => (
                 <a
                   key={idx}
                   href={getOrg(org)?.org_link}
@@ -77,37 +78,23 @@ const Content = (props: Props) => {
 
           <div
             aria-labelledby="options-heading"
-            className="space flex flex-wrap items-end space-x-2 space-y-1"
+            className="space flex flex-wrap items-end space-x-1.5 space-y-1 text-sm"
           >
             <div className="font-medium text-yellow-600">
               <PiFireBold className="icon" />
               <span className="hidden sm:inline-flex">Skills:</span>
             </div>
-            {currentCert?.skills?.map((skill) => (
+            {currentCert?.skills?.map((skill: string) => (
               <p key={skill}>
                 <Badge text={skill} />
               </p>
             ))}
           </div>
-          <figure className="flex space-x-2 overflow-x-auto p-2">
-            {props?.data?.certificates?.map((cert) => (
-              <Image
-                key={cert.id}
-                src={cert.img}
-                alt={cert.name}
-                width="200"
-                height="120"
-                onClick={() => setCurrentCert(cert)}
-                className={`sm:w-30 h-14 w-28 cursor-pointer rounded-md sm:h-16 ${
-                  cert.id === currentCert.id &&
-                  "ring-2 ring-purple-500 ring-offset-2"
-                }`}
-              />
-            ))}
-          </figure>
+
+          <Slide data={props.data?.certificates} currentCert={currentCert} onClick={setCurrentCert} />
         </div>
       </div>
-      <div className="mt-8 flex justify-start justify-self-start rounded-xl bg-white dark:bg-gray-800 dark:text-gray-200">
+      <div className="mt-8 flex justify-start justify-self-start rounded-xl bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-200">
         <Typing text={props.data?.desc} className="px-4 py-2" />
       </div>
     </div>

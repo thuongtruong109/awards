@@ -2,26 +2,20 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        domains: ['1.bp.blogspot.com', 'moneycourt.co.jp', 'www.udemy.com', 'codelearnstorage.s3.amazonaws.com', 'inkythuatso.com', 'www.thegoandroid.com', 'th.bing.com', 'sm.pcmag.com', 'www.lifewire.com', 'pestleanalysis.com', 'www.fluentu.com', 'cdn4.iconfinder.com', 'ceowatermandate.org', 'raw.githubusercontent.com', 'user-images.githubusercontent.com', 'womenwill.google', 'vuejsnation.com', 'vuejsforge.com', 'img.stackshare.io', 'assets.holopin.io', 'www.holopin.io', 'lh3.googleusercontent.com', 'iujobhub.com', 'tree-nation.com', 'static.vecteezy.com', 'media.istockphoto.com', 'iuyouth.edu.vn', 'bin.bb-os.com', 'racevietnam.com', 'www.ghupload.com', 'i.ytimg.com', 'wptavern.com', 'image.freepik.com', 'console.dev'],
+        domains: ['1.bp.blogspot.com', 'moneycourt.co.jp', 'www.udemy.com', 'codelearnstorage.s3.amazonaws.com', 'inkythuatso.com', 'www.thegoandroid.com', 'th.bing.com', 'sm.pcmag.com', 'www.lifewire.com', 'pestleanalysis.com', 'onlinecoursescertifications.com', 'cdn4.iconfinder.com', 'ceowatermandate.org', 'raw.githubusercontent.com', 'user-images.githubusercontent.com', 'womenwill.google', 'vuejsnation.com', 'vuejsforge.com', 'img.stackshare.io', 'assets.holopin.io', 'www.holopin.io', 'lh3.googleusercontent.com', 'iujobhub.com', 'tree-nation.com', 'static.vecteezy.com', 'media.istockphoto.com', 'iuyouth.edu.vn', 'bin.bb-os.com', 'racevietnam.com', 'www.ghupload.com', 'i.ytimg.com', 'wptavern.com', 'image.freepik.com', 'console.dev'],
         
         remotePatterns: [
             {
                 protocol: "http",
                 hostname: "localhost",
-                port: '3000',
-                pathname: '/**',
             },
             {
                 protocol: "https",
                 hostname: "awards.thuongtruong.me",
-                port: '',
-                pathname: '/**',
             },
             {
                 protocol: "https",
-                hostname: "thuongtruong-awards.vercel.app",
-                port: '',
-                pathname: '/**',
+                hostname: "**.vercel.app",
             }
         ],
     },
