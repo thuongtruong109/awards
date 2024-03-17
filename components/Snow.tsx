@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { memo } from "react";
 
 const Snow = () => {
@@ -8,7 +8,7 @@ const Snow = () => {
       {numbers.map((i) => (
         <div className="snowflake" key={i}>
           <Image
-            src="/apricot_blossom.png"
+            src="/assets/apricot_blossom.png"
             alt="apricot blossom img"
             width={20}
             height={20}

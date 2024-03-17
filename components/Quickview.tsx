@@ -1,9 +1,8 @@
 import FsLightbox from "fslightbox-react";
-import { ReactNode, memo, useState } from "react";
+import Image from "next/legacy/image";
+import { memo, useState } from "react";
 
 type Props = {
-  btn: ReactNode;
-  classBtn?: string;
   sources: string[];
   title?: string;
 };
@@ -15,10 +14,10 @@ function Quickview(props: Props) {
     <>
       <button
         onClick={() => setToggler(!toggler)}
-        className={props.classBtn}
         title={props.title}
+        className="block cursor-pointer text-xl text-blue-500 group-hover:block md:hidden md:group-hover:block hover:scale-110" 
       >
-        {props.btn}
+        <Image src="/assets/eye_preview.png" alt="Quick view" width={25} height={25} className="translate-y-1" />
       </button>
       <FsLightbox toggler={toggler} sources={props.sources} />
     </>

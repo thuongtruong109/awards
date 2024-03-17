@@ -11,7 +11,6 @@ import type { ICertificate, INavigationTab } from "@/types";
 import { formatCertName, obj2Arr } from "@/utils";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { FaRegEye } from "react-icons/fa";
 
 export default function Home() {
   const pathname = usePathname();
@@ -58,9 +57,6 @@ export default function Home() {
               <div className="flex items-end justify-between">
                 <Group orgs={obj2Arr(certificate.orgs)} />
                 <Quickview
-                  btn={
-                    <FaRegEye className="block cursor-pointer text-xl text-blue-500 group-hover:block md:hidden md:group-hover:block" />
-                  }
                   sources={getSources(
                     certificate.certificates as ICertificate[]
                   )}

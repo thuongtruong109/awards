@@ -32,4 +32,5 @@ export type ICertificateInfo = {
 export type INavigationTab = {
   id: number;
   name: string;
+  icon: string;
 };

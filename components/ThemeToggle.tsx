@@ -33,7 +33,7 @@ const ThemeToggle = () => {
   return (
     <button
       type="button"
-      className="relative rounded-lg bg-gray-100 p-2.5 text-sm outline-none dark:bg-gray-700 dark:text-gray-400"
+      className="relative group rounded-lg bg-gray-100 p-2.5 text-sm outline-none dark:bg-gray-700 dark:text-gray-400"
     >
       <div
         className="absolute inset-0 z-10 h-full w-full"
@@ -41,9 +41,9 @@ const ThemeToggle = () => {
       ></div>
       <div className="z-0" onClick={toggleTheme}>
         {isDark ? (
-          <RiMoonFill className="h-5 w-5 text-purple-500" />
+          <RiMoonFill className="h-5 w-5 text-purple-500 group-hover:-rotate-90 duration-300" />
         ) : (
-          <RiSunFill className="h-5 w-5 text-yellow-500" />
+          <RiSunFill className="h-5 w-5 text-yellow-500 group-hover:rotate-180 duration-300" />
         )}
       </div>
     </button>

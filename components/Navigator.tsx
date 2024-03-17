@@ -3,28 +3,11 @@
 import { ESEARCH_QUERY } from "@/enums";
 import { tabs } from "@/shared";
 import type { INavigationTab } from "@/types";
+import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
 import { memo, useEffect, useState } from "react";
-import { HiBadgeCheck, HiViewGrid } from "react-icons/hi";
-import { IoMdSchool } from "react-icons/io";
-import { MdOutlineUnfoldMoreDouble, MdPeopleAlt } from "react-icons/md";
 
 const Navigator = () => {
-  const tabIcons = [
-    { icon: <HiViewGrid /> },
-    { icon: <MdPeopleAlt /> },
-    { icon: <IoMdSchool /> },
-    { icon: <HiBadgeCheck /> },
-    { icon: <MdOutlineUnfoldMoreDouble /> },
-  ];
-
-  const mergeIcons = tabs.map((tab: INavigationTab, idx: number) => {
-    return {
-      ...tab,
-      icon: tabIcons[idx].icon,
-    };
-  });
-
   const [tabIndex, setTabIndex] = useState<number>(0);
 
   const searchParams = useSearchParams();
@@ -39,7 +22,7 @@ const Navigator = () => {
 
   const matchStyle = (idx: number) => {
     return idx === tabIndex
-      ? "bg-gray-900 dark:bg-gray-600 text-white shadow-md"
+      ? "bg-blue-300/50 dark:bg-gray-600 dark:text-white shadow-md font-semibold"
       : "text-gray-900 hover:bg-gray-200 dark:text-white dark:hover:bg-gray-700";
   };
 
@@ -60,7 +43,7 @@ const Navigator = () => {
 
   return (
     <ul className="mx-auto mb-2 flex w-fit items-center space-x-1 rounded-lg bg-gray-100 p-1 dark:bg-gray-800">
-      {mergeIcons.map((tab) => (
+      {tabs.map((tab: INavigationTab) => (
         <li key={tab.id}>
           <button
             type="button"
@@ -68,9 +51,9 @@ const Navigator = () => {
             onClick={() => handleClick(tab)}
             className={`${matchStyle(
               tab.id
-            )} inline-flex items-center rounded-lg px-3 py-1.5 font-medium`}
+            )} inline-flex items-end rounded-lg px-3 py-1.5 font-medium`}
           >
-            <span className="text-sm">{tab.icon}</span>
+            <Image src={tab.icon} width={18} height={20} alt={tab.name} className="scale-90" />
             <span className="ml-1 hidden text-xs sm:inline-flex">
               {tab.name.toLocaleUpperCase()}
             </span>

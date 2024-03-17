@@ -1,7 +1,7 @@
 import Badge from "@/components/Badge";
 import Typing from "@/components/Typing";
 import type { ICertificate, ICertificateInfo } from "@/types";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { memo, useState } from "react";
 import { AiOutlineSafetyCertificate } from "react-icons/ai";
 import { HiOutlineExternalLink } from "react-icons/hi";
@@ -31,8 +31,7 @@ const Content = (props: Props) => {
           <Image
             src={currentCert?.img}
             alt={currentCert?.name}
-            width="1000"
-            height="600"
+            layout="fill"
             className="h-full w-full object-cover object-center"
           />
         </figure>

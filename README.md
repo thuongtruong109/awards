@@ -21,4 +21,5 @@ This is a simple web app that shows all the awards and achievements I have gotte
 - Styling with [Tailwind CSS](https://tailwindcss.com/)
 - Decorating with [React Icons](https://react-icons.github.io/react-icons/)
 - Preview slideshow with [fslightbox-react](https://fslightbox.com/react)
+- Image legacy https://nextjs.org/docs/pages/api-reference/components/image-legacy
 - https://codepen.io/thuongtruong1009/pen/YzgZgeW -->

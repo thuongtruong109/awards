@@ -8,14 +8,20 @@ const nextConfig = {
             {
                 protocol: "http",
                 hostname: "localhost",
+                port: '3000',
+                pathname: '/**',
             },
             {
                 protocol: "https",
                 hostname: "awards.thuongtruong.me",
+                port: '',
+                pathname: '/**',
             },
             {
                 protocol: "https",
-                hostname: "**.vercel.app",
+                hostname: "thuongtruong-awards.vercel.app",
+                port: '',
+                pathname: '/**',
             }
         ],
     },

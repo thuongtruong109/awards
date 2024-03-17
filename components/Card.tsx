@@ -3,8 +3,8 @@
 import { openSelfLink } from "@/helpers";
 import { ICertificateInfoCard } from "@/types";
 import { formatCertName } from "@/utils";
-import Image from "next/image";
-import { memo, useState } from "react";
+import Image from "next/legacy/image";
+import { memo } from "react";
 
 type Props = {
   card: ICertificateInfoCard;
@@ -17,8 +17,6 @@ const Card = (props: Props) => {
     props.link && openSelfLink(formatCertName(props.link));
   };
 
-  const [loaded, setLoaded] = useState(false);
-
   return (
     <>
       <figure
@@ -28,13 +26,11 @@ const Card = (props: Props) => {
         <Image
           src={props.card.cover}
           alt={props.card.name}
-          width="1000"
-          height="1000"
           priority={true}
-          className={`min-h-full w-full rounded-lg bg-cover transition-all duration-500 ease-in-out group-hover:scale-105 ${
-            loaded ? "" : ""
-          }`}
-          onLoadingComplete={() => setLoaded(true)}
+          layout="fill"
+          className={
+            "min-h-full w-full rounded-lg bg-cover transition-all duration-500 ease-in-out group-hover:scale-105"
+          }
         />
       </figure>
       <h2
