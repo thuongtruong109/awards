@@ -1,9 +1,9 @@
 import Image from "next/legacy/image";
 import Link from "next/link";
-import { memo } from "react";
+import React from "react";
 import ThemeToggle from "./ThemeToggle";
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <header className="flex h-fit w-full items-center justify-between px-4 py-1 md:justify-around">
       <Link href="/">
@@ -14,4 +14,4 @@ const Header = () => {
   );
 };
 
-export default memo(Header);
+export default React.memo(Header);

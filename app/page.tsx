@@ -1,24 +1,24 @@
 "use client";
 
-import Card from "@/components/Card";
-import Group from "@/components/Group";
-import Navigator from "@/components/Navigator";
-import Quickview from "@/components/Quickview";
+import Card from "@/app/_components/Card";
+import Group from "@/app/_components/Group";
+import Navigator from "@/app/_components/Navigator";
+import Quickview from "@/app/_components/Quickview";
 import certificates from "@/data/certificates.json";
 import { ESEARCH_QUERY } from "@/enums";
 import { tabs } from "@/shared";
 import type { ICertificate, INavigationTab } from "@/types";
 import { formatCertName, obj2Arr } from "@/utils";
 import { usePathname, useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import React from "react";
 
 export default function Home() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
-  const [certs, setCerts] = useState(certificates);
+  const [certs, setCerts] = React.useState(certificates);
 
-  useEffect(() => {
+  React.useEffect(() => {
     const queryType = searchParams?.get(ESEARCH_QUERY.TYPE);
     if (queryType === undefined || queryType === null) {
       setCerts(certificates);

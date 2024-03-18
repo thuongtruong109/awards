@@ -1,4 +1,4 @@
-import { memo, useEffect, useState } from "react";
+import React from "react";
 
 type Props = {
   text: string;
@@ -6,11 +6,15 @@ type Props = {
   className?: string;
 };
 
-const Typewriter = ({ text, delay = 100, className }: Props) => {
-  const [currentText, setCurrentText] = useState("");
-  const [currentIndex, setCurrentIndex] = useState(0);
+const Typewriter: React.FC<Props> = ({
+  text,
+  delay = 100,
+  className,
+}: Props) => {
+  const [currentText, setCurrentText] = React.useState("");
+  const [currentIndex, setCurrentIndex] = React.useState(0);
 
-  useEffect(() => {
+  React.useEffect(() => {
     if (currentIndex < text?.length) {
       const timeout = setTimeout(() => {
         setCurrentText((prevText) => prevText + text[currentIndex]);
@@ -25,4 +29,4 @@ const Typewriter = ({ text, delay = 100, className }: Props) => {
   );
 };
 
-export default memo(Typewriter);
+export default React.memo(Typewriter);

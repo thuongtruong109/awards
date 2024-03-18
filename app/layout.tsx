@@ -1,8 +1,8 @@
-import BgGradient from "@/components/BgGradient";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import Snow from "@/components/Snow";
+import BgGradient from "@/app/_components/BgGradient";
+import Contact from "@/app/_components/Contact";
+import Footer from "@/app/_components/Footer";
+import Header from "@/app/_components/Header";
+import Snow from "@/app/_components/Snow";
 import { siteConfig } from "@/shared";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";

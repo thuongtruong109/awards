@@ -1,13 +1,13 @@
 import type { ICertificateOrg } from "@/types";
 import Image from "next/legacy/image";
 import Link from "next/link";
-import { memo } from "react";
+import React from "react";
 
 type Props = {
   orgs: ICertificateOrg[];
 };
 
-const Group = (props: Props) => {
+const Group: React.FC<Props> = (props: Props) => {
   return (
     <ul className="flex space-x-0.5">
       {props.orgs.map((org) => (
@@ -29,4 +29,4 @@ const Group = (props: Props) => {
   );
 };
 
-export default memo(Group);
+export default React.memo(Group);

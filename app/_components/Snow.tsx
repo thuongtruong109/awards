@@ -1,7 +1,7 @@
 import Image from "next/legacy/image";
-import { memo } from "react";
+import React from "react";
 
-const Snow = () => {
+const Snow: React.FC = () => {
   const numbers = Array.from({ length: 10 }, (_, index) => index + 1);
   return (
     <div className="snowflakes" aria-hidden="true">
@@ -19,4 +19,4 @@ const Snow = () => {
   );
 };
 
-export default memo(Snow);
+export default React.memo(Snow);

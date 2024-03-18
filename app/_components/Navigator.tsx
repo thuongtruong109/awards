@@ -5,15 +5,15 @@ import { tabs } from "@/shared";
 import type { INavigationTab } from "@/types";
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
-import { memo, useEffect, useState } from "react";
+import React from "react";
 
-const Navigator = () => {
-  const [tabIndex, setTabIndex] = useState<number>(0);
+const Navigator: React.FC = () => {
+  const [tabIndex, setTabIndex] = React.useState<number>(0);
 
   const searchParams = useSearchParams();
   const queryType = searchParams?.get(ESEARCH_QUERY.TYPE);
 
-  useEffect(() => {
+  React.useEffect(() => {
     const tab = tabs.find((tab: INavigationTab) => `${tab.name}` === queryType);
     if (tab) {
       setTabIndex(tab.id);
@@ -53,7 +53,13 @@ const Navigator = () => {
               tab.id
             )} inline-flex items-end rounded-lg px-3 py-1.5 font-medium`}
           >
-            <Image src={tab.icon} width={18} height={20} alt={tab.name} className="scale-90" />
+            <Image
+              src={tab.icon}
+              width={18}
+              height={20}
+              alt={tab.name}
+              className="scale-90"
+            />
             <span className="ml-1 hidden text-xs sm:inline-flex">
               {tab.name.toLocaleUpperCase()}
             </span>
@@ -64,4 +70,4 @@ const Navigator = () => {
   );
 };
 
-export default memo(Navigator);
+export default React.memo(Navigator);

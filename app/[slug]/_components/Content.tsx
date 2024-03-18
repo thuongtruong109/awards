@@ -1,20 +1,20 @@
 import Badge from "@/app/[slug]/_components/Badge";
 import Typing from "@/app/[slug]/_components/Typing";
 import type { ICertificate, ICertificateInfo } from "@/types";
-import Image from "next/legacy/image";
-import { memo, useState } from "react";
+import React from "react";
 import { AiOutlineSafetyCertificate } from "react-icons/ai";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { PiFireBold } from "react-icons/pi";
+import ImgEffect from "./ImgEffect";
 import Slide from "./Slide";
 
 type Props = {
   data: ICertificateInfo;
 };
 
-const Content = (props: Props) => {
-  const [currentCert, setCurrentCert] = useState<ICertificate>(
+const Content: React.FC<Props> = (props: Props) => {
+  const [currentCert, setCurrentCert] = React.useState<ICertificate>(
     props.data?.certificates[0]
   );
 
@@ -28,14 +28,8 @@ const Content = (props: Props) => {
   return (
     <div className="mx-auto flex flex-col items-center justify-center text-left md:max-w-2xl lg:max-w-4xl xl:max-w-5xl">
       <div className="grid w-full grid-cols-1 items-start gap-x-6 gap-y-8 sm:grid-cols-10 lg:gap-x-8">
-        <figure className="aspect-h-2 aspect-w-3 overflow-hidden rounded-xl bg-gray-100 shadow-md sm:col-span-5 lg:col-span-5">
-          <Image
-            src={currentCert?.img}
-            alt={currentCert?.name}
-            layout="fill"
-            className="h-full w-full object-cover object-center"
-          />
-        </figure>
+        <ImgEffect src={currentCert?.img} alt={currentCert?.name} />
+
         <div className="flex h-full flex-col justify-between sm:col-span-5 lg:col-span-5">
           <div className="flex items-start justify-between space-x-3">
             <h2 className="text_shadow card_content_gradient text-2xl font-bold text-gray-900">
@@ -78,7 +72,7 @@ const Content = (props: Props) => {
 
           <div
             aria-labelledby="options-heading"
-            className="space flex flex-wrap items-end space-x-1.5 space-y-1 text-sm"
+            className="space flex flex-wrap items-end space-x-1.5 space-y-1 text-sm mb-2"
           >
             <div className="font-medium text-yellow-600">
               <PiFireBold className="icon" />
@@ -91,7 +85,11 @@ const Content = (props: Props) => {
             ))}
           </div>
 
-          <Slide data={props.data?.certificates} currentCert={currentCert} onClick={setCurrentCert} />
+          <Slide
+            data={props.data?.certificates}
+            currentCert={currentCert}
+            onClick={setCurrentCert}
+          />
         </div>
       </div>
       <div className="mt-8 flex justify-start justify-self-start rounded-xl bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-200">
@@ -101,4 +99,4 @@ const Content = (props: Props) => {
   );
 };
 
-export default memo(Content);
+export default React.memo(Content);

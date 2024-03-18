@@ -4,7 +4,7 @@ import { openSelfLink } from "@/helpers";
 import { ICertificateInfoCard } from "@/types";
 import { formatCertName } from "@/utils";
 import Image from "next/legacy/image";
-import { memo } from "react";
+import React from "react";
 
 type Props = {
   card: ICertificateInfoCard;
@@ -12,7 +12,7 @@ type Props = {
   children?: React.ReactNode;
 };
 
-const Card = (props: Props) => {
+const Card: React.FC<Props> = (props: Props) => {
   const openLink = () => {
     props.link && openSelfLink(formatCertName(props.link));
   };
@@ -50,4 +50,4 @@ const Card = (props: Props) => {
   );
 };
 
-export default memo(Card);
+export default React.memo(Card);

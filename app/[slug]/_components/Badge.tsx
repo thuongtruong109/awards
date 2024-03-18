@@ -1,14 +1,14 @@
 import { badgeColors } from "@/shared";
-import { memo, useEffect, useState } from "react";
+import React from "react";
 
 type Props = {
   text: string;
 };
 
-const Badge = (props: Props) => {
-  const [badgeStyle, setBadgeStyle] = useState<string>(badgeColors[0]);
+const Badge: React.FC<Props> = (props: Props) => {
+  const [badgeStyle, setBadgeStyle] = React.useState<string>(badgeColors[0]);
 
-  useEffect(() => {
+  React.useEffect(() => {
     setBadgeStyle(badgeColors[Math.floor(Math.random() * badgeColors.length)]);
   }, [props]);
   return (
@@ -20,4 +20,4 @@ const Badge = (props: Props) => {
   );
 };
 
-export default memo(Badge);
+export default React.memo(Badge);

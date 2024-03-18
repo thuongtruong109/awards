@@ -1,12 +1,19 @@
 "use client";
 
-import { memo } from "react";
+import React from "react";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { BiLogoFacebook, BiLogoGmail, BiLogoLinkedin } from "react-icons/bi";
 import { PiDevToLogoFill } from "react-icons/pi";
 
-const Contact = () => {
-  const btns = [
+type IBtn = {
+  name: string;
+  icon: JSX.Element;
+  bg: string;
+  link: string;
+};
+
+const Contact: React.FC = () => {
+  const btns: IBtn[] = [
     {
       name: "Facebook",
       icon: <BiLogoFacebook />,
@@ -50,7 +57,7 @@ const Contact = () => {
   };
   return (
     <ul className="my-8 flex w-full items-center justify-center space-x-2">
-      {btns.map((btn) => (
+      {btns.map((btn: IBtn) => (
         <li onClick={() => changeLink(btn.link)} key={btn.name}>
           <button
             type="button"
@@ -66,4 +73,4 @@ const Contact = () => {
   );
 };
 
-export default memo(Contact);
+export default React.memo(Contact);

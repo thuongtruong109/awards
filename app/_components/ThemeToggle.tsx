@@ -1,9 +1,10 @@
 "use client";
-import { memo, useState } from "react";
+
+import React from "react";
 import { RiMoonFill, RiSunFill } from "react-icons/ri";
 
 const ThemeToggle = () => {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = React.useState<boolean>(false);
 
   const toggleTheme = () => {
     setIsDark(!isDark);
@@ -49,4 +50,4 @@ const ThemeToggle = () => {
     </button>
   );
 };
-export default memo(ThemeToggle);
+export default React.memo(ThemeToggle);
