@@ -26,9 +26,14 @@ export default function Cert(props: PageProps) {
         <button
           type="button"
           onClick={onBackToHome}
-          className="h-fit w-fit cursor-pointer rounded-md border border-gray-300 bg-gradient-to-b from-zinc-200 px-3 py-1.5 backdrop-blur-2xl hover:border-blue-300 dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit dark:text-gray-200 lg:bg-gray-200 lg:dark:bg-zinc-800/30 flex items-center space-x-1 text-sm"
+          className="h-fit w-fit cursor-pointer rounded-md border border-gray-300 bg-gradient-to-b from-zinc-200 px-3 py-1.5 backdrop-blur-2xl hover:border-blue-300 dark:border-neutral-700 dark:bg-zinc-800 dark:hover:bg-zinc-700 dark:from-inherit dark:text-gray-200 lg:bg-gray-200 lg:dark:bg-zinc-800/30 flex items-center space-x-1 text-sm"
         >
-          <Image src="/assets/back_to_home.png" alt="Back to home" width={20} height={20} />
+          <Image
+            src="/assets/back_to_home.png"
+            alt="Back to home"
+            width={20}
+            height={20}
+          />
           <span className="inline-flex">Back to home</span>
         </button>
       </div>

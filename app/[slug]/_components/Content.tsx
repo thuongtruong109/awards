@@ -1,6 +1,7 @@
 import Badge from "@/app/[slug]/_components/Badge";
 import Typing from "@/app/[slug]/_components/Typing";
 import type { ICertificate, ICertificateInfo } from "@/types";
+import { formatDate } from "@/utils";
 import React from "react";
 import { AiOutlineSafetyCertificate } from "react-icons/ai";
 import { HiOutlineExternalLink } from "react-icons/hi";
@@ -66,7 +67,7 @@ const Content: React.FC<Props> = (props: Props) => {
                 <LiaCertificateSolid className="icon" />
                 <span className="hidden sm:inline-flex">Actived:</span>
               </div>
-              <span>{currentCert?.date}</span>
+              <span>{formatDate(currentCert?.date)}</span>
             </div>
           </div>
 

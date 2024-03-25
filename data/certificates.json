@@ -1,6 +1,6 @@
 [
     {
-        "name": "IELTS",
+        "name": "English",
         "cover": "https://www.ghupload.com/wp-content/uploads/2022/10/Where-to-take-a-practice-IELTS-test-to-pass-the-exam.jpg",
         "orgs": [
             {
@@ -8,6 +8,12 @@
                 "org_name": "IELTS Ms Trang - IELTS handmade",
                 "org_link": "https://www.facebook.com/ieltsmstrang",
                 "org_img": "https://th.bing.com/th/id/OIP.EgWXPSuUOSfOjluYRRi5YAHaHa?rs=1&pid=ImgDetMain"
+            },
+            {
+                "id": "oep_id",
+                "org_name": "Open English Programs",
+                "org_link": "https://moocs.openenglishprograms.org/",
+                "org_img": "https://moocs.openenglishprograms.org/dist/images/favicon-e10d657a73.ico1"
             }
         ],
         "desc": "IELTS is the high-stakes English test for study, migration or work. Open a world of opportunity with IELTS.",
@@ -19,11 +25,24 @@
                     "ielts_mrstrang_id"
                 ],
                 "name": "IELTS intermediate course",
-                "img": "/certs/ielts/IELTS_intermediate_course_mrs_trang.png",
+                "img": "/certs/english/IELTS_intermediate_course_mrs_trang.png",
                 "date": "2024-03-01",
                 "skills": [
                     "english",
                     "ielts"
+                ]
+            },
+            {
+                "id": "mooc_01",
+                "org_id": [
+                    "oep_id"
+                ],
+                "name": "English for Career Development MOOC",
+                "img": "/certs/english/english_for_career_development_mooc.png",
+                "link": "https://badgr.com/public/assertions/2yPuK7iXTaefIXbdx2LnMw?identity__email=thuongtruongofficial@gmail.com",
+                "date": "2024-03-25",
+                "skills": [
+                    "english"
                 ]
             }
         ]
@@ -798,6 +817,26 @@
                 "date": "2023-12-07",
                 "skills": [
                     "javascript"
+                ]
+            },
+            {
+                "id": "js_submit_01",
+                "org_id": [],
+                "name": "Frontend Nation 2024",
+                "img": "/certs/software_conferences/frontend_nation_2024.png",
+                "link": "https://frontendnation.com/badge/LW5DqmbnGv",
+                "date": "2023-12-07",
+                "skills": [
+                    "javascript",
+                    "react",
+                    "vue",
+                    "vite",
+                    "nextjs",
+                    "nuxt",
+                    "tailwind",
+                    "astro",
+                    "remix",
+                    "svelte"
                 ]
             }
         ]
