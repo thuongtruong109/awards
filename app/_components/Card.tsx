@@ -40,7 +40,7 @@ const Card: React.FC<Props> = (props: Props) => {
         {props.card.name}
       </h2>
       <p
-        className="trunc2 m-0 my-2 max-w-[30ch] cursor-pointer text-sm font-medium text-gray-400"
+        className="trunc2 m-0 mt-2 mb-3 max-w-[30ch] cursor-pointer text-sm font-medium text-gray-400"
         onClick={openLink}
       >
         {props.card.desc}

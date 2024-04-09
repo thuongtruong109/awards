@@ -7,17 +7,36 @@ type Props = {
   orgs: ICertificateOrg[];
 };
 
+const _REMAIN_START_IDX = 4;
+
 const Group: React.FC<Props> = (props: Props) => {
+  const orgShift4: ICertificateOrg[] = props.orgs.slice(0, _REMAIN_START_IDX);
+
+  const remainingOrgs =
+    props.orgs.length > _REMAIN_START_IDX
+      ? props.orgs.length - _REMAIN_START_IDX
+      : 0;
+
+  const remainingOpacityBg =
+    props.orgs.length > _REMAIN_START_IDX + 1
+      ? { backgroundImage: `url(${props.orgs[_REMAIN_START_IDX].org_img})` }
+      : props.orgs.length > _REMAIN_START_IDX
+        ? {
+            backgroundImage: `url(${props.orgs[_REMAIN_START_IDX].org_img})`,
+            color: "transparent",
+          }
+        : {};
+
   return (
     <ul className="flex space-x-0.5">
-      {props.orgs.map((org) => (
+      {orgShift4.map((org: ICertificateOrg) => (
         <li key={org.id} title={org.org_name}>
           <Link href={org.org_link}>
-            <figure className="h-8 w-8 cursor-pointer overflow-hidden rounded-full border-2 border-white shadow-sm hover:shadow-lg dark:border-gray-800 dark:hover:shadow-none">
+            <figure className="h-8 w-8 cursor-pointer overflow-hidden rounded-full border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-lg  dark:hover:shadow-none">
               <Image
                 className="inline-flex min-h-full w-full items-center bg-cover"
-                width="1000"
-                height="1000"
+                width="100"
+                height="100"
                 src={org.org_img}
                 alt={org.org_name}
               />
@@ -25,6 +44,15 @@ const Group: React.FC<Props> = (props: Props) => {
           </Link>
         </li>
       ))}
+      {remainingOrgs ? (
+        <a
+          className="flex items-center justify-center w-8 h-8 text-sm font-semibold text-white rounded-full bg-gray-400 dark:bg-gray-600 bg-cover border-gray-300"
+          href="#"
+          style={remainingOpacityBg}
+        >
+          +{remainingOrgs}
+        </a>
+      ) : null}
     </ul>
   );
 };

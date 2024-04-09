@@ -103,7 +103,7 @@ html.dark body::after {
 
 /* card content gradient */
 .card_content_gradient {
-  background: linear-gradient(-75deg, #30cfd0 0%, #330867 100%);
+  background: linear-gradient(-75deg, #30cfd0 0%, #58209d 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
