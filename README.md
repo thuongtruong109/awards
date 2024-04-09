@@ -22,5 +22,6 @@ This is a simple web app that shows all the awards and achievements I have gotte
 - Decorating with [React Icons](https://react-icons.github.io/react-icons/)
 - Preview slideshow with [fslightbox-react](https://fslightbox.com/react)
 - [Image grid Facebook style](https://github.com/Expertizo/react-fb-image-grid)
-
+https://codepen.io/jlengstorf/pen/YzMwNrp
+https://codepen.io/ecemgo/pen/ZEPYNXJ
 -->

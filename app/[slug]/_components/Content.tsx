@@ -28,7 +28,7 @@ const Content: React.FC<Props> = (props: Props) => {
 
   return (
     <div className="mx-auto flex flex-col items-center justify-center text-left md:max-w-2xl lg:max-w-4xl xl:max-w-5xl">
-      <div className="grid w-full grid-cols-1 items-start gap-x-6 gap-y-8 sm:grid-cols-10 lg:gap-x-8">
+      <div className="grid w-full grid-cols-1 items-start gap-x-6 gap-y-8 sm:grid-cols-10 lg:gap-x-8 text-gray-800 dark:text-gray-200">
         <ImgEffect src={currentCert?.img} alt={currentCert?.name} />
 
         <div className="flex h-full flex-col justify-between sm:col-span-5 lg:col-span-5">
@@ -47,22 +47,24 @@ const Content: React.FC<Props> = (props: Props) => {
           </div>
 
           <div className="grid grid-cols-10 items-start justify-between gap-x-3 text-sm">
-            <div className="col-span-6 flex flex-wrap items-center space-x-1 text-gray-800">
+            <div className="col-span-6 flex flex-wrap items-center space-x-1">
               <div className="font-medium text-blue-500">
                 <AiOutlineSafetyCertificate className="icon" />
                 <span className="hidden sm:inline-flex">Issued:</span>
               </div>
               {currentCert?.org_id?.map((org: string, idx: number) => (
-                <a
-                  key={idx}
-                  href={getOrg(org)?.org_link}
-                  className="text-indigo-500 underline"
-                >
-                  {getOrg(org)?.org_name}
-                </a>
+                <div key={idx}>
+                  {idx == 0 ? null : <span>, </span>}
+                  <a
+                    href={getOrg(org)?.org_link}
+                    className="text-indigo-500 underline"
+                  >
+                    {getOrg(org)?.org_name}
+                  </a>
+                </div>
               ))}
             </div>
-            <div className="col-span-4 flex flex-wrap items-center space-x-1 text-gray-800">
+            <div className="col-span-4 flex flex-wrap items-center space-x-1">
               <div className="font-medium text-green-600">
                 <LiaCertificateSolid className="icon" />
                 <span className="hidden sm:inline-flex">Actived:</span>
@@ -93,7 +95,7 @@ const Content: React.FC<Props> = (props: Props) => {
           />
         </div>
       </div>
-      <div className="mt-8 flex justify-start justify-self-start rounded-xl bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-200">
+      <div className="mt-8 flex justify-start justify-self-start rounded-xl bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-200 text-sm">
         <Typing text={props.data?.desc} className="px-4 py-2" />
       </div>
     </div>

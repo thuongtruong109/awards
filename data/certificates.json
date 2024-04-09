@@ -13,7 +13,7 @@
                 "id": "oep_id",
                 "org_name": "Open English Programs",
                 "org_link": "https://moocs.openenglishprograms.org/",
-                "org_img": "https://moocs.openenglishprograms.org/dist/images/favicon-e10d657a73.ico1"
+                "org_img": "https://moocs.openenglishprograms.org/dist/images/favicon-e10d657a73.ico"
             }
         ],
         "desc": "IELTS is the high-stakes English test for study, migration or work. Open a world of opportunity with IELTS.",
@@ -156,6 +156,20 @@
                 "skills": [
                     "hosting",
                     "website"
+                ]
+            },
+            {
+                "id": "UC-613ce669-46e2-480f-a113-2d50e67c60bf",
+                "org_id": [
+                    "udemy_id"
+                ],
+                "name": "Swagger tools basics",
+                "img": "/certs/udemy/UC-613ce669-46e2-480f-a113-2d50e67c60bf",
+                "link": "https://www.udemy.com/certificate/UC-613ce669-46e2-480f-a113-2d50e67c60bf/",
+                "date": "2023-04-09",
+                "skills": [
+                    "swagger",
+                    "api"
                 ]
             }
         ]
@@ -749,6 +763,12 @@
                 "org_name": "BingX",
                 "org_link": "https://bingx.com/en-us/",
                 "org_img": "https://bin.bb-os.com/favicon.png"
+            },
+            {
+                "id": "gitnation_id",
+                "org_name": "Git Nation",
+                "org_link": "https://portal.gitnation.org/",
+                "org_img": "https://portal.gitnation.org/favicon.png"
             }
         ],
         "desc": "Online conferences are a great way to learn about new technologies and meet other developers. They are also a great way to get involved in the community and learn from others. There are many different types of conferences, but they all have one thing in common: they are a great way to learn about new technologies and meet other developers. Online conferences are a great way to learn about new technologies and meet other developers. They are also a great way to get involved in the community and learn from others. There are many different types of conferences, but they all have one thing in common: they are a great way to learn about new technologies and meet other developers.",
@@ -837,6 +857,36 @@
                     "astro",
                     "remix",
                     "svelte"
+                ]
+            },
+            {
+                "id": "node_congress_id",
+                "org_id": [
+                    "gitnation_id"
+                ],
+                "name": "Node Congress 2024",
+                "img": "/certs/software_conferences/node_congress_2024.png",
+                "link": "https://portal.gitnation.org/badges/node-congress-2024/_67534",
+                "date": "2023-04-04",
+                "skills": [
+                    "nodejs",
+                    "deno",
+                    "bun",
+                    "devops",
+                    "serverless"
+                ]
+            },
+            {
+                "id": "c3_festival_id",
+                "org_id": [
+                    "gitnation_id"
+                ],
+                "name": "C3 festival 2024",
+                "img": "/certs/software_conferences/c3_festival_2024.png",
+                "link": "https://portal.gitnation.org/badges/c3-festival-2024/register?email=ititiu19228@student.hcmiu.edu.vn&fname=&lname=",
+                "date": "2023-06-14",
+                "skills": [
+                    "javascript"
                 ]
             }
         ]

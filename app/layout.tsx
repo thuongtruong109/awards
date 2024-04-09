@@ -51,7 +51,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} dark:bg-black dark:bg-none`}>
+      <body
+        className={`${inter.className} text-black relative overflow-x-hidden overflow-y-scroll w-full h-full`}
+      >
         <Snow />
 
         <Header />

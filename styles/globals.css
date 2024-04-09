@@ -2,20 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 * {
   user-select: none;
   scroll-behavior: smooth;
@@ -23,16 +9,38 @@
   scrollbar-color: #afafaf #ffffff8d;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+html {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+html.dark {
+  background: black;
+  background-image: url("/dark_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, transparent, rgb(255, 255, 255))
+    rgb(214, 219, 220);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+html.dark body::after {
+  display: none;
 }
 
 ::-webkit-scrollbar {
@@ -41,7 +49,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #ffffff8d;
+  background: #9191918d;
   margin-top: 0.5rem;
 }
 
