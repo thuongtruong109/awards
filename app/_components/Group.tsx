@@ -45,13 +45,12 @@ const Group: React.FC<Props> = (props: Props) => {
         </li>
       ))}
       {remainingOrgs ? (
-        <a
+        <li
           className="flex items-center justify-center w-8 h-8 text-sm font-semibold text-white rounded-full bg-gray-400 dark:bg-gray-600 bg-cover border-gray-300"
-          href="#"
           style={remainingOpacityBg}
         >
           +{remainingOrgs}
-        </a>
+        </li>
       ) : null}
     </ul>
   );

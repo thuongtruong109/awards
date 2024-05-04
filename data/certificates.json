@@ -171,6 +171,19 @@
                     "swagger",
                     "api"
                 ]
+            },
+            {
+                "id": "UC-673431d2-c72d-4176-8065-d7f79afa7e6d",
+                "org_id": [
+                    "udemy_id"
+                ],
+                "name": "Git bash basics",
+                "img": "/certs/udemy/UC-673431d2-c72d-4176-8065-d7f79afa7e6d.jpg",
+                "link": "https://www.udemy.com/certificate/UC-673431d2-c72d-4176-8065-d7f79afa7e6d/",
+                "date": "2023-04-09",
+                "skills": [
+                    "git bash"
+                ]
             }
         ]
     },
