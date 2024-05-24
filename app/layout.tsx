@@ -52,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} text-black relative overflow-x-hidden overflow-y-scroll w-full h-full`}
+        className={`${inter.className} text-black relative container mx-auto`}
       >
         <Snow />
 

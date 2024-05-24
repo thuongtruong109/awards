@@ -29,7 +29,7 @@ const Card: React.FC<Props> = (props: Props) => {
           priority={true}
           layout="fill"
           className={
-            "min-h-full w-full rounded-lg bg-cover transition-all duration-500 ease-in-out group-hover:scale-105"
+            "min-h-full w-full rounded bg-cover transition-all duration-500 ease-in-out group-hover:scale-105"
           }
         />
       </figure>

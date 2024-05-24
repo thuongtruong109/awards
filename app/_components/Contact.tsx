@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
       name: "Facebook",
       icon: <BiLogoFacebook />,
       bg: "bg-[#4267B2] hover:bg-[#4267B2]/90 focus:ring-[#4267B2]/50",
-      link: "https://www.facebook.com/thuongtruong1009",
+      link: "https://www.facebook.com/truong.poetic",
     },
     {
       name: "Github",
@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
       name: "Instagram",
       icon: <AiFillInstagram />,
       bg: "bg-[#e1306c] hover:bg-[#e1306c]/90 focus:ring-[#e1306c]/50",
-      link: "https://www.instagram.com/thuongtruong1009",
+      link: "https://www.instagram.com/truong.poetic",
     },
     {
       name: "Email",

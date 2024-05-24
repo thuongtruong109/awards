@@ -27,7 +27,7 @@ const Content: React.FC<Props> = (props: Props) => {
   };
 
   return (
-    <div className="mx-auto flex flex-col items-center justify-center text-left md:max-w-2xl lg:max-w-4xl xl:max-w-5xl">
+    <div className="mx-auto flex flex-col items-center justify-center text-left w-full my-4">
       <div className="grid w-full grid-cols-1 items-start gap-x-6 gap-y-8 sm:grid-cols-10 lg:gap-x-8 text-gray-800 dark:text-gray-200">
         <ImgEffect src={currentCert?.img} alt={currentCert?.name} />
 

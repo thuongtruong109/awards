@@ -7,7 +7,7 @@ type Props = {
 };
 
 const MAGNIFIER_SIZE = 130;
-const ZOOM_LEVEL = 3;
+const ZOOM_LEVEL = 2;
 
 const ImgEffect: React.FC<Props> = (props: Props) => {
   const [zoomable, setZoomable] = React.useState<boolean>(false);

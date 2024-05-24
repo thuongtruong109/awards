@@ -6,9 +6,9 @@
 
 - [Showcase demo link](https://awards.thuongtruong.me)
 
-![Preview 1](/public/preview_1.png)
-![Preview 2](/public/preview_2.png)
-![Preview 3](/public/preview_3.png)
+<img src="./public/preview_1.png" alt="preview 1" width="1000"/>
+
+<img src="./public/preview_2.png" alt="preview 2" width="1000"/>
 
 ### 🎓 Description
 

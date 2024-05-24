@@ -48,6 +48,35 @@
         ]
     },
     {
+        "name": "Hackerrank",
+        "cover": "https://i.ytimg.com/vi/9dcCOqMdIIs/maxresdefault.jpg",
+        "orgs": [
+            {
+                "id": "hackerrank_id",
+                "org_name": "HackerRank",
+                "org_link": "https://www.hackerrank.com/",
+                "org_img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-1024.png"
+            }
+        ],
+        "desc": "Hackerrank is a platform for competitive programming. It is a website where you can practice your programming skills by solving challenges from the world's best companies.",
+        "typeId": 1,
+        "certificates": [
+            {
+                "id": "hr_01",
+                "org_id": [
+                    "hackerrank_id"
+                ],
+                "name": "Javascript basic",
+                "img": "/certs/hackerrank/javascript_basic.png",
+                "link": "https://www.hackerrank.com/certificates/eb5f3b93c69f",
+                "date": "2023-09-23",
+                "skills": [
+                    "javascript"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Udemy",
         "cover": "https://1.bp.blogspot.com/-YI-suJavGCs/YFcBR_C9HmI/AAAAAAAAIKI/hmLyAGpzNBg5cCMO3IfJm26QvsPiHIFwQCLcBGAsYHQ/w1200-h630-p-k-no-nu/udemy-logo-2.jpg",
         "orgs": [
@@ -188,30 +217,51 @@
         ]
     },
     {
-        "name": "Hackerrank",
-        "cover": "https://i.ytimg.com/vi/9dcCOqMdIIs/maxresdefault.jpg",
+        "name": "Viblo",
+        "cover": "https://th.bing.com/th/id/OIP.RLApvyG8-T0nS2r193TU5gHaD4?rs=1&pid=ImgDetMain",
         "orgs": [
             {
-                "id": "hackerrank_id",
-                "org_name": "HackerRank",
-                "org_link": "https://www.hackerrank.com/",
-                "org_img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-1024.png"
+                "id": "viblo_id",
+                "org_name": "Viblo",
+                "org_link": "https://viblo.asia/",
+                "org_img": "https://images.viblo.asia/11a38b08-a914-441c-8f5a-4f9fe4fe567e.png"
+            },
+            {
+                "id": "viblo_learning_id",
+                "org_name": "Viblo Learning",
+                "org_link": "https://learn.viblo.asia/",
+                "org_img": "https://algorithm.viblo.asia/images/viblo-learn.png"
             }
         ],
-        "desc": "Hackerrank is a platform for competitive programming. It is a website where you can practice your programming skills by solving challenges from the world's best companies.",
+        "desc": "Viblo - Known as a community sharing knowledge about information technology in Vietnam; a free service - where people can write and post content related to technical issues such as: Development - Design - QA - Management",
         "typeId": 1,
         "certificates": [
             {
-                "id": "hr_01",
+                "id": "vb_01",
                 "org_id": [
-                    "hackerrank_id"
+                    "viblo_id",
+                    "viblo_learning_id"
                 ],
-                "name": "Javascript basic",
-                "img": "/certs/hackerrank/javascript_basic.png",
-                "link": "https://www.hackerrank.com/certificates/eb5f3b93c69f",
-                "date": "2023-09-23",
+                "name": "HTML for beginners",
+                "img": "/certs/viblo/html_for_beginners.jfif",
+                "link": "https://learn.viblo.asia/users/thuongtruong1009/certificates/html-for-beginners-4y1aKrReQG",
+                "date": "2024-05-23",
                 "skills": [
-                    "javascript"
+                    "html"
+                ]
+            },
+            {
+                "id": "vb_02",
+                "org_id": [
+                    "viblo_id",
+                    "viblo_learning_id"
+                ],
+                "name": "CSS basic",
+                "img": "/certs/viblo/css_basic.jfif",
+                "link": "https://learn.viblo.asia/users/thuongtruong1009/certificates/css-basic-q9wdL9wejP",
+                "date": "2024-05-23",
+                "skills": [
+                    "css"
                 ]
             }
         ]
@@ -242,247 +292,6 @@
                     "personal brand",
                     "career",
                     "soft skills"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Codelearn",
-        "cover": "https://codelearnstorage.s3.amazonaws.com/Themes/TheCodeCampPro/Resources-cdn/Images/about/8.jpg?v=rk1",
-        "orgs": [
-            {
-                "id": "codelearn_id",
-                "org_name": "CodeLearn",
-                "org_link": "https://codelearn.io/",
-                "org_img": "https://racevietnam.com/Upload/20200907/3bb89da6a7dcd3709ef76586f9c28b98_1.png"
-            }
-        ],
-        "desc": "CodeLearn is a Vietnamese online learning platform for IT students.",
-        "typeId": 1,
-        "certificates": [
-            {
-                "id": "m2nln2iy",
-                "org_id": [
-                    "codelearn_id"
-                ],
-                "name": "C++ for beginers",
-                "img": "/certs/codelearn_io/c++_for_beginers.png",
-                "link": "https://codelearn.io/certification/m2nln2iy#",
-                "date": "2020-09-29",
-                "skills": [
-                    "c++"
-                ]
-            },
-            {
-                "id": "njc3zjbh",
-                "org_id": [
-                    "codelearn_id"
-                ],
-                "name": "Java fundamentals",
-                "img": "/certs/codelearn_io/java_fundamentals.png",
-                "link": "https://codelearn.io/certification/njc3zjbh#",
-                "date": "2020-09-25",
-                "skills": [
-                    "java"
-                ]
-            },
-            {
-                "id": "ztaxm2zl",
-                "org_id": [
-                    "codelearn_id"
-                ],
-                "name": "Object Oriented-Programming in Java",
-                "img": "/certs/codelearn_io/object_oriented_programming_in_java.png",
-                "link": "https://codelearn.io/certification/ztaxm2zl#",
-                "date": "2020-09-22",
-                "skills": [
-                    "java",
-                    "oop"
-                ]
-            },
-            {
-                "id": "mguxytqz",
-                "org_id": [
-                    "codelearn_id"
-                ],
-                "name": "Computer software",
-                "img": "/certs/codelearn_io/computer_software.png",
-                "link": "https://codelearn.io/certification/mguxytqz#",
-                "date": "2020-09-25",
-                "skills": [
-                    "software",
-                    "computer"
-                ]
-            },
-            {
-                "id": "mzbjztnm",
-                "org_id": [
-                    "codelearn_id"
-                ],
-                "name": "Python fundamentals",
-                "img": "/certs/codelearn_io/python_fundamentals.png",
-                "link": "https://codelearn.io/certification/mzbjztnm",
-                "date": "2021-01-27",
-                "skills": [
-                    "python"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "FreeCodeCamp",
-        "cover": "https://sm.pcmag.com/t/pcmag_uk/photo/f/free-code-/free-code-camp_gdmt.1080.jpg",
-        "orgs": [
-            {
-                "id": "fcc_id",
-                "org_name": "FreeCodeCamp",
-                "org_link": "https://www.freecodecamp.org",
-                "org_img": "https://th.bing.com/th?id=ODLS.a82a0e7f-efd0-4706-b55c-1c2b753b8919&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"
-            }
-        ],
-        "desc": "FreeCodeCamp is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone.",
-        "typeId": 1,
-        "certificates": [
-            {
-                "id": "fcc_01",
-                "org_id": [
-                    "fcc_id"
-                ],
-                "name": "Response Web Design",
-                "img": "/certs/freecodecamp/responsive_web_design.png",
-                "link": "https://www.freecodecamp.org/certification/thuongtruong1009/responsive-web-design",
-                "date": "2021-07-16",
-                "skills": [
-                    "html",
-                    "css",
-                    "javascript",
-                    "bootstrap",
-                    "jquery",
-                    "web development"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "International University",
-        "cover": "https://inkythuatso.com/uploads/images/2021/11/logo-iu-inkythuatso-01-25-10-08-01.jpg",
-        "orgs": [
-            {
-                "id": "iu_id",
-                "org_name": "Internaltional University - VNU",
-                "org_link": "https://hcmiu.edu.vn/",
-                "org_img": "https://inkythuatso.com/uploads/images/2021/11/logo-iu-inkythuatso-01-25-10-08-01.jpg"
-            },
-            {
-                "id": "iu_jobhub_id",
-                "org_name": "IU Job Hub",
-                "org_link": "https://iujobhub.com/",
-                "org_img": "https://iujobhub.com/wp-content/uploads/2021/07/ico-uhub-100x100.png"
-            },
-            {
-                "id": "iu_us_id",
-                "org_name": "IU Union Youth of Student",
-                "org_link": "https://iuyouth.edu.vn/",
-                "org_img": "https://iuyouth.edu.vn/wp-content/uploads/2020/11/104290422_264020064837959_2637006386884340465_n-360x180.png"
-            },
-            {
-                "id": "wsk_id",
-                "org_name": "Working Skills",
-                "org_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARbSURBVFhH7VVtaFNXGA4iUspwrubea6VsY5RSRGSMISLDm6QSsube2ylWBMdEJyqjg02cRBhehjRf596GMl2RznUq7ajSwdgvGRKSNC2RZrX2Yz/GKP0RRKT4I0gpI9w977k3Jbp0K0zzZ33gQs55P87zPu97TlzrGJnTd/4wF2oZyn+x/erEqXrd0jc4ptpgZO7ik1vTF+aHps7+cnOyi32fP6OBiLtmRH6c061bMxesoQdnrRv3P7W++/W01T9xfKkvd3Tkm/EjIKPUO64vB9UIfDtx3Oq796F1JXf4z97xD1KJcU3Tk/JGJ+TF4l8IWL3jB6yeMcWKjwaGw2P+ZifsxQEzMDk8E5oafPB54cZk1+K1/OnlagTYaMCKZdrmw6Ne/0ubj4H5Y3X9+Y+b+/PHAn33jl66nOu8gxYs9mSDJZvAfiua8S6FU74zNRlS6rs5pjZDgZMsE8jF0m2laMYHEj6Q8Podt9qAyMTTbYFIxpuPprylSMq7EE63tTjm2sEc8zeAQCia9hUjaU/E2a49okm5KZyUm6MZeQ/U2AeF6hxTbUAtiaY9l6Jp71OaCajxtT7Tuckx/wfoz073G7JeJwXN3VsVo7XSxhVIex86Q2lFMr7HNBOvtRt7pSDbST7SASa6Nbav6ZDZwIP+CVu12LuCavSJmjEiKOyqqMX3u2R9I/a3Cxr7Q1QZqySQSMpbIinP1AqBtO83Iym73e1mQVTYNfIRVHYQcUVBMd7jQatBUpkPh08TWzpQVI1TkmbcoeqddQGJ/jZw3Um5Fe/CAFpxvTsr86px2CP42gQ0dgixy0KHsZfW1YGqRDV+G4EJZ4fvbdPYDvpJMjoKVJ143XJtoM9ZompjtkyAClsTAUj1EwjMlntXiYZA72YkmURbumndqOj1osYuCmr8/I5OfROXGZILnZdfITtaOL2iAKSvJIBCdyF2ALluIq5fUE37v8WtssNwLIH9IyS4UsmYCKAdU0h2zlaLMUEz7jYq0dcd9T7DeqnJbw/aagTITnkk1VAaFcMN0l8SIfLjoP7D+TaCn8CpRC2hCisIhBAUg/067Tlhrm0K+wQEnr7akdhC69UI4NBW7BdFxTjJbwXI8+8ZYOrdSuwdBN7FYUUpGN3NCaAFSFSgSulKOt4cayeA1inGMFRexv4sFWMXUoUJzQJ3VM0Al0uL/46kEQRlaSD5m+BgrQRoTYq6g2Y7cg9SMfDL8qqxcZ6uHDkRpA7mgbEgdSTepGsIBQrw+UoM9rwFAgsYoFz5cXmeAH4vlAlQv3khjgJ8bgg4E8UMIM+iPeWKkaIPG11gfY4OoDtMytgPEU/Kr6E9K+yxoLCfiQRsIayLZUJQ4CGu3yD9Rp6DRMCOie+C77QQND+yh55lobSHt8CW2dDcWuyEpLEj/Ho4bSHZRNXcs3JlsC+0x9/mTyxNNlQiqakqMlO15etMeekQ8iOFyebWjBP8e99oeb7161jH/xEu119uw256KEceRgAAAABJRU5ErkJggg==",
-                "org_link": "https://www.workingskills.net"
-            }
-        ],
-        "desc": "International University (IU) is a member of Vietnam National University Ho Chi Minh City (VNU-HCM). IU is a public university with English as the medium of instruction. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum.",
-        "typeId": 2,
-        "certificates": [
-            {
-                "id": "iu_01",
-                "org_id": [
-                    "iu_id",
-                    "wsk_id"
-                ],
-                "name": "Working skills",
-                "img": "/certs/hcmiu/working_skills.png",
-                "date": "2021-07-16",
-                "skills": [
-                    "soft skills",
-                    "communication",
-                    "teamwork",
-                    "leadership",
-                    "presentation",
-                    "problem solving",
-                    "critical thinking",
-                    "time management",
-                    "english"
-                ]
-            },
-            {
-                "id": "iu_02",
-                "org_id": [
-                    "iu_id",
-                    "iu_jobhub_id"
-                ],
-                "name": "Lazada company tour",
-                "img": "/certs/hcmiu/lazada_company_tour.JPG",
-                "date": "2023-01-07",
-                "skills": [
-                    "communication",
-                    "teamwork"
-                ]
-            },
-            {
-                "id": "iu_03",
-                "org_id": [
-                    "iu_id",
-                    "iu_jobhub_id"
-                ],
-                "name": "Talkshow_critical_thinking_on_network",
-                "img": "/certs/hcmiu/talkshow_critical_thinking_on_network.JPG",
-                "date": "2023-05-25",
-                "skills": [
-                    "critical thinking"
-                ]
-            },
-            {
-                "id": "iu_04",
-                "org_id": [
-                    "iu_id"
-                ],
-                "name": "Silver medal at IU Sport Tournament 2019",
-                "img": "/certs/hcmiu/iu_sport_tournament_2019.jpg",
-                "date": "2019-11-19",
-                "skills": [
-                    "sport",
-                    "table tennis"
-                ]
-            },
-            {
-                "id": "iu_05",
-                "org_id": [
-                    "iu_id",
-                    "iu_us_id"
-                ],
-                "name": "Bronze medal at IU Games 2023",
-                "img": "/certs/hcmiu/iu_games_2023_1.jpg",
-                "date": "2023-12-05",
-                "skills": [
-                    "sport",
-                    "table tennis"
-                ]
-            },
-            {
-                "id": "iu_06",
-                "org_id": [
-                    "iu_id",
-                    "iu_us_id"
-                ],
-                "name": "Title of healthy youth 2023-2024",
-                "img": "/certs/hcmiu/healthy_youth_2023.jpg",
-                "date": "2023-12-19",
-                "link": "https://drive.google.com/file/d/1ii_H7D0D4Fc2qAMQ-MYkZSrsqmKLydna/view?usp=drive_copy",
-                "skills": [
-                    "sport",
-                    "table tennis"
                 ]
             }
         ]
@@ -709,8 +518,249 @@
         ]
     },
     {
+        "name": "Codelearn",
+        "cover": "https://codelearnstorage.s3.amazonaws.com/Themes/TheCodeCampPro/Resources-cdn/Images/about/8.jpg?v=rk1",
+        "orgs": [
+            {
+                "id": "codelearn_id",
+                "org_name": "CodeLearn",
+                "org_link": "https://codelearn.io/",
+                "org_img": "https://racevietnam.com/Upload/20200907/3bb89da6a7dcd3709ef76586f9c28b98_1.png"
+            }
+        ],
+        "desc": "CodeLearn is a Vietnamese online learning platform for IT students.",
+        "typeId": 1,
+        "certificates": [
+            {
+                "id": "m2nln2iy",
+                "org_id": [
+                    "codelearn_id"
+                ],
+                "name": "C++ for beginers",
+                "img": "/certs/codelearn_io/c++_for_beginers.png",
+                "link": "https://codelearn.io/certification/m2nln2iy#",
+                "date": "2020-09-29",
+                "skills": [
+                    "c++"
+                ]
+            },
+            {
+                "id": "njc3zjbh",
+                "org_id": [
+                    "codelearn_id"
+                ],
+                "name": "Java fundamentals",
+                "img": "/certs/codelearn_io/java_fundamentals.png",
+                "link": "https://codelearn.io/certification/njc3zjbh#",
+                "date": "2020-09-25",
+                "skills": [
+                    "java"
+                ]
+            },
+            {
+                "id": "ztaxm2zl",
+                "org_id": [
+                    "codelearn_id"
+                ],
+                "name": "Object Oriented-Programming in Java",
+                "img": "/certs/codelearn_io/object_oriented_programming_in_java.png",
+                "link": "https://codelearn.io/certification/ztaxm2zl#",
+                "date": "2020-09-22",
+                "skills": [
+                    "java",
+                    "oop"
+                ]
+            },
+            {
+                "id": "mguxytqz",
+                "org_id": [
+                    "codelearn_id"
+                ],
+                "name": "Computer software",
+                "img": "/certs/codelearn_io/computer_software.png",
+                "link": "https://codelearn.io/certification/mguxytqz#",
+                "date": "2020-09-25",
+                "skills": [
+                    "software",
+                    "computer"
+                ]
+            },
+            {
+                "id": "mzbjztnm",
+                "org_id": [
+                    "codelearn_id"
+                ],
+                "name": "Python fundamentals",
+                "img": "/certs/codelearn_io/python_fundamentals.png",
+                "link": "https://codelearn.io/certification/mzbjztnm",
+                "date": "2021-01-27",
+                "skills": [
+                    "python"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "FreeCodeCamp",
+        "cover": "https://sm.pcmag.com/t/pcmag_uk/photo/f/free-code-/free-code-camp_gdmt.1080.jpg",
+        "orgs": [
+            {
+                "id": "fcc_id",
+                "org_name": "FreeCodeCamp",
+                "org_link": "https://www.freecodecamp.org",
+                "org_img": "https://th.bing.com/th?id=ODLS.a82a0e7f-efd0-4706-b55c-1c2b753b8919&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"
+            }
+        ],
+        "desc": "FreeCodeCamp is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone.",
+        "typeId": 1,
+        "certificates": [
+            {
+                "id": "fcc_01",
+                "org_id": [
+                    "fcc_id"
+                ],
+                "name": "Response Web Design",
+                "img": "/certs/freecodecamp/responsive_web_design.png",
+                "link": "https://www.freecodecamp.org/certification/thuongtruong1009/responsive-web-design",
+                "date": "2021-07-16",
+                "skills": [
+                    "html",
+                    "css",
+                    "javascript",
+                    "bootstrap",
+                    "jquery",
+                    "web development"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "International University",
+        "cover": "https://reviewedu.net/wp-content/uploads/2021/11/b390718acddc4ca7943cb277b20acccd.jpg",
+        "orgs": [
+            {
+                "id": "iu_id",
+                "org_name": "Internaltional University - VNU",
+                "org_link": "https://hcmiu.edu.vn/",
+                "org_img": "https://inkythuatso.com/uploads/images/2021/11/logo-iu-inkythuatso-01-25-10-08-01.jpg"
+            },
+            {
+                "id": "iu_jobhub_id",
+                "org_name": "IU Job Hub",
+                "org_link": "https://iujobhub.com/",
+                "org_img": "https://iujobhub.com/wp-content/uploads/2021/07/ico-uhub-100x100.png"
+            },
+            {
+                "id": "iu_us_id",
+                "org_name": "IU Union Youth of Student",
+                "org_link": "https://iuyouth.edu.vn/",
+                "org_img": "https://iuyouth.edu.vn/wp-content/uploads/2020/11/104290422_264020064837959_2637006386884340465_n-360x180.png"
+            },
+            {
+                "id": "wsk_id",
+                "org_name": "Working Skills",
+                "org_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARbSURBVFhH7VVtaFNXGA4iUspwrubea6VsY5RSRGSMISLDm6QSsube2ylWBMdEJyqjg02cRBhehjRf596GMl2RznUq7ajSwdgvGRKSNC2RZrX2Yz/GKP0RRKT4I0gpI9w977k3Jbp0K0zzZ33gQs55P87zPu97TlzrGJnTd/4wF2oZyn+x/erEqXrd0jc4ptpgZO7ik1vTF+aHps7+cnOyi32fP6OBiLtmRH6c061bMxesoQdnrRv3P7W++/W01T9xfKkvd3Tkm/EjIKPUO64vB9UIfDtx3Oq796F1JXf4z97xD1KJcU3Tk/JGJ+TF4l8IWL3jB6yeMcWKjwaGw2P+ZifsxQEzMDk8E5oafPB54cZk1+K1/OnlagTYaMCKZdrmw6Ne/0ubj4H5Y3X9+Y+b+/PHAn33jl66nOu8gxYs9mSDJZvAfiua8S6FU74zNRlS6rs5pjZDgZMsE8jF0m2laMYHEj6Q8Podt9qAyMTTbYFIxpuPprylSMq7EE63tTjm2sEc8zeAQCia9hUjaU/E2a49okm5KZyUm6MZeQ/U2AeF6hxTbUAtiaY9l6Jp71OaCajxtT7Tuckx/wfoz073G7JeJwXN3VsVo7XSxhVIex86Q2lFMr7HNBOvtRt7pSDbST7SASa6Nbav6ZDZwIP+CVu12LuCavSJmjEiKOyqqMX3u2R9I/a3Cxr7Q1QZqySQSMpbIinP1AqBtO83Iym73e1mQVTYNfIRVHYQcUVBMd7jQatBUpkPh08TWzpQVI1TkmbcoeqddQGJ/jZw3Um5Fe/CAFpxvTsr86px2CP42gQ0dgixy0KHsZfW1YGqRDV+G4EJZ4fvbdPYDvpJMjoKVJ143XJtoM9ZompjtkyAClsTAUj1EwjMlntXiYZA72YkmURbumndqOj1osYuCmr8/I5OfROXGZILnZdfITtaOL2iAKSvJIBCdyF2ALluIq5fUE37v8WtssNwLIH9IyS4UsmYCKAdU0h2zlaLMUEz7jYq0dcd9T7DeqnJbw/aagTITnkk1VAaFcMN0l8SIfLjoP7D+TaCn8CpRC2hCisIhBAUg/067Tlhrm0K+wQEnr7akdhC69UI4NBW7BdFxTjJbwXI8+8ZYOrdSuwdBN7FYUUpGN3NCaAFSFSgSulKOt4cayeA1inGMFRexv4sFWMXUoUJzQJ3VM0Al0uL/46kEQRlaSD5m+BgrQRoTYq6g2Y7cg9SMfDL8qqxcZ6uHDkRpA7mgbEgdSTepGsIBQrw+UoM9rwFAgsYoFz5cXmeAH4vlAlQv3khjgJ8bgg4E8UMIM+iPeWKkaIPG11gfY4OoDtMytgPEU/Kr6E9K+yxoLCfiQRsIayLZUJQ4CGu3yD9Rp6DRMCOie+C77QQND+yh55lobSHt8CW2dDcWuyEpLEj/Ho4bSHZRNXcs3JlsC+0x9/mTyxNNlQiqakqMlO15etMeekQ8iOFyebWjBP8e99oeb7161jH/xEu119uw256KEceRgAAAABJRU5ErkJggg==",
+                "org_link": "https://www.workingskills.net"
+            }
+        ],
+        "desc": "International University (IU) is a member of Vietnam National University Ho Chi Minh City (VNU-HCM). IU is a public university with English as the medium of instruction. IU is the first public university in Vietnam that has a full international standard bilingual (English-Vietnamese) curriculum.",
+        "typeId": 2,
+        "certificates": [
+            {
+                "id": "iu_01",
+                "org_id": [
+                    "iu_id",
+                    "wsk_id"
+                ],
+                "name": "Working skills",
+                "img": "/certs/hcmiu/working_skills.png",
+                "date": "2021-07-16",
+                "skills": [
+                    "soft skills",
+                    "communication",
+                    "teamwork",
+                    "leadership",
+                    "presentation",
+                    "problem solving",
+                    "critical thinking",
+                    "time management",
+                    "english"
+                ]
+            },
+            {
+                "id": "iu_02",
+                "org_id": [
+                    "iu_id",
+                    "iu_jobhub_id"
+                ],
+                "name": "Lazada company tour",
+                "img": "/certs/hcmiu/lazada_company_tour.JPG",
+                "date": "2023-01-07",
+                "skills": [
+                    "communication",
+                    "teamwork"
+                ]
+            },
+            {
+                "id": "iu_03",
+                "org_id": [
+                    "iu_id",
+                    "iu_jobhub_id"
+                ],
+                "name": "Talkshow_critical_thinking_on_network",
+                "img": "/certs/hcmiu/talkshow_critical_thinking_on_network.JPG",
+                "date": "2023-05-25",
+                "skills": [
+                    "critical thinking"
+                ]
+            },
+            {
+                "id": "iu_04",
+                "org_id": [
+                    "iu_id"
+                ],
+                "name": "Silver medal at IU Sport Tournament 2019",
+                "img": "/certs/hcmiu/iu_sport_tournament_2019.jpg",
+                "date": "2019-11-19",
+                "skills": [
+                    "sport",
+                    "table tennis"
+                ]
+            },
+            {
+                "id": "iu_05",
+                "org_id": [
+                    "iu_id",
+                    "iu_us_id"
+                ],
+                "name": "Bronze medal at IU Games 2023",
+                "img": "/certs/hcmiu/iu_games_2023_1.jpg",
+                "date": "2023-12-05",
+                "skills": [
+                    "sport",
+                    "table tennis"
+                ]
+            },
+            {
+                "id": "iu_06",
+                "org_id": [
+                    "iu_id",
+                    "iu_us_id"
+                ],
+                "name": "Title of healthy youth 2023-2024",
+                "img": "/certs/hcmiu/healthy_youth_2023.jpg",
+                "date": "2023-12-19",
+                "link": "https://drive.google.com/file/d/1ii_H7D0D4Fc2qAMQ-MYkZSrsqmKLydna/view?usp=drive_copy",
+                "skills": [
+                    "sport",
+                    "table tennis"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Zodinet internship",
-        "cover": "https://th.bing.com/th/id/OIP.PteB9bRd7jHWpIDk3Tau0gHaHa?pid=ImgDet&rs=1",
+        "cover": "https://th.bing.com/th/id/OIP.yVyh_P-oe9C0a6LZY5fkqwAAAA?rs=1&pid=ImgDetMain",
         "orgs": [
             {
                 "id": "zodinet_id",

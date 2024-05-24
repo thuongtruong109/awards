@@ -35,7 +35,7 @@ const ThemeToggle = () => {
     <button
       type="button"
       title="Toggle Theme"
-      className="relative group rounded-full bg-white border border-gray-200/80 dark:border-transparent p-2 text-sm outline-none dark:bg-gray-700/60 dark:text-gray-400"
+      className="relative group rounded-full bg-white border border-slate-100 dark:border-transparent p-2 text-sm outline-none dark:bg-gray-700/60 dark:text-gray-400"
     >
       <div
         className="absolute inset-0 z-10 h-full w-full"

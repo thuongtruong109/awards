@@ -23,17 +23,18 @@ const Slide: React.FC<Props> = (props: Props) => {
     >
       {props.data.map((cert, index) => {
         return (
-          <SwiperSlide key={index} className="p-1 pb-8 h-min">
+          <SwiperSlide key={index} className="p-1 pb-4">
             <figure
-              className={`rounded-md ${
-                cert.id === props.currentCert.id && "ring-2 ring-blue-500"
+              className={`rounded-md w-[145px] h-[75px] ring-2 bg-slate-100 ${
+                cert.id === props.currentCert.id ? "ring-blue-500" : "ring-transparent"
               }`}
             >
               <Image
                 src={cert.img}
                 alt={cert.name}
-                width="130"
-                height="75"
+                priority={true}
+                width={145}
+                height={75}
                 onClick={() => {
                   props.onClick(cert);
                 }}
