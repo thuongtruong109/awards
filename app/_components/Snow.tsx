@@ -8,7 +8,7 @@ const Snow: React.FC = () => {
       {numbers.map((i) => (
         <div className="snowflake" key={i}>
           <Image
-            src="/assets/apricot_blossom.png"
+            src="/assets/details/apricot_blossom.png"
             alt="apricot blossom img"
             width={20}
             height={20}
