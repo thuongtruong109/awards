@@ -8,11 +8,6 @@ export type ICertificate = {
   skills: string[];
 };
 
-export type ICertificateInfoCard = Pick<
-  ICertificateInfo,
-  "name" | "cover" | "desc"
->;
-
 export type ICertificateOrg = {
   id: string;
   org_name: string;
@@ -29,7 +24,9 @@ export type ICertificateInfo = {
   certificates: ICertificate[];
 };
 
-export type INavigationTab = {
+export type ICertificateInfoCard = Omit<ICertificateInfo, "typeId">;
+
+export type ICategory = {
   id: number;
   name: string;
   icon: string;

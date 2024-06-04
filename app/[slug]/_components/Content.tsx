@@ -7,8 +7,9 @@ import { AiOutlineSafetyCertificate } from "react-icons/ai";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { PiFireBold } from "react-icons/pi";
-import ImgEffect from "./ImgEffect";
+import ImgEffect from "@/app/libs/ImgEffect";
 import Slide from "./Slide";
+import { LuPencilLine } from "react-icons/lu";
 
 type Props = {
   data: ICertificateInfo;
@@ -33,8 +34,9 @@ const Content: React.FC<Props> = (props: Props) => {
 
         <div className="flex h-full flex-col justify-between sm:col-span-5 lg:col-span-5">
           <div className="flex items-start justify-between space-x-3">
-            <h2 className="text_shadow card_content_gradient text-2xl font-bold text-gray-900">
-              {currentCert?.name}
+            <h2 className="text_shadow card_content_gradient text-2xl font-bold flex space-x-2">
+              <LuPencilLine className="text-purple-600 text-xl mt-1.5" />
+              <Typing text={currentCert?.name} />
             </h2>
             {currentCert?.link && (
               <span
@@ -57,7 +59,7 @@ const Content: React.FC<Props> = (props: Props) => {
                   {idx == 0 ? null : <span>, </span>}
                   <a
                     href={getOrg(org)?.org_link}
-                    className="text-indigo-500 underline"
+                    className="text-indigo-500 dark:text-indigo-300 hover:underline"
                   >
                     {getOrg(org)?.org_name}
                   </a>
@@ -95,7 +97,7 @@ const Content: React.FC<Props> = (props: Props) => {
           />
         </div>
       </div>
-      <div className="mt-8 flex justify-start justify-self-start rounded-xl bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-200 text-sm">
+      <div className="mt-8 flex justify-start justify-self-start rounded-lg bg-white dark:bg-slate-700/50 text-gray-600 dark:text-gray-200 text-sm">
         <Typing text={props.data?.desc} className="px-4 py-2" />
       </div>
     </div>

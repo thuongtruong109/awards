@@ -1,16 +1,14 @@
 "use client";
 
 import Card from "@/app/_components/Card";
-import Group from "@/app/_components/Group";
 import Navigator from "@/app/_components/Navigator";
-import Quickview from "@/app/_components/Quickview";
 import certificates from "@/data/certificates.json";
 import { ESEARCH_QUERY } from "@/enums";
-import { tabs } from "@/shared";
-import type { ICertificate, INavigationTab } from "@/types";
-import { formatCertName, obj2Arr } from "@/utils";
+import categories from "@/data/categories.json";
+import type { ICategory, ICertificateInfoCard } from "@/types";
 import { usePathname, useSearchParams } from "next/navigation";
 import React from "react";
+import Filter from "./_components/Filter";
 
 export default function Home() {
   const pathname = usePathname();
@@ -18,34 +16,42 @@ export default function Home() {
 
   const [certs, setCerts] = React.useState(certificates);
 
+  const queryType = searchParams?.get(ESEARCH_QUERY.TYPE);
+  const querySort = searchParams?.get(ESEARCH_QUERY.SORT_ORDER);
+
   React.useEffect(() => {
-    const queryType = searchParams?.get(ESEARCH_QUERY.TYPE);
     if (queryType === undefined || queryType === null) {
       setCerts(certificates);
     } else {
-      const tab = tabs.find(
-        (tab: INavigationTab) => `${tab.name}` === queryType
-      );
+      const tab = categories.find((tab: ICategory) => `${tab.name}` === queryType);
       if (tab) {
-        setCerts(certificates.filter((cert) => cert.typeId === tab.id));
+        const filteredCertificates = certificates.filter((cert) => cert.typeId === tab.id);
+        setCerts(filteredCertificates);
       }
     }
-  }, [pathname, searchParams]);
-
-  const getSources = (certificate: ICertificate[]) => {
-    const sources: string[] = [];
-    if (certificate.length > 0) {
-      certificate.forEach((cert) => {
-        sources.push(cert.img);
-      });
+  }, [pathname, searchParams, queryType]);
+  
+  React.useEffect(() => {
+    if (querySort === "asc") {
+      setCerts((prevCerts) => [...prevCerts].sort((a, b) => a.name.localeCompare(b.name)));
     }
-
-    return sources;
-  };
+    if (querySort === "desc") {
+      setCerts((prevCerts) => [...prevCerts].sort((a, b) => b.name.localeCompare(a.name)));
+    }
+    if (querySort === "most") {
+      setCerts((prevCerts) => [...prevCerts].sort((a, b) => b.certificates.length - a.certificates.length));
+    }
+    if (querySort === "least") {
+      setCerts((prevCerts) => [...prevCerts].sort((a, b) => a.certificates.length - b.certificates.length));
+    }
+  }, [querySort]);
 
   return (
     <section className="p-2 lg:p-4">
-      <Navigator />
+      <div className="flex justify-center items-center space-x-3 mb-2">
+        <Navigator />
+        <Filter />
+      </div>
       <ul className="grid gap-3 p-2 text-center sm:grid-cols-2 md:grid-cols-3 lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         {certs.map((certificate, idx) => (
           <li
@@ -53,17 +59,7 @@ export default function Home() {
             rel="noopener noreferrer"
             key={idx}
           >
-            <Card card={certificate} link={formatCertName(certificate.name)}>
-              <div className="flex items-end justify-between">
-                <Group orgs={obj2Arr(certificate.orgs)} />
-                <Quickview
-                  sources={getSources(
-                    certificate.certificates as ICertificate[]
-                  )}
-                  title="Quick view"
-                />
-              </div>
-            </Card>
+            <Card card={certificate as ICertificateInfoCard} />
           </li>
         ))}
       </ul>

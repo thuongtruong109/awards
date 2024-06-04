@@ -36,7 +36,7 @@ const config: Config = {
         },
       },
       animation: {
-        slideUpEnter: "slideUpEnter .3s ease-in-out",
+        slideUpEnter: "slideUpEnter duration-300 ease-in-out",
       },
     },
   },

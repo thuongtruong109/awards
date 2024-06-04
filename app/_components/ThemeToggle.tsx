@@ -1,35 +1,21 @@
 "use client";
 
 import React from "react";
+import { useTheme } from "next-themes";
 import { RiMoonFill, RiSunFill } from "react-icons/ri";
 
 const ThemeToggle = () => {
-  const [isDark, setIsDark] = React.useState<boolean>(false);
+    const { theme, setTheme } = useTheme();
 
-  const toggleTheme = () => {
-    setIsDark(!isDark);
+    const toggleTheme = () => {
+      setTheme(theme === "light" ? "dark" : "light");
+    };
+    
+    const [isDark, setIsDark] = React.useState<boolean>(false);
 
-    // if set via local storage previously
-    if (localStorage.getItem("color-theme")) {
-      if (localStorage.getItem("color-theme") === "light") {
-        document.documentElement.classList.add("dark");
-        localStorage.setItem("color-theme", "dark");
-      } else {
-        document.documentElement.classList.remove("dark");
-        localStorage.setItem("color-theme", "light");
-      }
-
-      // if NOT set via local storage previously
-    } else {
-      if (document.documentElement.classList.contains("dark")) {
-        document.documentElement.classList.remove("dark");
-        localStorage.setItem("color-theme", "light");
-      } else {
-        document.documentElement.classList.add("dark");
-        localStorage.setItem("color-theme", "dark");
-      }
-    }
-  };
+    React.useEffect(() => {
+      setIsDark(theme !== "light");
+    }, [theme]);
 
   return (
     <button

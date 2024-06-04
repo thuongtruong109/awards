@@ -1,5 +1,6 @@
 "use client";
 
+import { socialHref } from "@/shared";
 import React from "react";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { BiLogoFacebook, BiLogoGmail, BiLogoLinkedin } from "react-icons/bi";
@@ -18,37 +19,37 @@ const Contact: React.FC = () => {
       name: "Facebook",
       icon: <BiLogoFacebook />,
       bg: "bg-[#4267B2] hover:bg-[#4267B2]/90 focus:ring-[#4267B2]/50",
-      link: "https://www.facebook.com/truong.poetic",
+      link: socialHref.facebook,
     },
     {
       name: "Github",
       icon: <AiFillGithub />,
       bg: "bg-[#333] hover:bg-[#333]/90 focus:ring-[#333]/50",
-      link: "https://www.github.com/thuongtruong1009",
+      link: socialHref.github,
     },
     {
       name: "LinkedIn",
       icon: <BiLogoLinkedin />,
       bg: "bg-[#0077b5] hover:bg-[#0077b5]/90 focus:ring-[#0077b5]/50",
-      link: "https://www.linkedin.com/in/thuongtruong1009",
+      link: socialHref.linkedin,
     },
     {
       name: "Instagram",
       icon: <AiFillInstagram />,
       bg: "bg-[#e1306c] hover:bg-[#e1306c]/90 focus:ring-[#e1306c]/50",
-      link: "https://www.instagram.com/truong.poetic",
+      link: socialHref.instagram,
     },
     {
       name: "Email",
       icon: <BiLogoGmail />,
       bg: "bg-[#ea4335] hover:bg-[#ea4335]/90 focus:ring-[#ea4335]/50",
-      link: "mailto:thuongtruongofficial@gmail.com",
+      link: socialHref.mail,
     },
     {
       name: "Dev.to",
       icon: <PiDevToLogoFill />,
       bg: "bg-green-600 hover:bg-green-600/90 focus:ring-green-600/50",
-      link: "https://dev.to/thuongtruong1009",
+      link: socialHref.devto,
     },
   ];
 

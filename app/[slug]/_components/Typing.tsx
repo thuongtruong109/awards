@@ -1,4 +1,4 @@
-import React from "react";
+import { FC, useEffect, useState } from "react";
 
 type Props = {
   text: string;
@@ -6,15 +6,20 @@ type Props = {
   className?: string;
 };
 
-const Typewriter: React.FC<Props> = ({
+const Typewriter: FC<Props> = ({
   text,
   delay = 100,
   className,
 }: Props) => {
-  const [currentText, setCurrentText] = React.useState("");
-  const [currentIndex, setCurrentIndex] = React.useState(0);
+  const [currentText, setCurrentText] = useState("");
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  React.useEffect(() => {
+  useEffect(() => {
+    setCurrentText("");
+    setCurrentIndex(0);
+  }, [text]);
+
+  useEffect(() => {
     if (currentIndex < text?.length) {
       const timeout = setTimeout(() => {
         setCurrentText((prevText) => prevText + text[currentIndex]);
@@ -24,9 +29,10 @@ const Typewriter: React.FC<Props> = ({
       return () => clearTimeout(timeout);
     }
   }, [currentIndex, delay, text]);
+
   return (
     <p className={currentText.length > 0 ? className : ""}>{currentText}</p>
   );
 };
 
-export default React.memo(Typewriter);
+export default Typewriter;

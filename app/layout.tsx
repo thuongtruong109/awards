@@ -7,6 +7,7 @@ import { siteConfig } from "@/shared";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
+import ThemeProvider from "./libs/Provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -56,14 +57,15 @@ export default function RootLayout({
       >
         <Snow />
 
-        <Header />
-        <main className="animate-slideUpEnter my-2 flex min-h-[calc(100vh-10.3rem)] flex-col items-center">
-          {children}
-        </main>
-        <Contact />
-        <Footer />
-
-        <BgGradient />
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <BgGradient />
+          <Header />
+          <main className="animate-slideUpEnter my-2 flex min-h-[calc(100vh-10.3rem)] flex-col items-center">
+            {children}
+          </main>
+          <Contact />
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

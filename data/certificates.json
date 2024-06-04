@@ -245,7 +245,7 @@
                 "name": "HTML for beginners",
                 "img": "/certs/viblo/html_for_beginners.jfif",
                 "link": "https://learn.viblo.asia/users/thuongtruong1009/certificates/html-for-beginners-4y1aKrReQG",
-                "date": "2024-05-23",
+                "date": "2024-05-12",
                 "skills": [
                     "html"
                 ]
@@ -314,7 +314,7 @@
             },
             {
                 "id": "ssv_id",
-                "org_name": "Student's service office",
+                "org_name": "Student's Cutural Service Office",
                 "org_link": "https://www.nhavanhoasinhvien.vn",
                 "org_img": "https://th.bing.com/th/id/R.76abfe16d8b0d90d758bd5e98c14c648?rik=9r2L1M%2bWcLGPuw&pid=ImgRaw&r=0"
             }
@@ -759,6 +759,35 @@
         ]
     },
     {
+        "name": "Student Cutural",
+        "cover": "https://nhavanhoasinhvien.vn/wp-content/uploads/bfi_thumb/slide-1-o7vxuvddx981jmy4pn1d4zv3aisbzkq2n9whu71u7m.jpg",
+        "orgs": [
+            {
+                "id": "sc_id",
+                "org_name": "Student's Cutural Service Office",
+                "org_link": "https://www.nhavanhoasinhvien.vn/",
+                "org_img": "https://th.bing.com/th/id/R.76abfe16d8b0d90d758bd5e98c14c648?rik=9r2L1M%2bWcLGPuw&pid=ImgRaw&r=0"
+            }
+        ],
+        "desc": "The Student Cultural House is the center of cultural and social activities of the City's students, using professional methods to attract students to participate in cultural and social activities. society with the purpose of fostering, developing and perfecting personality thereby contributing to satisfying the spiritual needs of students.",
+        "typeId": 4,
+        "certificates": [
+            {
+                "id": "sc_01",
+                "org_id": [
+                    "sc_id"
+                ],
+                "name": "Enhancing digital skills, impress employers",
+                "img": "/certs/student_cutural/NLS_255.jpg",
+                "link": "https://lh3.googleusercontent.com/fife/ALs6j_FxtYXey1LqdnnSvJ09jNamVB2mALbsXmSbfm6WOugyLyDwqt23ihcu2fBJ1iW-K5_VmyJc6q967jHT-bTMO_HR-g_BqmP0zWBDRxOpMgeFGwNb8IIYPIodHExwoNg6rg3tPf2khvAs9mvGHHz8HrOslY27Zy3jLfGRh7RU4sUWlUoW-Z7_rJc7zcQUr9JxRfpfdNY3zUQkwVLcUdkIW17_JF_zHAmFOtEFBSs1ClZnsU5LEh-oTfZ-s0TR-nrTPGUuWS5eFep7tLYSYTR5cf_KbcF5l_PsT2orY86TAmJhO05ww3F5V4l98xnpQa6wtuvX3rVJU2BMos5W7j1S4CFRyqHG6VuXGV76VQmoHfX-v7ichlqkdDVJGiPcwlCBYPOKXhdY17cZI4MdmXrTcFQeGz2WBngXPzpQ3X-b_nAtG3iv0H6FOtU35DNEanHKTYu67lt2R1M4nBnhCayfYzexe-YVWEC75e0jTdVIc9A6-mo12SYV5VaEj8q7JAmi-Giitm5ZFduoqf3ytv0VP7Ib1dGxLTAmIlssi9lU5c__cy_LIOjjVt85ocAgwg6kXM9rdVizM3fj35WyfWFmXUEPVpDyJ6uHBBLVpau7jWKXSgUN3UsK55gv9Ie6P6uRuHiOWJuIzJHfkRriy-KWpnVEPSGT0A9RmYl15T7ScBCVosSCYeJIc5-IqyZncc_kr3EuCWfnFsxm9AmCt_epoEAzUu09DJilk3HhNliWN_srxzA5df5s5WycDrX7s-n-9_jYGNc_3lTOby0frgTfA5kIJYh6HZAtbdAcTrNl6tsSY69qDh6VS4BwW9SEwp6KsGam-JKNAK8dhBDppRBfejV5jw2bpLf4agk4fdiwOxpsU5RQTH4h2GT7ndCpuMdvwUeLuRrH4SkJ7N-yip-GuqbL0Ll9ZAVH0J_LS_AJnw1fYDtCd1QYd5siYye-CQ4qKJ1E8lM9TeK8BcXsj3vrdtJP5d3OAA-jImCoPPvHvljUIMtvQpckt3VJwvNvOwDEDlsogg75OMWoAONqs8XP5N9JW_3LezwLiAdlJoENJgvIeXck0dG0PbyQzmlszebIy2cey2G-lSBtatd0J7aKExNs1U6L8s1RQLUXUM6hoJb1FvTk1f39TJ90gT1ISrzf6bYDXEfhO_YhWSU9JZBQKPM7Kb1MRhINKWqARWj2-RMlwBmwGKodP92p16D-SQevZlm_UWjomXRWJXzO7nTAHQchaZjbvP73NvXuXgfWDZFLzYMSAlDBpnn0YyAHtPojBxI-mSXptf54tlmgmKpce9v52TV453paue6BoSv9eyzSvnPjLeTi3BEaAVm69x99wfMfvwP3lrPA3RdoSo8vmFU6KP32geFI3nDneU1PiLtkwwWEH4bgCEsu8aQLb6LSW5oSnpkqkZdYGtB9tiq9ZSp86SXmGtT1Ig5rvFBa4THfCzyvz03TPBioAEY1QrisySWiMx87H-ptQeBr0pw92yugxRjlb_dXcuteZzIk3pvijvN9W-khsjA_UtRrG0mL1mxdswteDCYBpzlICNJy3zhyKdhwmMaAYQuiWOFYcYirUZ1zJqmyUOmUQ1xcUDCZ8Dtb6pnHZRaXzH0KQY3j46qS37VhNpZnU0X1dIIszGKhA6jH-l7pGQ=w1912-h958",
+                "date": "2024-05-14",
+                "skills": [
+                    "soft skills"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Zodinet internship",
         "cover": "https://th.bing.com/th/id/OIP.yVyh_P-oe9C0a6LZY5fkqwAAAA?rs=1&pid=ImgDetMain",
         "orgs": [
@@ -1043,6 +1072,90 @@
         ]
     },
     {
+        "name": "High schools",
+        "cover": "https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/316209985_560664139400549_2489757938208988637_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ETb1NLQxAikQ7kNvgHKyM6-&_nc_ht=scontent.fsgn5-5.fna&oh=00_AYB6LVm9AfSYJr21LpH9cxzmArch7znCrMIK0J7xwrJoKA&oe=6658D0FC",
+        "orgs": [
+            {
+                "id": "hvc_id",
+                "org_name": "Hung Vuong high school",
+                "org_link": "https://thpt-hungvuong-binhphuoc.edu.vn",
+                "org_img": "https://th.bing.com/th/id/OIP.vNbZr39BFIvA5dMIyYKw1QHaHK?pid=ImgDet&rs=1"
+            }
+        ],
+        "desc": "Primary schoool, High school are places where I studied and grew up from childhood. Here I have many fond memories of my student days and academic achievements. The levels of education from 72 to 63 to high school are the foundation for the development of knowledge, wisdom and soul for the future",
+        "typeId": 2,
+        "certificates": [
+            {
+                "id": "hc_01",
+                "org_id": [
+                    "hvc_id"
+                ],
+                "name": "Olympic 19.5",
+                "img": "/certs/high_schools/olympic_19-5.JPG",
+                "link": "https://tree-nation.com/certificate/6532c4117308f",
+                "date": "2018-07-16",
+                "skills": [
+                    "olympic",
+                    "geography"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "LinkedIn assessments",
+        "cover": "https://itexamanswers.co.uk/wp-content/uploads/2022/08/LinkedIn-Skill-Assessment-1-681x481.png",
+        "orgs": [
+            {
+                "id": "linkedin_id",
+                "org_name": "LinkedIn",
+                "org_link": "https://www.linkedin.com/",
+                "org_img": "https://th.bing.com/th/id/OIP.Ff1a2zx1DnGg5rppyqq-XwHaHa?rs=1&pid=ImgDetMain"
+            }
+        ],
+        "desc": "LinkedIn assessments are a great way to learn about new technologies and meet other developers. They are also a great way to get involved in the community and learn from others. There are many different types of assessments, but they all have one thing in common: they are a great way to learn about new technologies and meet other developers",
+        "typeId": 3,
+        "certificates": [
+            {
+                "id": "lka_01",
+                "org_id": [
+                    "linkedin_id"
+                ],
+                "name": "HTML",
+                "img": "/certs/linkedin_assessments/html.png",
+                "link": "https://www.linkedin.com/posts/thuongtruong1009_linkedinskillassessment-html-frontend-activity-6954404427562696704-mPV9?utm_source=share&utm_medium=member_desktop",
+                "date": "2022-07-17",
+                "skills": [
+                    "html"
+                ]
+            },
+            {
+                "id": "lka_02",
+                "org_id": [
+                    "linkedin_id"
+                ],
+                "name": "CSS",
+                "img": "/certs/linkedin_assessments/css.png",
+                "link": "https://www.linkedin.com/posts/thuongtruong1009_linkedinskillassessment-css-style-activity-6954404481698594816-QzFY?utm_source=share&utm_medium=member_desktop",
+                "date": "2022-07-17",
+                "skills": [
+                    "css"
+                ]
+            },
+            {
+                "id": "lka_03",
+                "org_id": [
+                    "linkedin_id"
+                ],
+                "name": "Frontend Development",
+                "img": "/certs/linkedin_assessments/frontend_development.png",
+                "link": "https://www.linkedin.com/posts/thuongtruong1009_linkedinskillassessment-badge-earned-activity-6977678274973892609-_JkL?utm_source=share&utm_medium=member_desktop",
+                "date": "2022-09-19",
+                "skills": [
+                    "frontend"
+                ]
+            }
+        ]
+    },    {
         "name": "Social & Open-source",
         "cover": "https://static.vecteezy.com/system/resources/previews/000/401/516/non_2x/people-volunteering-and-donating-money-and-items-to-a-charitable-cause-vector.jpg",
         "orgs": [
@@ -1092,36 +1205,6 @@
                 "date": "2023-10-21",
                 "skills": [
                     "contribution"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "High schools",
-        "cover": "https://media.istockphoto.com/vectors/school-building-vector-id638731986?k=20&m=638731986&s=612x612&w=0&h=03VWvzc_LHVd5D5sZuPbmbiOnMipTY-DNVqhEs-XvPE=",
-        "orgs": [
-            {
-                "id": "hvc_id",
-                "org_name": "Hung Vuong high school",
-                "org_link": "https://thpt-hungvuong-binhphuoc.edu.vn",
-                "org_img": "https://th.bing.com/th/id/OIP.vNbZr39BFIvA5dMIyYKw1QHaHK?pid=ImgDet&rs=1"
-            }
-        ],
-        "desc": "Primary schoool, High school are places where I studied and grew up from childhood. Here I have many fond memories of my student days and academic achievements. The levels of education from 72 to 63 to high school are the foundation for the development of knowledge, wisdom and soul for the future",
-        "typeId": 2,
-        "certificates": [
-            {
-                "id": "hc_01",
-                "org_id": [
-                    "hvc_id"
-                ],
-                "name": "Olympic 19.5",
-                "img": "/certs/high_schools/olympic_19-5.JPG",
-                "link": "https://tree-nation.com/certificate/6532c4117308f",
-                "date": "2018-07-16",
-                "skills": [
-                    "olympic",
-                    "geography"
                 ]
             }
         ]

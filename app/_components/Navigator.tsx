@@ -1,11 +1,11 @@
 "use client";
 
+import React from "react";
 import { ESEARCH_QUERY } from "@/enums";
-import { tabs } from "@/shared";
-import type { INavigationTab } from "@/types";
+import categories from "@/data/categories.json";
+import type { ICategory } from "@/types";
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
-import React from "react";
 
 const Navigator: React.FC = () => {
   const [tabIndex, setTabIndex] = React.useState<number>(0);
@@ -14,7 +14,7 @@ const Navigator: React.FC = () => {
   const queryType = searchParams?.get(ESEARCH_QUERY.TYPE);
 
   React.useEffect(() => {
-    const tab = tabs.find((tab: INavigationTab) => `${tab.name}` === queryType);
+    const tab = categories.find((tab: ICategory) => tab.name === queryType);
     if (tab) {
       setTabIndex(tab.id);
     }
@@ -29,21 +29,20 @@ const Navigator: React.FC = () => {
   const params = useSearchParams();
   const router = useRouter();
 
-  const handleClick = (tab: INavigationTab) => {
+  const handleClick = (tab: ICategory) => {
     const newParams = new URLSearchParams(params?.toString());
     if (tab.id === 0) {
       newParams.delete(ESEARCH_QUERY.TYPE);
-      router.push("/");
     } else {
       newParams.set(ESEARCH_QUERY.TYPE, tab.name);
-      router.push(`?${newParams.toString()}`);
     }
+    router.push(`?${newParams.toString()}`);
     setTabIndex(tab.id);
   };
 
   return (
-    <ul className="mx-auto mb-2 flex w-fit items-center space-x-1 rounded-lg bg-white border dark:border-gray-700 p-1 dark:bg-gray-800">
-      {tabs.map((tab: INavigationTab) => (
+    <ul className="flex w-fit items-center space-x-1 rounded-lg bg-white border dark:border-gray-700 p-1 dark:bg-gray-800">
+      {categories.map((tab: ICategory) => (
         <li key={tab.id}>
           <button
             type="button"
@@ -51,14 +50,14 @@ const Navigator: React.FC = () => {
             onClick={() => handleClick(tab)}
             className={`${matchStyle(
               tab.id
-            )} inline-flex items-end rounded-md px-3 py-1.5 font-medium`}
+            )} flex items-end rounded-md px-3 py-1.5 font-medium`}
+            title={tab.name}
           >
             <Image
               src={tab.icon}
-              width={18}
-              height={20}
+              width={17}
+              height={17}
               alt={`${tab.name}_icon`}
-              className="scale-90"
             />
             <span className="ml-1 hidden text-xs sm:inline-flex">
               {tab.name.toLocaleUpperCase()}

@@ -1,26 +1,38 @@
 "use client";
 
 import { openSelfLink } from "@/helpers";
-import { ICertificateInfoCard } from "@/types";
-import { formatCertName } from "@/utils";
+import { ICertificate, ICertificateInfoCard } from "@/types";
+import { formatCertName, obj2Arr } from "@/utils";
 import Image from "next/legacy/image";
 import React from "react";
+import Group from "./Group";
+import Quickview from "@/app/libs/Quickview";
 
 type Props = {
   card: ICertificateInfoCard;
-  link?: string;
   children?: React.ReactNode;
 };
 
 const Card: React.FC<Props> = (props: Props) => {
   const openLink = () => {
-    props.link && openSelfLink(formatCertName(props.link));
+    props.card.name && openSelfLink(formatCertName(props.card.name));
+  };
+
+  const getSources = (certificate: ICertificate[]): string[] => {
+    const sources: string[] = [];
+    if (certificate.length > 0) {
+      certificate.forEach((cert) => {
+        sources.push(cert.img);
+      });
+    }
+
+    return sources;
   };
 
   return (
     <>
       <figure
-        className="relative h-36 w-full cursor-pointer overflow-hidden rounded-xl shadow-xl group-hover:shadow-2xl"
+        className="relative max-h-36 h-full w-full cursor-pointer overflow-hidden rounded-xl shadow-xl group-hover:shadow-2xl"
         onClick={openLink}
       >
         <Image
@@ -29,7 +41,7 @@ const Card: React.FC<Props> = (props: Props) => {
           priority={true}
           layout="fill"
           className={
-            "min-h-full w-full rounded bg-cover transition-all duration-500 ease-in-out group-hover:scale-105"
+            "h-full w-full rounded object-cover transition-all duration-500 ease-in-out group-hover:scale-105"
           }
         />
       </figure>
@@ -46,6 +58,15 @@ const Card: React.FC<Props> = (props: Props) => {
         {props.card.desc}
       </p>
       <div>{props.children}</div>
+      <div className="flex items-end justify-between">
+        <Group orgs={obj2Arr(props.card.orgs)} />
+        <Quickview
+          sources={getSources(
+            props.card.certificates as unknown as ICertificate[]
+          )}
+          title="Quick view"
+        />
+      </div>
     </>
   );
 };
