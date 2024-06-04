@@ -1,0 +1,59 @@
+.text_shadow {
+  text-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+.trunc2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.icon {
+  font-size: 1.1em;
+  margin-right: 0.2rem;
+  margin-top: -0.2rem;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.card_shadow:hover {
+  box-shadow:
+    1px 1px 1px rgb(34 211 238 / 40%),
+    -1px -1px 1px rgb(34 211 238 / 40%);
+}
+
+/* card title gradient */
+.card_shadow:hover .card_title_gradient {
+  background: #ff0000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff0000,
+    #9932cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff0000,
+    #9932cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* card content gradient */
+.card_content_gradient {
+  background: linear-gradient(-75deg, #27eaea 0%, #9d5aee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* slide */
+.swiper-pagination .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: #cae4f7;
+  transform: translateY(0.75rem);
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+  background: #4db5ff;
+}

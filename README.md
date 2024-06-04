@@ -12,15 +12,18 @@
 
 ### 🎓 Description
 
-This is a simple web app that shows all the awards and achievements I have gotten in the past from learning, practicing, and contributing. It also shows the details of the certificate or badge of the award by field
+This is a simple web app that shows all the awards and achievements I have gotten in the past from learning, practicing, and contributing.
 
-### 🛠️ Tech Stack
+Details displayed the certificate or badge of the award by field
 
-- Universal server-side rendering for SEO friendly by [Next.js 13](https://nextjs.org/)
-- Development language by [React.js 18](https://reactjs.org/)
+### 🛠️ Techs stack
+
+- Universal server-side rendering for SEO friendly with [Next.js 13](https://nextjs.org/)
+- Development language base on [React.js 18](https://reactjs.org/)
 - Styling with [Tailwind CSS](https://tailwindcss.com/)
 - Decorating with [React Icons](https://react-icons.github.io/react-icons/)
 - Preview slideshow with [fslightbox-react](https://fslightbox.com/react)
+- Dark mode theme by [next-themes](https://npmjs.com/package/next-themes/)
 - Deployed on [Vercel](https://vercel.com/)
 
 <!-- ### Reference
