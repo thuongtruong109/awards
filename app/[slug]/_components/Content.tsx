@@ -71,7 +71,7 @@ const Content: React.FC<Props> = (props: Props) => {
                 <LiaCertificateSolid className="icon" />
                 <span className="hidden sm:inline-flex">Actived:</span>
               </div>
-              <span>{formatDate(currentCert?.date)}</span>
+              <span>{currentCert?.date ? formatDate(currentCert?.date) : 'unknown'}</span>
             </div>
           </div>
 

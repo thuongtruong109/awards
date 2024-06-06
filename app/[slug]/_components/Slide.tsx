@@ -22,7 +22,7 @@ const Slide: React.FC<Props> = (props: Props) => {
       slidesPerView={4}
       pagination={{ type: "bullets", clickable: true, dynamicBullets: false}}
     >
-      {props.data.map((cert, index) => {
+      {props.data?.map((cert, index) => {
         return (
           <SwiperSlide key={index} className="p-1 pb-5">
             <figure

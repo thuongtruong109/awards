@@ -1,6 +1,6 @@
 "use client";
 
-import Content from "@/app/[slug]/_components/Content";
+import Content from "./_components/Content";
 import certificates from "@/data/certificates.json";
 import { ICertificateInfo } from "@/types";
 import { formatCertName } from "@/utils";

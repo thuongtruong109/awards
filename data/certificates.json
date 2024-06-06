@@ -1000,7 +1000,7 @@
                 "org_img": "https://th.bing.com/th/id/OIP.0e4jcGb8AIwnBTmfM3N77AHaHa?pid=ImgDet&rs=1"
             },
             {
-                "id": "apw_id",
+                "id": "aw_id",
                 "org_name": "Appwrite",
                 "org_link": "https://appwrite.io",
                 "org_img": "https://user-images.githubusercontent.com/101575380/231806244-b879deb0-69fa-4fad-8032-a58cb221cd4d.png"
@@ -1010,6 +1010,18 @@
                 "org_name": "HoloPin",
                 "org_link": "https://holopin.io",
                 "org_img": "https://www.holopin.io/favicon.ico"
+            },
+            {
+                "id": "st_id",
+                "org_name": "Sentry",
+                "org_link": "https://sentry.io",
+                "org_img": "https://th.bing.com/th/id/R.8010dcdec8878287584df739a31d0068?rik=1gQaVxp1IQhTdQ&pid=ImgRaw&r=0"
+            },
+            {
+                "id": "ds_id",
+                "org_name": "DeepSource",
+                "org_link": "https://deepsource.io",
+                "org_img": "https://th.bing.com/th/id/OIP.7NsEOp1whesNsy-inPoHBwAAAA?rs=1&pid=ImgDetMain"
             }
         ],
         "desc": "Hacktoberfest is a month-long celebration of open source software. It is a great way to learn about new technologies and meet other developers. It is also a great way to get involved in the community and learn from others. There are many different types of open source projects, but they all have one thing in common: they are a great way to learn about new technologies and meet other developers",
@@ -1020,7 +1032,42 @@
                 "org_id": [
                     "hb_id",
                     "do_id",
-                    "apw_id"
+                    "aw_id",
+                    "st_id",
+                    "ds_id"
+                ],
+                "name": "Hacktoberfest 2021",
+                "img": "/certs/hacktoberfest/hacktoberfest_2021_awards.jpg",
+                "link": "https://media.dev.to/cdn-cgi/image/width=180,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F131%2Fhacktoberfest-2021-badge.png",
+                "date": "2021-11-10",
+                "skills": [
+                    "contribution",
+                    "github",
+                    "git",
+                    "open source"
+                ]
+            },
+            {
+                "id": "hb_02",
+                "org_id": [
+                    "hb_id",
+                    "st_id"
+                ],
+                "name": "Vue Nation x Sentry event 2021",
+                "img": "/certs/hacktoberfest/vue_nation-sentry_event_2021.jpg",
+                "date": "2021-11-10",
+                "skills": [
+                    "vue",
+                    "sentry",
+                    "testing"
+                ]
+            },
+            {
+                "id": "hb_03",
+                "org_id": [
+                    "hb_id",
+                    "do_id",
+                    "aw_id"
                 ],
                 "name": "Hacktoberfest 2022 (complete)",
                 "img": "https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDhkOHVrb3MwMDk0MDlqbnVuaGRhcDd3IiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0=",
@@ -1034,11 +1081,11 @@
                 ]
             },
             {
-                "id": "hb_02",
+                "id": "hb_04",
                 "org_id": [
                     "hb_id",
                     "do_id",
-                    "apw_id"
+                    "aw_id"
                 ],
                 "name": "Hacktoberfest 2022 (participant)",
                 "img": "https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbGFqeHF4eTUwNDMzMDhqc3k3bXp1NmlwIiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0=",
@@ -1052,11 +1099,11 @@
                 ]
             },
             {
-                "id": "hb_03",
+                "id": "hb_05",
                 "org_id": [
                     "hb_id",
                     "do_id",
-                    "apw_id"
+                    "aw_id"
                 ],
                 "name": "Hacktoberfest 2023 (participant)",
                 "img": "https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbG15cWdyMGUwMjI1enV6amdxZmYwbmhsIiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0=",
@@ -1155,8 +1202,9 @@
                 ]
             }
         ]
-    },    {
-        "name": "Social & Open-source",
+    },
+    {
+        "name": "Open-source & social",
         "cover": "https://static.vecteezy.com/system/resources/previews/000/401/516/non_2x/people-volunteering-and-donating-money-and-items-to-a-charitable-cause-vector.jpg",
         "orgs": [
             {
@@ -1188,6 +1236,12 @@
                 "org_name": "Daily.dev",
                 "org_link": "https://daily.dev/",
                 "org_img": "https://console.dev/img/favicons/daily.dev.jpg"
+            },
+            {
+                "id": "ghu_id",
+                "org_name": "GitHub Unwrapped",
+                "org_link": "https://githubunwrapped.com/",
+                "org_img": "https://githubunwrapped.com/favicon.ico"
             }
         ],
         "desc": "Social contributions are a great way to give back to the community. They are also a great way to learn about new technologies and meet other developers. There are many different types of social contributions, but they all have one thing in common: they are a great way to give back to the community",
@@ -1200,11 +1254,27 @@
                     "tn_id"
                 ],
                 "name": "Tree(s) planted",
-                "img": "/certs/social_and_open_source_contributions/trees_planted.jpg",
+                "img": "/certs/opensource_social/trees_planted.jpg",
                 "link": "https://tree-nation.com/certificate/6532c4117308f",
                 "date": "2023-10-21",
                 "skills": [
                     "contribution"
+                ]
+            },
+            {
+                "id": "ops_01",
+                "org_id": [
+                    "gh_id",
+                    "ghu_id"
+                ],
+                "name": "GitHub Unwrapped 2023",
+                "img": "/certs/opensource_social/github_unwrapped_2023.jpeg",
+                "link": "https://githubunwrapped.com/thuongtruong1009",
+                "date": "2023-12-07",
+                "skills": [
+                    "contribution",
+                    "github",
+                    "git"
                 ]
             }
         ]

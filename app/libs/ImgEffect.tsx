@@ -58,7 +58,7 @@ const ImgEffect: React.FC<Props> = (props: Props) => {
 
   return (
     <figure
-      className="aspect-h-2 aspect-w-3 overflow-hidden rounded-xl bg-gray-100 shadow-md sm:col-span-5 lg:col-span-5 w-full h-96 relative"
+      className="aspect-h-2 aspect-w-3 overflow-hidden rounded-xl bg-white dark:bg-slate-800 shadow-md sm:col-span-5 lg:col-span-5 w-full h-96 relative"
       onMouseLeave={handleMouseLeave}
       onMouseEnter={handleMouseEnter}
       onMouseMove={handleMouseMove}
