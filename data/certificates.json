@@ -243,7 +243,7 @@
                     "viblo_learning_id"
                 ],
                 "name": "HTML for beginners",
-                "img": "/certs/viblo/html_for_beginners.jfif",
+                "img": "/certs/viblo/html_for_beginners.jpg",
                 "link": "https://learn.viblo.asia/users/thuongtruong1009/certificates/html-for-beginners-4y1aKrReQG",
                 "date": "2024-05-12",
                 "skills": [
@@ -257,7 +257,7 @@
                     "viblo_learning_id"
                 ],
                 "name": "CSS basic",
-                "img": "/certs/viblo/css_basic.jfif",
+                "img": "/certs/viblo/css_basic.jpg",
                 "link": "https://learn.viblo.asia/users/thuongtruong1009/certificates/css-basic-q9wdL9wejP",
                 "date": "2024-05-23",
                 "skills": [
@@ -1119,11 +1119,11 @@
         ]
     },
     {
-        "name": "High schools",
+        "name": "High school",
         "cover": "/assets/cover/hungvuong.webp",
         "orgs": [
             {
-                "id": "hvc_id",
+                "id": "hv_id",
                 "org_name": "Hung Vuong high school",
                 "org_link": "https://thpt-hungvuong-binhphuoc.edu.vn",
                 "org_img": "https://th.bing.com/th/id/OIP.vNbZr39BFIvA5dMIyYKw1QHaHK?pid=ImgDet&rs=1"
@@ -1133,17 +1133,305 @@
         "typeId": 2,
         "certificates": [
             {
-                "id": "hc_01",
+                "id": "hvc_01",
                 "org_id": [
-                    "hvc_id"
+                    "hv_id"
                 ],
                 "name": "Olympic 19.5",
-                "img": "/certs/high_schools/olympic_19-5.JPG",
-                "link": "https://tree-nation.com/certificate/6532c4117308f",
+                "img": "/certs/high_school/olympic_19-5.JPG",
                 "date": "2018-07-16",
                 "skills": [
                     "olympic",
                     "geography"
+                ]
+            },
+            {
+                "id": "hvc_02",
+                "org_id": [
+                    "hv_id"
+                ],
+                "name": "10th grade advanced student title",
+                "img": "/certs/high_school/10th_grade.jpg",
+                "date": "2017-05-24",
+                "skills": [
+                    "academic knowledge"
+                ]
+            },
+            {
+                "id": "hvc_03",
+                "org_id": [
+                    "hv_id"
+                ],
+                "name": "11th grade advanced student title",
+                "img": "/certs/high_school/11th_grade.jpg",
+                "date": "2018-05-18",
+                "skills": [
+                    "academic knowledge"
+                ]
+            },
+            {
+                "id": "hvc_04",
+                "org_id": [
+                    "hv_id"
+                ],
+                "name": "12th grade good student title",
+                "img": "/certs/high_school/12th_grade.jpg",
+                "date": "2019-05-21",
+                "skills": [
+                    "academic knowledge"
+                ]
+            },
+            {
+                "id": "hvc_05",
+                "org_id": [
+                    "hv_id"
+                ],
+                "name": "High school diploma",
+                "img": "/certs/high_school/high_school_diploma.jpg",
+                "date": "2019-12-06",
+                "skills": [
+                    "academic knowledge"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Secondary school",
+        "cover": "/assets/cover/thcs_tienhung.jpg",
+        "orgs": [
+            {
+                "id": "th_id",
+                "org_name": "Tien Hung secondary school",
+                "org_link": "http://thcstienhung.dongxoai.edu.vn/",
+                "org_img": "/assets/cover/thcs_tienhung_logo.png"
+            }
+        ],
+        "desc": "Tien Hung secondary school is a place where I have many memories of my student days. Here I have learned many basic knowledge and skills for the future. The school has a friendly and dynamic learning environment, which helps me develop my knowledge and skills",
+        "typeId": 2,
+        "certificates": [
+            {
+                "id": "thc_01",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "Encouragement prize in the geography exam for excellent students at the town level",
+                "img": "/certs/secondary_school/town_level_excellent_student.jpg",
+                "date": "2016-01-27",
+                "skills": [
+                    "academic knowledge",
+                    "geography"
+                ]
+            },
+            {
+                "id": "thc_02",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "6th grade advanced student title",
+                "img": "/certs/secondary_school/6th_grade.jpg",
+                "date": "2013-05-22",
+                "skills": [
+                    "academic knowledge"
+                ]
+            },
+            {
+                "id": "thc_03",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "7th grade advanced student title",
+                "img": "/certs/secondary_school/7th_grade.jpg",
+                "date": "2014-05-21",
+                "skills": [
+                    "academic knowledge"
+                ]
+            },
+            {
+                "id": "thc_04",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "8th grade advanced student title",
+                "img": "/certs/secondary_school/8th_grade.jpg",
+                "date": "2015-05-22",
+                "skills": [
+                    "academic knowledge"
+                ]
+            },
+            {
+                "id": "thc_05",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "9th grade advanced student title",
+                "img": "/certs/secondary_school/9th_grade.jpg",
+                "date": "2016-05-20",
+                "skills": [
+                    "academic knowledge"
+                ]
+            },
+            {
+                "id": "thc_06",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "Secondary school diploma",
+                "img": "/certs/secondary_school/secondary_school_diploma.jpg",
+                "date": "2016-05-25",
+                "skills": [
+                    "academic knowledge"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Primary school",
+        "cover": "/assets/cover/th_tienhungb.jpg",
+        "orgs": [
+            {
+                "id": "th_id",
+                "org_name": "Tien Hung B primary school",
+                "org_link": "http://thtienhungb.dongxoai.edu.vn/",
+                "org_img": "/assets/cover/th_tienhungb_logo.jpg"
+            }
+        ],
+        "desc": "Tien Hung B primary school is a place where I have many memories of my student days. Here I have learned many basic knowledge and skills for the future. The school has a friendly and dynamic learning environment, which helps me develop my knowledge and skills",
+        "typeId": 2,
+        "certificates": [
+            {
+                "id": "thc_01",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "Complete kindergarten program at HoaLan preschool",
+                "img": "/certs/primary_school/hoalan_preschool_program.jpg",
+                "date": "2007-06-01",
+                "skills": [
+                    "academic knowledge"
+                ]
+            },
+            {
+                "id": "thc_02",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "Good student in math and Vietnamese",
+                "img": "/certs/primary_school/math_and_vietnamese.jpg",
+                "date": "2009-01-02",
+                "skills": [
+                    "academic knowledge",
+                    "math",
+                    "vietnamese"
+                ]
+            },
+            {
+                "id": "thc_03",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "Second prize in the clean notebook and beautiful handwriting contest",
+                "img": "/certs/primary_school/notebook_beautiful_handwriting.jpg",
+                "date": "2011-05-27",
+                "skills": [
+                    "beautiful handwriting",
+                    "clean notebook"
+                ]
+            },
+            {
+                "id": "thc_04",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "Excellent Young Pioneer team member",
+                "img": "/certs/primary_school/young_pioneer_team_member.jpg",
+                "date": "2012-05-23",
+                "skills": [
+                    "soft skills",
+                    "teamwork"
+                ]
+            },
+            {
+                "id": "thc_05",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "Second prize in school handwriting contest",
+                "img": "/certs/primary_school/handwriting contest.jpg",
+                "date": "2012-05-23",
+                "skills": [
+                    "beautiful handwriting"
+                ]
+            },
+            {
+                "id": "thc_06",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "1st grade good student title",
+                "img": "/certs/primary_school/1st_grade.jpg",
+                "date": "2008-06-02",
+                "skills": [
+                    "academic knowledge"
+                ]
+            },
+            {
+                "id": "thc_07",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "2nd grade good student title",
+                "img": "/certs/primary_school/2nd_grade.jpg",
+                "date": "2009-05-29",
+                "skills": [
+                    "academic knowledge"
+                ]
+            },
+            {
+                "id": "thc_08",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "3th grade good student title",
+                "img": "/certs/primary_school/3th_grade.jpg",
+                "date": "2010-05-26",
+                "skills": [
+                    "academic knowledge"
+                ]
+            },
+            {
+                "id": "thc_09",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "4th grade good student title",
+                "img": "/certs/primary_school/4th_grade.jpg",
+                "date": "2011-05-27",
+                "skills": [
+                    "academic knowledge"
+                ]
+            },
+            {
+                "id": "thc_10",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "5th grade good student title",
+                "img": "/certs/primary_school/5th_grade.jpg",
+                "date": "2012-05-23",
+                "skills": [
+                    "academic knowledge"
+                ]
+            },
+            {
+                "id": "thc_11",
+                "org_id": [
+                    "th_id"
+                ],
+                "name": "Complete primary education",
+                "img": "/certs/primary_school/primary_school_diploma.jpg",
+                "date": "2012-05-24",
+                "skills": [
+                    "academic knowledge"
                 ]
             }
         ]

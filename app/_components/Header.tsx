@@ -48,7 +48,7 @@ const Header: React.FC = () => {
         <Image src="/logo.svg" alt="logo" width={110} height={60} />
       </Link>
       <div className="flex items-center space-x-3">
-        <span className="border border-slate-100 dark:border-gray-600 px-2 py-1 rounded-md h-fit text-sm dark:text-gray-300">Total: {currentCount}</span>
+        <span className="border border-slate-100 dark:border-gray-600 px-2 py-1 rounded-md h-fit text-sm text-gray-500 dark:text-gray-300">Total: {currentCount}</span>
         <ThemeToggle />
       </div>
     </header>
