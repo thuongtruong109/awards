@@ -268,7 +268,7 @@
     },
     {
         "name": "Nestle",
-        "cover": "https://pestleanalysis.com/wp-content/uploads/2015/10/swot-analysis-nestle.jpg",
+        "cover": "/assets/cover/nestle.webp",
         "orgs": [
             {
                 "id": "nestle_id",
@@ -1127,6 +1127,12 @@
                 "org_name": "Hung Vuong high school",
                 "org_link": "https://thpt-hungvuong-binhphuoc.edu.vn",
                 "org_img": "https://th.bing.com/th/id/OIP.vNbZr39BFIvA5dMIyYKw1QHaHK?pid=ImgDet&rs=1"
+            },
+            {
+                "id": "bg_det_id",
+                "org_name": "Binh Phuoc Department of Education and Training",
+                "org_link": "https://binhphuoc.edu.vn/",
+                "org_img": "https://storage-vnportal.vnpt.vn/bpc-sgd/2808/anh/logo-tinh-940290.png"
             }
         ],
         "desc": "Primary schoool, High school are places where I studied and grew up from childhood. Here I have many fond memories of my student days and academic achievements. The levels of education from 72 to 63 to high school are the foundation for the development of knowledge, wisdom and soul for the future",
@@ -1135,9 +1141,10 @@
             {
                 "id": "hvc_01",
                 "org_id": [
-                    "hv_id"
+                    "hv_id",
+                    "bg_det_id"
                 ],
-                "name": "Olympic 19.5",
+                "name": "Bronze medal in Geography Olympic 19.5 exam",
                 "img": "/certs/high_school/olympic_19-5.JPG",
                 "date": "2018-07-16",
                 "skills": [
@@ -1204,6 +1211,12 @@
                 "org_name": "Tien Hung secondary school",
                 "org_link": "http://thcstienhung.dongxoai.edu.vn/",
                 "org_img": "/assets/cover/thcs_tienhung_logo.png"
+            },
+            {
+                "id": "bg_det_id",
+                "org_name": "Binh Phuoc Department of Education and Training",
+                "org_link": "https://binhphuoc.edu.vn/",
+                "org_img": "https://storage-vnportal.vnpt.vn/bpc-sgd/2808/anh/logo-tinh-940290.png"
             }
         ],
         "desc": "Tien Hung secondary school is a place where I have many memories of my student days. Here I have learned many basic knowledge and skills for the future. The school has a friendly and dynamic learning environment, which helps me develop my knowledge and skills",
@@ -1212,7 +1225,8 @@
             {
                 "id": "thc_01",
                 "org_id": [
-                    "th_id"
+                    "th_id",
+                    "bg_det_id"
                 ],
                 "name": "Encouragement prize in the geography exam for excellent students at the town level",
                 "img": "/certs/secondary_school/town_level_excellent_student.jpg",
