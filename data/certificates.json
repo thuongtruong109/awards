@@ -66,13 +66,40 @@
                 "org_id": [
                     "coursera_id"
                 ],
-                "name": "Javascript basic",
+                "name": "SEO with SquareSpace",
                 "img": "/certs/coursera/seo_with_squarespace.jpeg",
                 "link": "https://coursera.org/share/fc8cf29c4e43a554f2c4ba9620317390",
                 "date": "2024-11-07",
                 "skills": [
                     "seo",
                     "squarspace"
+                ]
+            },
+            {
+                "id": "coursera_02",
+                "org_id": [
+                    "coursera_id"
+                ],
+                "name": "CLI with Golang",
+                "img": "/certs/coursera/cli_with_golang.png",
+                "link": "https://www.coursera.org/account/accomplishments/verify/SQRTP07XOFRW",
+                "date": "2024-11-07",
+                "skills": [
+                    "cli",
+                    "golang"
+                ]
+            },
+            {
+                "id": "coursera_03",
+                "org_id": [
+                    "coursera_id"
+                ],
+                "name": "Get started with Figma",
+                "img": "/certs/coursera/get_started_with_figma.png",
+                "link": "https://www.coursera.org/account/accomplishments/verify/AF8T8W0DZEOX",
+                "date": "2024-11-07",
+                "skills": [
+                    "figma"
                 ]
             }
         ]
@@ -114,7 +141,7 @@
                 "id": "udemy_id",
                 "org_name": "Udemy",
                 "org_link": "https://www.udemy.com/",
-                "org_img": "/assets/images/org/udemy.jfif"
+                "org_img": "/assets/images/org/udemy.png"
             }
         ],
         "desc": "Udemy is an online learning and teaching marketplace with over 100000 courses and 24 million students. Learn programming, marketing, data science and more.",
