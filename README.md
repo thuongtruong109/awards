@@ -1,14 +1,14 @@
 <div align="center">
-    <img src="https://github.com/thuongtruong1009/awards/assets/71834167/5eb59d8b-a71f-407b-8833-26a3c5afdd3f" alt="favicon" />
+    <img src="public/banner.png" alt="favicon" />
 </div>
 
 ### 🌅 Preview
 
 - [Showcase demo link](https://awards.thuongtruong.me)
 
-<img src="./public/preview_1.png" alt="preview 1" width="1000"/>
+<img src="./public/demo/preview_1.png" alt="preview 1" width="1000"/>
 
-<img src="./public/preview_2.png" alt="preview 2" width="1000"/>
+<img src="./public/demo/preview_2.png" alt="preview 2" width="1000"/>
 
 ### 🎓 Description
 

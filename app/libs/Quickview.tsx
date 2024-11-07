@@ -18,7 +18,7 @@ const Quickview: React.FC<Props> = (props: Props) => {
         className="block cursor-pointer text-xl text-blue-500 group-hover:block md:hidden md:group-hover:block hover:scale-110"
       >
         <Image
-          src="/assets/details/eye_preview.png"
+          src="/assets/icons/details/eye_preview.png"
           alt="Quick view"
           width={25}
           height={25}

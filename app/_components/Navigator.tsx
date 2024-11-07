@@ -59,7 +59,7 @@ const Navigator: React.FC = () => {
               height={17}
               alt={`${tab.name}_icon`}
             />
-            <span className="ml-1 hidden text-xs sm:inline-flex">
+            <span className={`ml-1 hidden text-xs sm:inline-flex ${tab.id == tabIndex ? 'gradient_text font-bold' : 'text-gray-500 dark:text-gray-300 font-medium'}`}>
               {tab.name.toLocaleUpperCase()}
             </span>
           </button>

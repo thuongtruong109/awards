@@ -34,12 +34,19 @@ const config: Config = {
             transform: "translateY(0px)",
           },
         },
+        grid: {
+          "0%": { transform: "translateY(-50%)" },
+          "100%": { transform: "translateY(0)" },
+        },
       },
       animation: {
         slideUpEnter: "slideUpEnter duration-300 ease-in-out",
+        grid: "grid 25s linear infinite",
       },
     },
   },
-  plugins: [require("@tailwindcss/aspect-ratio")],
+  plugins: [
+    require("@tailwindcss/aspect-ratio"),
+  ]
 };
 export default config;

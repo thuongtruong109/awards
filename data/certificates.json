@@ -48,6 +48,36 @@
         ]
     },
     {
+        "name": "Coursera",
+        "cover": "https://nutmegeducation.com/wp-content/uploads/2023/05/Best-Coursera-Free-Courses-NutMegEducation-1024x576.png",
+        "orgs": [
+            {
+                "id": "coursera_id",
+                "org_name": "Coursera",
+                "org_link": "https://www.coursera.org/",
+                "org_img": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/favicon-v2-32x32.png"
+            }
+        ],
+        "desc": "Coursera is an online learning platform that offers massive open online courses, specializations, and degrees. Coursera works with universities and other organizations to offer online courses, specializations, and degrees in a variety of subjects, such as engineering, humanities, medicine, biology, social sciences, mathematics, business, computer science, digital marketing, data science, and others.",
+        "typeId": 1,
+        "certificates": [
+            {
+                "id": "coursera_01",
+                "org_id": [
+                    "coursera_id"
+                ],
+                "name": "Javascript basic",
+                "img": "/certs/coursera/seo_with_squarespace.jpeg",
+                "link": "https://coursera.org/share/fc8cf29c4e43a554f2c4ba9620317390",
+                "date": "2024-11-07",
+                "skills": [
+                    "seo",
+                    "squarspace"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Hackerrank",
         "cover": "https://i.ytimg.com/vi/9dcCOqMdIIs/maxresdefault.jpg",
         "orgs": [
@@ -84,7 +114,7 @@
                 "id": "udemy_id",
                 "org_name": "Udemy",
                 "org_link": "https://www.udemy.com/",
-                "org_img": "https://onlinecoursescertifications.com/wp-content/uploads/2022/10/Udemy-1024x1012.png"
+                "org_img": "/assets/images/org/udemy.jfif"
             }
         ],
         "desc": "Udemy is an online learning and teaching marketplace with over 100000 courses and 24 million students. Learn programming, marketing, data science and more.",
@@ -268,7 +298,7 @@
     },
     {
         "name": "Nestle",
-        "cover": "/assets/cover/nestle.webp",
+        "cover": "/assets/images/cover/nestle.webp",
         "orgs": [
             {
                 "id": "nestle_id",
@@ -316,7 +346,7 @@
                 "id": "ssv_id",
                 "org_name": "Student's Cutural Service Office",
                 "org_link": "https://www.nhavanhoasinhvien.vn",
-                "org_img": "https://th.bing.com/th/id/R.76abfe16d8b0d90d758bd5e98c14c648?rik=9r2L1M%2bWcLGPuw&pid=ImgRaw&r=0"
+                "org_img": "/assets/images/org/nvhsv.png"
             }
         ],
         "desc": "This is a free course shared by experts from Google and its partners. initiated by Google, in conjunction with VCCI-HCMC, VWU, VWEC and many other partners across the country, to provide free training on digital skills, soft skills, and business skills from basic to advanced. The goal of the program is to provide free platforms and tools to help all those who want to start a business update digital knowledge, enhance management ability to help develop businesses, increase online business efficiency and create many new job opportunities for society.",
@@ -648,7 +678,7 @@
                 "id": "iu_jobhub_id",
                 "org_name": "IU Job Hub",
                 "org_link": "https://iujobhub.com/",
-                "org_img": "https://iujobhub.com/wp-content/uploads/2021/07/ico-uhub-100x100.png"
+                "org_img": "/assets/images/org/iu_jobhub.png"
             },
             {
                 "id": "iu_us_id",
@@ -766,7 +796,7 @@
                 "id": "sc_id",
                 "org_name": "Student's Cutural Service Office",
                 "org_link": "https://www.nhavanhoasinhvien.vn/",
-                "org_img": "https://th.bing.com/th/id/R.76abfe16d8b0d90d758bd5e98c14c648?rik=9r2L1M%2bWcLGPuw&pid=ImgRaw&r=0"
+                "org_img": "/assets/images/org/nvhsv.png"
             }
         ],
         "desc": "The Student Cultural House is the center of cultural and social activities of the City's students, using professional methods to attract students to participate in cultural and social activities. society with the purpose of fostering, developing and perfecting personality thereby contributing to satisfying the spiritual needs of students.",
@@ -789,7 +819,7 @@
     },
     {
         "name": "Zodinet internship",
-        "cover": "https://th.bing.com/th/id/OIP.yVyh_P-oe9C0a6LZY5fkqwAAAA?rs=1&pid=ImgDetMain",
+        "cover": "/assets/images/org/zodinet.png",
         "orgs": [
             {
                 "id": "zodinet_id",
@@ -873,7 +903,7 @@
                     "stb_id"
                 ],
                 "name": "Vite conference 2022",
-                "img": "/certs/software_conferences/vite_conf_2022.png",
+                "img": "/certs/software_conferences/viteconf_2022.png",
                 "link": "https://viteconf.org/22/tickets/thuongtruong1009",
                 "date": "2022-10-11",
                 "skills": [
@@ -888,9 +918,24 @@
                     "stb_id"
                 ],
                 "name": "Vite conference 2023",
-                "img": "/certs/software_conferences/vite_conf_2023.png",
+                "img": "/certs/software_conferences/viteconf_2023.png",
                 "link": "https://viteconf.org/23/tickets/thuongtruong1009",
                 "date": "2023-10-05",
+                "skills": [
+                    "vite",
+                    "vue"
+                ]
+            },
+            {
+                "id": "vi_03",
+                "org_id": [
+                    "vi_id",
+                    "stb_id"
+                ],
+                "name": "Vite conference 2024",
+                "img": "/certs/software_conferences/viteconf_2024.png",
+                "link": "https://viteconf.org/24/tickets/thuongtruong109",
+                "date": "2024-10-03",
                 "skills": [
                     "vite",
                     "vue"
@@ -1120,7 +1165,7 @@
     },
     {
         "name": "High school",
-        "cover": "/assets/cover/hungvuong.webp",
+        "cover": "/assets/images/cover/hungvuong.webp",
         "orgs": [
             {
                 "id": "hv_id",
@@ -1204,13 +1249,13 @@
     },
     {
         "name": "Secondary school",
-        "cover": "/assets/cover/thcs_tienhung.jpg",
+        "cover": "/assets/images/cover/thcs_tienhung.jpg",
         "orgs": [
             {
                 "id": "th_id",
                 "org_name": "Tien Hung secondary school",
                 "org_link": "http://thcstienhung.dongxoai.edu.vn/",
-                "org_img": "/assets/cover/thcs_tienhung_logo.png"
+                "org_img": "/assets/images/cover/thcs_tienhung_logo.png"
             },
             {
                 "id": "bg_det_id",
@@ -1300,13 +1345,13 @@
     },
     {
         "name": "Primary school",
-        "cover": "/assets/cover/th_tienhungb.jpg",
+        "cover": "/assets/images/cover/th_tienhungb.jpg",
         "orgs": [
             {
                 "id": "th_id",
                 "org_name": "Tien Hung B primary school",
                 "org_link": "http://thtienhungb.dongxoai.edu.vn/",
-                "org_img": "/assets/cover/th_tienhungb_logo.jpg"
+                "org_img": "/assets/images/cover/th_tienhungb_logo.jpg"
             }
         ],
         "desc": "Tien Hung B primary school is a place where I have many memories of my student days. Here I have learned many basic knowledge and skills for the future. The school has a friendly and dynamic learning environment, which helps me develop my knowledge and skills",

@@ -8,6 +8,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import ThemeProvider from "./libs/Provider";
+import RetroGrid from "./_components/RetroGrid";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -57,9 +58,10 @@ export default function RootLayout({
       >
         <Snow />
 
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <BgGradient />
           <Header />
+          <RetroGrid />
           <main className="animate-slideUpEnter my-2 flex min-h-[calc(100vh-10.3rem)] flex-col items-center">
             {children}
           </main>

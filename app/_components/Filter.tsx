@@ -52,7 +52,7 @@ const Filter: React.FC = () => {
         className='group relative inline-flex rounded-md p-2 bg-white border dark:border-gray-700 dark:bg-gray-800 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700'
     >
         <Image
-            src="/assets/icons/filter.png"
+            src="/assets/icons/nav/filter.png"
             width={20}
             height={20}
             alt="filter_icon"
