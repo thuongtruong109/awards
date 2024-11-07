@@ -3,7 +3,7 @@ import React from 'react'
 const RetroGrid = () => {
   return (
     <div
-        className="pointer-events-none fixed top-0 left-0 h-screen w-screen overflow-hidden [perspective:500px] dark:opacity-30" style={{ zIndex: -1 }}
+        className="pointer-events-none fixed top-0 left-0 h-full w-full overflow-hidden [perspective:500px] dark:opacity-30" style={{ zIndex: -1 }}
     >
         <div className="absolute inset-0 [transform:rotateX(20deg)]">
         <div

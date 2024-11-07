@@ -27,12 +27,14 @@ html {
 }
 
 html.dark {
-  background: black;
+  /* background: black;
   background-image: url("/dark_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: fixed; */
+
+  background: radial-gradient(hsl(255, 18%, 35%), hsl(198, 32%, 8%));
 }
 
 ::-webkit-scrollbar {

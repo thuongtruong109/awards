@@ -1,14 +1,14 @@
-import BgGradient from "@/app/_components/BgGradient";
-import Contact from "@/app/_components/Contact";
-import Footer from "@/app/_components/Footer";
-import Header from "@/app/_components/Header";
+import Contact from "@/app/_components/section/Contact";
+import Footer from "@/app/_components/section/Footer";
+import Header from "@/app/_components/section/Header";
 import Snow from "@/app/_components/Snow";
 import { siteConfig } from "@/shared";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import ThemeProvider from "./libs/Provider";
-import RetroGrid from "./_components/RetroGrid";
+import RetroGrid from "./_components/background/RetroGrid";
+import LightBg from "@/app/_components/background/LightBg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -59,7 +59,7 @@ export default function RootLayout({
         <Snow />
 
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-          <BgGradient />
+          <LightBg />
           <Header />
           <RetroGrid />
           <main className="animate-slideUpEnter my-2 flex min-h-[calc(100vh-10.3rem)] flex-col items-center">

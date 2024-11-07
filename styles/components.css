@@ -17,13 +17,8 @@
   align-items: flex-start;
 }
 
-.card_shadow:hover {
-  box-shadow:
-    1px 1px 1px rgb(34 211 238 / 40%),
-    -1px -1px 1px rgb(34 211 238 / 40%);
-}
-
-.gradient_text {
+.nav_gradient_text,
+.card:hover .card_title_gradient  {
   background-color: #566cec;
   background-image:
   linear-gradient(90.42deg, rgb(74, 177, 241) 0.58%, rgb(86, 108, 236) 37.22%, rgb(215, 73, 175) 73.87%, rgb(255, 124, 81) 112.26%);
@@ -32,24 +27,6 @@
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-}
-
-/* card title gradient */
-.card_shadow:hover .card_title_gradient {
-  background: #ff0000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ff0000,
-    #9932cc
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ff0000,
-    #9932cc
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
 }
 
 /* card content gradient */

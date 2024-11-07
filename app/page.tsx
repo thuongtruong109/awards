@@ -3,7 +3,7 @@
 import Card from "@/app/_components/Card";
 import Navigator from "@/app/_components/Navigator";
 import certificates from "@/data/certificates.json";
-import { ESEARCH_QUERY } from "@/enums";
+import { EFILTER, ESEARCH_QUERY } from "@/enums";
 import categories from "@/data/categories.json";
 import type { ICategory, ICertificateInfoCard } from "@/types";
 import { usePathname, useSearchParams } from "next/navigation";
@@ -32,16 +32,16 @@ export default function Home() {
   }, [pathname, searchParams, queryType]);
   
   React.useEffect(() => {
-    if (querySort === "asc") {
+    if (querySort === EFILTER.ASC) {
       setCerts((prevCerts) => [...prevCerts].sort((a, b) => a.name.localeCompare(b.name)));
     }
-    if (querySort === "desc") {
+    if (querySort === EFILTER.DESC) {
       setCerts((prevCerts) => [...prevCerts].sort((a, b) => b.name.localeCompare(a.name)));
     }
-    if (querySort === "most") {
+    if (querySort === EFILTER.MOST) {
       setCerts((prevCerts) => [...prevCerts].sort((a, b) => b.certificates.length - a.certificates.length));
     }
-    if (querySort === "least") {
+    if (querySort === EFILTER.LEAST) {
       setCerts((prevCerts) => [...prevCerts].sort((a, b) => a.certificates.length - b.certificates.length));
     }
   }, [querySort]);
@@ -54,13 +54,7 @@ export default function Home() {
       </div>
       <ul className="grid gap-3 p-2 text-center sm:grid-cols-2 md:grid-cols-3 lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         {certs.map((certificate, idx) => (
-          <li
-            className="card_shadow group h-[18.5rem] rounded-xl border-b bg-white p-2 shadow transition-colors dark:border-transparent dark:bg-gray-800"
-            rel="noopener noreferrer"
-            key={idx}
-          >
-            <Card card={certificate as ICertificateInfoCard} />
-          </li>
+          <Card key={idx} card={certificate as ICertificateInfoCard} />
         ))}
       </ul>
     </section>

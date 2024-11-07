@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
-import { ESEARCH_QUERY } from '@/enums'
+import { EFILTER, ESEARCH_QUERY } from '@/enums'
 
 type IMenu = {
     id: string,
@@ -10,10 +10,10 @@ type IMenu = {
 
 const menu: IMenu[] = [
     { id: "default", name: 'Default'},
-    { id: "asc", name: 'Ascending'},
-    { id: "desc", name: 'Descending'},
-    { id: "most", name: 'Most'},
-    { id: "least", name: 'Least'},
+    { id: EFILTER.ASC, name: 'Ascending'},
+    { id: EFILTER.DESC, name: 'Descending'},
+    { id: EFILTER.MOST, name: 'Most'},
+    { id: EFILTER.LEAST, name: 'Least'},
 ]
 
 const Filter: React.FC = () => {

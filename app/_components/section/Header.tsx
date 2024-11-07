@@ -3,7 +3,7 @@
 import Image from "next/legacy/image";
 import Link from "next/link";
 import React from "react";
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "../ThemeToggle";
 import data from "@/data/certificates.json";
 import categories from "@/data/categories.json";
 import { ESEARCH_QUERY } from "@/enums";
