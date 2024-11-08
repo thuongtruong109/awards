@@ -12,7 +12,7 @@ const BackToHome: FC = () => {
     <button
         type="button"
         onClick={onBackToHome}
-        className="h-fit w-fit cursor-pointer rounded-md border border-slate-200 bg-slate-50 hover:bg-white px-3 py-1.5 hover:border-blue-300 dark:border-neutral-700 dark:bg-zinc-800 dark:hover:bg-zinc-700 dark:from-inherit dark:text-gray-200  lg:dark:bg-zinc-800/30 flex items-center space-x-1 text-sm"
+        className="h-fit w-fit cursor-pointer rounded-md border border-slate-200 bg-slate-50 hover:bg-white px-3 py-1.5 hover:border-blue-300 flex items-center space-x-1 text-sm"
     >
         <Image
           src="/assets/icons/details/back_to_home.png"

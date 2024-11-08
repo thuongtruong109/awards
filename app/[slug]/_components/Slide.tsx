@@ -26,11 +26,11 @@ const Slide: React.FC<Props> = (props: Props) => {
         return (
           <SwiperSlide key={index} className="p-1 pb-5">
             <figure
-              className={`rounded-md min-h-[80px] ring-2 bg-slate-100 dark:bg-slate-700 cursor-pointer relative ${
+              className={`rounded-md min-h-[80px] ring-2 bg-slate-100 cursor-pointer relative ${
                 cert.id === props.currentCert.id ? "ring-blue-500" : "ring-transparent"
               }`}
             >
-              <span className="bg-transparent border-2 border-t-slate-300 dark:border-t-slate-500 animate-spin w-5 h-5 absolute top-1/3 left-[45%] rounded-full" />
+              <span className="bg-transparent border-2 border-t-slate-300 animate-spin w-5 h-5 absolute top-1/3 left-[45%] rounded-full" />
               <Image
                 src={cert.img}
                 alt={cert.name}

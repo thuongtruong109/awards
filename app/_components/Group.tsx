@@ -31,7 +31,7 @@ const Group: React.FC<Props> = (props: Props) => {
     <ul className="flex space-x-0.5">
       {orgShift4.map((org: ICertificateOrg) => (
         <li key={org.id} title={org.org_name}>
-          <Link href={org.org_link}>
+          <Link href={org.org_link} prefetch={true}>
             <figure className="h-8 w-8 cursor-pointer overflow-hidden rounded-full border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-lg  dark:hover:shadow-none">
               <Image
                 className="inline-flex min-h-full w-full items-center bg-cover"

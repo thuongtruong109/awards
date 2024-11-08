@@ -29,7 +29,7 @@ const Content: React.FC<Props> = (props: Props) => {
 
   return (
     <div className="mx-auto flex flex-col items-center justify-center text-left w-full my-4">
-      <div className="grid w-full grid-cols-1 items-start gap-x-6 gap-y-8 sm:grid-cols-10 lg:gap-x-8 text-gray-800 dark:text-gray-200">
+      <div className="grid w-full grid-cols-1 items-start gap-x-6 gap-y-8 sm:grid-cols-10 lg:gap-x-8 text-gray-800">
         <ImgEffect src={currentCert?.img} alt={currentCert?.name} />
 
         <div className="flex h-full flex-col justify-between sm:col-span-5 lg:col-span-5">
@@ -59,7 +59,7 @@ const Content: React.FC<Props> = (props: Props) => {
                   {idx == 0 ? null : <span>, </span>}
                   <a
                     href={getOrg(org)?.org_link}
-                    className="text-indigo-500 dark:text-indigo-300 hover:underline"
+                    className="text-indigo-500 hover:underline"
                   >
                     {getOrg(org)?.org_name}
                   </a>
@@ -97,7 +97,7 @@ const Content: React.FC<Props> = (props: Props) => {
           />
         </div>
       </div>
-      <div className="mt-8 flex justify-start justify-self-start rounded-lg bg-white dark:bg-slate-700/50 text-gray-600 dark:text-gray-200 text-sm">
+      <div className="mt-8 flex justify-start justify-self-start rounded-lg bg-white text-gray-600 text-sm">
         <Typing text={props.data?.desc} className="px-4 py-2" />
       </div>
     </div>

@@ -575,6 +575,36 @@
         ]
     },
     {
+        "name": "LottieFiles",
+        "cover": "https://i.ytimg.com/vi/04oq0VrzTwo/maxresdefault.jpg",
+        "orgs": [
+            {
+                "id": "lottie_id",
+                "org_name": "Lottie",
+                "org_link": "https://lottiefiles.com/",
+                "org_img": "/assets/images/org/lottie.png"
+            }
+        ],
+        "desc": "LottieFiles is a platform for testing, discovering, and sharing Lottie animations. Create, edit, collaborate on and implement lightweight Lottie animations across websites, apps, socials and more.",
+        "typeId": 1,
+        "certificates": [
+            {
+                "id": "lottie_01",
+                "org_id": [
+                    "lottie_id"
+                ],
+                "name": "LottieFiles with Webflow",
+                "img": "/certs/lottie/lottiefiles_for_webflow.png",
+                "date": "2024-11-08",
+                "skills": [
+                    "lottie",
+                    "webflow",
+                    "animation"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Codelearn",
         "cover": "https://codelearnstorage.s3.amazonaws.com/Themes/TheCodeCampPro/Resources-cdn/Images/about/8.jpg?v=rk1",
         "orgs": [

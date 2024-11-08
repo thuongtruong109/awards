@@ -1,6 +1,6 @@
 export enum ESEARCH_QUERY {
   TYPE = "tab",
-  SORT_ORDER = "sortOrder",
+  SORT_ORDER = "sort",
 }
 
 export enum EFILTER {

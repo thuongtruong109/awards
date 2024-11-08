@@ -6,7 +6,6 @@ import { siteConfig } from "@/shared";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
-import ThemeProvider from "./libs/Provider";
 import RetroGrid from "./_components/background/RetroGrid";
 import LightBg from "@/app/_components/background/LightBg";
 
@@ -57,17 +56,14 @@ export default function RootLayout({
         className={`${inter.className} text-black relative container mx-auto`}
       >
         <Snow />
-
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-          <LightBg />
-          <Header />
-          <RetroGrid />
-          <main className="animate-slideUpEnter my-2 flex min-h-[calc(100vh-10.3rem)] flex-col items-center">
-            {children}
-          </main>
-          <Contact />
-          <Footer />
-        </ThemeProvider>
+        <LightBg />
+        <Header />
+        <RetroGrid />
+        <main className="animate-slideUpEnter my-2 flex min-h-[calc(100vh-10.3rem)] flex-col items-center">
+          {children}
+        </main>
+        <Contact />
+        <Footer />
       </body>
     </html>
   );

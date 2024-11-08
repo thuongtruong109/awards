@@ -47,16 +47,22 @@ export default function Home() {
   }, [querySort]);
 
   return (
-    <section className="p-2 lg:p-4">
+    <section className="p-2 lg:p-4 flex flex-col justify-center items-center">
       <div className="flex justify-center items-center space-x-3 mb-2">
         <Navigator />
         <Filter />
       </div>
+
       <ul className="grid gap-3 p-2 text-center sm:grid-cols-2 md:grid-cols-3 lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         {certs.map((certificate, idx) => (
           <Card key={idx} card={certificate as ICertificateInfoCard} />
         ))}
       </ul>
+
+      <div className="text-sm text-center text-slate-400 max-w-xs sm:max-w-xl lg:max-w-5xl space-y-2 mt-6">
+        <p>&quot;This is a website created to showcase the achievements, certificates, and awards that I have gained and am currently working on, from the past to the present. All of these are displayed for reference and modest admiration and cannot be used to assert any claims.&quot;</p>
+        <p>Let me strive for more in the future. Wishing you all the best!</p>
+      </div>
     </section>
   );
 }

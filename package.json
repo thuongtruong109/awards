@@ -1,5 +1,6 @@
 {
   "name": "awards",
+  "description": "Showcase of Thuong Truong's achievements and awards",
   "version": "1.0.0",
   "private": true,
   "scripts": {

@@ -11,8 +11,8 @@ const Typewriter: FC<Props> = ({
   delay = 100,
   className,
 }: Props) => {
-  const [currentText, setCurrentText] = useState("");
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentText, setCurrentText] = useState<string>("");
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   useEffect(() => {
     setCurrentText("");

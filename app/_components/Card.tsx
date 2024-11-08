@@ -43,7 +43,7 @@ const Card: React.FC<Props> = (props: Props) => {
 
   return (
     <li 
-      className="card group h-[18.5rem] rounded-xl border-b border-transparent bg-white p-2 shadow transition-colors dark:border-transparent dark:bg-gray-800 outline-4 outline-transparent"
+      className="card group h-[18.5rem] rounded-xl border-b border-transparent bg-white p-2 shadow transition-colors outline-4 outline-transparent"
       style={color}
       rel="noopener noreferrer"
       onMouseEnter={randomColor}
@@ -64,7 +64,7 @@ const Card: React.FC<Props> = (props: Props) => {
         />
       </figure>
       <h2
-        className="trunc2 text_shadow card_title_gradient my-3 cursor-pointer text-center text-xl font-semibold dark:text-white"
+        className="trunc2 text_shadow card_title_gradient my-3 cursor-pointer text-center text-xl font-semibold"
         onClick={openLink}
       >
         {props.card.name}

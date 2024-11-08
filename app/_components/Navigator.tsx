@@ -41,7 +41,7 @@ const Navigator: React.FC = () => {
   };
 
   return (
-    <ul className="flex w-fit items-center space-x-1 rounded-lg bg-white border dark:border-gray-700 p-1 dark:bg-gray-800">
+    <ul className="flex w-fit items-center space-x-1 rounded-lg bg-white border p-1">
       {categories.map((tab: ICategory) => (
         <li key={tab.id}>
           <button
@@ -59,7 +59,7 @@ const Navigator: React.FC = () => {
               height={17}
               alt={`${tab.name}_icon`}
             />
-            <span className={`ml-1 hidden text-xs sm:inline-flex ${tab.id == tabIndex ? 'nav_gradient_text font-bold' : 'text-gray-400 dark:text-gray-400 font-medium'}`}>
+            <span className={`ml-1 hidden text-xs sm:inline-flex ${tab.id == tabIndex ? 'nav_gradient_text font-bold' : 'text-gray-400 font-medium'}`}>
               {tab.name.toLocaleUpperCase()}
             </span>
           </button>

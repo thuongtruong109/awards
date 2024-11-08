@@ -26,17 +26,6 @@ html {
     radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 0.15) 0px, transparent 50%);
 }
 
-html.dark {
-  /* background: black;
-  background-image: url("/dark_bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed; */
-
-  background: radial-gradient(hsl(255, 18%, 35%), hsl(198, 32%, 8%));
-}
-
 ::-webkit-scrollbar {
   width: 0.4rem;
   height: 0.3rem;
