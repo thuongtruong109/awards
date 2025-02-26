@@ -1,17 +1,17 @@
 "use client";
 
-import Content from "./_components/Content";
+import Content from "@/app/[slug]/_components/Content";
 import certificates from "@/data/certificates.json";
 import { ICertificateInfo } from "@/types";
 import { formatCertName } from "@/utils";
-import BackToHome from "./_components/BackToHome";
+import BackToHome from "@/app/[slug]/_components/BackToHome";
 
-interface PageProps {
+interface Props {
   params: {
     slug: string;
   };
 }
-export default function Cert(props: PageProps) {
+export default function Page(props: Props) {
   const slug = props.params.slug;
 
   const data = certificates.find((cert) => formatCertName(cert.name) === slug);

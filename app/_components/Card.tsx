@@ -28,22 +28,21 @@ const Card: React.FC<Props> = (props: Props) => {
     return sources;
   };
 
-  const [color, setColor] = React.useState({})
+  const [color, setColor] = React.useState({});
 
   const randomColor = () => {
-    let arr = ['3, 169, 244', '244, 67, 54', '156, 39, 176']
-    let randArr = arr[Math.floor(Math.random() * arr.length)]
+    let arr = ["3, 169, 244", "244, 67, 54", "156, 39, 176"];
+    let randArr = arr[Math.floor(Math.random() * arr.length)];
 
     setColor({
-        outline: `4px solid rgba(${randArr}, 0.15)`,
-        borderColor: `rgba(${randArr}, 0.5)`,
-        backgroundImage: `linear-gradient(180deg, rgba(${randArr}, 0.015) 0%, rgba(${randArr}, 0.025) 100%)`,
-      })
-  }
+      outline: `2px solid rgba(${randArr}, 0.15)`,
+      borderColor: `rgba(${randArr}, 0.5)`,
+    });
+  };
 
   return (
-    <li 
-      className="card group h-[18.5rem] rounded-xl border-b border-transparent bg-white p-2 shadow transition-colors outline-4 outline-transparent"
+    <li
+      className="card group h-[18.5rem] rounded-xl bg-[#ffffffb3] backdrop-blur-md p-2 transition-colors ring-2 ring-inset ring-white"
       style={color}
       rel="noopener noreferrer"
       onMouseEnter={randomColor}

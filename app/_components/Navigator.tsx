@@ -22,8 +22,8 @@ const Navigator: React.FC = () => {
 
   const matchStyle = (idx: number) => {
     return idx === tabIndex
-      ? "bg-blue-300/50 dark:bg-gray-600 dark:text-white shadow-md font-semibold"
-      : "text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700";
+      ? "bg-blue-300/50 shadow-md font-semibold"
+      : "text-gray-900 hover:bg-gray-100";
   };
 
   const params = useSearchParams();
@@ -59,7 +59,9 @@ const Navigator: React.FC = () => {
               height={17}
               alt={`${tab.name}_icon`}
             />
-            <span className={`ml-1 hidden text-xs sm:inline-flex ${tab.id == tabIndex ? 'nav_gradient_text font-bold' : 'text-gray-400 font-medium'}`}>
+            <span
+              className={`ml-1 hidden text-xs sm:inline-flex ${tab.id == tabIndex ? "nav_gradient_text font-bold" : "text-gray-400 font-medium"}`}
+            >
               {tab.name.toLocaleUpperCase()}
             </span>
           </button>

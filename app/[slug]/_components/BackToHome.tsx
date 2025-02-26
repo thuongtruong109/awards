@@ -2,9 +2,9 @@
 
 import Image from "next/legacy/image";
 import { useRouter } from "next/navigation";
-import { FC, memo } from "react";
+import React from "react";
 
-const BackToHome: FC = () => {
+const BackToHome: React.FC = () => {
   const router = useRouter();
   const onBackToHome = () => router.push("/");
 
@@ -25,4 +25,4 @@ const BackToHome: FC = () => {
   );
 }
 
-export default memo(BackToHome)
+export default React.memo(BackToHome)
