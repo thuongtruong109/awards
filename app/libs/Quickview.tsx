@@ -15,10 +15,10 @@ const Quickview: React.FC<Props> = (props: Props) => {
       <button
         onClick={() => setToggler(!toggler)}
         title={props.title}
-        className="block cursor-pointer text-xl text-blue-500 group-hover:block md:hidden md:group-hover:block hover:scale-110"
+        className="block md:hidden md:group-hover:block cursor-pointer text-xl text-blue-500 hover:scale-110"
       >
         <Image
-          src="/assets/icons/details/eye_preview.png"
+          src="/icons/details/eye_preview.png"
           alt="Quick view"
           width={25}
           height={25}
