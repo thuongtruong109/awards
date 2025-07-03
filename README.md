@@ -28,4 +28,5 @@ Details displayed the certificate or badge of the award by field
 
 <!-- ### Reference
 - [Image grid Facebook style](https://github.com/Expertizo/react-fb-image-grid)
+- https://github.com/theanam/react-awesome-lightbox
 -->

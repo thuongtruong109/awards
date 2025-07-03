@@ -1,5 +1,5 @@
-import Badge from "@/app/[slug]/_components/Badge";
-import Typing from "@/app/[slug]/_components/Typing";
+import Badge from "./Badge";
+import Typing from "./Typing";
 import type { ICertificate, ICertificateInfo } from "@/types";
 import { formatDate } from "@/utils";
 import React from "react";

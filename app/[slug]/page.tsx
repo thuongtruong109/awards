@@ -1,20 +1,23 @@
 "use client";
 
-import Content from "./_components/Content";
+import { use } from "react";
+import Content from "@/app/[slug]/_components/Content";
 import certificates from "@/data/certificates.json";
 import { ICertificateInfo } from "@/types";
 import { formatCertName } from "@/utils";
-import BackToHome from "./_components/BackToHome";
+import BackToHome from "@/app/[slug]/_components/BackToHome";
 
-interface PageProps {
-  params: {
+interface Props {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
-export default function Cert(props: PageProps) {
-  const slug = props.params.slug;
+export default function Page(props: Props) {
+  const params = use(props.params);
 
-  const data = certificates.find((cert) => formatCertName(cert.name) === slug);
+  const data = certificates.find(
+    (cert) => formatCertName(cert.name) === params?.slug
+  );
 
   return (
     <section className="p-2 lg:p-4 w-full">
