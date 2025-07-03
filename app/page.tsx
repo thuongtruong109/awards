@@ -7,10 +7,10 @@ import { EFILTER, ESEARCH_QUERY } from "@/enums";
 import categories from "@/data/categories.json";
 import type { ICategory, ICertificateInfoCard } from "@/types";
 import { usePathname, useSearchParams } from "next/navigation";
-import React from "react";
+import React, { Suspense } from "react";
 import Filter from "./_components/Filter";
 
-export default function Home() {
+export default function HomePage() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 

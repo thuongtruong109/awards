@@ -8,6 +8,7 @@ import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import RetroGrid from "./_components/background/RetroGrid";
 import LightBg from "@/app/_components/background/LightBg";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -57,11 +58,13 @@ export default function RootLayout({
       >
         <Snow />
         <LightBg />
-        <Header />
         <RetroGrid />
-        <main className="animate-slideUpEnter my-2 flex min-h-[calc(100vh-10.3rem)] flex-col items-center">
-          {children}
-        </main>
+        <Suspense>
+          <Header />
+          <main className="animate-slideUpEnter my-2 flex min-h-[calc(100vh-10.3rem)] flex-col items-center">
+            {children}
+          </main>
+        </Suspense>
         <Contact />
         <Footer />
       </body>
